@@ -1,18 +1,8 @@
-// import React from "react";
-// import Dashboard from "../src/screens/Dashboard";
 
-
-// export default function App() {
-//   return (
-//     <div>
-  
-//       <Dashboard />
-//     </div>
-//   );
-// }
 import React, { useState } from "react";
 import AdminLogin from "./screens/AdminLogin";
 import Dashboard from "./screens/Dashboard";
+import Books from "./screens/Books"
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -20,10 +10,14 @@ export default function App() {
   return (
     <div>
       {isAuthenticated ? (
-        <Dashboard onLogout={() => setIsAuthenticated(false)} />
-      ) : (
-        <AdminLogin onLogin={() => setIsAuthenticated(true)} />
-      )}
+  <div>
+    <Dashboard onLogout={() => setIsAuthenticated(false)} />
+    <Books />
+  </div>
+) : (
+  <AdminLogin onLogin={() => setIsAuthenticated(true)} />
+)}
+
     </div>
   );
 }
