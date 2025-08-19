@@ -10,7 +10,7 @@ export const fetchMembers = createAsyncThunk("fetchMembers", async () => {
 })
 
 const initialState = {
-    memvers: [],
+    members: [],
     status: "neutral",
     error: null
 }
