@@ -1,16 +1,10 @@
-import { useState } from 'react'
+import React from "react";
+import Dashboard from "../src/screens/Dashboard";
 
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-     
-       
-    </>
-  )
+    <div>
+      <Dashboard />
+    </div>
+  );
 }
-
-export default App
