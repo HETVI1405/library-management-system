@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "title": "Dopamine Detox: A Short Guide to Remove Distractions and Get Your Brain to Do Hard Things",
+      "title": "Dopamine Detox",
       "author": "Thibaut Meurisse",
       "genre": "Self-Help",
       "price": 192,
@@ -389,9 +389,488 @@
     "rating": 4.8,
     "url": "https://www.amazon.in/dp/1421501686",
     "image_url": "https://rukminim2.flixcart.com/image/1200/1200/xif0q/regionalbooks/c/s/r/death-note-vol-1-english-paperback-tsugumi-ohba-original-imagkgu25kky4gz6.jpeg"
+  },
+  {
+    "id": 31,
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "genre": "Spirituality",
+    "price": 270,
+    "quantity": 4,
+    "isbns": ["3101", "3102", "3103", "3104"],
+    "availability": "available",
+    "rating": 4.7,
+    "url": "https://www.amazon.in/dp/8190105914",
+    "image_url": "https://m.media-amazon.com/images/I/71-zqlETKcL._SY466_.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "genre": "Psychology",
+    "price": 260,
+    "quantity": 5,
+    "isbns": ["3201", "3202", "3203", "3204", "3205"],
+    "availability": "available",
+    "rating": 4.8,
+    "url": "https://www.amazon.in/dp/1846041244",
+    "image_url": "https://m.media-amazon.com/images/I/61157LApbuL._SL1033_.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Educated",
+    "author": "Tara Westover",
+    "genre": "Memoir",
+    "price": 340,
+    "quantity": 3,
+    "isbns": ["3301", "3302", "3303"],
+    "availability": "available",
+    "rating": 4.7,
+    "url": "https://www.amazon.in/dp/0099511029",
+    "image_url": "https://m.media-amazon.com/images/I/41PYbhOmkzL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "price": 399,
+    "quantity": 6,
+    "isbns": ["3401", "3402", "3403", "3404", "3405", "3406"],
+    "availability": "available",
+    "rating": 4.6,
+    "url": "https://www.amazon.in/dp/0099590085",
+    "image_url": "https://m.media-amazon.com/images/I/41yu2qXhXXL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 35,
+    "title": "The Four Agreements",
+    "author": "Don Miguel Ruiz",
+    "genre": "Philosophy",
+    "price": 240,
+    "quantity": 4,
+    "isbns": ["3501", "3502", "3503", "3504"],
+    "availability": "available",
+    "rating": 4.6,
+    "url": "https://www.amazon.in/dp/1878424319",
+    "image_url": "https://m.media-amazon.com/images/I/51QAKMAGrJL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "genre": "Biography",
+    "price": 380,
+    "quantity": 6,
+    "isbns": ["3601", "3602", "3603", "3604", "3605", "3606"],
+    "availability": "available",
+    "rating": 4.8,
+    "url": "https://www.amazon.in/dp/0241334144",
+    "image_url": "https://m.media-amazon.com/images/I/41sQOIOgf4L._SY445_SX342_.jpg"
+  },
+  {
+    "id": 37,
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "genre": "Fiction",
+    "price": 290,
+    "quantity": 5,
+    "isbns": ["3701", "3702", "3703", "3704", "3705"],
+    "availability": "available",
+    "rating": 4.7,
+    "url": "https://www.amazon.in/dp/1408850257",
+    "image_url": "https://m.media-amazon.com/images/I/51bt7LtryoL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 38,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "genre": "Science",
+    "price": 310,
+    "quantity": 3,
+    "isbns": ["3801", "3802", "3803"],
+    "availability": "available",
+    "rating": 4.6,
+    "url": "https://www.amazon.in/dp/0553176986",
+    "image_url": "https://m.media-amazon.com/images/I/51SWYYvk+KL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 39,
+    "title": "The 5 AM Club",
+    "author": "Robin Sharma",
+    "genre": "Self-Help",
+    "price": 350,
+    "quantity": 4,
+    "isbns": ["3901", "3902", "3903", "3904"],
+    "availability": "available",
+    "rating": 4.5,
+    "url": "https://www.amazon.in/dp/0008312834",
+    "image_url": "https://m.media-amazon.com/images/I/71Jg6kSgYwL._SL1500_.jpg"
+  },
+  {
+    "id": 40,
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "genre": "Business",
+    "price": 420,
+    "quantity": 5,
+    "isbns": ["4001", "4002", "4003", "4004", "4005"],
+    "availability": "available",
+    "rating": 4.6,
+    "url": "https://www.amazon.in/dp/0307887898",
+    "image_url": "https://m.media-amazon.com/images/I/51CTIr1bJxL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 41,
+    "title": "The Courage to Be Disliked",
+    "author": "Ichiro Kishimi",
+    "genre": "Self-Help",
+    "price": 270,
+    "quantity": 4,
+    "isbns": ["4101", "4102", "4103", "4104"],
+    "availability": "available",
+    "rating": 4.5,
+    "url": "https://www.amazon.in/dp/1760630732",
+    "image_url": "https://m.media-amazon.com/images/I/41h1AktRBmL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 42,
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "genre": "Business",
+    "price": 320,
+    "quantity": 3,
+    "isbns": ["4501", "4502", "4503"],
+    "availability": "available",
+    "rating": 4.5,
+    "url": "https://www.amazon.in/dp/0753555204",
+    "image_url": "https://m.media-amazon.com/images/I/41N4Hmg0GYL._SX342_SY445_.jpg"
+  },
+  {
+    "id": 43,
+    "title": "Homo Deus: A Brief History of Tomorrow",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "price": 370,
+    "quantity": 4,
+    "isbns": ["4801", "4802", "4803", "4804"],
+    "availability": "available",
+    "rating": 4.7,
+    "url": "https://www.amazon.in/dp/1784703931",
+    "image_url": "https://m.media-amazon.com/images/I/41x9l0H2UGL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 44,
+    "title": "21 Lessons for the 21st Century",
+    "author": "Yuval Noah Harari",
+    "genre": "Philosophy",
+    "price": 360,
+    "quantity": 3,
+    "isbns": ["4901", "4902", "4903"],
+    "availability": "available",
+    "rating": 4.6,
+    "url": "https://www.amazon.in/dp/1784708283",
+    "image_url": "https://m.media-amazon.com/images/I/71VSswnjh9L._SY466_.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Man’s Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "genre": "Psychology",
+    "price": 250,
+    "quantity": 5,
+    "isbns": ["5001", "5002", "5003", "5004", "5005"],
+    "availability": "available",
+    "rating": 4.9,
+    "url": "https://www.amazon.in/dp/080701429X",
+    "image_url": "https://m.media-amazon.com/images/I/61157LApbuL._SY466_.jpg"
+  },
+  {
+    "id": 46,
+    "title": "The Power of Your Subconscious Mind: Original Classic Edition",
+    "author": "Joseph Murphy",
+    "genre": "Self-Help",
+    "price": 250,
+    "quantity": 5,
+    "isbns": ["5006", "5007", "5008", "5009", "5010"],
+    "availability": "available",
+    "rating": 4.4,
+    "url": "https://www.amazon.in/Power-Your-Subconscious-Mind-Success/dp/8172345666",
+    "image_url": "https://m.media-amazon.com/images/I/61WMgOHyDaL._SY342_.jpg"
   }
   ],
-  "members":[],
+  "members":[
+    {
+    "memberId": 1,
+    "name": "Kunal Sharma",
+    "email": "kunalsharma@gmail.com",
+    "phone": "1548796232",
+    "address": "123 Main St, Surat, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": true
+  },
+  {
+    "memberId": 2,
+    "name": "Priya Patel",
+    "email": "priya.patel99@gmail.com",
+    "phone": "9876543210",
+    "address": "45 Ring Road, Ahmedabad, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": false
+  },
+  {
+    "memberId": 3,
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta21@yahoo.com",
+    "phone": "8523697412",
+    "address": "67 Civil Lines, Vadodara, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": true
+  },
+  {
+    "memberId": 4,
+    "name": "Sneha Desai",
+    "email": "sneha.desai88@gmail.com",
+    "phone": "9632587410",
+    "address": "78 Station Road, Rajkot, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": false
+  },
+  {
+    "memberId": 5,
+    "name": "Rohan Verma",
+    "email": "rohan.verma56@gmail.com",
+    "phone": "7410258963",
+    "address": "12 Park Avenue, Surat, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": true
+  },
+  {
+    "memberId": 6,
+    "name": "Aditi Shah",
+    "email": "aditi.shah01@gmail.com",
+    "phone": "7896541230",
+    "address": "99 Ashram Road, Ahmedabad, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": false
+  },
+  {
+    "memberId": 7,
+    "name": "Manish Kumar",
+    "email": "manish.kumar77@gmail.com",
+    "phone": "6352148795",
+    "address": "45 River Side, Vadodara, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": true
+  },
+  {
+    "memberId": 8,
+    "name": "Neha Singh",
+    "email": "neha.singh45@yahoo.com",
+    "phone": "8521479630",
+    "address": "32 Gandhi Road, Rajkot, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": false
+  },
+  {
+    "memberId": 9,
+    "name": "Vivek Joshi",
+    "email": "vivek.joshi23@gmail.com",
+    "phone": "7412589630",
+    "address": "56 City Center, Surat, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": true
+  },
+  {
+    "memberId": 10,
+    "name": "Pooja Reddy",
+    "email": "pooja.reddy98@gmail.com",
+    "phone": "9638527412",
+    "address": "85 Lajpat Nagar, Ahmedabad, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": false
+  },
+  {
+    "memberId": 11,
+    "name": "Aman Gupta",
+    "email": "aman.gupta01@gmail.com",
+    "phone": "7891234560",
+    "address": "101 Patel Colony, Vadodara, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": true
+  },
+  {
+    "memberId": 12,
+    "name": "Ritika Jain",
+    "email": "ritika.jain55@gmail.com",
+    "phone": "9637412580",
+    "address": "77 New City Road, Rajkot, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": false
+  },
+  {
+    "memberId": 13,
+    "name": "Deepak Yadav",
+    "email": "deepak.yadav99@gmail.com",
+    "phone": "7413698520",
+    "address": "19 Green Park, Surat, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": true
+  },
+  {
+    "memberId": 14,
+    "name": "Shivani Nair",
+    "email": "shivani.nair11@gmail.com",
+    "phone": "8529637410",
+    "address": "200 Lake View, Ahmedabad, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": false
+  },
+  {
+    "memberId": 15,
+    "name": "Rajesh Pillai",
+    "email": "rajesh.pillai23@yahoo.com",
+    "phone": "7410852963",
+    "address": "56 Hill Colony, Vadodara, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": true
+  },
+  {
+    "memberId": 16,
+    "name": "Komal Trivedi",
+    "email": "komal.trivedi88@gmail.com",
+    "phone": "9632014785",
+    "address": "87 Civil Lines, Rajkot, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": false
+  },
+  {
+    "memberId": 17,
+    "name": "Alok Mishra",
+    "email": "alok.mishra45@gmail.com",
+    "phone": "7410258960",
+    "address": "65 MG Road, Surat, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": true
+  },
+  {
+    "memberId": 18,
+    "name": "Meera Iyer",
+    "email": "meera.iyer22@gmail.com",
+    "phone": "8521479635",
+    "address": "88 Ashram Road, Ahmedabad, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": false
+  },
+  {
+    "memberId": 19,
+    "name": "Karan Thakur",
+    "email": "karan.thakur77@gmail.com",
+    "phone": "7412589635",
+    "address": "44 River Side, Vadodara, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": true
+  },
+  {
+    "memberId": 20,
+    "name": "Simran Kaur",
+    "email": "simran.kaur99@gmail.com",
+    "phone": "9632587415",
+    "address": "23 Gandhi Road, Rajkot, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": false
+  },
+  {
+    "memberId": 21,
+    "name": "Nikhil Saxena",
+    "email": "nikhil.saxena55@gmail.com",
+    "phone": "7896541236",
+    "address": "11 Park Avenue, Surat, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": true
+  },
+  {
+    "memberId": 22,
+    "name": "Tanvi Deshmukh",
+    "email": "tanvi.deshmukh12@gmail.com",
+    "phone": "9638527415",
+    "address": "34 Lajpat Nagar, Ahmedabad, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": false
+  },
+  {
+    "memberId": 23,
+    "name": "Suresh Rathi",
+    "email": "suresh.rathi01@gmail.com",
+    "phone": "7412589636",
+    "address": "70 Patel Colony, Vadodara, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": true
+  },
+  {
+    "memberId": 24,
+    "name": "Anjali Kapoor",
+    "email": "anjali.kapoor33@gmail.com",
+    "phone": "9637412589",
+    "address": "89 New City Road, Rajkot, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": false
+  },
+  {
+    "memberId": 25,
+    "name": "Harsh Vardhan",
+    "email": "harsh.vardhan56@gmail.com",
+    "phone": "7413698525",
+    "address": "39 Green Park, Surat, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": true
+  },
+  {
+    "memberId": 26,
+    "name": "Radhika Menon",
+    "email": "radhika.menon77@gmail.com",
+    "phone": "8529637415",
+    "address": "300 Lake View, Ahmedabad, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": false
+  },
+  {
+    "memberId": 27,
+    "name": "Sanjay Goyal",
+    "email": "sanjay.goyal89@gmail.com",
+    "phone": "7410852965",
+    "address": "120 Hill Colony, Vadodara, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": true
+  },
+  {
+    "memberId": 28,
+    "name": "Divya Choudhary",
+    "email": "divya.choudhary45@gmail.com",
+    "phone": "9632014789",
+    "address": "45 Civil Lines, Rajkot, Gujarat",
+    "memberShipType": "student",
+    "activeStatus": false
+  },
+  {
+    "memberId": 29,
+    "name": "Akash Bansal",
+    "email": "akash.bansal66@gmail.com",
+    "phone": "7410258969",
+    "address": "89 MG Road, Surat, Gujarat",
+    "memberShipType": "faculty",
+    "activeStatus": true
+  },
+  {
+    "memberId": 30,
+    "name": "Shruti Malhotra",
+    "email": "shruti.malhotra22@gmail.com",
+    "phone": "8521479639",
+    "address": "110 Ashram Road, Ahmedabad, Gujarat",
+    "memberShipType": "public",
+    "activeStatus": false
+  }
+  ],
   "fines": [],
   "issue": [],
   "reservations": []
