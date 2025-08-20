@@ -1,22 +1,25 @@
-
 import React, { useState } from "react";
-import AdminLogin from "./screens/AdminLogin";
-import Dashboard from "./screens/Dashboard";
-import Books from "./screens/Books"
+import Dashboard from "./screens/Dashboard/Dashboard";
+import Books from "./screens/Books/Books"
+import AddBooks from "./screens/AddBooks/AddBook.jsx";
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   return (
     <div>
-      {isAuthenticated ? (
+      {/* {isAuthenticated ? (
   <div>
     <Dashboard onLogout={() => setIsAuthenticated(false)} />
     <Books />
   </div>
 ) : (
   <AdminLogin onLogin={() => setIsAuthenticated(true)} />
-)}
+)} */}
+
+{/* <Dashboard /> */}
+{/* <Books /> */}
+<AddBooks />
 
     </div>
   );
