@@ -10,13 +10,14 @@ export const fetchBooks = createAsyncThunk("fetchBooks", async () => {
     const res = await axios.get(BookURL)
 
     return res.data
+    
 })
 
 // Add Book in API
 export const addBook = createAsyncThunk("addBook", async (book) => {
     const res = await axios.post(BookURL, book)
 
-    return res.book;
+    return res.data;
 })
 
 const initialState = {
@@ -42,9 +43,9 @@ const bookSlice = createSlice({
             state.books = action.payload
         })
 
-        builder.addCase(fetchBooks.rejected, (state, action) => {
+        builder.addCase(fetchBooks.rejected, (state) => {
             state.status = "error"
-            state.error = action.payload.error
+
         })
 
 

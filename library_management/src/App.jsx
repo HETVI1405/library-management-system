@@ -17,9 +17,9 @@ export default function App() {
   <AdminLogin onLogin={() => setIsAuthenticated(true)} />
 )} */}
 
- <Dashboard /> 
+ {/* <Dashboard />  */}
  <Books /> 
-<AddBooks />
+{/* <AddBooks /> */}
 
     </div>
   );
