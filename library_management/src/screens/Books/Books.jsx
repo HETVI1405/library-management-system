@@ -20,7 +20,7 @@ export default function Books() {
       {books.map((book) => (
        
         <Card key={book.id} style={{ width: '18rem'}}>
-          <Card.Img variant="top" src={book.image_url} alt={book.title} style={{height:"250px"}}/>
+          <Card.Img variant="top" src={book.image_url} alt={book.title} style={{height:"300px"}}/>
           <Card.Body>
             <Card.Title>{book.title}</Card.Title>
             <Card.Text>
