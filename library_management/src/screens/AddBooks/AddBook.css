@@ -1,0 +1,85 @@
+/* AddBooks.css */
+.addbook {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 30px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0px;
+    color: #333;
+    text-align: center;
+}
+
+.addbook h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+  color: #444;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.25);
+}
+
+#availability {
+  margin-left: 8px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.addbookbtn {
+  width: 250px;
+  margin: auto;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.addbookbtn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.addbookbtn:active {
+  transform: translateY(1px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .addbook {
+    padding: 20px;
+  }
+
+  .addbook h2 {
+    font-size: 1.5rem;
+  }
+}
