@@ -843,6 +843,17 @@
       "rating": 4.4,
       "url": "https://www.amazon.in/Power-Your-Subconscious-Mind-Success/dp/8172345666",
       "image_url": "https://m.media-amazon.com/images/I/61WMgOHyDaL._SY342_.jpg"
+    },
+    {
+      "title": "The Invisible Life of Addie LaRue - Illustrated edition ",
+      "author": "V. E. Schwab",
+      "genre": "self",
+      "rent": 10,
+      "isbns": [],
+      "quantity": 1,
+      "availability": true,
+      "image_url": "https://m.media-amazon.com/images/I/714yQJgj6jS._SL1417_.jpg",
+      "id": 47
     }
   ],
   "members": [
