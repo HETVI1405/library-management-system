@@ -9,7 +9,7 @@ export default function AddBooks() {
   const [genre, setGenre] = useState("");
   const [price, setPrice] = useState("");
   const [image_url, setImageUrl] = useState("");
-  const [availability,setavailability] = useState("")
+  const [availability, setavailability] = useState("")
   const dispatch = useDispatch();
 
   const handlePostBook = () => {
@@ -22,16 +22,14 @@ export default function AddBooks() {
       title,
       author,
       genre,
-      rent: parseInt(price), 
-      isbns: [], 
-      quantity:1,
-      availability: availability, 
+      price: parseInt(price),
+      isbns: [],
+      quantity: 1,
+      availability: availability,
       image_url,
     };
 
     dispatch(addBook(book));
-
-    // Clear form
     setTitle("");
     setAuthor("");
     setGenre("");
@@ -102,21 +100,23 @@ export default function AddBooks() {
             />
           </div>
 
-             <div className="form-group" style={{display:"flex",alignItems:"center",marginTop:"55px"}}>
-                <input style={{width:"20px",height:"20px"}}
+          <div className="form-group" style={{ display: "flex", alignItems: "center", marginTop: "55px" }}>
+            <input
               type="checkbox"
-              className=""
               id="availability"
-              value={availability}
+              checked={availability}
               onChange={(e) => setavailability(e.target.checked)}
+              style={{ width: "20px", height: "20px" }}
             />
-            <label htmlFor="price" style={{display:"inline" , fontWeight:"500",marginLeft:"20px",marginTop:"5px"}}>Available</label>
+            <label htmlFor="availability" style={{ marginLeft: "20px", fontWeight: "500" }}>
+              Available
+            </label>
           </div>
 
         </div>
         <button className="addbookbtn btn btn-primary mt-3" onClick={handlePostBook}>
-            Add Book
-          </button>
+          Add Book
+        </button>
       </div>
     </div>
   );
