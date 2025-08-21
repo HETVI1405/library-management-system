@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useDispatch, useSelector } from "react-redux";
 import { fetchBooks } from '../../features/bookSlice';
-import "./books.css"; // 👈 custom CSS file
+import "./books.css";
 
 export default function Books() {
   const { books } = useSelector((state) => state.books);
