@@ -15,7 +15,7 @@ export default function EditBook() {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [genre, setGenre] = useState("");
-  const [price, setPrice] = useState("");
+  const [rent, setRent] = useState("");
   const [quantity, setQuantity] = useState("");
   const [isbns, setIsbns] = useState("");
   const [availability, setAvailability] = useState("available");
@@ -33,7 +33,7 @@ export default function EditBook() {
       setTitle(singleBook.title || "");
       setAuthor(singleBook.author || "");
       setGenre(singleBook.genre || "");
-      setPrice(singleBook.price || "");
+      setRent(singleBook.rent || "");
       setQuantity(singleBook.quantity || "");
       setIsbns(singleBook.isbns ? singleBook.isbns.join(",") : "");
       setAvailability(singleBook.availability || "available");
@@ -49,7 +49,7 @@ export default function EditBook() {
       title,
       author,
       genre,
-      price: parseFloat(price),
+      rent: parseFloat(rent),
       quantity: parseInt(quantity),
       isbns: isbns.split(",").map((isbn) => isbn.trim()),
       availability,
@@ -76,8 +76,8 @@ export default function EditBook() {
             <input type="text" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Author" required />
             <label htmlFor="">Genre</label>
             <input type="text" value={genre} onChange={(e) => setGenre(e.target.value)} placeholder="Genre" />
-            <label htmlFor="">Price</label>
-            <input type="number" value={price} onChange={(e) => setPrice(e.target.value)} placeholder="Price" />
+            <label htmlFor="">Rent</label>
+            <input type="number" value={rent} onChange={(e) => setRent(e.target.value)} placeholder="Rent" />
             <label htmlFor="">Quantity</label>
             <input type="number" value={quantity} onChange={(e) => setQuantity(e.target.value)} placeholder="Quantity" /></div>
           <div className="col-6">

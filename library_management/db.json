@@ -4,7 +4,7 @@
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgeral",
       "genre": "Classic",
-      "price": 19,
+      "rent": 19,
       "quantity": 5,
       "isbns": [
         "2601",
@@ -23,7 +23,7 @@
       "title": "One Piece Vol. 1",
       "author": "Eiichiro Oda",
       "genre": "Anime",
-      "price": 350,
+      "rent": 15,
       "quantity": 4,
       "isbns": [
         "2701",
@@ -41,7 +41,7 @@
       "title": "Naruto Vol. 1",
       "author": "Masashi Kishimoto",
       "genre": "Anime",
-      "price": 330,
+      "rent": 22,
       "quantity": 5,
       "isbns": [
         "2801",
@@ -60,7 +60,7 @@
       "title": "Death Note Vol. 1",
       "author": "Tsugumi Ohba",
       "genre": "Anime",
-      "price": 370,
+      "rent": 13,
       "quantity": 5,
       "isbns": [
         "3001",
@@ -79,7 +79,7 @@
       "title": "The Power of Now",
       "author": "Eckhart Tolle",
       "genre": "Spirituality",
-      "price": 270,
+      "rent": 24,
       "quantity": 4,
       "isbns": [
         "3101",
@@ -97,7 +97,7 @@
       "title": "Man's Search for Meaning",
       "author": "Viktor E. Frankl",
       "genre": "Psychology",
-      "price": 260,
+      "rent": 16,
       "quantity": 5,
       "isbns": [
         "3201",
@@ -116,7 +116,7 @@
       "title": "Educated",
       "author": "Tara Westover",
       "genre": "Memoir",
-      "price": 340,
+      "rent": 12,
       "quantity": 3,
       "isbns": [
         "3301",
@@ -133,7 +133,7 @@
       "title": "Sapiens: A Brief History of Humankind",
       "author": "Yuval Noah Harari",
       "genre": "History",
-      "price": 399,
+      "rent": 25,
       "quantity": 6,
       "isbns": [
         "3401",
@@ -153,7 +153,7 @@
       "title": "The Four Agreements",
       "author": "Don Miguel Ruiz",
       "genre": "Philosophy",
-      "price": 240,
+      "rent": 14,
       "quantity": 4,
       "isbns": [
         "3501",
@@ -171,7 +171,7 @@
       "title": "Becoming",
       "author": "Michelle Obama",
       "genre": "Biography",
-      "price": 380,
+      "rent": 23,
       "quantity": 6,
       "isbns": [
         "3601",
@@ -191,7 +191,7 @@
       "title": "The Kite Runner",
       "author": "Khaled Hosseini",
       "genre": "Fiction",
-      "price": 290,
+      "rent": 18,
       "quantity": 5,
       "isbns": [
         "3701",
@@ -210,7 +210,7 @@
       "title": "A Brief History of Time",
       "author": "Stephen Hawking",
       "genre": "Science",
-      "price": 310,
+      "rent": 25,
       "quantity": 3,
       "isbns": [
         "3801",
@@ -227,7 +227,7 @@
       "title": "The 5 AM Club",
       "author": "Robin Sharma",
       "genre": "Self-Help",
-      "price": 350,
+      "rent": 19,
       "quantity": 4,
       "isbns": [
         "3901",
@@ -245,7 +245,7 @@
       "title": "The Lean Startup",
       "author": "Eric Ries",
       "genre": "Business",
-      "price": 420,
+      "rent": 12,
       "quantity": 5,
       "isbns": [
         "4001",
@@ -264,7 +264,7 @@
       "title": "The Courage to Be Disliked",
       "author": "Ichiro Kishimi",
       "genre": "Self-Help",
-      "price": 270,
+      "rent": 22,
       "quantity": 4,
       "isbns": [
         "4101",
@@ -282,7 +282,7 @@
       "title": "Zero to One",
       "author": "Peter Thiel",
       "genre": "Business",
-      "price": 320,
+      "rent": 11,
       "quantity": 3,
       "isbns": [
         "4501",
@@ -299,7 +299,7 @@
       "title": "Homo Deus: A Brief History of Tomorrow",
       "author": "Yuval Noah Harari",
       "genre": "History",
-      "price": 370,
+      "rent": 24,
       "quantity": 4,
       "isbns": [
         "4801",
@@ -317,7 +317,7 @@
       "title": "21 Lessons for the 21st Century",
       "author": "Yuval Noah Harari",
       "genre": "Philosophy",
-      "price": 360,
+      "rent": 16,
       "quantity": 3,
       "isbns": [
         "4901",
@@ -334,7 +334,7 @@
       "title": "Man’s Search for Meaning",
       "author": "Viktor E. Frankl",
       "genre": "Psychology",
-      "price": 250,
+      "rent": 20,
       "quantity": 5,
       "isbns": [
         "5001",
@@ -353,7 +353,7 @@
       "title": "The Power of Your Subconscious Mind: Original Classic Edition",
       "author": "Joseph Murphy",
       "genre": "Self-Help",
-      "price": 250,
+      "rent": 13,
       "quantity": 5,
       "isbns": [
         "5006",
@@ -371,10 +371,17 @@
       "title": "The Invisible Life of Addie LaRue - Illustrated edition ",
       "author": "V. E. Schwab",
       "genre": "self",
-      "rent": 10,
-      "isbns": [],
-      "quantity": 1,
+      "rent": 15,
+      "quantity": 5,
+      "isbns": [
+        "5011",
+        "5012",
+        "5013",
+        "5014",
+        "5015"
+      ],
       "availability": true,
+      "rating": null,
       "image_url": "https://m.media-amazon.com/images/I/714yQJgj6jS._SL1417_.jpg",
       "id": "47"
     }

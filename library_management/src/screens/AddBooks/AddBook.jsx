@@ -7,7 +7,7 @@ export default function AddBooks() {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [genre, setGenre] = useState("");
-  const [price, setPrice] = useState("");
+  const [rent, setRent] = useState("");
   const [image_url, setImageUrl] = useState("");
   const [availability, setavailability] = useState("")
   const dispatch = useDispatch();
@@ -22,7 +22,7 @@ export default function AddBooks() {
       title,
       author,
       genre,
-      price: parseInt(price),
+      rent: parseInt(rent),
       isbns: [],
       quantity: 1,
       availability: availability,
@@ -33,7 +33,7 @@ export default function AddBooks() {
     setTitle("");
     setAuthor("");
     setGenre("");
-    setPrice("");
+    Rent("");
     setImageUrl("");
   };
 
@@ -79,13 +79,13 @@ export default function AddBooks() {
         <div className="col-6">
 
           <div className="form-group">
-            <label htmlFor="price">Rent</label>
+            <label htmlFor="rent">Rent</label>
             <input
               type="number"
               className="form-control"
-              id="price"
-              value={price}
-              onChange={(e) => setPrice(e.target.value)}
+              id="rent"
+              value={rent}
+              onChange={(e) => setRent(e.target.value)}
             />
           </div>
 
