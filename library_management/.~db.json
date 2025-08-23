@@ -1,43 +1,6 @@
 {
   "books": [
     {
-      "id": 18,
-      "title": "Think and Grow Rich",
-      "author": "Napoleon Hill",
-      "genre": "Finance",
-      "price": 240,
-      "quantity": 3,
-      "isbns": [
-        "1801",
-        "1802",
-        "1803"
-      ],
-      "availability": "available",
-      "rating": 4.5,
-      "url": "https://www.amazon.in/dp/8194790832",
-      "image_url": "https://m.media-amazon.com/images/I/71UypkUjStL._AC_UY218_.jpg"
-    },
-    {
-      "id": 19,
-      "title": "The Subtle Art of Not Giving a F*ck",
-      "author": "Mark Manson",
-      "genre": "Self-Help",
-      "price": 220,
-      "quantity": 6,
-      "isbns": [
-        "1901",
-        "1902",
-        "1903",
-        "1904",
-        "1905",
-        "1906"
-      ],
-      "availability": "available",
-      "rating": 4.4,
-      "url": "https://www.amazon.in/dp/0062457713",
-      "image_url": "https://m.media-amazon.com/images/I/71QKQ9mwV7L._AC_UY218_.jpg"
-    },
-    {
       "id": 24,
       "title": "1984",
       "author": "George Orwell",

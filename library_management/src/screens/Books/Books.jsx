@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useDispatch, useSelector } from "react-redux";
-import { fetchBooks } from '../../features/bookSlice';
+import { deleteBook, fetchBooks } from '../../features/bookSlice';
 import "./books.css";
 
 export default function Books() {
@@ -11,12 +11,13 @@ export default function Books() {
 
   useEffect(() => {
     dispatch(fetchBooks());
+    dispatch
   }, [dispatch]);
 
   return (
     <div className="books-container">
       <h2 className="books-title">Books</h2>
-      <div className="books-grid">
+      <div className="books-grid"> 
         {books.map((book) => (
           <Card key={book.id} className="book-card">
             <Card.Img 
@@ -30,7 +31,7 @@ export default function Books() {
               <Card.Text className="book-info">
                 <span><b>Author:</b> {book.author}</span><br />
               </Card.Text>
-              <Button className="details-btn">Details</Button>
+              <Button className="details-btn" onClick={deleteBook(book.id)} >Delete</Button>
             </Card.Body>
           </Card>
         ))}

@@ -82,9 +82,9 @@ const bookSlice = createSlice({
         });
 
         builder.addCase(deleteBook.fulfilled, (state, action) => {
-            state.status = "success";
-            state.books.splice(action.payload,1)
-        });
+  state.status = "success";
+  state.books = state.books.filter((book) => book.id !== action.payload);
+});
         builder.addCase(deleteBook.rejected, (state) => {
             state.status = "error"
         });
