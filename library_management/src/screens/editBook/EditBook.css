@@ -1,0 +1,77 @@
+.form-container {
+  width: 100%;
+  padding: 20px 50px;
+  background: white;
+}
+
+.form-container h2 {
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.book-form .row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.book-form .col-6 {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-form label {
+  margin: 10px 5px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+}
+
+.book-form input,
+.book-form select {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.book-form input:focus,
+.book-form select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.3);
+  outline: none;
+}
+
+.book-form button {
+  margin: 30px auto;
+  display: block;
+  padding: 12px 18px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  background-color: #72ACEA;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.book-form button:hover {
+  font-weight: 700;
+  color: #72ACEA;
+  background-color: white;
+  border: 3px solid #72ACEA;
+  transform: translateY(-2px);
+}
+
+.book-form button:active {
+  transform: translateY(0);
+}

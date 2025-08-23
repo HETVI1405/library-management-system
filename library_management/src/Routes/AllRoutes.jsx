@@ -12,7 +12,7 @@ export default function RoutesConfig() {
       <Route path="/addbook" element={<AddBooks />} />
       <Route path="/book" element={<Books />} />
       <Route path="/login" element={<AdminLogin />} />
-    <Route path="/editk/:id" element={<EditBook />} />
+      <Route path="/editbook/:id" element={<EditBook />} />
     </Routes>
   );
 }

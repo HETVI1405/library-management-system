@@ -25,11 +25,21 @@ export const deleteBook = createAsyncThunk("deleteBook", async (id) => {
     return res.id
 });
 
-//edit book in Api
-export const editBook = createAsyncThunk("editBook", async ({ id, updatedData }) => {
-    const res = await axios.patch(`${BookURL}/${id}`, updatedData);
-    return res.data;
+
+// Fetch a single book by ID
+export const fetchBookById = createAsyncThunk("books/fetchBookById", async (id) => {
+  const res = await axios.get(`${BookURL}/${id}`);
+  return res.data; // axios response has data property
 });
+
+// Edit a book
+export const editBook = createAsyncThunk("books/editBook", async ({ id, updatedData }) => {
+  const res = await axios.put(`${BookURL}/${id}`, updatedData, {
+    headers: { "Content-Type": "application/json" },
+  });
+  return res.data;
+});
+
 
 const initialState = {
     books: [],
@@ -88,28 +98,36 @@ const bookSlice = createSlice({
             state.status = "error"
         });
 
-        //Delete Book in Api cases
-        builder.addCase(editBook.pending, (state) => {
-            state.status = "loding"
-        });
+        // fetch one
+      builder.addCase(fetchBookById.pending, (state) => {
+        state.status = "loading";
+      })
+      builder.addCase(fetchBookById.fulfilled, (state, action) => {
+        state.status = "succeeded";
+        state.singleBook = action.payload;
+      })
+      builder.addCase(fetchBookById.rejected, (state, action) => {
+        state.status = "failed";
+        state.error = action.error.message;
+      })
 
-        builder.addCase(editBook.fulfilled, (state, action) => {
-            state.status = "success";
-            const index = state.books.findIndex(book => book.id === action.payload.id);
-            if (index !== -1) {
-                state.books[index] = action.payload;
-            }
-        });
-        builder.addCase(editBook.rejected, (state) => {
-            state.status = "error"
-        })
-
-
-
-
-
-
+      // edit book
+      builder.addCase(editBook.fulfilled, (state, action) => {
+        state.status = "succeeded";
+        const updatedBook = action.payload;
+        // update in books list
+        const index = state.books.findIndex((b) => b.id === updatedBook.id);
+        if (index !== -1) {
+          state.books[index] = updatedBook;
+        }
+        // update singleBook
+        state.singleBook = updatedBook;
+      })
     }
 })
 
 export default bookSlice.reducer
+
+
+
+
