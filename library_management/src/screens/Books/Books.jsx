@@ -3,11 +3,13 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useDispatch, useSelector } from "react-redux";
 import { deleteBook, fetchBooks } from '../../features/bookSlice';
+import { useNavigate } from "react-router-dom";
 import "./books.css";
 
 export default function Books() {
   const { books } = useSelector((state) => state.books);
   const dispatch = useDispatch();
+   const navigate = useNavigate();
 
   useEffect(() => {
     dispatch(fetchBooks());
@@ -31,7 +33,8 @@ export default function Books() {
               <Card.Text className="book-info">
                 <span><b>Author:</b> {book.author}</span><br />
               </Card.Text>
-              <Button className="details-btn" onClick={deleteBook(book.id)} >Delete</Button>
+              <Button className="details-btn" onClick={()=>dispatch(deleteBook(book.id))} >Delete</Button>
+               <Button onClick={() => navigate(`/editk/${book.id}`)}>Edit</Button>
             </Card.Body>
           </Card>
         ))}

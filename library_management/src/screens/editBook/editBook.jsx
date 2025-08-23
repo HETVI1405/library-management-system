@@ -24,21 +24,23 @@ export default function EditBook() {
   const [imageUrl, setImageUrl] = useState("");
 
   useEffect(() => {
-    if (!existingBook) {
-      dispatch(fetchBooks());
-    } else {
-      setTitle(existingBook.title);
-      setAuthor(existingBook.author);
-      setGenre(existingBook.genre);
-      setPrice(existingBook.price);
-      setQuantity(existingBook.quantity);
-      setIsbns(existingBook.isbns.join(",")); // convert array to comma string
-      setAvailability(existingBook.availability);
-      setRating(existingBook.rating);
-      setUrl(existingBook.url);
-      setImageUrl(existingBook.image_url);
-    }
-  }, [dispatch, existingBook]);
+  if (!existingBook) {
+    // fetch all books if not available
+    dispatch(fetchBooks());
+  } else {
+    // when existingBook becomes available, set form fields
+    setTitle(existingBook.title);
+    setAuthor(existingBook.author);
+    setGenre(existingBook.genre || "");
+    setPrice(existingBook.price || "");
+    setQuantity(existingBook.quantity || "");
+    setIsbns(existingBook.isbns ? existingBook.isbns.join(",") : "");
+    setAvailability(existingBook.availability || "available");
+    setRating(existingBook.rating || "");
+    setUrl(existingBook.url || "");
+    setImageUrl(existingBook.image_url || "");
+  }
+}, [dispatch, existingBook]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -57,7 +59,7 @@ export default function EditBook() {
     };
 
     dispatch(editBook({ id: parseInt(id), updatedData: updatedBook }));
-    navigate("/books");
+    navigate("/book");
   };
 
   return (

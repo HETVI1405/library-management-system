@@ -22,7 +22,6 @@ export const addBook = createAsyncThunk("addBook", async (book) => {
 //Delete book in Api
 export const deleteBook = createAsyncThunk("deleteBook", async (id) => {
     const res = await axios.delete(`${BookURL}/${id}`)
-
     return res.id
 });
 
@@ -82,9 +81,9 @@ const bookSlice = createSlice({
         });
 
         builder.addCase(deleteBook.fulfilled, (state, action) => {
-  state.status = "success";
-  state.books = state.books.filter((book) => book.id !== action.payload);
-});
+            state.status = "success";
+            state.books.splice(action.payload, 1);
+        });
         builder.addCase(deleteBook.rejected, (state) => {
             state.status = "error"
         });

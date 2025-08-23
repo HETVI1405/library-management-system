@@ -1,83 +1,11 @@
 {
   "books": [
     {
-      "id": 18,
-      "title": "Think and Grow Rich",
-      "author": "Napoleon Hill",
-      "genre": "Finance",
-      "price": 240,
-      "quantity": 3,
-      "isbns": [
-        "1801",
-        "1802",
-        "1803"
-      ],
-      "availability": "available",
-      "rating": 4.5,
-      "url": "https://www.amazon.in/dp/8194790832",
-      "image_url": "https://m.media-amazon.com/images/I/71UypkUjStL._AC_UY218_.jpg"
-    },
-    {
-      "id": 19,
-      "title": "The Subtle Art of Not Giving a F*ck",
-      "author": "Mark Manson",
-      "genre": "Self-Help",
-      "price": 220,
-      "quantity": 6,
-      "isbns": [
-        "1901",
-        "1902",
-        "1903",
-        "1904",
-        "1905",
-        "1906"
-      ],
-      "availability": "available",
-      "rating": 4.4,
-      "url": "https://www.amazon.in/dp/0062457713",
-      "image_url": "https://m.media-amazon.com/images/I/71QKQ9mwV7L._AC_UY218_.jpg"
-    },
-    {
-      "id": 24,
-      "title": "1984",
-      "author": "George Orwell",
-      "genre": "Dystopian",
-      "price": 150,
-      "quantity": 4,
-      "isbns": [
-        "2401",
-        "2402",
-        "2403",
-        "2404"
-      ],
-      "availability": "available",
-      "rating": 4.7,
-      "url": "https://www.amazon.in/dp/0451524934",
-      "image_url": "https://m.media-amazon.com/images/I/81YxjLkcAdL._UF1000,1000_QL80_.jpg"
-    },
-    {
-      "id": 25,
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "genre": "Classic",
-      "price": 210,
-      "quantity": 3,
-      "isbns": [
-        "2501",
-        "2502",
-        "2503"
-      ],
-      "availability": "available",
-      "rating": 4.9,
-      "url": "https://www.amazon.in/dp/0099549484",
-      "image_url": "https://m.media-amazon.com/images/I/81gepf1eMqL.jpg"
-    },
-    {
       "id": 26,
       "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
+      "author": "F. Scott Fitzgeral",
       "genre": "Classic",
-      "price": 190,
+      "price": 19,
       "quantity": 5,
       "isbns": [
         "2601",
@@ -87,7 +15,7 @@
         "2605"
       ],
       "availability": "available",
-      "rating": 4.6,
+      "rating": 4,
       "url": "https://www.amazon.in/dp/185326041X",
       "image_url": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UY218_.jpg"
     },
@@ -105,7 +33,7 @@
         "2704"
       ],
       "availability": "available",
-      "rating": 4.8,
+      "rating": 4,
       "url": "https://www.amazon.in/dp/1569319014",
       "image_url": "https://www.pustakcity.in/cdn/shop/files/white-one-piece-aces-story-the-manga-vol-1-9781974743322_xlg.jpg?v=1744862080"
     },
@@ -127,26 +55,6 @@
       "rating": 4.7,
       "url": "https://www.amazon.in/dp/1569319006",
       "image_url": "https://m.media-amazon.com/images/I/91Q5dCjc2KL._AC_UY218_.jpg"
-    },
-    {
-      "id": 29,
-      "title": "Dragon Ball Z Vol. 1",
-      "author": "Akira Toriyama",
-      "genre": "Anime",
-      "price": 360,
-      "quantity": 6,
-      "isbns": [
-        "2901",
-        "2902",
-        "2903",
-        "2904",
-        "2905",
-        "2906"
-      ],
-      "availability": "available",
-      "rating": 4.9,
-      "url": "https://www.amazon.in/dp/1569319308",
-      "image_url": "https://m.media-amazon.com/images/I/81Dy6cNM7yL.jpg"
     },
     {
       "id": 30,

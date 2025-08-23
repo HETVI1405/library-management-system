@@ -3,6 +3,7 @@ import Dashboard from '../screens/Dashboard/Dashboard';
 import AddBooks from '../screens/AddBooks/AddBook';
 import Books from '../screens/Books/Books';
 import AdminLogin from '../screens/AdminLogin/AdminLogin';
+import EditBook from '../screens/editBook/editBook';
 
 export default function RoutesConfig() {
   return (
@@ -11,6 +12,7 @@ export default function RoutesConfig() {
       <Route path="/addbook" element={<AddBooks />} />
       <Route path="/book" element={<Books />} />
       <Route path="/login" element={<AdminLogin />} />
+    <Route path="/editk/:id" element={<EditBook />} />
     </Routes>
   );
 }
