@@ -1,24 +1,20 @@
-*
-{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-.dashboard_con
-{
-display: flex;
+
+.dashboard_con {
+  display: flex;
   justify-content: center;
- 
- margin-left: 14%;
   gap: 20px;
   padding: 50px;
- 
   background: #ffffff;
   flex-wrap: nowrap;
 }
 
 .box {
-  background:#f4f6f9;
+  background: #f4f6f9;
   padding: 30px 40px;
   border-radius: 15px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
@@ -34,7 +30,7 @@ display: flex;
 }
 
 .box h2 {
-  font-size:28px;
+  font-size: 28px;
   color: #2c3e50;
   margin-bottom: 10px;
 }
@@ -44,7 +40,7 @@ display: flex;
   color: #7f8c8d;
   font-weight: 500;
 }
- 
+
 
 .title {
   text-align: center;
@@ -57,7 +53,7 @@ display: flex;
   display: flex;
   gap: 15px;
   justify-content: center;
-  
+
   flex-wrap: wrap;
 }
 

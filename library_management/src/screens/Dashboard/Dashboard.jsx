@@ -54,7 +54,8 @@ const [reservations, setReservations] = useState([]);
         <RiCalendarCheckFill size={70} color="#4682B4" />
      <h2>{reservations.length}</h2>
        <h3>Reservations</h3>
-       </div></div>
+       </div>
+       </div>
 
       <RoundChart
         books={books}
