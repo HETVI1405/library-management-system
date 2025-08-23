@@ -1,0 +1,1138 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Transform Your Life with Robin Sharma",
+      "author": "Robin Sharma",
+      "genre": "Self-Help",
+      "price": 198,
+      "quantity": 3,
+      "isbns": [
+        "101",
+        "102",
+        "103"
+      ],
+      "availability": "available",
+      "rating": 4,
+      "url": "https://www.amazon.in/dp/817992162X",
+      "image_url": "https://m.media-amazon.com/images/I/41RZ6yzNk3L._SY445_SX342_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Don't Believe Everything You Think",
+      "author": "Joseph Nguyen",
+      "genre": "Self-Help",
+      "price": 192,
+      "quantity": 5,
+      "isbns": [
+        "201",
+        "202",
+        "203",
+        "204",
+        "205"
+      ],
+      "availability": "available",
+      "rating": 4.4,
+      "url": "https://www.amazon.in/Dont-Believe-Everything-You-Think/dp/935543135X",
+      "image_url": "https://m.media-amazon.com/images/I/41SUSwxQ14L._SY445_SX342_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Dopamine Detox",
+      "author": "Thibaut Meurisse",
+      "genre": "Self-Help",
+      "price": 192,
+      "quantity": 4,
+      "isbns": [
+        "301",
+        "302",
+        "303",
+        "304"
+      ],
+      "availability": "available",
+      "rating": 4.4,
+      "url": "https://www.amazon.in/Dopamine-Detox-Remove-Distractions-Things/dp/8183286011",
+      "image_url": "https://m.media-amazon.com/images/I/712K3sdLlRL._AC_UY218_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "genre": "Finance",
+      "price": 290,
+      "quantity": 6,
+      "isbns": [
+        "401",
+        "402",
+        "403",
+        "404",
+        "405",
+        "406"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/Psychology-Money-Morgan-Housel/dp/9390166268",
+      "image_url": "https://m.media-amazon.com/images/I/71XEsXS5RlL._AC_UY218_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Atomic Habits: The life-changing million copy bestseller",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "price": 471,
+      "quantity": 5,
+      "isbns": [
+        "501",
+        "502",
+        "503",
+        "504",
+        "505"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834",
+      "image_url": "https://m.media-amazon.com/images/I/81F90H7hnML._AC_UY218_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Days at the Morisaki Bookshop",
+      "author": "Satoshi Yagisawa",
+      "genre": "Fiction",
+      "price": 280,
+      "quantity": 4,
+      "isbns": [
+        "601",
+        "602",
+        "603",
+        "604"
+      ],
+      "availability": "available",
+      "rating": 4.4,
+      "url": "https://www.amazon.in/Days-Morisaki-Bookshop-International-Bestseller/dp/1786583232",
+      "image_url": "https://m.media-amazon.com/images/I/71xxddxprOL._AC_UY218_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Mountain Is You: Transforming Self-Sabotage Into Self-Mastery",
+      "author": "Brianna Wiest",
+      "genre": "Self-Help",
+      "price": 255,
+      "quantity": 3,
+      "isbns": [
+        "701",
+        "702",
+        "703"
+      ],
+      "availability": "available",
+      "rating": 4.4,
+      "url": "https://www.amazon.in/Mountain-You-Transforming-Self-Sabotage-Self-Mastery/dp/9355434146",
+      "image_url": "https://m.media-amazon.com/images/I/61xivWmExiL._AC_UY218_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "genre": "Fiction",
+      "price": 379,
+      "quantity": 4,
+      "isbns": [
+        "801",
+        "802",
+        "803",
+        "804"
+      ],
+      "availability": "available",
+      "rating": 4.4,
+      "url": "https://www.amazon.in/Midnight-Library-Matt-Haig/dp/1786892723",
+      "image_url": "https://m.media-amazon.com/images/I/81J6APjwxlL._AC_UY218_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Deep Work: Rules for Focused Success in a Distracted World",
+      "author": "Cal Newport",
+      "genre": "Productivity",
+      "price": 280,
+      "quantity": 3,
+      "isbns": [
+        "901",
+        "902",
+        "903"
+      ],
+      "availability": "available",
+      "rating": 4.5,
+      "url": "https://www.amazon.in/DEEP-WORK-FOCUSED-SUCCESS-DISTRACTED/dp/0349413681",
+      "image_url": "https://m.media-amazon.com/images/I/81JJ7fyyKyS._AC_UY218_.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Art of Being Alone: Loneliness Was My Cage, Solitude Is My Home",
+      "author": "Renuka Gavrani",
+      "genre": "Self-Help",
+      "price": 204,
+      "quantity": 2,
+      "isbns": [
+        "1001",
+        "1002"
+      ],
+      "availability": "available",
+      "rating": 4.4,
+      "url": "https://www.amazon.in/Art-Being-Alone-Loneliness-Solitude/dp/9355434022",
+      "image_url": "https://m.media-amazon.com/images/I/61Ktyy7KymL._AC_UY218_.jpg"
+    },
+    {
+      "id": 11,
+      "title": "World’s Greatest Books For Personal Growth & Wealth",
+      "author": "Various",
+      "genre": "Self-Help",
+      "price": 349,
+      "quantity": 3,
+      "isbns": [
+        "1101",
+        "1102",
+        "1103"
+      ],
+      "availability": "available",
+      "rating": 4.5,
+      "url": "https://www.amazon.in/Worlds-Greatest-Personal-Growth-Wealth/dp/9389432014",
+      "image_url": "https://m.media-amazon.com/images/I/61WMgOHyDaL._AC_UY218_.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!",
+      "author": "Robert T. Kiyosaki",
+      "genre": "Finance",
+      "price": 389,
+      "quantity": 4,
+      "isbns": [
+        "1201",
+        "1202",
+        "1203",
+        "1204"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/Rich-Dad-Poor-Middle-Class/dp/1612681131",
+      "image_url": "https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UY218_.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "genre": "Thriller",
+      "price": 250,
+      "quantity": 4,
+      "isbns": [
+        "1301",
+        "1302",
+        "1303",
+        "1304"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/1409181634",
+      "image_url": "https://m.media-amazon.com/images/I/91lslnZ-btL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Ikigai",
+      "author": "Héctor García",
+      "genre": "Self-Help",
+      "price": 180,
+      "quantity": 5,
+      "isbns": [
+        "1401",
+        "1402",
+        "1403",
+        "1404",
+        "1405"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/178633089X",
+      "image_url": "https://m.media-amazon.com/images/I/71tbalAHYCL._AC_UY218_.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "price": 320,
+      "quantity": 6,
+      "isbns": [
+        "1501",
+        "1502",
+        "1503",
+        "1504",
+        "1505",
+        "1506"
+      ],
+      "availability": "available",
+      "rating": 4.8,
+      "url": "https://www.amazon.in/dp/1847941834",
+      "image_url": "https://m.media-amazon.com/images/I/91bYsX41DVL._AC_UY218_.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "genre": "Finance",
+      "price": 280,
+      "quantity": 4,
+      "isbns": [
+        "1601",
+        "1602",
+        "1603",
+        "1604"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/1612680194",
+      "image_url": "https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UY218_.jpg"
+    },
+    {
+      "id": 17,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "genre": "Finance",
+      "price": 299,
+      "quantity": 5,
+      "isbns": [
+        "1701",
+        "1702",
+        "1703",
+        "1704",
+        "1705"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/9390166268",
+      "image_url": "https://m.media-amazon.com/images/I/71g2ednj0JL._AC_UY218_.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "genre": "Finance",
+      "price": 240,
+      "quantity": 3,
+      "isbns": [
+        "1801",
+        "1802",
+        "1803"
+      ],
+      "availability": "available",
+      "rating": 4.5,
+      "url": "https://www.amazon.in/dp/8194790832",
+      "image_url": "https://m.media-amazon.com/images/I/71UypkUjStL._AC_UY218_.jpg"
+    },
+    {
+      "id": 19,
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "genre": "Self-Help",
+      "price": 220,
+      "quantity": 6,
+      "isbns": [
+        "1901",
+        "1902",
+        "1903",
+        "1904",
+        "1905",
+        "1906"
+      ],
+      "availability": "available",
+      "rating": 4.4,
+      "url": "https://www.amazon.in/dp/0062457713",
+      "image_url": "https://m.media-amazon.com/images/I/71QKQ9mwV7L._AC_UY218_.jpg"
+    },
+    {
+      "id": 20,
+      "title": "You Can Win",
+      "author": "Shiv Khera",
+      "genre": "Motivational",
+      "price": 180,
+      "quantity": 4,
+      "isbns": [
+        "2001",
+        "2002",
+        "2003",
+        "2004"
+      ],
+      "availability": "available",
+      "rating": 4.3,
+      "url": "https://www.amazon.in/dp/9382951717",
+      "image_url": "https://rukminim2.flixcart.com/image/704/844/xif0q/book/t/f/n/you-can-win-original-imah7x99mu9gsv4y.jpeg?q=90&crop=false"
+    },
+    {
+      "id": 21,
+      "title": "Wings of Fire",
+      "author": "A.P.J. Abdul Kalam",
+      "genre": "Autobiography",
+      "price": 260,
+      "quantity": 5,
+      "isbns": [
+        "2101",
+        "2102",
+        "2103",
+        "2104",
+        "2105"
+      ],
+      "availability": "available",
+      "rating": 4.8,
+      "url": "https://www.amazon.in/dp/8173711461",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588286863i/634583.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "genre": "Biography",
+      "price": 340,
+      "quantity": 6,
+      "isbns": [
+        "2201",
+        "2202",
+        "2203",
+        "2204",
+        "2205",
+        "2206"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/1408703742",
+      "image_url": "https://m.media-amazon.com/images/I/81VStYnDGrL._AC_UY218_.jpg"
+    },
+    {
+      "id": 23,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "price": 199,
+      "quantity": 5,
+      "isbns": [
+        "2301",
+        "2302",
+        "2303",
+        "2304",
+        "2305"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/8172234988",
+      "image_url": "https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UY218_.jpg"
+    },
+    {
+      "id": 24,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "price": 150,
+      "quantity": 4,
+      "isbns": [
+        "2401",
+        "2402",
+        "2403",
+        "2404"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/0451524934",
+      "image_url": "https://m.media-amazon.com/images/I/81YxjLkcAdL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 25,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Classic",
+      "price": 210,
+      "quantity": 3,
+      "isbns": [
+        "2501",
+        "2502",
+        "2503"
+      ],
+      "availability": "available",
+      "rating": 4.9,
+      "url": "https://www.amazon.in/dp/0099549484",
+      "image_url": "https://m.media-amazon.com/images/I/81gepf1eMqL.jpg"
+    },
+    {
+      "id": 26,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "price": 190,
+      "quantity": 5,
+      "isbns": [
+        "2601",
+        "2602",
+        "2603",
+        "2604",
+        "2605"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/185326041X",
+      "image_url": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UY218_.jpg"
+    },
+    {
+      "id": 27,
+      "title": "One Piece Vol. 1",
+      "author": "Eiichiro Oda",
+      "genre": "Anime",
+      "price": 350,
+      "quantity": 4,
+      "isbns": [
+        "2701",
+        "2702",
+        "2703",
+        "2704"
+      ],
+      "availability": "available",
+      "rating": 4.8,
+      "url": "https://www.amazon.in/dp/1569319014",
+      "image_url": "https://www.pustakcity.in/cdn/shop/files/white-one-piece-aces-story-the-manga-vol-1-9781974743322_xlg.jpg?v=1744862080"
+    },
+    {
+      "id": 28,
+      "title": "Naruto Vol. 1",
+      "author": "Masashi Kishimoto",
+      "genre": "Anime",
+      "price": 330,
+      "quantity": 5,
+      "isbns": [
+        "2801",
+        "2802",
+        "2803",
+        "2804",
+        "2805"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/1569319006",
+      "image_url": "https://m.media-amazon.com/images/I/91Q5dCjc2KL._AC_UY218_.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Dragon Ball Z Vol. 1",
+      "author": "Akira Toriyama",
+      "genre": "Anime",
+      "price": 360,
+      "quantity": 6,
+      "isbns": [
+        "2901",
+        "2902",
+        "2903",
+        "2904",
+        "2905",
+        "2906"
+      ],
+      "availability": "available",
+      "rating": 4.9,
+      "url": "https://www.amazon.in/dp/1569319308",
+      "image_url": "https://m.media-amazon.com/images/I/81Dy6cNM7yL.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Death Note Vol. 1",
+      "author": "Tsugumi Ohba",
+      "genre": "Anime",
+      "price": 370,
+      "quantity": 5,
+      "isbns": [
+        "3001",
+        "3002",
+        "3003",
+        "3004",
+        "3005"
+      ],
+      "availability": "available",
+      "rating": 4.8,
+      "url": "https://www.amazon.in/dp/1421501686",
+      "image_url": "https://rukminim2.flixcart.com/image/1200/1200/xif0q/regionalbooks/c/s/r/death-note-vol-1-english-paperback-tsugumi-ohba-original-imagkgu25kky4gz6.jpeg"
+    },
+    {
+      "id": 31,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "genre": "Spirituality",
+      "price": 270,
+      "quantity": 4,
+      "isbns": [
+        "3101",
+        "3102",
+        "3103",
+        "3104"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/8190105914",
+      "image_url": "https://m.media-amazon.com/images/I/71-zqlETKcL._SY466_.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "genre": "Psychology",
+      "price": 260,
+      "quantity": 5,
+      "isbns": [
+        "3201",
+        "3202",
+        "3203",
+        "3204",
+        "3205"
+      ],
+      "availability": "available",
+      "rating": 4.8,
+      "url": "https://www.amazon.in/dp/1846041244",
+      "image_url": "https://m.media-amazon.com/images/I/61157LApbuL._SL1033_.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": "Memoir",
+      "price": 340,
+      "quantity": 3,
+      "isbns": [
+        "3301",
+        "3302",
+        "3303"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/0099511029",
+      "image_url": "https://m.media-amazon.com/images/I/41PYbhOmkzL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "genre": "History",
+      "price": 399,
+      "quantity": 6,
+      "isbns": [
+        "3401",
+        "3402",
+        "3403",
+        "3404",
+        "3405",
+        "3406"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/0099590085",
+      "image_url": "https://m.media-amazon.com/images/I/41yu2qXhXXL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 35,
+      "title": "The Four Agreements",
+      "author": "Don Miguel Ruiz",
+      "genre": "Philosophy",
+      "price": 240,
+      "quantity": 4,
+      "isbns": [
+        "3501",
+        "3502",
+        "3503",
+        "3504"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/1878424319",
+      "image_url": "https://m.media-amazon.com/images/I/51QAKMAGrJL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "genre": "Biography",
+      "price": 380,
+      "quantity": 6,
+      "isbns": [
+        "3601",
+        "3602",
+        "3603",
+        "3604",
+        "3605",
+        "3606"
+      ],
+      "availability": "available",
+      "rating": 4.8,
+      "url": "https://www.amazon.in/dp/0241334144",
+      "image_url": "https://m.media-amazon.com/images/I/41sQOIOgf4L._SY445_SX342_.jpg"
+    },
+    {
+      "id": 37,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "genre": "Fiction",
+      "price": 290,
+      "quantity": 5,
+      "isbns": [
+        "3701",
+        "3702",
+        "3703",
+        "3704",
+        "3705"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/1408850257",
+      "image_url": "https://m.media-amazon.com/images/I/51bt7LtryoL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 38,
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "genre": "Science",
+      "price": 310,
+      "quantity": 3,
+      "isbns": [
+        "3801",
+        "3802",
+        "3803"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/0553176986",
+      "image_url": "https://m.media-amazon.com/images/I/51SWYYvk+KL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 39,
+      "title": "The 5 AM Club",
+      "author": "Robin Sharma",
+      "genre": "Self-Help",
+      "price": 350,
+      "quantity": 4,
+      "isbns": [
+        "3901",
+        "3902",
+        "3903",
+        "3904"
+      ],
+      "availability": "available",
+      "rating": 4.5,
+      "url": "https://www.amazon.in/dp/0008312834",
+      "image_url": "https://m.media-amazon.com/images/I/71Jg6kSgYwL._SL1500_.jpg"
+    },
+    {
+      "id": 40,
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "genre": "Business",
+      "price": 420,
+      "quantity": 5,
+      "isbns": [
+        "4001",
+        "4002",
+        "4003",
+        "4004",
+        "4005"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/0307887898",
+      "image_url": "https://m.media-amazon.com/images/I/51CTIr1bJxL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 41,
+      "title": "The Courage to Be Disliked",
+      "author": "Ichiro Kishimi",
+      "genre": "Self-Help",
+      "price": 270,
+      "quantity": 4,
+      "isbns": [
+        "4101",
+        "4102",
+        "4103",
+        "4104"
+      ],
+      "availability": "available",
+      "rating": 4.5,
+      "url": "https://www.amazon.in/dp/1760630732",
+      "image_url": "https://m.media-amazon.com/images/I/41h1AktRBmL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 42,
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "genre": "Business",
+      "price": 320,
+      "quantity": 3,
+      "isbns": [
+        "4501",
+        "4502",
+        "4503"
+      ],
+      "availability": "available",
+      "rating": 4.5,
+      "url": "https://www.amazon.in/dp/0753555204",
+      "image_url": "https://m.media-amazon.com/images/I/41N4Hmg0GYL._SX342_SY445_.jpg"
+    },
+    {
+      "id": 43,
+      "title": "Homo Deus: A Brief History of Tomorrow",
+      "author": "Yuval Noah Harari",
+      "genre": "History",
+      "price": 370,
+      "quantity": 4,
+      "isbns": [
+        "4801",
+        "4802",
+        "4803",
+        "4804"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/1784703931",
+      "image_url": "https://m.media-amazon.com/images/I/41x9l0H2UGL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 44,
+      "title": "21 Lessons for the 21st Century",
+      "author": "Yuval Noah Harari",
+      "genre": "Philosophy",
+      "price": 360,
+      "quantity": 3,
+      "isbns": [
+        "4901",
+        "4902",
+        "4903"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/1784708283",
+      "image_url": "https://m.media-amazon.com/images/I/71VSswnjh9L._SY466_.jpg"
+    },
+    {
+      "id": 45,
+      "title": "Man’s Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "genre": "Psychology",
+      "price": 250,
+      "quantity": 5,
+      "isbns": [
+        "5001",
+        "5002",
+        "5003",
+        "5004",
+        "5005"
+      ],
+      "availability": "available",
+      "rating": 4.9,
+      "url": "https://www.amazon.in/dp/080701429X",
+      "image_url": "https://m.media-amazon.com/images/I/61157LApbuL._SY466_.jpg"
+    },
+    {
+      "id": 46,
+      "title": "The Power of Your Subconscious Mind: Original Classic Edition",
+      "author": "Joseph Murphy",
+      "genre": "Self-Help",
+      "price": 250,
+      "quantity": 5,
+      "isbns": [
+        "5006",
+        "5007",
+        "5008",
+        "5009",
+        "5010"
+      ],
+      "availability": "available",
+      "rating": 4.4,
+      "url": "https://www.amazon.in/Power-Your-Subconscious-Mind-Success/dp/8172345666",
+      "image_url": "https://m.media-amazon.com/images/I/61WMgOHyDaL._SY342_.jpg"
+    },
+    {
+      "title": "The Invisible Life of Addie LaRue - Illustrated edition ",
+      "author": "V. E. Schwab",
+      "genre": "self",
+      "rent": 10,
+      "isbns": [],
+      "quantity": 1,
+      "availability": true,
+      "image_url": "https://m.media-amazon.com/images/I/714yQJgj6jS._SL1417_.jpg",
+      "id": 47
+    }
+  ],
+  "members": [
+    {
+      "memberId": 1,
+      "name": "Kunal Sharma",
+      "email": "kunalsharma@gmail.com",
+      "phone": "1548796232",
+      "address": "123 Main St, Surat, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 2,
+      "name": "Priya Patel",
+      "email": "priya.patel99@gmail.com",
+      "phone": "9876543210",
+      "address": "45 Ring Road, Ahmedabad, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 3,
+      "name": "Arjun Mehta",
+      "email": "arjun.mehta21@yahoo.com",
+      "phone": "8523697412",
+      "address": "67 Civil Lines, Vadodara, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 4,
+      "name": "Sneha Desai",
+      "email": "sneha.desai88@gmail.com",
+      "phone": "9632587410",
+      "address": "78 Station Road, Rajkot, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 5,
+      "name": "Rohan Verma",
+      "email": "rohan.verma56@gmail.com",
+      "phone": "7410258963",
+      "address": "12 Park Avenue, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 6,
+      "name": "Aditi Shah",
+      "email": "aditi.shah01@gmail.com",
+      "phone": "7896541230",
+      "address": "99 Ashram Road, Ahmedabad, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    },
+    {
+      "memberId": 7,
+      "name": "Manish Kumar",
+      "email": "manish.kumar77@gmail.com",
+      "phone": "6352148795",
+      "address": "45 River Side, Vadodara, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 8,
+      "name": "Neha Singh",
+      "email": "neha.singh45@yahoo.com",
+      "phone": "8521479630",
+      "address": "32 Gandhi Road, Rajkot, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 9,
+      "name": "Vivek Joshi",
+      "email": "vivek.joshi23@gmail.com",
+      "phone": "7412589630",
+      "address": "56 City Center, Surat, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 10,
+      "name": "Pooja Reddy",
+      "email": "pooja.reddy98@gmail.com",
+      "phone": "9638527412",
+      "address": "85 Lajpat Nagar, Ahmedabad, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 11,
+      "name": "Aman Gupta",
+      "email": "aman.gupta01@gmail.com",
+      "phone": "7891234560",
+      "address": "101 Patel Colony, Vadodara, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 12,
+      "name": "Ritika Jain",
+      "email": "ritika.jain55@gmail.com",
+      "phone": "9637412580",
+      "address": "77 New City Road, Rajkot, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    },
+    {
+      "memberId": 13,
+      "name": "Deepak Yadav",
+      "email": "deepak.yadav99@gmail.com",
+      "phone": "7413698520",
+      "address": "19 Green Park, Surat, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 14,
+      "name": "Shivani Nair",
+      "email": "shivani.nair11@gmail.com",
+      "phone": "8529637410",
+      "address": "200 Lake View, Ahmedabad, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 15,
+      "name": "Rajesh Pillai",
+      "email": "rajesh.pillai23@yahoo.com",
+      "phone": "7410852963",
+      "address": "56 Hill Colony, Vadodara, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 16,
+      "name": "Komal Trivedi",
+      "email": "komal.trivedi88@gmail.com",
+      "phone": "9632014785",
+      "address": "87 Civil Lines, Rajkot, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 17,
+      "name": "Alok Mishra",
+      "email": "alok.mishra45@gmail.com",
+      "phone": "7410258960",
+      "address": "65 MG Road, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 18,
+      "name": "Meera Iyer",
+      "email": "meera.iyer22@gmail.com",
+      "phone": "8521479635",
+      "address": "88 Ashram Road, Ahmedabad, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    },
+    {
+      "memberId": 19,
+      "name": "Karan Thakur",
+      "email": "karan.thakur77@gmail.com",
+      "phone": "7412589635",
+      "address": "44 River Side, Vadodara, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 20,
+      "name": "Simran Kaur",
+      "email": "simran.kaur99@gmail.com",
+      "phone": "9632587415",
+      "address": "23 Gandhi Road, Rajkot, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 21,
+      "name": "Nikhil Saxena",
+      "email": "nikhil.saxena55@gmail.com",
+      "phone": "7896541236",
+      "address": "11 Park Avenue, Surat, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 22,
+      "name": "Tanvi Deshmukh",
+      "email": "tanvi.deshmukh12@gmail.com",
+      "phone": "9638527415",
+      "address": "34 Lajpat Nagar, Ahmedabad, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 23,
+      "name": "Suresh Rathi",
+      "email": "suresh.rathi01@gmail.com",
+      "phone": "7412589636",
+      "address": "70 Patel Colony, Vadodara, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 24,
+      "name": "Anjali Kapoor",
+      "email": "anjali.kapoor33@gmail.com",
+      "phone": "9637412589",
+      "address": "89 New City Road, Rajkot, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    },
+    {
+      "memberId": 25,
+      "name": "Harsh Vardhan",
+      "email": "harsh.vardhan56@gmail.com",
+      "phone": "7413698525",
+      "address": "39 Green Park, Surat, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 26,
+      "name": "Radhika Menon",
+      "email": "radhika.menon77@gmail.com",
+      "phone": "8529637415",
+      "address": "300 Lake View, Ahmedabad, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 27,
+      "name": "Sanjay Goyal",
+      "email": "sanjay.goyal89@gmail.com",
+      "phone": "7410852965",
+      "address": "120 Hill Colony, Vadodara, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 28,
+      "name": "Divya Choudhary",
+      "email": "divya.choudhary45@gmail.com",
+      "phone": "9632014789",
+      "address": "45 Civil Lines, Rajkot, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 29,
+      "name": "Akash Bansal",
+      "email": "akash.bansal66@gmail.com",
+      "phone": "7410258969",
+      "address": "89 MG Road, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 30,
+      "name": "Shruti Malhotra",
+      "email": "shruti.malhotra22@gmail.com",
+      "phone": "8521479639",
+      "address": "110 Ashram Road, Ahmedabad, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    }
+  ],
+  "fines": [],
+  "issue": [
+    {
+      
+    }
+  ],
+  "reservations": []
+}

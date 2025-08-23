@@ -1,35 +1,57 @@
-import { NavLink } from 'react-router-dom';
-import "./navbar.css"
+import { NavLink } from "react-router-dom";
+import "./navbar.css";
 
-export default function Navbar() {
+
+
+
+export default function Sidebar() {
   const PageData = [
-    { id: 1, title: "Dashboard", path: "/" },
-    { id: 2, title: "AddBook", path: "/addbook" },
-    { id: 3, title: "Book", path: "/book" },
-    { id: 4, title: "Login", path: "/login" }
+    { id: 1, title: "Dashboard", path: "/", icon: "fas fa-tachometer-alt" },
+    { id: 2, title: "Add Book", path: "/addbook", icon: "fas fa-plus" },
+    { id: 3, title: "Books", path: "/book", icon: "fas fa-book" },
+    { id: 4, title: "Login", path: "/login", icon: "fas fa-user" },
+
+    { id: 5, title: "Users", path: "/users", icon: "fas fa-users" },
   ];
 
   return (
-    <div className="main container m-auto" 
-         style={{ width: "80%", display: "flex", justifyContent: "space-between", alignItems: "center", paddingTop: "10px" }}>
-      <div className='list'>
-        {PageData.map((el) => (
+    <div>
+      <div className="nav_header">
+        <div className="nav_con">
+     <h5 style={{color:"white"}} >National Digital 
+      Library </h5>
+      <div className="left" style={{color:"whitesmoke"}}> <i class="ri-admin-fill"></i> Welcome Admin... </div> </div>
+     
+    <nav className="sidebar bg-white">
+  <div className="profile-box">
+    <i className="ri-user-settings-fill"></i>
+    <div className="profile-text">
+      <span className="admin-text">Admin</span>
+      <span className="status">● Online</span>
+    </div>
+  </div>
+
+  <div className="sidebar-sticky">
+    <div className="list-group list-group-flush">
+      {PageData.map((el) => (
         <NavLink
           key={el.id}
           to={el.path}
-          style={({ isActive }) => ({
-            textDecoration: "none",
-            fontSize: "18px",
-            marginLeft:"20px",
-            color: isActive ? 'blue' : 'black',
-            fontWeight: isActive ? 'bold' : 'normal',
-          })}
+          className={({ isActive }) =>
+            "list-group-item list-group-item-action py-2 ripple" +
+            (isActive ? " active" : "")
+          }
         >
-          {el.title}
+          <i className={`${el.icon} fa-fw me-3`}></i>
+          <span>{el.title}</span>
         </NavLink>
       ))}
-      </div>
     </div>
+  </div>
+</nav>
 
+    </div>
+    </div>
+    
   );
 }
