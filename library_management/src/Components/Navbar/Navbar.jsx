@@ -18,9 +18,9 @@ export default function Sidebar() {
     <div>
       <div className="nav_header">
         <div className="nav_con">
-     <h5 style={{color:"white"}} >National Digital 
+     {/* <h5 style={{color:"white"}} >National Digital 
       Library </h5>
-      <div className="left" style={{color:"whitesmoke"}}> <i class="ri-admin-fill"></i> Welcome Admin... </div> </div>
+      <div className="left" style={{color:"whitesmoke"}}> <i class="ri-admin-fill"></i> Welcome Admin... </div> */} </div>
      
     <nav className="sidebar bg-white">
   <div className="profile-box">

@@ -114,7 +114,7 @@ export default function AddBooks() {
           </div>
 
         </div>
-        <button className="addbookbtn btn btn-primary mt-3" onClick={handlePostBook}>
+        <button className="addbookbtn btn btn-primary mt-3" style={{width:"250px"}} onClick={handlePostBook}>
           Add Book
         </button>
       </div>

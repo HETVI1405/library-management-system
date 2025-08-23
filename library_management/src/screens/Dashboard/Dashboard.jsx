@@ -3,7 +3,7 @@
  import axios from "axios";
  import "./Dashboard.css";
  import { RiBookShelfFill, RiGroup3Fill, RiBook2Fill, RiMoneyDollarCircleFill,  RiCalendarCheckFill} from "@remixicon/react";
-import RoundChart from "./RoundChart.jsx";
+import RoundChart from "./RoundChart";
 
 export default function Dashboard() {
    const [books, setBooks] = useState([]);

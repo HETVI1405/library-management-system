@@ -1,9 +1,6 @@
-/* AddBooks.css */
 .addbook {
-  background: #f9f9f9;
-  border-radius: 12px;
-  padding: 30px;
-  margin: 30px auto;
+  background: white;
+  padding: 50px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -11,7 +8,7 @@ h1
 {
     font-size: 40px;
     font-weight: 700;
-    margin: 50px 0px;
+    padding: 30px 0px;
     color: #333;
     text-align: center;
 }
@@ -26,11 +23,13 @@ h1
 
 .form-group {
   margin-bottom: 18px;
+  width: 90%;
 }
 
 .form-group label {
+  margin: 20px 0px;
   font-weight: 500;
-  margin-bottom: 6px;
+  padding: 6px;
   display: block;
   color: #444;
 }
@@ -54,11 +53,12 @@ h1
 }
 
 .addbookbtn {
+  height: 40px;
   width: 250px;
   margin: auto;
   border-radius: 8px;
   padding: 12px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.5px;
   transition: background 0.3s ease, transform 0.2s ease;
