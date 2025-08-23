@@ -1,23 +1,29 @@
 
- import React, { useEffect, useState } from "react";
+ import { useEffect, useState } from "react";
  import axios from "axios";
  import "./Dashboard.css";
  import { RiBookShelfFill, RiGroup3Fill, RiBook2Fill, RiMoneyDollarCircleFill,  RiCalendarCheckFill} from "@remixicon/react";
 import RoundChart from "./RoundChart";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchBooks } from "../../features/bookSlice";
+import { fetchMembers } from "../../features/membersSlice";
 
 export default function Dashboard() {
-   const [books, setBooks] = useState([]);
- const [members, setMembers] = useState([]);
    const [issued, setIssued] = useState([]);
   const [fines, setFines] = useState([]);
 const [reservations, setReservations] = useState([]);
 
 
+ const { books } = useSelector((state) => state.books);
+ const {members} = useSelector((state)=> state.members)
+ const dispatch = useDispatch()
+
    useEffect(() => {
-    axios.get("http://localhost:3000/books").then((res) => setBooks(res.data));
-   axios.get("http://localhost:3000/members").then((res) =>
-    setMembers(res.data)
-    );
+    // dispatch fetchbook 
+     dispatch(fetchBooks());
+    // dispatch fetchMembers
+    dispatch(fetchMembers())
+   
      axios.get("http://localhost:3000/issue").then((res) =>
       setIssued(res.data)
     );

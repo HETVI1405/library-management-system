@@ -40,7 +40,6 @@ export default function Books() {
     <div className="books-container">
       <h2 className="books-title">Books</h2>
 
-      {/* Search, Sort, and Genre Filter Controls */}
       <div className="books-controls">
         <input
           type="text"

@@ -3,8 +3,10 @@ import axios from "axios"
 
 //API calling
 
+const memberApi = "http://localhost:3000/members"
+
 export const fetchMembers = createAsyncThunk("fetchMembers", async () => {
-    const res = await axios.get("http://localhost:3000/members")
+    const res = await axios.get(memberApi)
 
     return res.data
 })
@@ -22,12 +24,12 @@ const memberSlice= createSlice({
 // API
     extraReducers: (builder) => {
         builder.addCase(fetchMembers.pending, (state) => {
-            state.status = "loding.."
+            state.status = "loding"
         });
 
         builder.addCase(fetchMembers.fulfilled, (state, action) => {
             state.status = "success";
-            state.books = action.payload
+            state.members = action.payload
         })
 
         builder.addCase(fetchMembers.rejected, (state, action) => {
