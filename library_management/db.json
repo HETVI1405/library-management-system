@@ -4,7 +4,7 @@
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgeral",
       "genre": "Classic",
-      "rent": 19,
+      "rent": 18,
       "quantity": 5,
       "isbns": [
         "2601",
@@ -278,11 +278,10 @@
       "image_url": "https://m.media-amazon.com/images/I/41h1AktRBmL._SY445_SX342_.jpg"
     },
     {
-      "id": "42",
       "title": "Zero to One",
       "author": "Peter Thiel",
       "genre": "Business",
-      "rent": 11,
+      "rent": 10,
       "quantity": 3,
       "isbns": [
         "4501",
@@ -290,9 +289,9 @@
         "4503"
       ],
       "availability": "available",
-      "rating": 4.5,
-      "url": "https://www.amazon.in/dp/0753555204",
-      "image_url": "https://m.media-amazon.com/images/I/41N4Hmg0GYL._SX342_SY445_.jpg"
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/41N4Hmg0GYL._SX342_SY445_.jpg",
+      "id": "42"
     },
     {
       "id": "43",
