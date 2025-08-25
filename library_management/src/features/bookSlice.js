@@ -8,10 +8,15 @@ const BookURL = "http://localhost:3000/books";
 
 export const fetchBooks = createAsyncThunk("fetchBooks", async () => {
     const res = await axios.get(BookURL)
-
-    return res.data
-
+     return res.data  
 })
+
+
+export const paginationBooks = createAsyncThunk("paginationBooks", async (num) => {
+  const res = await axios.get(`${BookURL}?_start=${num+"0"}&_limit=8`)
+     return res.data
+})
+
 
 // Add Book in API
 export const addBook = createAsyncThunk("addBook", async (book) => {
@@ -69,6 +74,20 @@ const bookSlice = createSlice({
 
         })
 
+        // Pagination to Books
+        builder.addCase(paginationBooks.pending, (state) => {
+            state.status = "loding"
+        });
+
+        builder.addCase(paginationBooks.fulfilled, (state, action) => {
+            state.status = "success";
+            state.books = action.payload
+        })
+
+        builder.addCase(paginationBooks.rejected, (state) => {
+            state.status = "error"
+
+        })
 
         // Add Book in Api Cases
 

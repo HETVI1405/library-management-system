@@ -13,7 +13,7 @@ export default function AddBooks() {
   const dispatch = useDispatch();
 
   const handlePostBook = () => {
-    if (!title || !author || !genre || !price) {
+    if (!title || !author || !genre || !rent) {
       alert("Please fill all fields before submitting.");
       return;
     }
