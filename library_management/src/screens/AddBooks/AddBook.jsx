@@ -33,7 +33,7 @@ export default function AddBooks() {
     setTitle("");
     setAuthor("");
     setGenre("");
-    Rent("");
+    setRent("");
     setImageUrl("");
   };
 
