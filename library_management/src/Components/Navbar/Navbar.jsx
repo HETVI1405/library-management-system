@@ -9,7 +9,7 @@ export default function Sidebar() {
     { id: 1, title: "Dashboard", path: "/", icon: "fas fa-tachometer-alt" },
     { id: 2, title: "Add Book", path: "/addbook", icon: "fas fa-plus" },
     { id: 3, title: "Books", path: "/book", icon: "fas fa-book" },
-    { id: 4, title: "Members", path: "/users", icon: "fas fa-users" },
+    { id: 4, title: "Members", path: "/member", icon: "fas fa-users" },
     { id: 5, title: "Login", path: "/login", icon: "fas fa-user" }
   ];
 

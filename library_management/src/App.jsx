@@ -15,7 +15,7 @@ export default function App() {
       </div>
       <div style={{ display: "flex", width: "100%", height: "100vh" }}>
         <div><Navbar /></div>
-        <div style={{ width: "100%", height: "100ch" }}><RoutesConfig /></div>
+        <div style={{ width: "100%", height: "100vh"}}><RoutesConfig /></div>
       </div>
     </div>
   );
