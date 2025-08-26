@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "bookId": "1",
+      "id": "1",
       "title": "The Final Experiment | The Mystery Thriller of the Year | Witness the Fall of our World",
       "author": "Yogesh SY",
       "genre": "Mystery Thriller",
@@ -19,7 +19,7 @@
       "image_url": "https://m.media-amazon.com/images/I/613Z8e4jlpL._SY466_.jpg"
     },
     {
-      "bookId": "3",
+      "id": "3",
       "title": "Days at the Morisaki Bookshop: The perfect book to curl up with - for lovers of Japanese translated fiction everywhere",
       "author": "Satoshi Yagisawa",
       "genre": "Fiction",
@@ -36,7 +36,7 @@
       "image_url": "https://m.media-amazon.com/images/I/51FM3xK4rIL._SY445_SX342_.jpg"
     },
     {
-      "bookId": "4",
+      "id": "4",
       "title": "You Only Live Once: A Journey of Self-Discovery and Empowerment | Inspiring Fiction by Stuti Changle | Personal Growth and Motivational Stories",
       "author": "Stuti Changle",
       "genre": "Inspirational Fiction",
@@ -55,7 +55,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71dNsRuYL7L._SY466_.jpg"
     },
     {
-      "bookId": "5",
+      "id": "5",
       "title": "The Housemaid: An Absolutely Addictive Psychological Thriller with a Jaw-Dropping Twist (The Housemaid series, Book1) | TikTok Viral & Bestseller Pick",
       "author": "Freida McFadden",
       "genre": "Psychological Thriller",
@@ -73,7 +73,7 @@
       "image_url": "https://m.media-amazon.com/images/I/4139PyMmE6L._SY445_SX342_.jpg"
     },
     {
-      "bookId": "6",
+      "id": "6",
       "title": "Too Good to Be True : A smart, funny will-they-won’t-they romance by mostlysane",
       "author": "Prajakta Koli",
       "genre": "Romantic Comedy",
@@ -90,7 +90,7 @@
       "image_url": "https://m.media-amazon.com/images/I/818vo2TWp+L._SY466_.jpg"
     },
     {
-      "bookId": "7",
+      "id": "7",
       "title": "A MAN CALLED OVE (B FORMAT)",
       "author": "Fredrik Backman",
       "genre": "Contemporary Fiction",
@@ -109,7 +109,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81g2oEdeGTL._SL1500_.jpg"
     },
     {
-      "bookId": "8",
+      "id": "8",
       "title": "The Stationery Shop Of Tehran",
       "author": "Marjan Kamali",
       "genre": "Historical Fiction",
@@ -127,7 +127,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81t6xQeZA8L._SL1500_.jpg"
     },
     {
-      "bookId": "9",
+      "id": "9",
       "title": "Never Lie: A Totally Gripping Thriller with Mind-bending Twists | TikTok Viral & Bestseller Pick",
       "author": "Freida McFadden",
       "genre": "Psychological Thriller",
@@ -144,7 +144,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81+ceFx9BcL._SL1500_.jpg"
     },
     {
-      "bookId": "10",
+      "id": "10",
       "title": "Before the Coffee Gets Cold",
       "author": "Toshikazu Kawaguchi",
       "genre": "Japanese Fiction",
@@ -163,7 +163,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71uUY42uNsL._SL1500_.jpg"
     },
     {
-      "bookId": "12",
+      "id": "12",
       "title": "The Novels of Sherlock Holmes",
       "author": "Arthur Conan Doyle",
       "genre": "thrilling mysteries",
@@ -181,7 +181,7 @@
       "image_url": "https://m.media-amazon.com/images/I/8140Rv5DfWL._SL1500_.jpg"
     },
     {
-      "bookId": "13",
+      "id": "13",
       "title": "White Nights – Fyodor Dostoyevsky | A Million-Copy Bestseller | A Timeless Story of Love, Longing & Solitude – Penguin Classics",
       "author": "Fyodor Dostoyevsky",
       "genre": "Classic",
@@ -198,7 +198,7 @@
       "image_url": "https://m.media-amazon.com/images/I/51lMJWnnRDL._SL1500_.jpg"
     },
     {
-      "bookId": "14",
+      "id": "14",
       "title": "Can We Be Strangers Again?: A moving tale of love, loyalty and the bittersweet beauty of letting go",
       "author": "Shrijeet Shandilya",
       "genre": "Romance",
@@ -217,7 +217,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71zpck45b2L._SL1500_.jpg"
     },
     {
-      "bookId": "15",
+      "id": "15",
       "title": "Touch of Eternity, A",
       "author": "Durjoy Datta",
       "genre": "Romance",
@@ -235,7 +235,7 @@
       "image_url": "https://m.media-amazon.com/images/I/814RhA2+2GL._SL1500_.jpg"
     },
     {
-      "bookId": "16",
+      "id": "16",
       "title": "Don't Believe Everything You Think (English)",
       "author": "Joseph Nguyen",
       "genre": "Self-Help",
@@ -252,7 +252,7 @@
       "image_url": "https://m.media-amazon.com/images/I/715qi-cIbML._SL1500_.jpg"
     },
     {
-      "bookId": "17",
+      "id": "17",
       "title": "The Girl Who Drank the Moon",
       "author": "Kelly Barnhill",
       "genre": "Fantasy",
@@ -271,7 +271,7 @@
       "image_url": "https://m.media-amazon.com/images/I/7138zaESFhL._SL1250_.jpg"
     },
     {
-      "bookId": "18",
+      "id": "18",
       "title": "The Palace of Illusions: 15th Anniversary Edition [Paperback] Banerjee Divakaruni, Chitra",
       "author": "Chitra Banerjee Divakaruni",
       "genre": "Historical Fiction",
@@ -289,7 +289,7 @@
       "image_url": "https://m.media-amazon.com/images/I/A1dtQ-soQEL._SL1500_.jpg"
     },
     {
-      "bookId": "19",
+      "id": "19",
       "title": "VERITY",
       "author": "Colleen Hoover",
       "genre": "Psychological Thriller",
@@ -306,7 +306,7 @@
       "image_url": "https://m.media-amazon.com/images/I/91868k2+gUL._SL1500_.jpg"
     },
     {
-      "bookId": "20",
+      "id": "20",
       "title": "And Then There Were None: The World’s Favourite Agatha Christie Book",
       "author": "Agatha Christie",
       "genre": "Mystery",
@@ -325,7 +325,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71RGiu1YwDL._SL1500_.jpg"
     },
     {
-      "bookId": "21",
+      "id": "21",
       "title": "The Life of Chuck",
       "author": "Stephen King",
       "genre": "Horror",
@@ -343,7 +343,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81nW4rdXWiL._SL1500_.jpg"
     },
     {
-      "bookId": "22",
+      "id": "22",
       "title": "Stars Will Guide You Home: A second-chance love story powered by fate—and an AI app",
       "author": "Stuti Changle",
       "genre": "Romance",
@@ -375,10 +375,10 @@
       "availability": "available",
       "rating": 4,
       "image_url": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UY218_.jpg",
-      "bookId": "26"
+      "id": "26"
     },
     {
-      "bookId": "28",
+      "id": "28",
       "title": "Naruto Vol. 1",
       "author": "Masashi Kishimoto",
       "genre": "Anime",
@@ -397,7 +397,7 @@
       "image_url": "https://m.media-amazon.com/images/I/91Q5dCjc2KL._AC_UY218_.jpg"
     },
     {
-      "bookId": "30",
+      "id": "30",
       "title": "Death Note Vol. 1",
       "author": "Tsugumi Ohba",
       "genre": "Anime",
@@ -416,7 +416,7 @@
       "image_url": "https://rukminim2.flixcart.com/image/1200/1200/xif0q/regionalbooks/c/s/r/death-note-vol-1-english-paperback-tsugumi-ohba-original-imagkgu25kky4gz6.jpeg"
     },
     {
-      "bookId": "31",
+      "id": "31",
       "title": "The Power of Now",
       "author": "Eckhart Tolle",
       "genre": "Spirituality",
@@ -434,7 +434,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71-zqlETKcL._SY466_.jpg"
     },
     {
-      "bookId": "32",
+      "id": "32",
       "title": "Man's Search for Meaning",
       "author": "Viktor E. Frankl",
       "genre": "Psychology",
@@ -453,7 +453,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61157LApbuL._SL1033_.jpg"
     },
     {
-      "bookId": "33",
+      "id": "33",
       "title": "Educated",
       "author": "Tara Westover",
       "genre": "Memoir",
@@ -470,7 +470,7 @@
       "image_url": "https://m.media-amazon.com/images/I/41PYbhOmkzL._SY445_SX342_.jpg"
     },
     {
-      "bookId": "34",
+      "id": "34",
       "title": "Sapiens: A Brief History of Humankind",
       "author": "Yuval Noah Harari",
       "genre": "History",
@@ -490,7 +490,7 @@
       "image_url": "https://m.media-amazon.com/images/I/41yu2qXhXXL._SY445_SX342_.jpg"
     },
     {
-      "bookId": "35",
+      "id": "35",
       "title": "The Four Agreements",
       "author": "Don Miguel Ruiz",
       "genre": "Philosophy",
@@ -508,7 +508,7 @@
       "image_url": "https://m.media-amazon.com/images/I/51QAKMAGrJL._SY445_SX342_.jpg"
     },
     {
-      "bookId": "36",
+      "id": "36",
       "title": "Becoming",
       "author": "Michelle Obama",
       "genre": "Biography",
@@ -528,7 +528,7 @@
       "image_url": "https://m.media-amazon.com/images/I/41sQOIOgf4L._SY445_SX342_.jpg"
     },
     {
-      "bookId": "37",
+      "id": "37",
       "title": "The Kite Runner",
       "author": "Khaled Hosseini",
       "genre": "Fiction",
@@ -547,7 +547,7 @@
       "image_url": "https://m.media-amazon.com/images/I/51bt7LtryoL._SY445_SX342_.jpg"
     },
     {
-      "bookId": "38",
+      "id": "38",
       "title": "A Brief History of Time",
       "author": "Stephen Hawking",
       "genre": "Science",
@@ -564,7 +564,7 @@
       "image_url": "https://m.media-amazon.com/images/I/51SWYYvk+KL._SY445_SX342_.jpg"
     },
     {
-      "bookId": "39",
+      "id": "39",
       "title": "The 5 AM Club",
       "author": "Robin Sharma",
       "genre": "Self-Help",
@@ -582,7 +582,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71Jg6kSgYwL._SL1500_.jpg"
     },
     {
-      "bookId": "40",
+      "id": "40",
       "title": "The Lean Startup",
       "author": "Eric Ries",
       "genre": "Business",
@@ -601,7 +601,7 @@
       "image_url": "https://m.media-amazon.com/images/I/51CTIr1bJxL._SY445_SX342_.jpg"
     },
     {
-      "bookId": "41",
+      "id": "41",
       "title": "The Courage to Be Disliked",
       "author": "Ichiro Kishimi",
       "genre": "Self-Help",
@@ -632,10 +632,10 @@
       "availability": "available",
       "rating": 4,
       "image_url": "https://m.media-amazon.com/images/I/41N4Hmg0GYL._SX342_SY445_.jpg",
-      "bookId": "42"
+      "id": "42"
     },
     {
-      "bookId": "43",
+      "id": "43",
       "title": "Homo Deus: A Brief History of Tomorrow",
       "author": "Yuval Noah Harari",
       "genre": "History",
@@ -653,7 +653,7 @@
       "image_url": "https://m.media-amazon.com/images/I/41x9l0H2UGL._SY445_SX342_.jpg"
     },
     {
-      "bookId": "44",
+      "id": "44",
       "title": "21 Lessons for the 21st Century",
       "author": "Yuval Noah Harari",
       "genre": "Philosophy",
@@ -670,7 +670,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71VSswnjh9L._SY466_.jpg"
     },
     {
-      "bookId": "45",
+      "id": "45",
       "title": "Man’s Search for Meaning",
       "author": "Viktor E. Frankl",
       "genre": "Psychology",
@@ -689,7 +689,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61157LApbuL._SY466_.jpg"
     },
     {
-      "bookId": "46",
+      "id": "46",
       "title": "The Power of Your Subconscious Mind: Original Classic Edition",
       "author": "Joseph Murphy",
       "genre": "Self-Help",
@@ -723,10 +723,10 @@
       "availability": true,
       "rating": null,
       "image_url": "https://m.media-amazon.com/images/I/714yQJgj6jS._SL1417_.jpg",
-      "bookId": "47"
+      "id": "47"
     },
     {
-      "bookId": "48",
+      "id": "48",
       "title": "Ace Banking and Static Awareness Book (Latest English Printed Edition) By Adda247",
       "author": "Adda247",
       "genre": "Banking and Static Awareness",
@@ -744,7 +744,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81Iaw5-WxgL._SL1500_.jpg"
     },
     {
-      "bookId": "49",
+      "id": "49",
       "title": "Inventions & Discoveries - Space Discoveries: Knowledge Encyclopedia For Children",
       "author": "Wonder House Books",
       "genre": "Children's Science Encyclopedia",
@@ -761,7 +761,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61nYtXLdnTL._SL1000_.jpg"
     },
     {
-      "bookId": "50",
+      "id": "50",
       "title": "General Knowledge Encyclopaedia for Competitive Exams | Master 130 Topics through pictorial & infographic approach | 4 colour creative Book to master & retain GK",
       "author": "Disha Experts",
       "genre": "General Knowledge for Competitive Exams",
@@ -780,7 +780,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71phi7J3a7L._SL1500_.jpg"
     },
     {
-      "bookId": "51",
+      "id": "51",
       "title": "Lucent's General Knowledge + Arihant General Knowledge 2025 - Set of 2 Books",
       "author": "Lucent Publications, Arihant Experts",
       "genre": "General Knowledge",
@@ -798,7 +798,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71yrYxClQaL._SL1500_.jpg"
     },
     {
-      "bookId": "52",
+      "id": "52",
       "title": "Kids Encyclopedia (Illustrated) - Science - Questions and Answer with Pictures - Knowledge Books for Kids - Age 6+",
       "author": "Wonder House Books",
       "genre": "Children's Science Encyclopedia",
@@ -815,7 +815,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81w-5f3USDL._SL1500_.jpg"
     },
     {
-      "bookId": "54",
+      "id": "54",
       "title": "Advanced Objective General Knowledge 2025 with 8000+ MCQs | One Linear Book | For All Competitive Exams UPSC Civil Services, State PSC, SSC CGL CHSL, Bank, Railways RRB, NDA, CDS, Police SI, Constable",
       "author": "Arihant Experts",
       "genre": "General Knowledge for Competitive Exams",
@@ -833,7 +833,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81Cf9sYPM6L._SL1500_.jpg"
     },
     {
-      "bookId": "55",
+      "id": "55",
       "title": "Kids Encyclopedia (Illustrated) - India - General Knowledge - Knowledge Book for Kids - Age 6+ - GK Questions and Answers about India - GK for Kids",
       "author": "Wonder House Books",
       "genre": "Children's General Knowledge",
@@ -850,7 +850,7 @@
       "image_url": "https://m.media-amazon.com/images/I/812rZO-S-3L._SL1500_.jpg"
     },
     {
-      "bookId": "56",
+      "id": "56",
       "title": "Lucent's General Knowledge 2024 || The Original Book with Hologram || 14th Edition || English Version",
       "author": "Lucent Publications",
       "genre": "General Knowledge",
@@ -869,7 +869,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71Bh1Nn7wGL._SL1500_.jpg"
     },
     {
-      "bookId": "57",
+      "id": "57",
       "title": "Science Knowledge Encyclopedia for Children : Collection of 6 Books (Box Set)",
       "author": "Wonder House Books",
       "genre": "Children's Science Encyclopedia",
@@ -887,7 +887,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81BsJ9xMzaL._SL1500_.jpg"
     },
     {
-      "bookId": "58",
+      "id": "58",
       "title": "General Knowledge Picture Book For Kids About India | 100 GK Questions and Answers about India with Pictures for Kids | By Learning Dino",
       "author": "Learning Dino",
       "genre": "Children's General Knowledge",
@@ -904,7 +904,7 @@
       "image_url": "https://m.media-amazon.com/images/I/51i+o7EiaGL.jpg"
     },
     {
-      "bookId": "59",
+      "id": "59",
       "title": "Find Your Balance Undated Planner Journal | Gratitude Journal with Habit Tracker & Mood Tracker | Includes Journaling Stickers | Undated | 4 Months - 300 Pages | (Stone White)",
       "author": "Adda247",
       "genre": "Self-Help Journal",
@@ -923,7 +923,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61sZBjtggBL._SL1500_.jpg"
     },
     {
-      "bookId": "60",
+      "id": "60",
       "title": "Inventions & Discoveries - Electronics & Communication: Knowledge Encyclopedia For Children",
       "author": "DK",
       "genre": "Children's Science Encyclopedia",
@@ -941,7 +941,7 @@
       "image_url": "https://m.media-amazon.com/images/I/715DmbKd1dL._SL1000_.jpg"
     },
     {
-      "bookId": "61",
+      "id": "61",
       "title": "Space - My Knowledge Book",
       "author": "Wonder House Books",
       "genre": "Children's Science",
@@ -958,7 +958,7 @@
       "image_url": "https://m.media-amazon.com/images/I/91JUx83rHoL._SL1500_.jpg"
     },
     {
-      "bookId": "63",
+      "id": "63",
       "title": "The Book of Zero Knowledge: In Search of All That There Is to Know by Anant Mudgal",
       "author": "Anant Mudgal",
       "genre": "Philosophy",
@@ -976,7 +976,7 @@
       "image_url": "https://m.media-amazon.com/images/I/6114dx++yUL._SL1500_.jpg"
     },
     {
-      "bookId": "64",
+      "id": "64",
       "title": "My World (Set of 10 Books) - Science Knowledge Books for Kids - Birds, Dinosaurs, Forest Life, Ocean Life, Pets, Planet Earth, Seasons, Human Body, The Sun, Solar System",
       "author": "Wonder House Books",
       "genre": "Children's Science Encyclopedia",
@@ -993,7 +993,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81xF7KT-9GL._SL1500_.jpg"
     },
     {
-      "bookId": "69",
+      "id": "69",
       "title": "Spiritual Disciplines Handbook: Practices That Transform Us",
       "author": "Adele Ahlberg Calhoun",
       "genre": "Spirituality",
@@ -1011,7 +1011,7 @@
       "image_url": "https://m.media-amazon.com/images/I/91jrj5ZawXL._SL1500_.jpg"
     },
     {
-      "bookId": "70",
+      "id": "70",
       "title": "A Semester in The Sandbox",
       "author": "David A. Armstrong",
       "genre": "Education",
@@ -1028,7 +1028,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71qlZW3C5DL._SL1360_.jpg"
     },
     {
-      "bookId": "71",
+      "id": "71",
       "title": "SET BOUNDARIES, FIND PEACE: A GUIDE TO RECLAIMING YOURSELF",
       "author": "Nedra Glover Tawwab",
       "genre": "Self-Help",
@@ -1046,7 +1046,7 @@
       "image_url": "https://m.media-amazon.com/images/I/51iqFRqUmrL._SL1000_.jpg"
     },
     {
-      "bookId": "72",
+      "id": "72",
       "title": "The Power of A Positive Attitude: Your Road To Success",
       "author": "Roger Fritz",
       "genre": "Self-Help",
@@ -1063,7 +1063,7 @@
       "image_url": "https://m.media-amazon.com/images/I/610kcuW0g1L._SL1400_.jpg"
     },
     {
-      "bookId": "73",
+      "id": "73",
       "title": "The Knowledge of the Holy (General Press)",
       "author": "A. W. Tozer",
       "genre": "Religion/Spirituality",
@@ -1082,7 +1082,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61UNpaLcIuL._SL1000_.jpg"
     },
     {
-      "bookId": "74",
+      "id": "74",
       "title": "The Voice of Knowledge: A Practical Guide to Inner Peace",
       "author": "Don Miguel Ruiz",
       "genre": "Self-Help/Spirituality",
@@ -1100,7 +1100,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61sEgHWA+kL.jpg"
     },
     {
-      "bookId": "75",
+      "id": "75",
       "title": "Ever Latest General Knowledge 2018",
       "author": "Khanna and Verma",
       "genre": "General Knowledge/Reference",
@@ -1117,7 +1117,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71+FjGsetrL._SL1500_.jpg"
     },
     {
-      "bookId": "76",
+      "id": "76",
       "title": "The Book of Forbidden Knowledge",
       "author": "Johnson Smith & Company",
       "genre": "Occult/Esoteric",
@@ -1136,7 +1136,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81IIcZsGY+L._SL1360_.jpg"
     },
     {
-      "bookId": "77",
+      "id": "77",
       "title": "Legends of Bharat: When Indian knowledge System Inspired Genius",
       "author": "Dr. Kapil Bhargava, Y. Sri Tejaswi, Mahesh Chandra Dewedy",
       "genre": "Historical/Indian Philosophy",
@@ -1154,7 +1154,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81IbZePdTaL._SL1500_.jpg"
     },
     {
-      "bookId": "78",
+      "id": "78",
       "title": "The Practicing Mind",
       "author": "Thomas M. Sterner",
       "genre": "Self-Help/Psychology",
@@ -1171,7 +1171,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61PuflJaHeL._SL1400_.jpg"
     },
     {
-      "bookId": "79",
+      "id": "79",
       "title": "Life's Amazing Secret: How to Find Balance and Purpose in Your Life",
       "author": "Gaur Gopal Das",
       "genre": "Self-Help/Spirituality",
@@ -1190,7 +1190,7 @@
       "image_url": "https://m.media-amazon.com/images/I/81yxRLBMmkL._SL1500_.jpg"
     },
     {
-      "bookId": "80",
+      "id": "80",
       "title": "Self Knowledge",
       "author": "The School of Life",
       "genre": "Self-Help/Psychology",
@@ -1208,7 +1208,7 @@
       "image_url": "https://m.media-amazon.com/images/I/91A4695b0gL._SL1500_.jpg"
     },
     {
-      "bookId": "81",
+      "id": "81",
       "title": "Knowledge of the Higher Worlds and Its Attainment",
       "author": "Rudolf Steiner",
       "genre": "Esoteric/Spirituality",
@@ -1225,7 +1225,7 @@
       "image_url": ""
     },
     {
-      "bookId": "82",
+      "id": "82",
       "title": "Knowledge of the Higher Worlds and Its Attainment: A Revised and Enlarged Edition of The Way of Initiation and Initiation and Its Results",
       "author": "Rudolf Steiner",
       "genre": "Esoteric/Spirituality",
@@ -1244,7 +1244,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61tY9jfn7qL._SL1360_.jpg"
     },
     {
-      "bookId": "83",
+      "id": "83",
       "title": "Akashic Enlightenment Akashic Records & Book of Truth for Divine Knowledge",
       "author": "Sherry Mosley",
       "genre": "Spirituality/New Age",
@@ -1262,7 +1262,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61tY9jfn7qL._SL1360_.jpg"
     },
     {
-      "bookId": "84",
+      "id": "84",
       "title": "The Satvic Revolution: 7 Life-Changing Habits to Discover Peak Health and Joy",
       "author": "Subah Saraf and Harshvardhan Saraf",
       "genre": "Health/Self-Help",
@@ -1279,7 +1279,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61Abm3DCN2L._SL1000_.jpg"
     },
     {
-      "bookId": "85",
+      "id": "85",
       "title": "The Path to Self-Love: Heal Your Heart, Set Healthy Boundaries & Unlock Your Inner Strength",
       "author": "Ruby Dhal",
       "genre": "Self-Help/Personal Development",
@@ -1571,460 +1571,369 @@
     }
   ],
   "fines": [],
-  "issue": [
-    [
-      {
-        "issueId": 1,
-        "book": {
-          "bookId": 31,
-          "isbns": "3101"
-        },
-        "memberId": 23,
-        "issueDetails": {
-          "issueDate": "2025-08-26",
-          "dueDate": "2025-09-09",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 2,
-        "book": {
-          "bookId": 45,
-          "isbns": "4502"
-        },
-        "memberId": 12,
-        "issueDetails": {
-          "issueDate": "2025-08-20",
-          "dueDate": "2025-09-03",
-          "returnDate": "2025-08-28",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 3,
-        "book": {
-          "bookId": 62,
-          "isbns": "6203"
-        },
-        "memberId": 34,
-        "issueDetails": {
-          "issueDate": "2025-08-15",
-          "dueDate": "2025-08-29",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 20
-        }
-      },
-      {
-        "issueId": 4,
-        "book": {
-          "bookId": 77,
-          "isbns": "7704"
-        },
-        "memberId": 8,
-        "issueDetails": {
-          "issueDate": "2025-08-10",
-          "dueDate": "2025-08-24",
-          "returnDate": "2025-08-23",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 5,
-        "book": {
-          "bookId": 12,
-          "isbns": "1205"
-        },
-        "memberId": 41,
-        "issueDetails": {
-          "issueDate": "2025-08-05",
-          "dueDate": "2025-08-19",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 50
-        }
-      },
-      {
-        "issueId": 6,
-        "book": {
-          "bookId": 19,
-          "isbns": "1906"
-        },
-        "memberId": 27,
-        "issueDetails": {
-          "issueDate": "2025-08-22",
-          "dueDate": "2025-09-05",
-          "returnDate": "2025-08-25",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 7,
-        "book": {
-          "bookId": 54,
-          "isbns": "5407"
-        },
-        "memberId": 30,
-        "issueDetails": {
-          "issueDate": "2025-08-18",
-          "dueDate": "2025-09-01",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 8,
-        "book": {
-          "bookId": 89,
-          "isbns": "8908"
-        },
-        "memberId": 5,
-        "issueDetails": {
-          "issueDate": "2025-08-12",
-          "dueDate": "2025-08-26",
-          "returnDate": "2025-08-29",
-          "status": "returned",
-          "fine": 15
-        }
-      },
-      {
-        "issueId": 9,
-        "book": {
-          "bookId": 36,
-          "isbns": "3609"
-        },
-        "memberId": 14,
-        "issueDetails": {
-          "issueDate": "2025-08-08",
-          "dueDate": "2025-08-22",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 30
-        }
-      },
-      {
-        "issueId": 10,
-        "book": {
-          "bookId": 27,
-          "isbns": "2710"
-        },
-        "memberId": 19,
-        "issueDetails": {
-          "issueDate": "2025-08-03",
-          "dueDate": "2025-08-17",
-          "returnDate": "2025-08-10",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 11,
-        "book": {
-          "bookId": 64,
-          "isbns": "6411"
-        },
-        "memberId": 9,
-        "issueDetails": {
-          "issueDate": "2025-08-07",
-          "dueDate": "2025-08-21",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 10
-        }
-      },
-      {
-        "issueId": 12,
-        "book": {
-          "bookId": 90,
-          "isbns": "9012"
-        },
-        "memberId": 15,
-        "issueDetails": {
-          "issueDate": "2025-08-14",
-          "dueDate": "2025-08-28",
-          "returnDate": "2025-08-20",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 13,
-        "book": {
-          "bookId": 11,
-          "isbns": "1113"
-        },
-        "memberId": 40,
-        "issueDetails": {
-          "issueDate": "2025-08-01",
-          "dueDate": "2025-08-15",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 60
-        }
-      },
-      {
-        "issueId": 14,
-        "book": {
-          "bookId": 21,
-          "isbns": "2114"
-        },
-        "memberId": 25,
-        "issueDetails": {
-          "issueDate": "2025-08-11",
-          "dueDate": "2025-08-25",
-          "returnDate": "2025-08-24",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 15,
-        "book": {
-          "bookId": 38,
-          "isbns": "3815"
-        },
-        "memberId": 6,
-        "issueDetails": {
-          "issueDate": "2025-08-09",
-          "dueDate": "2025-08-23",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 25
-        }
-      },
-      {
-        "issueId": 16,
-        "book": {
-          "bookId": 47,
-          "isbns": "4716"
-        },
-        "memberId": 18,
-        "issueDetails": {
-          "issueDate": "2025-08-06",
-          "dueDate": "2025-08-20",
-          "returnDate": "2025-08-19",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 17,
-        "book": {
-          "bookId": 72,
-          "isbns": "7217"
-        },
-        "memberId": 33,
-        "issueDetails": {
-          "issueDate": "2025-08-04",
-          "dueDate": "2025-08-18",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 45
-        }
-      },
-      {
-        "issueId": 18,
-        "book": {
-          "bookId": 56,
-          "isbns": "5618"
-        },
-        "memberId": 7,
-        "issueDetails": {
-          "issueDate": "2025-08-16",
-          "dueDate": "2025-08-30",
-          "returnDate": "2025-08-20",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 19,
-        "book": {
-          "bookId": 29,
-          "isbns": "2919"
-        },
-        "memberId": 21,
-        "issueDetails": {
-          "issueDate": "2025-08-02",
-          "dueDate": "2025-08-16",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 70
-        }
-      },
-      {
-        "issueId": 20,
-        "book": {
-          "bookId": 81,
-          "isbns": "8120"
-        },
-        "memberId": 11,
-        "issueDetails": {
-          "issueDate": "2025-08-17",
-          "dueDate": "2025-08-31",
-          "returnDate": "2025-08-22",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 21,
-        "book": {
-          "bookId": 16,
-          "isbns": "1621"
-        },
-        "memberId": 2,
-        "issueDetails": {
-          "issueDate": "2025-08-19",
-          "dueDate": "2025-09-02",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 22,
-        "book": {
-          "bookId": 48,
-          "isbns": "4822"
-        },
-        "memberId": 20,
-        "issueDetails": {
-          "issueDate": "2025-08-13",
-          "dueDate": "2025-08-27",
-          "returnDate": "2025-08-26",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 23,
-        "book": {
-          "bookId": 33,
-          "isbns": "3323"
-        },
-        "memberId": 16,
-        "issueDetails": {
-          "issueDate": "2025-08-21",
-          "dueDate": "2025-09-04",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 24,
-        "book": {
-          "bookId": 59,
-          "isbns": "5924"
-        },
-        "memberId": 26,
-        "issueDetails": {
-          "issueDate": "2025-08-25",
-          "dueDate": "2025-09-08",
-          "returnDate": "2025-08-27",
-          "status": "returned",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 25,
-        "book": {
-          "bookId": 71,
-          "isbns": "7125"
-        },
-        "memberId": 29,
-        "issueDetails": {
-          "issueDate": "2025-08-23",
-          "dueDate": "2025-09-06",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 26,
-        "book": {
-          "bookId": 25,
-          "isbns": "2526"
-        },
-        "memberId": 17,
-        "issueDetails": {
-          "issueDate": "2025-08-06",
-          "dueDate": "2025-08-20",
-          "returnDate": "2025-08-30",
-          "status": "returned",
-          "fine": 25
-        }
-      },
-      {
-        "issueId": 27,
-        "book": {
-          "bookId": 14,
-          "isbns": "1427"
-        },
-        "memberId": 31,
-        "issueDetails": {
-          "issueDate": "2025-08-11",
-          "dueDate": "2025-08-25",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 0
-        }
-      },
-      {
-        "issueId": 28,
-        "book": {
-          "bookId": 88,
-          "isbns": "8828"
-        },
-        "memberId": 22,
-        "issueDetails": {
-          "issueDate": "2025-08-14",
-          "dueDate": "2025-08-28",
-          "returnDate": "2025-09-01",
-          "status": "returned",
-          "fine": 10
-        }
-      },
-      {
-        "issueId": 29,
-        "book": {
-          "bookId": 39,
-          "isbns": "3929"
-        },
-        "memberId": 24,
-        "issueDetails": {
-          "issueDate": "2025-08-09",
-          "dueDate": "2025-08-23",
-          "returnDate": null,
-          "status": "issued",
-          "fine": 35
-        }
-      },
-      {
-        "issueId": 30,
-        "book": {
-          "bookId": 50,
-          "isbns": "5030"
-        },
-        "memberId": 13,
-        "issueDetails": {
-          "issueDate": "2025-08-18",
-          "dueDate": "2025-09-01",
-          "returnDate": "2025-08-20",
-          "status": "returned",
-          "fine": 0
-        }
-      }
-    ]
-  ],
+  "issue":[
+  {
+    "issueId": 1,
+    "book": { "id": 31, "isbns": "3101" },
+    "memberId": 1,
+    "issueDetails": {
+      "issueDate": "2025-08-26",
+      "dueDate": "2025-09-09",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 2,
+    "book": { "id": 45, "isbns": "4502" },
+    "memberId": 2,
+    "issueDetails": {
+      "issueDate": "2025-08-20",
+      "dueDate": "2025-09-03",
+      "returnDate": "2025-08-28",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 3,
+    "book": { "id": 62, "isbns": "6203" },
+    "memberId": 3,
+    "issueDetails": {
+      "issueDate": "2025-08-15",
+      "dueDate": "2025-08-29",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 20
+    }
+  },
+  {
+    "issueId": 4,
+    "book": { "id": 77, "isbns": "7704" },
+    "memberId": 4,
+    "issueDetails": {
+      "issueDate": "2025-08-10",
+      "dueDate": "2025-08-24",
+      "returnDate": "2025-08-23",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 5,
+    "book": { "id": 12, "isbns": "1205" },
+    "memberId": 5,
+    "issueDetails": {
+      "issueDate": "2025-08-05",
+      "dueDate": "2025-08-19",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 50
+    }
+  },
+  {
+    "issueId": 6,
+    "book": { "id": 19, "isbns": "1906" },
+    "memberId": 6,
+    "issueDetails": {
+      "issueDate": "2025-08-22",
+      "dueDate": "2025-09-05",
+      "returnDate": "2025-08-25",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 7,
+    "book": { "id": 54, "isbns": "5407" },
+    "memberId": 7,
+    "issueDetails": {
+      "issueDate": "2025-08-18",
+      "dueDate": "2025-09-01",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 8,
+    "book": { "id": 89, "isbns": "8908" },
+    "memberId": 8,
+    "issueDetails": {
+      "issueDate": "2025-08-12",
+      "dueDate": "2025-08-26",
+      "returnDate": "2025-08-29",
+      "status": "returned",
+      "fine": 15
+    }
+  },
+  {
+    "issueId": 9,
+    "book": { "id": 36, "isbns": "3609" },
+    "memberId": 9,
+    "issueDetails": {
+      "issueDate": "2025-08-08",
+      "dueDate": "2025-08-22",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 30
+    }
+  },
+  {
+    "issueId": 10,
+    "book": { "id": 27, "isbns": "2710" },
+    "memberId": 10,
+    "issueDetails": {
+      "issueDate": "2025-08-03",
+      "dueDate": "2025-08-17",
+      "returnDate": "2025-08-10",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 11,
+    "book": { "id": 64, "isbns": "6411" },
+    "memberId": 11,
+    "issueDetails": {
+      "issueDate": "2025-08-07",
+      "dueDate": "2025-08-21",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 10
+    }
+  },
+  {
+    "issueId": 12,
+    "book": { "id": 90, "isbns": "9012" },
+    "memberId": 12,
+    "issueDetails": {
+      "issueDate": "2025-08-14",
+      "dueDate": "2025-08-28",
+      "returnDate": "2025-08-20",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 13,
+    "book": { "id": 11, "isbns": "1113" },
+    "memberId": 13,
+    "issueDetails": {
+      "issueDate": "2025-08-01",
+      "dueDate": "2025-08-15",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 60
+    }
+  },
+  {
+    "issueId": 14,
+    "book": { "id": 21, "isbns": "2114" },
+    "memberId": 14,
+    "issueDetails": {
+      "issueDate": "2025-08-11",
+      "dueDate": "2025-08-25",
+      "returnDate": "2025-08-24",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 15,
+    "book": { "id": 38, "isbns": "3815" },
+    "memberId": 15,
+    "issueDetails": {
+      "issueDate": "2025-08-09",
+      "dueDate": "2025-08-23",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 25
+    }
+  },
+  {
+    "issueId": 16,
+    "book": { "id": 47, "isbns": "4716" },
+    "memberId": 16,
+    "issueDetails": {
+      "issueDate": "2025-08-06",
+      "dueDate": "2025-08-20",
+      "returnDate": "2025-08-19",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 17,
+    "book": { "id": 72, "isbns": "7217" },
+    "memberId": 17,
+    "issueDetails": {
+      "issueDate": "2025-08-04",
+      "dueDate": "2025-08-18",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 45
+    }
+  },
+  {
+    "issueId": 18,
+    "book": { "id": 56, "isbns": "5618" },
+    "memberId": 18,
+    "issueDetails": {
+      "issueDate": "2025-08-16",
+      "dueDate": "2025-08-30",
+      "returnDate": "2025-08-20",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 19,
+    "book": { "id": 29, "isbns": "2919" },
+    "memberId": 19,
+    "issueDetails": {
+      "issueDate": "2025-08-02",
+      "dueDate": "2025-08-16",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 70
+    }
+  },
+  {
+    "issueId": 20,
+    "book": { "id": 81, "isbns": "8120" },
+    "memberId": 20,
+    "issueDetails": {
+      "issueDate": "2025-08-17",
+      "dueDate": "2025-08-31",
+      "returnDate": "2025-08-22",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 21,
+    "book": { "id": 16, "isbns": "1621" },
+    "memberId": 21,
+    "issueDetails": {
+      "issueDate": "2025-08-19",
+      "dueDate": "2025-09-02",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 22,
+    "book": { "id": 48, "isbns": "4822" },
+    "memberId": 22,
+    "issueDetails": {
+      "issueDate": "2025-08-13",
+      "dueDate": "2025-08-27",
+      "returnDate": "2025-08-26",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 23,
+    "book": { "id": 33, "isbns": "3323" },
+    "memberId": 23,
+    "issueDetails": {
+      "issueDate": "2025-08-21",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 24,
+    "book": { "id": 59, "isbns": "5924" },
+    "memberId": 24,
+    "issueDetails": {
+      "issueDate": "2025-08-25",
+      "dueDate": "2025-09-08",
+      "returnDate": "2025-08-27",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 25,
+    "book": { "id": 71, "isbns": "7125" },
+    "memberId": 25,
+    "issueDetails": {
+      "issueDate": "2025-08-23",
+      "dueDate": "2025-09-06",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 26,
+    "book": { "id": 25, "isbns": "2526" },
+    "memberId": 26,
+    "issueDetails": {
+      "issueDate": "2025-08-06",
+      "dueDate": "2025-08-20",
+      "returnDate": "2025-08-30",
+      "status": "returned",
+      "fine": 25
+    }
+  },
+  {
+    "issueId": 27,
+    "book": { "id": 14, "isbns": "1427" },
+    "memberId": 27,
+    "issueDetails": {
+      "issueDate": "2025-08-11",
+      "dueDate": "2025-08-25",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 28,
+    "book": { "id": 88, "isbns": "8828" },
+    "memberId": 28,
+    "issueDetails": {
+      "issueDate": "2025-08-14",
+      "dueDate": "2025-08-28",
+      "returnDate": "2025-09-01",
+      "status": "returned",
+      "fine": 10
+    }
+  },
+  {
+    "issueId": 29,
+    "book": { "id": 39, "isbns": "3929" },
+    "memberId": 29,
+    "issueDetails": {
+      "issueDate": "2025-08-09",
+      "dueDate": "2025-08-23",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 35
+    }
+  },
+  {
+    "issueId": 30,
+    "book": { "id": 50, "isbns": "5030" },
+    "memberId": 30,
+    "issueDetails": {
+      "issueDate": "2025-08-18",
+      "dueDate": "2025-09-01",
+      "returnDate": "2025-08-20",
+      "status": "returned",
+      "fine": 0
+    }
+  }
+]
+,
   "reservations": [],
   "login": {
     "admin": [
