@@ -14,7 +14,7 @@ export default function RoutesConfig() {
       <Route path="/book" element={<Books />} />
       <Route path="/login" element={<AdminLogin />} />
       <Route path="/editbook/:id" element={<EditBook />} />
-      <Route path="/member" element={<Members />}/>
+      <Route path="/member" element={<Members />} />
     </Routes>
   );
 }

@@ -1,6 +1,365 @@
 {
   "books": [
     {
+      "id": "1",
+      "title": "The Final Experiment | The Mystery Thriller of the Year | Witness the Fall of our World",
+      "author": "Yogesh SY",
+      "genre": "Mystery Thriller",
+      "rating": 4.4,
+      "rent": 22,
+      "quantity": 5,
+      "isbns": [
+        "1000",
+        "1001",
+        "1002",
+        "1003",
+        "1004"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/613Z8e4jlpL._SY466_.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Days at the Morisaki Bookshop: The perfect book to curl up with - for lovers of Japanese translated fiction everywhere",
+      "author": "Satoshi Yagisawa",
+      "genre": "Fiction",
+      "rating": 4.4,
+      "rent": 18,
+      "quantity": 4,
+      "isbns": [
+        "1005",
+        "1006",
+        "1007",
+        "1008"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/51FM3xK4rIL._SY445_SX342_.jpg"
+    },
+    {
+      "id": "4",
+      "title": "You Only Live Once: A Journey of Self-Discovery and Empowerment | Inspiring Fiction by Stuti Changle | Personal Growth and Motivational Stories",
+      "author": "Stuti Changle",
+      "genre": "Inspirational Fiction",
+      "rating": 4.4,
+      "rent": 25,
+      "quantity": 6,
+      "isbns": [
+        "1009",
+        "1010",
+        "1011",
+        "1012",
+        "1013",
+        "1014"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71dNsRuYL7L._SY466_.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The Housemaid: An Absolutely Addictive Psychological Thriller with a Jaw-Dropping Twist (The Housemaid series, Book1) | TikTok Viral & Bestseller Pick",
+      "author": "Freida McFadden",
+      "genre": "Psychological Thriller",
+      "rating": 4.4,
+      "rent": 20,
+      "quantity": 5,
+      "isbns": [
+        "1015",
+        "1016",
+        "1017",
+        "1018",
+        "1019"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/4139PyMmE6L._SY445_SX342_.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Too Good to Be True : A smart, funny will-they-won’t-they romance by mostlysane",
+      "author": "Prajakta Koli",
+      "genre": "Romantic Comedy",
+      "rating": 4.6,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "1020",
+        "1021",
+        "1022",
+        "1023"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/818vo2TWp+L._SY466_.jpg"
+    },
+    {
+      "id": "7",
+      "title": "A MAN CALLED OVE (B FORMAT)",
+      "author": "Fredrik Backman",
+      "genre": "Contemporary Fiction",
+      "rating": 4.4,
+      "rent": 23,
+      "quantity": 6,
+      "isbns": [
+        "1024",
+        "1025",
+        "1026",
+        "1027",
+        "1028",
+        "1029"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81g2oEdeGTL._SL1500_.jpg"
+    },
+    {
+      "id": "8",
+      "title": "The Stationery Shop Of Tehran",
+      "author": "Marjan Kamali",
+      "genre": "Historical Fiction",
+      "rating": 4.4,
+      "rent": 19,
+      "quantity": 5,
+      "isbns": [
+        "1030",
+        "1031",
+        "1032",
+        "1033",
+        "1034"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81t6xQeZA8L._SL1500_.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Never Lie: A Totally Gripping Thriller with Mind-bending Twists | TikTok Viral & Bestseller Pick",
+      "author": "Freida McFadden",
+      "genre": "Psychological Thriller",
+      "rating": 4.6,
+      "rent": 15,
+      "quantity": 4,
+      "isbns": [
+        "1035",
+        "1036",
+        "1037",
+        "1038"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81+ceFx9BcL._SL1500_.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Before the Coffee Gets Cold",
+      "author": "Toshikazu Kawaguchi",
+      "genre": "Japanese Fiction",
+      "rating": 4.4,
+      "rent": 24,
+      "quantity": 6,
+      "isbns": [
+        "1039",
+        "1040",
+        "1041",
+        "1042",
+        "1043",
+        "1044"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71uUY42uNsL._SL1500_.jpg"
+    },
+    {
+      "id": "12",
+      "title": "The Novels of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "genre": "thrilling mysteries",
+      "rating": 4.3,
+      "rent": 21,
+      "quantity": 5,
+      "isbns": [
+        "1045",
+        "1046",
+        "1047",
+        "1048",
+        "1049"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/8140Rv5DfWL._SL1500_.jpg"
+    },
+    {
+      "id": "13",
+      "title": "White Nights – Fyodor Dostoyevsky | A Million-Copy Bestseller | A Timeless Story of Love, Longing & Solitude – Penguin Classics",
+      "author": "Fyodor Dostoyevsky",
+      "genre": "Classic",
+      "rating": 4.4,
+      "rent": 16,
+      "quantity": 4,
+      "isbns": [
+        "1050",
+        "1051",
+        "1052",
+        "1053"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/51lMJWnnRDL._SL1500_.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Can We Be Strangers Again?: A moving tale of love, loyalty and the bittersweet beauty of letting go",
+      "author": "Shrijeet Shandilya",
+      "genre": "Romance",
+      "rating": 4.6,
+      "rent": 20,
+      "quantity": 6,
+      "isbns": [
+        "1054",
+        "1055",
+        "1056",
+        "1057",
+        "1058",
+        "1059"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71zpck45b2L._SL1500_.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Touch of Eternity, A",
+      "author": "Durjoy Datta",
+      "genre": "Romance",
+      "rating": 4.6,
+      "rent": 22,
+      "quantity": 5,
+      "isbns": [
+        "1060",
+        "1061",
+        "1062",
+        "1063",
+        "1064"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/814RhA2+2GL._SL1500_.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Don't Believe Everything You Think (English)",
+      "author": "Joseph Nguyen",
+      "genre": "Self-Help",
+      "rating": 4.4,
+      "rent": 18,
+      "quantity": 4,
+      "isbns": [
+        "1065",
+        "1066",
+        "1067",
+        "1068"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/715qi-cIbML._SL1500_.jpg"
+    },
+    {
+      "id": "17",
+      "title": "The Girl Who Drank the Moon",
+      "author": "Kelly Barnhill",
+      "genre": "Fantasy",
+      "rating": 4.2,
+      "rent": 23,
+      "quantity": 6,
+      "isbns": [
+        "1069",
+        "1070",
+        "1071",
+        "1072",
+        "1073",
+        "1074"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/7138zaESFhL._SL1250_.jpg"
+    },
+    {
+      "id": "18",
+      "title": "The Palace of Illusions: 15th Anniversary Edition [Paperback] Banerjee Divakaruni, Chitra",
+      "author": "Chitra Banerjee Divakaruni",
+      "genre": "Historical Fiction",
+      "rating": 4.5,
+      "rent": 19,
+      "quantity": 5,
+      "isbns": [
+        "1075",
+        "1076",
+        "1077",
+        "1078",
+        "1079"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/A1dtQ-soQEL._SL1500_.jpg"
+    },
+    {
+      "id": "19",
+      "title": "VERITY",
+      "author": "Colleen Hoover",
+      "genre": "Psychological Thriller",
+      "rating": 4.5,
+      "rent": 24,
+      "quantity": 4,
+      "isbns": [
+        "1080",
+        "1081",
+        "1082",
+        "1083"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/91868k2+gUL._SL1500_.jpg"
+    },
+    {
+      "id": "20",
+      "title": "And Then There Were None: The World’s Favourite Agatha Christie Book",
+      "author": "Agatha Christie",
+      "genre": "Mystery",
+      "rating": 4.5,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "1084",
+        "1085",
+        "1086",
+        "1087",
+        "1088",
+        "1089"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71RGiu1YwDL._SL1500_.jpg"
+    },
+    {
+      "id": "21",
+      "title": "The Life of Chuck",
+      "author": "Stephen King",
+      "genre": "Horror",
+      "rating": 4.4,
+      "rent": 21,
+      "quantity": 5,
+      "isbns": [
+        "1090",
+        "1091",
+        "1092",
+        "1093",
+        "1094"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81nW4rdXWiL._SL1500_.jpg"
+    },
+    {
+      "id": "22",
+      "title": "Stars Will Guide You Home: A second-chance love story powered by fate—and an AI app",
+      "author": "Stuti Changle",
+      "genre": "Romance",
+      "rating": 4.6,
+      "rent": 16,
+      "quantity": 4,
+      "isbns": [
+        "1095",
+        "1096",
+        "1097",
+        "1098"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71++OHDG+5L._SL1500_.jpg"
+    },
+    {
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgeral",
       "genre": "Classic",
@@ -365,6 +724,7 @@
       "rating": null,
       "image_url": "https://m.media-amazon.com/images/I/714yQJgj6jS._SL1417_.jpg",
       "id": "47"
+<<<<<<< HEAD
     }
   ],
     "members": [
@@ -641,9 +1001,1378 @@
   ],
   "fines": [],
   "issue": [
+=======
+    },
+>>>>>>> 3cdb8c70291f8007f784c7c1a84b19f5b3b0b246
     {
-      "id": "883c"
+      "id": "48",
+      "title": "Ace Banking and Static Awareness Book (Latest English Printed Edition) By Adda247",
+      "author": "Adda247",
+      "genre": "Banking and Static Awareness",
+      "rating": 4.3,
+      "rent": 22,
+      "quantity": 5,
+      "isbns": [
+        "5016",
+        "5017",
+        "5018",
+        "5019",
+        "5020"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81Iaw5-WxgL._SL1500_.jpg"
+    },
+    {
+      "id": "49",
+      "title": "Inventions & Discoveries - Space Discoveries: Knowledge Encyclopedia For Children",
+      "author": "Wonder House Books",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.5,
+      "rent": 18,
+      "quantity": 4,
+      "isbns": [
+        "5021",
+        "5022",
+        "5023",
+        "5024"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61nYtXLdnTL._SL1000_.jpg"
+    },
+    {
+      "id": "50",
+      "title": "General Knowledge Encyclopaedia for Competitive Exams | Master 130 Topics through pictorial & infographic approach | 4 colour creative Book to master & retain GK",
+      "author": "Disha Experts",
+      "genre": "General Knowledge for Competitive Exams",
+      "rating": 4.2,
+      "rent": 20,
+      "quantity": 6,
+      "isbns": [
+        "5025",
+        "5026",
+        "5027",
+        "5028",
+        "5029",
+        "5030"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71phi7J3a7L._SL1500_.jpg"
+    },
+    {
+      "id": "51",
+      "title": "Lucent's General Knowledge + Arihant General Knowledge 2025 - Set of 2 Books",
+      "author": "Lucent Publications, Arihant Experts",
+      "genre": "General Knowledge",
+      "rating": 4.4,
+      "rent": 24,
+      "quantity": 5,
+      "isbns": [
+        "5031",
+        "5032",
+        "5033",
+        "5034",
+        "5035"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71yrYxClQaL._SL1500_.jpg"
+    },
+    {
+      "id": "52",
+      "title": "Kids Encyclopedia (Illustrated) - Science - Questions and Answer with Pictures - Knowledge Books for Kids - Age 6+",
+      "author": "Wonder House Books",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.6,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5036",
+        "5037",
+        "5038",
+        "5039"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81w-5f3USDL._SL1500_.jpg"
+    },
+    {
+      "id": "54",
+      "title": "Advanced Objective General Knowledge 2025 with 8000+ MCQs | One Linear Book | For All Competitive Exams UPSC Civil Services, State PSC, SSC CGL CHSL, Bank, Railways RRB, NDA, CDS, Police SI, Constable",
+      "author": "Arihant Experts",
+      "genre": "General Knowledge for Competitive Exams",
+      "rating": 4.3,
+      "rent": 19,
+      "quantity": 5,
+      "isbns": [
+        "5046",
+        "5047",
+        "5048",
+        "5049",
+        "5050"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81Cf9sYPM6L._SL1500_.jpg"
+    },
+    {
+      "id": "55",
+      "title": "Kids Encyclopedia (Illustrated) - India - General Knowledge - Knowledge Book for Kids - Age 6+ - GK Questions and Answers about India - GK for Kids",
+      "author": "Wonder House Books",
+      "genre": "Children's General Knowledge",
+      "rating": 4.5,
+      "rent": 21,
+      "quantity": 4,
+      "isbns": [
+        "5051",
+        "5052",
+        "5053",
+        "5054"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/812rZO-S-3L._SL1500_.jpg"
+    },
+    {
+      "id": "56",
+      "title": "Lucent's General Knowledge 2024 || The Original Book with Hologram || 14th Edition || English Version",
+      "author": "Lucent Publications",
+      "genre": "General Knowledge",
+      "rating": 4.2,
+      "rent": 16,
+      "quantity": 6,
+      "isbns": [
+        "5055",
+        "5056",
+        "5057",
+        "5058",
+        "5059",
+        "5060"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71Bh1Nn7wGL._SL1500_.jpg"
+    },
+    {
+      "id": "57",
+      "title": "Science Knowledge Encyclopedia for Children : Collection of 6 Books (Box Set)",
+      "author": "Wonder House Books",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.4,
+      "rent": 25,
+      "quantity": 5,
+      "isbns": [
+        "5061",
+        "5062",
+        "5063",
+        "5064",
+        "5065"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81BsJ9xMzaL._SL1500_.jpg"
+    },
+    {
+      "id": "58",
+      "title": "General Knowledge Picture Book For Kids About India | 100 GK Questions and Answers about India with Pictures for Kids | By Learning Dino",
+      "author": "Learning Dino",
+      "genre": "Children's General Knowledge",
+      "rating": 4.1,
+      "rent": 20,
+      "quantity": 4,
+      "isbns": [
+        "5066",
+        "5067",
+        "5068",
+        "5069"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/51i+o7EiaGL.jpg"
+    },
+    {
+      "id": "59",
+      "title": "Find Your Balance Undated Planner Journal | Gratitude Journal with Habit Tracker & Mood Tracker | Includes Journaling Stickers | Undated | 4 Months - 300 Pages | (Stone White)",
+      "author": "Adda247",
+      "genre": "Self-Help Journal",
+      "rating": 4.6,
+      "rent": 15,
+      "quantity": 6,
+      "isbns": [
+        "5070",
+        "5071",
+        "5072",
+        "5073",
+        "5074",
+        "5075"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61sZBjtggBL._SL1500_.jpg"
+    },
+    {
+      "id": "60",
+      "title": "Inventions & Discoveries - Electronics & Communication: Knowledge Encyclopedia For Children",
+      "author": "DK",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.3,
+      "rent": 22,
+      "quantity": 5,
+      "isbns": [
+        "5076",
+        "5077",
+        "5078",
+        "5079",
+        "5080"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/715DmbKd1dL._SL1000_.jpg"
+    },
+    {
+      "id": "61",
+      "title": "Space - My Knowledge Book",
+      "author": "Wonder House Books",
+      "genre": "Children's Science",
+      "rating": 4.5,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5081",
+        "5082",
+        "5083",
+        "5084"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/91JUx83rHoL._SL1500_.jpg"
+    },
+    {
+      "id": "63",
+      "title": "The Book of Zero Knowledge: In Search of All That There Is to Know by Anant Mudgal",
+      "author": "Anant Mudgal",
+      "genre": "Philosophy",
+      "rating": 4.4,
+      "rent": 19,
+      "quantity": 5,
+      "isbns": [
+        "5091",
+        "5092",
+        "5093",
+        "5094",
+        "5095"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/6114dx++yUL._SL1500_.jpg"
+    },
+    {
+      "id": "64",
+      "title": "My World (Set of 10 Books) - Science Knowledge Books for Kids - Birds, Dinosaurs, Forest Life, Ocean Life, Pets, Planet Earth, Seasons, Human Body, The Sun, Solar System",
+      "author": "Wonder House Books",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.1,
+      "rent": 21,
+      "quantity": 4,
+      "isbns": [
+        "5096",
+        "5097",
+        "5098",
+        "5099"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81xF7KT-9GL._SL1500_.jpg"
+    },
+    {
+      "id": "69",
+      "title": "Spiritual Disciplines Handbook: Practices That Transform Us",
+      "author": "Adele Ahlberg Calhoun",
+      "genre": "Spirituality",
+      "rating": 4.4,
+      "rent": 25,
+      "quantity": 5,
+      "isbns": [
+        "5121",
+        "5122",
+        "5123",
+        "5124",
+        "5125"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/91jrj5ZawXL._SL1500_.jpg"
+    },
+    {
+      "id": "70",
+      "title": "A Semester in The Sandbox",
+      "author": "David A. Armstrong",
+      "genre": "Education",
+      "rating": 4.1,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5126",
+        "5127",
+        "5128",
+        "5129"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71qlZW3C5DL._SL1360_.jpg"
+    },
+    {
+      "id": "71",
+      "title": "SET BOUNDARIES, FIND PEACE: A GUIDE TO RECLAIMING YOURSELF",
+      "author": "Nedra Glover Tawwab",
+      "genre": "Self-Help",
+      "rating": 4.5,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5135",
+        "5136",
+        "5137",
+        "5138",
+        "5139"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/51iqFRqUmrL._SL1000_.jpg"
+    },
+    {
+      "id": "72",
+      "title": "The Power of A Positive Attitude: Your Road To Success",
+      "author": "Roger Fritz",
+      "genre": "Self-Help",
+      "rating": 4.3,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5140",
+        "5141",
+        "5142",
+        "5143"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/610kcuW0g1L._SL1400_.jpg"
+    },
+    {
+      "id": "73",
+      "title": "The Knowledge of the Holy (General Press)",
+      "author": "A. W. Tozer",
+      "genre": "Religion/Spirituality",
+      "rating": 4.6,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5144",
+        "5145",
+        "5146",
+        "5147",
+        "5148",
+        "5149"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61UNpaLcIuL._SL1000_.jpg"
+    },
+    {
+      "id": "74",
+      "title": "The Voice of Knowledge: A Practical Guide to Inner Peace",
+      "author": "Don Miguel Ruiz",
+      "genre": "Self-Help/Spirituality",
+      "rating": 4.4,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5150",
+        "5151",
+        "5152",
+        "5153",
+        "5154"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61sEgHWA+kL.jpg"
+    },
+    {
+      "id": "75",
+      "title": "Ever Latest General Knowledge 2018",
+      "author": "Khanna and Verma",
+      "genre": "General Knowledge/Reference",
+      "rating": 4.2,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5155",
+        "5156",
+        "5157",
+        "5158"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71+FjGsetrL._SL1500_.jpg"
+    },
+    {
+      "id": "76",
+      "title": "The Book of Forbidden Knowledge",
+      "author": "Johnson Smith & Company",
+      "genre": "Occult/Esoteric",
+      "rating": 4.3,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5159",
+        "5160",
+        "5161",
+        "5162",
+        "5163",
+        "5164"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81IIcZsGY+L._SL1360_.jpg"
+    },
+    {
+      "id": "77",
+      "title": "Legends of Bharat: When Indian knowledge System Inspired Genius",
+      "author": "Dr. Kapil Bhargava, Y. Sri Tejaswi, Mahesh Chandra Dewedy",
+      "genre": "Historical/Indian Philosophy",
+      "rating": 4.5,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5165",
+        "5166",
+        "5167",
+        "5168",
+        "5169"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81IbZePdTaL._SL1500_.jpg"
+    },
+    {
+      "id": "78",
+      "title": "The Practicing Mind",
+      "author": "Thomas M. Sterner",
+      "genre": "Self-Help/Psychology",
+      "rating": 4.6,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5170",
+        "5171",
+        "5172",
+        "5173"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61PuflJaHeL._SL1400_.jpg"
+    },
+    {
+      "id": "79",
+      "title": "Life's Amazing Secret: How to Find Balance and Purpose in Your Life",
+      "author": "Gaur Gopal Das",
+      "genre": "Self-Help/Spirituality",
+      "rating": 4.4,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5174",
+        "5175",
+        "5176",
+        "5177",
+        "5178",
+        "5179"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81yxRLBMmkL._SL1500_.jpg"
+    },
+    {
+      "id": "80",
+      "title": "Self Knowledge",
+      "author": "The School of Life",
+      "genre": "Self-Help/Psychology",
+      "rating": 4.2,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5180",
+        "5181",
+        "5182",
+        "5183",
+        "5184"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/91A4695b0gL._SL1500_.jpg"
+    },
+    {
+      "id": "81",
+      "title": "Knowledge of the Higher Worlds and Its Attainment",
+      "author": "Rudolf Steiner",
+      "genre": "Esoteric/Spirituality",
+      "rating": 4.3,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5185",
+        "5186",
+        "5187",
+        "5188"
+      ],
+      "availability": "available",
+      "image_url": ""
+    },
+    {
+      "id": "82",
+      "title": "Knowledge of the Higher Worlds and Its Attainment: A Revised and Enlarged Edition of The Way of Initiation and Initiation and Its Results",
+      "author": "Rudolf Steiner",
+      "genre": "Esoteric/Spirituality",
+      "rating": 4.5,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5189",
+        "5190",
+        "5191",
+        "5192",
+        "5193",
+        "5194"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61tY9jfn7qL._SL1360_.jpg"
+    },
+    {
+      "id": "83",
+      "title": "Akashic Enlightenment Akashic Records & Book of Truth for Divine Knowledge",
+      "author": "Sherry Mosley",
+      "genre": "Spirituality/New Age",
+      "rating": 4.4,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5195",
+        "5196",
+        "5197",
+        "5198",
+        "5199"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61tY9jfn7qL._SL1360_.jpg"
+    },
+    {
+      "id": "84",
+      "title": "The Satvic Revolution: 7 Life-Changing Habits to Discover Peak Health and Joy",
+      "author": "Subah Saraf and Harshvardhan Saraf",
+      "genre": "Health/Self-Help",
+      "rating": 4.6,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5200",
+        "5201",
+        "5202",
+        "5203"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61Abm3DCN2L._SL1000_.jpg"
+    },
+    {
+      "id": "85",
+      "title": "The Path to Self-Love: Heal Your Heart, Set Healthy Boundaries & Unlock Your Inner Strength",
+      "author": "Ruby Dhal",
+      "genre": "Self-Help/Personal Development",
+      "rating": 4.3,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5204",
+        "5205",
+        "5206",
+        "5207",
+        "5208",
+        "5209"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61NIL6z5NmL._SL1500_.jpg"
     }
   ],
-  "reservations": []
+  "members": [
+    {
+      "memberId": 1,
+      "name": "Kunal Sharma",
+      "email": "kunalsharma@gmail.com",
+      "phone": "1548796232",
+      "address": "123 Main St, Surat, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 2,
+      "name": "Priya Patel",
+      "email": "priyapatel99@gmail.com",
+      "phone": "9876543210",
+      "address": "45 Ring Road, Ahmedabad, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 3,
+      "name": "Arjun Mehta",
+      "email": "arjunmehta21@yahoo.com",
+      "phone": "8523697412",
+      "address": "67 Civil Lines, Vadodara, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 4,
+      "name": "Sneha Desai",
+      "email": "snehadesai88@gmail.com",
+      "phone": "9632587410",
+      "address": "78 Station Road, Rajkot, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 5,
+      "name": "Rohan Verma",
+      "email": "rohanverma56@gmail.com",
+      "phone": "7410258963",
+      "address": "12 Park Avenue, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 6,
+      "name": "Aditi Shah",
+      "email": "aditishah01@gmail.com",
+      "phone": "7896541230",
+      "address": "99 Ashram Road, Ahmedabad, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    },
+    {
+      "memberId": 7,
+      "name": "Manish Kumar",
+      "email": "manishkumar77@gmail.com",
+      "phone": "6352148795",
+      "address": "45 River Side, Vadodara, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 8,
+      "name": "Neha Singh",
+      "email": "nehasingh45@yahoo.com",
+      "phone": "8521479630",
+      "address": "32 Gandhi Road, Rajkot, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 9,
+      "name": "Vivek Joshi",
+      "email": "vivekjoshi23@gmail.com",
+      "phone": "7412589630",
+      "address": "56 City Center, Surat, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 10,
+      "name": "Pooja Reddy",
+      "email": "poojareddy98@gmail.com",
+      "phone": "9638527412",
+      "address": "85 Lajpat Nagar, Ahmedabad, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 11,
+      "name": "Aman Gupta",
+      "email": "amangupta01@gmail.com",
+      "phone": "7891234560",
+      "address": "101 Patel Colony, Vadodara, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 12,
+      "name": "Ritika Jain",
+      "email": "ritikajain55@gmail.com",
+      "phone": "9637412580",
+      "address": "77 New City Road, Rajkot, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    },
+    {
+      "memberId": 13,
+      "name": "Deepak Yadav",
+      "email": "deepakyadav99@gmail.com",
+      "phone": "7413698520",
+      "address": "19 Green Park, Surat, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 14,
+      "name": "Shivani Nair",
+      "email": "shivaninair11@gmail.com",
+      "phone": "8529637410",
+      "address": "200 Lake View, Ahmedabad, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 15,
+      "name": "Rajesh Pillai",
+      "email": "rajeshpillai23@yahoo.com",
+      "phone": "7410852963",
+      "address": "56 Hill Colony, Vadodara, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 16,
+      "name": "Komal Trivedi",
+      "email": "komaltrivedi88@gmail.com",
+      "phone": "9632014785",
+      "address": "87 Civil Lines, Rajkot, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 17,
+      "name": "Alok Mishra",
+      "email": "alokmishra45@gmail.com",
+      "phone": "7410258960",
+      "address": "65 MG Road, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 18,
+      "name": "Meera Iyer",
+      "email": "meeraiyer22@gmail.com",
+      "phone": "8521479635",
+      "address": "88 Ashram Road, Ahmedabad, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    },
+    {
+      "memberId": 19,
+      "name": "Karan Thakur",
+      "email": "karanthakur77@gmail.com",
+      "phone": "7412589635",
+      "address": "44 River Side, Vadodara, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 20,
+      "name": "Simran Kaur",
+      "email": "simrankaur99@gmail.com",
+      "phone": "9632587415",
+      "address": "23 Gandhi Road, Rajkot, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 21,
+      "name": "Nikhil Saxena",
+      "email": "nikhilsaxena55@gmail.com",
+      "phone": "7896541236",
+      "address": "11 Park Avenue, Surat, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 22,
+      "name": "Tanvi Deshmukh",
+      "email": "tanvideshmukh12@gmail.com",
+      "phone": "9638527415",
+      "address": "34 Lajpat Nagar, Ahmedabad, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 23,
+      "name": "Suresh Rathi",
+      "email": "sureshrathi01@gmail.com",
+      "phone": "7412589636",
+      "address": "70 Patel Colony, Vadodara, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 24,
+      "name": "Anjali Kapoor",
+      "email": "anjalikapoor33@gmail.com",
+      "phone": "9637412589",
+      "address": "89 New City Road, Rajkot, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    },
+    {
+      "memberId": 25,
+      "name": "Harsh Vardhan",
+      "email": "harshvardhan56@gmail.com",
+      "phone": "7413698525",
+      "address": "39 Green Park, Surat, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true
+    },
+    {
+      "memberId": 26,
+      "name": "Radhika Menon",
+      "email": "radhikamenon77@gmail.com",
+      "phone": "8529637415",
+      "address": "300 Lake View, Ahmedabad, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false
+    },
+    {
+      "memberId": 27,
+      "name": "Sanjay Goyal",
+      "email": "sanjaygoyal89@gmail.com",
+      "phone": "7410852965",
+      "address": "120 Hill Colony, Vadodara, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true
+    },
+    {
+      "memberId": 28,
+      "name": "Divya Choudhary",
+      "email": "divyachoudhary45@gmail.com",
+      "phone": "9632014789",
+      "address": "45 Civil Lines, Rajkot, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false
+    },
+    {
+      "memberId": 29,
+      "name": "Akash Bansal",
+      "email": "akashbansal66@gmail.com",
+      "phone": "7410258969",
+      "address": "89 MG Road, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true
+    },
+    {
+      "memberId": 30,
+      "name": "Shruti Malhotra",
+      "email": "shrutimalhotra22@gmail.com",
+      "phone": "8521479639",
+      "address": "110 Ashram Road, Ahmedabad, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false
+    }
+  ],
+  "fines": [],
+  "issue":[
+  {
+    "issueId": 1,
+    "book": { "id": 31, "isbns": "3101" },
+    "memberId": 1,
+    "issueDetails": {
+      "issueDate": "2025-08-26",
+      "dueDate": "2025-09-09",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 2,
+    "book": { "id": 45, "isbns": "4502" },
+    "memberId": 2,
+    "issueDetails": {
+      "issueDate": "2025-08-20",
+      "dueDate": "2025-09-03",
+      "returnDate": "2025-08-28",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 3,
+    "book": { "id": 62, "isbns": "6203" },
+    "memberId": 3,
+    "issueDetails": {
+      "issueDate": "2025-08-15",
+      "dueDate": "2025-08-29",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 20
+    }
+  },
+  {
+    "issueId": 4,
+    "book": { "id": 77, "isbns": "7704" },
+    "memberId": 4,
+    "issueDetails": {
+      "issueDate": "2025-08-10",
+      "dueDate": "2025-08-24",
+      "returnDate": "2025-08-23",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 5,
+    "book": { "id": 12, "isbns": "1205" },
+    "memberId": 5,
+    "issueDetails": {
+      "issueDate": "2025-08-05",
+      "dueDate": "2025-08-19",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 50
+    }
+  },
+  {
+    "issueId": 6,
+    "book": { "id": 19, "isbns": "1906" },
+    "memberId": 6,
+    "issueDetails": {
+      "issueDate": "2025-08-22",
+      "dueDate": "2025-09-05",
+      "returnDate": "2025-08-25",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 7,
+    "book": { "id": 54, "isbns": "5407" },
+    "memberId": 7,
+    "issueDetails": {
+      "issueDate": "2025-08-18",
+      "dueDate": "2025-09-01",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 8,
+    "book": { "id": 89, "isbns": "8908" },
+    "memberId": 8,
+    "issueDetails": {
+      "issueDate": "2025-08-12",
+      "dueDate": "2025-08-26",
+      "returnDate": "2025-08-29",
+      "status": "returned",
+      "fine": 15
+    }
+  },
+  {
+    "issueId": 9,
+    "book": { "id": 36, "isbns": "3609" },
+    "memberId": 9,
+    "issueDetails": {
+      "issueDate": "2025-08-08",
+      "dueDate": "2025-08-22",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 30
+    }
+  },
+  {
+    "issueId": 10,
+    "book": { "id": 27, "isbns": "2710" },
+    "memberId": 10,
+    "issueDetails": {
+      "issueDate": "2025-08-03",
+      "dueDate": "2025-08-17",
+      "returnDate": "2025-08-10",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 11,
+    "book": { "id": 64, "isbns": "6411" },
+    "memberId": 11,
+    "issueDetails": {
+      "issueDate": "2025-08-07",
+      "dueDate": "2025-08-21",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 10
+    }
+  },
+  {
+    "issueId": 12,
+    "book": { "id": 90, "isbns": "9012" },
+    "memberId": 12,
+    "issueDetails": {
+      "issueDate": "2025-08-14",
+      "dueDate": "2025-08-28",
+      "returnDate": "2025-08-20",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 13,
+    "book": { "id": 11, "isbns": "1113" },
+    "memberId": 13,
+    "issueDetails": {
+      "issueDate": "2025-08-01",
+      "dueDate": "2025-08-15",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 60
+    }
+  },
+  {
+    "issueId": 14,
+    "book": { "id": 21, "isbns": "2114" },
+    "memberId": 14,
+    "issueDetails": {
+      "issueDate": "2025-08-11",
+      "dueDate": "2025-08-25",
+      "returnDate": "2025-08-24",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 15,
+    "book": { "id": 38, "isbns": "3815" },
+    "memberId": 15,
+    "issueDetails": {
+      "issueDate": "2025-08-09",
+      "dueDate": "2025-08-23",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 25
+    }
+  },
+  {
+    "issueId": 16,
+    "book": { "id": 47, "isbns": "4716" },
+    "memberId": 16,
+    "issueDetails": {
+      "issueDate": "2025-08-06",
+      "dueDate": "2025-08-20",
+      "returnDate": "2025-08-19",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 17,
+    "book": { "id": 72, "isbns": "7217" },
+    "memberId": 17,
+    "issueDetails": {
+      "issueDate": "2025-08-04",
+      "dueDate": "2025-08-18",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 45
+    }
+  },
+  {
+    "issueId": 18,
+    "book": { "id": 56, "isbns": "5618" },
+    "memberId": 18,
+    "issueDetails": {
+      "issueDate": "2025-08-16",
+      "dueDate": "2025-08-30",
+      "returnDate": "2025-08-20",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 19,
+    "book": { "id": 29, "isbns": "2919" },
+    "memberId": 19,
+    "issueDetails": {
+      "issueDate": "2025-08-02",
+      "dueDate": "2025-08-16",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 70
+    }
+  },
+  {
+    "issueId": 20,
+    "book": { "id": 81, "isbns": "8120" },
+    "memberId": 20,
+    "issueDetails": {
+      "issueDate": "2025-08-17",
+      "dueDate": "2025-08-31",
+      "returnDate": "2025-08-22",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 21,
+    "book": { "id": 16, "isbns": "1621" },
+    "memberId": 21,
+    "issueDetails": {
+      "issueDate": "2025-08-19",
+      "dueDate": "2025-09-02",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 22,
+    "book": { "id": 48, "isbns": "4822" },
+    "memberId": 22,
+    "issueDetails": {
+      "issueDate": "2025-08-13",
+      "dueDate": "2025-08-27",
+      "returnDate": "2025-08-26",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 23,
+    "book": { "id": 33, "isbns": "3323" },
+    "memberId": 23,
+    "issueDetails": {
+      "issueDate": "2025-08-21",
+      "dueDate": "2025-09-04",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 24,
+    "book": { "id": 59, "isbns": "5924" },
+    "memberId": 24,
+    "issueDetails": {
+      "issueDate": "2025-08-25",
+      "dueDate": "2025-09-08",
+      "returnDate": "2025-08-27",
+      "status": "returned",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 25,
+    "book": { "id": 71, "isbns": "7125" },
+    "memberId": 25,
+    "issueDetails": {
+      "issueDate": "2025-08-23",
+      "dueDate": "2025-09-06",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 26,
+    "book": { "id": 25, "isbns": "2526" },
+    "memberId": 26,
+    "issueDetails": {
+      "issueDate": "2025-08-06",
+      "dueDate": "2025-08-20",
+      "returnDate": "2025-08-30",
+      "status": "returned",
+      "fine": 25
+    }
+  },
+  {
+    "issueId": 27,
+    "book": { "id": 14, "isbns": "1427" },
+    "memberId": 27,
+    "issueDetails": {
+      "issueDate": "2025-08-11",
+      "dueDate": "2025-08-25",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 0
+    }
+  },
+  {
+    "issueId": 28,
+    "book": { "id": 88, "isbns": "8828" },
+    "memberId": 28,
+    "issueDetails": {
+      "issueDate": "2025-08-14",
+      "dueDate": "2025-08-28",
+      "returnDate": "2025-09-01",
+      "status": "returned",
+      "fine": 10
+    }
+  },
+  {
+    "issueId": 29,
+    "book": { "id": 39, "isbns": "3929" },
+    "memberId": 29,
+    "issueDetails": {
+      "issueDate": "2025-08-09",
+      "dueDate": "2025-08-23",
+      "returnDate": null,
+      "status": "issued",
+      "fine": 35
+    }
+  },
+  {
+    "issueId": 30,
+    "book": { "id": 50, "isbns": "5030" },
+    "memberId": 30,
+    "issueDetails": {
+      "issueDate": "2025-08-18",
+      "dueDate": "2025-09-01",
+      "returnDate": "2025-08-20",
+      "status": "returned",
+      "fine": 0
+    }
+  }
+]
+,
+  "reservations": [],
+  "login": {
+    "admin": [
+      {
+        "name": "Deep",
+        "email": "admin123@gmail.com",
+        "password": 123456
+      }
+    ],
+    "user": [
+      {
+        "loginId": 1,
+        "name": "Kunal Sharma",
+        "email": "kunalsharma@gmail.com"
+      },
+      {
+        "loginId": 2,
+        "name": "Priya Patel",
+        "email": "priyapatel99@gmail.com"
+      },
+      {
+        "loginId": 3,
+        "name": "Arjun Mehta",
+        "email": "arjunmehta21@yahoo.com"
+      },
+      {
+        "loginId": 4,
+        "name": "Sneha Desai",
+        "email": "snehadesai88@gmail.com"
+      },
+      {
+        "loginId": 5,
+        "name": "Rohan Verma",
+        "email": "rohanverma56@gmail.com"
+      },
+      {
+        "loginId": 6,
+        "name": "Aditi Shah",
+        "email": "aditishah01@gmail.com"
+      },
+      {
+        "loginId": 7,
+        "name": "Manish Kumar",
+        "email": "manishkumar77@gmail.com"
+      },
+      {
+        "loginId": 8,
+        "name": "Neha Singh",
+        "email": "nehasingh45@yahoo.com"
+      },
+      {
+        "loginId": 9,
+        "name": "Vivek Joshi",
+        "email": "vivekjoshi23@gmail.com"
+      },
+      {
+        "loginId": 10,
+        "name": "Pooja Reddy",
+        "email": "poojareddy98@gmail.com"
+      },
+      {
+        "loginId": 11,
+        "name": "Aman Gupta",
+        "email": "amangupta01@gmail.com"
+      },
+      {
+        "loginId": 12,
+        "name": "Ritika Jain",
+        "email": "ritikajain55@gmail.com"
+      },
+      {
+        "loginId": 13,
+        "name": "Deepak Yadav",
+        "email": "deepakyadav99@gmail.com"
+      },
+      {
+        "loginId": 14,
+        "name": "Shivani Nair",
+        "email": "shivaninair11@gmail.com"
+      },
+      {
+        "loginId": 15,
+        "name": "Rajesh Pillai",
+        "email": "rajeshpillai23@yahoo.com"
+      },
+      {
+        "loginId": 16,
+        "name": "Komal Trivedi",
+        "email": "komaltrivedi88@gmail.com"
+      },
+      {
+        "loginId": 17,
+        "name": "Alok Mishra",
+        "email": "alokmishra45@gmail.com"
+      },
+      {
+        "loginId": 18,
+        "name": "Meera Iyer",
+        "email": "meeraiyer22@gmail.com"
+      },
+      {
+        "loginId": 19,
+        "name": "Karan Thakur",
+        "email": "karanthakur77@gmail.com"
+      },
+      {
+        "loginId": 20,
+        "name": "Simran Kaur",
+        "email": "simrankaur99@gmail.com"
+      },
+      {
+        "loginId": 21,
+        "name": "Nikhil Saxena",
+        "email": "nikhilsaxena55@gmail.com"
+      },
+      {
+        "loginId": 22,
+        "name": "Tanvi Deshmukh",
+        "email": "tanvideshmukh12@gmail.com"
+      },
+      {
+        "loginId": 23,
+        "name": "Suresh Rathi",
+        "email": "sureshrathi01@gmail.com"
+      },
+      {
+        "loginId": 24,
+        "name": "Anjali Kapoor",
+        "email": "anjalikapoor33@gmail.com"
+      },
+      {
+        "loginId": 25,
+        "name": "Harsh Vardhan",
+        "email": "harshvardhan56@gmail.com"
+      },
+      {
+        "loginId": 26,
+        "name": "Radhika Menon",
+        "email": "radhikamenon77@gmail.com"
+      },
+      {
+        "loginId": 27,
+        "name": "Sanjay Goyal",
+        "email": "sanjaygoyal89@gmail.com"
+      },
+      {
+        "loginId": 28,
+        "name": "Divya Choudhary",
+        "email": "divyachoudhary45@gmail.com"
+      },
+      {
+        "loginId": 29,
+        "name": "Akash Bansal",
+        "email": "akashbansal66@gmail.com"
+      },
+      {
+        "loginId": 30,
+        "name": "Shruti Malhotra",
+        "email": "shrutimalhotra22@gmail.com"
+      }
+    ]
+  }
 }
