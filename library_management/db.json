@@ -724,282 +724,7 @@
       "rating": null,
       "image_url": "https://m.media-amazon.com/images/I/714yQJgj6jS._SL1417_.jpg",
       "id": "47"
-    }
-  ],
-    "members": [
-    {
-      "memberId": 1,
-      "name": "Kunal Sharma",
-      "email": "kunalsharma@gmail.com",
-      "phone": "1548796232",
-      "address": "123 Main St, Surat, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": true
     },
-    {
-      "memberId": 2,
-      "name": "Priya Patel",
-      "email": "priya.patel99@gmail.com",
-      "phone": "9876543210",
-      "address": "45 Ring Road, Ahmedabad, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": false
-    },
-    {
-      "memberId": 3,
-      "name": "Arjun Mehta",
-      "email": "arjun.mehta21@yahoo.com",
-      "phone": "8523697412",
-      "address": "67 Civil Lines, Vadodara, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": true
-    },
-    {
-      "memberId": 4,
-      "name": "Sneha Desai",
-      "email": "sneha.desai88@gmail.com",
-      "phone": "9632587410",
-      "address": "78 Station Road, Rajkot, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": false
-    },
-    {
-      "memberId": 5,
-      "name": "Rohan Verma",
-      "email": "rohan.verma56@gmail.com",
-      "phone": "7410258963",
-      "address": "12 Park Avenue, Surat, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": true
-    },
-    {
-      "memberId": 6,
-      "name": "Aditi Shah",
-      "email": "aditi.shah01@gmail.com",
-      "phone": "7896541230",
-      "address": "99 Ashram Road, Ahmedabad, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": false
-    },
-    {
-      "memberId": 7,
-      "name": "Manish Kumar",
-      "email": "manish.kumar77@gmail.com",
-      "phone": "6352148795",
-      "address": "45 River Side, Vadodara, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": true
-    },
-    {
-      "memberId": 8,
-      "name": "Neha Singh",
-      "email": "neha.singh45@yahoo.com",
-      "phone": "8521479630",
-      "address": "32 Gandhi Road, Rajkot, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": false
-    },
-    {
-      "memberId": 9,
-      "name": "Vivek Joshi",
-      "email": "vivek.joshi23@gmail.com",
-      "phone": "7412589630",
-      "address": "56 City Center, Surat, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": true
-    },
-    {
-      "memberId": 10,
-      "name": "Pooja Reddy",
-      "email": "pooja.reddy98@gmail.com",
-      "phone": "9638527412",
-      "address": "85 Lajpat Nagar, Ahmedabad, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": false
-    },
-    {
-      "memberId": 11,
-      "name": "Aman Gupta",
-      "email": "aman.gupta01@gmail.com",
-      "phone": "7891234560",
-      "address": "101 Patel Colony, Vadodara, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": true
-    },
-    {
-      "memberId": 12,
-      "name": "Ritika Jain",
-      "email": "ritika.jain55@gmail.com",
-      "phone": "9637412580",
-      "address": "77 New City Road, Rajkot, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": false
-    },
-    {
-      "memberId": 13,
-      "name": "Deepak Yadav",
-      "email": "deepak.yadav99@gmail.com",
-      "phone": "7413698520",
-      "address": "19 Green Park, Surat, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": true
-    },
-    {
-      "memberId": 14,
-      "name": "Shivani Nair",
-      "email": "shivani.nair11@gmail.com",
-      "phone": "8529637410",
-      "address": "200 Lake View, Ahmedabad, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": false
-    },
-    {
-      "memberId": 15,
-      "name": "Rajesh Pillai",
-      "email": "rajesh.pillai23@yahoo.com",
-      "phone": "7410852963",
-      "address": "56 Hill Colony, Vadodara, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": true
-    },
-    {
-      "memberId": 16,
-      "name": "Komal Trivedi",
-      "email": "komal.trivedi88@gmail.com",
-      "phone": "9632014785",
-      "address": "87 Civil Lines, Rajkot, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": false
-    },
-    {
-      "memberId": 17,
-      "name": "Alok Mishra",
-      "email": "alok.mishra45@gmail.com",
-      "phone": "7410258960",
-      "address": "65 MG Road, Surat, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": true
-    },
-    {
-      "memberId": 18,
-      "name": "Meera Iyer",
-      "email": "meera.iyer22@gmail.com",
-      "phone": "8521479635",
-      "address": "88 Ashram Road, Ahmedabad, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": false
-    },
-    {
-      "memberId": 19,
-      "name": "Karan Thakur",
-      "email": "karan.thakur77@gmail.com",
-      "phone": "7412589635",
-      "address": "44 River Side, Vadodara, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": true
-    },
-    {
-      "memberId": 20,
-      "name": "Simran Kaur",
-      "email": "simran.kaur99@gmail.com",
-      "phone": "9632587415",
-      "address": "23 Gandhi Road, Rajkot, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": false
-    },
-    {
-      "memberId": 21,
-      "name": "Nikhil Saxena",
-      "email": "nikhil.saxena55@gmail.com",
-      "phone": "7896541236",
-      "address": "11 Park Avenue, Surat, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": true
-    },
-    {
-      "memberId": 22,
-      "name": "Tanvi Deshmukh",
-      "email": "tanvi.deshmukh12@gmail.com",
-      "phone": "9638527415",
-      "address": "34 Lajpat Nagar, Ahmedabad, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": false
-    },
-    {
-      "memberId": 23,
-      "name": "Suresh Rathi",
-      "email": "suresh.rathi01@gmail.com",
-      "phone": "7412589636",
-      "address": "70 Patel Colony, Vadodara, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": true
-    },
-    {
-      "memberId": 24,
-      "name": "Anjali Kapoor",
-      "email": "anjali.kapoor33@gmail.com",
-      "phone": "9637412589",
-      "address": "89 New City Road, Rajkot, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": false
-    },
-    {
-      "memberId": 25,
-      "name": "Harsh Vardhan",
-      "email": "harsh.vardhan56@gmail.com",
-      "phone": "7413698525",
-      "address": "39 Green Park, Surat, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": true
-    },
-    {
-      "memberId": 26,
-      "name": "Radhika Menon",
-      "email": "radhika.menon77@gmail.com",
-      "phone": "8529637415",
-      "address": "300 Lake View, Ahmedabad, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": false
-    },
-    {
-      "memberId": 27,
-      "name": "Sanjay Goyal",
-      "email": "sanjay.goyal89@gmail.com",
-      "phone": "7410852965",
-      "address": "120 Hill Colony, Vadodara, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": true
-    },
-    {
-      "memberId": 28,
-      "name": "Divya Choudhary",
-      "email": "divya.choudhary45@gmail.com",
-      "phone": "9632014789",
-      "address": "45 Civil Lines, Rajkot, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": false
-    },
-    {
-      "memberId": 29,
-      "name": "Akash Bansal",
-      "email": "akash.bansal66@gmail.com",
-      "phone": "7410258969",
-      "address": "89 MG Road, Surat, Gujarat",
-      "memberShipType": "faculty",
-      "activeStatus": true
-    },
-    {
-      "memberId": 30,
-      "name": "Shruti Malhotra",
-      "email": "shruti.malhotra22@gmail.com",
-      "phone": "8521479639",
-      "address": "110 Ashram Road, Ahmedabad, Gujarat",
-      "memberShipType": "public",
-      "activeStatus": false
-    }
-  ],
-  "fines": [],
-  "issue": [
     {
       "id": "48",
       "title": "Ace Banking and Static Awareness Book (Latest English Printed Edition) By Adda247",
@@ -1573,7 +1298,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61NIL6z5NmL._SL1500_.jpg"
     }
   ],
-  "members": [
+    "members": [
     {
       "memberId": 1,
       "name": "Kunal Sharma",
@@ -1586,7 +1311,7 @@
     {
       "memberId": 2,
       "name": "Priya Patel",
-      "email": "priyapatel99@gmail.com",
+      "email": "priya.patel99@gmail.com",
       "phone": "9876543210",
       "address": "45 Ring Road, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
@@ -1595,7 +1320,7 @@
     {
       "memberId": 3,
       "name": "Arjun Mehta",
-      "email": "arjunmehta21@yahoo.com",
+      "email": "arjun.mehta21@yahoo.com",
       "phone": "8523697412",
       "address": "67 Civil Lines, Vadodara, Gujarat",
       "memberShipType": "public",
@@ -1604,7 +1329,7 @@
     {
       "memberId": 4,
       "name": "Sneha Desai",
-      "email": "snehadesai88@gmail.com",
+      "email": "sneha.desai88@gmail.com",
       "phone": "9632587410",
       "address": "78 Station Road, Rajkot, Gujarat",
       "memberShipType": "student",
@@ -1613,7 +1338,7 @@
     {
       "memberId": 5,
       "name": "Rohan Verma",
-      "email": "rohanverma56@gmail.com",
+      "email": "rohan.verma56@gmail.com",
       "phone": "7410258963",
       "address": "12 Park Avenue, Surat, Gujarat",
       "memberShipType": "faculty",
@@ -1622,7 +1347,7 @@
     {
       "memberId": 6,
       "name": "Aditi Shah",
-      "email": "aditishah01@gmail.com",
+      "email": "aditi.shah01@gmail.com",
       "phone": "7896541230",
       "address": "99 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
@@ -1631,7 +1356,7 @@
     {
       "memberId": 7,
       "name": "Manish Kumar",
-      "email": "manishkumar77@gmail.com",
+      "email": "manish.kumar77@gmail.com",
       "phone": "6352148795",
       "address": "45 River Side, Vadodara, Gujarat",
       "memberShipType": "student",
@@ -1640,7 +1365,7 @@
     {
       "memberId": 8,
       "name": "Neha Singh",
-      "email": "nehasingh45@yahoo.com",
+      "email": "neha.singh45@yahoo.com",
       "phone": "8521479630",
       "address": "32 Gandhi Road, Rajkot, Gujarat",
       "memberShipType": "faculty",
@@ -1649,7 +1374,7 @@
     {
       "memberId": 9,
       "name": "Vivek Joshi",
-      "email": "vivekjoshi23@gmail.com",
+      "email": "vivek.joshi23@gmail.com",
       "phone": "7412589630",
       "address": "56 City Center, Surat, Gujarat",
       "memberShipType": "public",
@@ -1658,7 +1383,7 @@
     {
       "memberId": 10,
       "name": "Pooja Reddy",
-      "email": "poojareddy98@gmail.com",
+      "email": "pooja.reddy98@gmail.com",
       "phone": "9638527412",
       "address": "85 Lajpat Nagar, Ahmedabad, Gujarat",
       "memberShipType": "student",
@@ -1667,7 +1392,7 @@
     {
       "memberId": 11,
       "name": "Aman Gupta",
-      "email": "amangupta01@gmail.com",
+      "email": "aman.gupta01@gmail.com",
       "phone": "7891234560",
       "address": "101 Patel Colony, Vadodara, Gujarat",
       "memberShipType": "faculty",
@@ -1676,7 +1401,7 @@
     {
       "memberId": 12,
       "name": "Ritika Jain",
-      "email": "ritikajain55@gmail.com",
+      "email": "ritika.jain55@gmail.com",
       "phone": "9637412580",
       "address": "77 New City Road, Rajkot, Gujarat",
       "memberShipType": "public",
@@ -1685,7 +1410,7 @@
     {
       "memberId": 13,
       "name": "Deepak Yadav",
-      "email": "deepakyadav99@gmail.com",
+      "email": "deepak.yadav99@gmail.com",
       "phone": "7413698520",
       "address": "19 Green Park, Surat, Gujarat",
       "memberShipType": "student",
@@ -1694,7 +1419,7 @@
     {
       "memberId": 14,
       "name": "Shivani Nair",
-      "email": "shivaninair11@gmail.com",
+      "email": "shivani.nair11@gmail.com",
       "phone": "8529637410",
       "address": "200 Lake View, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
@@ -1703,7 +1428,7 @@
     {
       "memberId": 15,
       "name": "Rajesh Pillai",
-      "email": "rajeshpillai23@yahoo.com",
+      "email": "rajesh.pillai23@yahoo.com",
       "phone": "7410852963",
       "address": "56 Hill Colony, Vadodara, Gujarat",
       "memberShipType": "public",
@@ -1712,7 +1437,7 @@
     {
       "memberId": 16,
       "name": "Komal Trivedi",
-      "email": "komaltrivedi88@gmail.com",
+      "email": "komal.trivedi88@gmail.com",
       "phone": "9632014785",
       "address": "87 Civil Lines, Rajkot, Gujarat",
       "memberShipType": "student",
@@ -1721,7 +1446,7 @@
     {
       "memberId": 17,
       "name": "Alok Mishra",
-      "email": "alokmishra45@gmail.com",
+      "email": "alok.mishra45@gmail.com",
       "phone": "7410258960",
       "address": "65 MG Road, Surat, Gujarat",
       "memberShipType": "faculty",
@@ -1730,7 +1455,7 @@
     {
       "memberId": 18,
       "name": "Meera Iyer",
-      "email": "meeraiyer22@gmail.com",
+      "email": "meera.iyer22@gmail.com",
       "phone": "8521479635",
       "address": "88 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
@@ -1739,7 +1464,7 @@
     {
       "memberId": 19,
       "name": "Karan Thakur",
-      "email": "karanthakur77@gmail.com",
+      "email": "karan.thakur77@gmail.com",
       "phone": "7412589635",
       "address": "44 River Side, Vadodara, Gujarat",
       "memberShipType": "student",
@@ -1748,7 +1473,7 @@
     {
       "memberId": 20,
       "name": "Simran Kaur",
-      "email": "simrankaur99@gmail.com",
+      "email": "simran.kaur99@gmail.com",
       "phone": "9632587415",
       "address": "23 Gandhi Road, Rajkot, Gujarat",
       "memberShipType": "faculty",
@@ -1757,7 +1482,7 @@
     {
       "memberId": 21,
       "name": "Nikhil Saxena",
-      "email": "nikhilsaxena55@gmail.com",
+      "email": "nikhil.saxena55@gmail.com",
       "phone": "7896541236",
       "address": "11 Park Avenue, Surat, Gujarat",
       "memberShipType": "public",
@@ -1766,7 +1491,7 @@
     {
       "memberId": 22,
       "name": "Tanvi Deshmukh",
-      "email": "tanvideshmukh12@gmail.com",
+      "email": "tanvi.deshmukh12@gmail.com",
       "phone": "9638527415",
       "address": "34 Lajpat Nagar, Ahmedabad, Gujarat",
       "memberShipType": "student",
@@ -1775,7 +1500,7 @@
     {
       "memberId": 23,
       "name": "Suresh Rathi",
-      "email": "sureshrathi01@gmail.com",
+      "email": "suresh.rathi01@gmail.com",
       "phone": "7412589636",
       "address": "70 Patel Colony, Vadodara, Gujarat",
       "memberShipType": "faculty",
@@ -1784,7 +1509,7 @@
     {
       "memberId": 24,
       "name": "Anjali Kapoor",
-      "email": "anjalikapoor33@gmail.com",
+      "email": "anjali.kapoor33@gmail.com",
       "phone": "9637412589",
       "address": "89 New City Road, Rajkot, Gujarat",
       "memberShipType": "public",
@@ -1793,7 +1518,7 @@
     {
       "memberId": 25,
       "name": "Harsh Vardhan",
-      "email": "harshvardhan56@gmail.com",
+      "email": "harsh.vardhan56@gmail.com",
       "phone": "7413698525",
       "address": "39 Green Park, Surat, Gujarat",
       "memberShipType": "student",
@@ -1802,7 +1527,7 @@
     {
       "memberId": 26,
       "name": "Radhika Menon",
-      "email": "radhikamenon77@gmail.com",
+      "email": "radhika.menon77@gmail.com",
       "phone": "8529637415",
       "address": "300 Lake View, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
@@ -1811,7 +1536,7 @@
     {
       "memberId": 27,
       "name": "Sanjay Goyal",
-      "email": "sanjaygoyal89@gmail.com",
+      "email": "sanjay.goyal89@gmail.com",
       "phone": "7410852965",
       "address": "120 Hill Colony, Vadodara, Gujarat",
       "memberShipType": "public",
@@ -1820,7 +1545,7 @@
     {
       "memberId": 28,
       "name": "Divya Choudhary",
-      "email": "divyachoudhary45@gmail.com",
+      "email": "divya.choudhary45@gmail.com",
       "phone": "9632014789",
       "address": "45 Civil Lines, Rajkot, Gujarat",
       "memberShipType": "student",
@@ -1829,7 +1554,7 @@
     {
       "memberId": 29,
       "name": "Akash Bansal",
-      "email": "akashbansal66@gmail.com",
+      "email": "akash.bansal66@gmail.com",
       "phone": "7410258969",
       "address": "89 MG Road, Surat, Gujarat",
       "memberShipType": "faculty",
@@ -1838,7 +1563,7 @@
     {
       "memberId": 30,
       "name": "Shruti Malhotra",
-      "email": "shrutimalhotra22@gmail.com",
+      "email": "shruti.malhotra22@gmail.com",
       "phone": "8521479639",
       "address": "110 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
@@ -1846,7 +1571,7 @@
     }
   ],
   "fines": [],
-  "issue":[
+  "issues" : [
   {
     "issueId": 1,
     "book": { "id": 31, "isbns": "3101" },

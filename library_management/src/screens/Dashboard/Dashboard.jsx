@@ -24,7 +24,7 @@ const [reservations, setReservations] = useState([]);
     // dispatch fetchMembers
     dispatch(fetchMembers())
    
-     axios.get("http://localhost:3000/issue").then((res) =>
+     axios.get("http://localhost:3000/issues").then((res) =>
       setIssued(res.data)
     );
      axios.get("http://localhost:3000/fines").then((res) => setFines(res.data));
