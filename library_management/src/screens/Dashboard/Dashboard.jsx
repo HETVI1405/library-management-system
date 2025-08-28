@@ -14,7 +14,7 @@ export default function Dashboard() {
 const [reservations, setReservations] = useState([]);
 
 
- const { books } = useSelector((state) => state.books);
+ const { allBooks } = useSelector((state) => state.books);
  const {members} = useSelector((state)=> state.members)
  const dispatch = useDispatch()
 
@@ -36,7 +36,7 @@ const [reservations, setReservations] = useState([]);
       <div className="dashboard_con">
       <div className="box">
         <RiBookShelfFill size={70} color="#4682B4" />
-        <h2>{books.length}</h2>
+        <h2>{allBooks.length}</h2>
          <h3>Total Books</h3>
       </div>
       <div className="box">
@@ -64,7 +64,7 @@ const [reservations, setReservations] = useState([]);
        </div>
 
       <RoundChart
-        books={books}
+        books={allBooks}
         members={members}
         issued={issued}
         fines={fines}

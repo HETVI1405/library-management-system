@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchMembers } from "../../features/membersSlice";
+import "./Members.css"
 
 export default function Members() {
 
@@ -12,12 +13,12 @@ export default function Members() {
     }, [])
 
     return (
-        <div>
+        <div className='members-container'>
             <h1>Members</h1>
             <ol className="ol-list list-group list-group-numbered">
                 {members.map((member, index) => {
                     return (
-                        <button className='btn'>
+                        <button className='profile-btn' key={index}>
                             <li
                                 key={index}
                                 className="list-group-item d-flex justify-content-between align-items-start"
