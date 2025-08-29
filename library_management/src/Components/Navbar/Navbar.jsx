@@ -10,14 +10,20 @@ export default function Sidebar() {
     { id: 2, title: "Add Book", path: "/addbook", icon: "fas fa-plus" },
     { id: 3, title: "Books", path: "/book", icon: "fas fa-book" },
     { id: 4, title: "Members", path: "/member", icon: "fas fa-users" },
-    { id: 5, title: "Login", path: "/login", icon: "fas fa-user" }
+    { id: 5, title: "Login", path: "/login", icon: "fas fa-user" },
+   
+
   ];
 
   return (
     <div>
       <div className="nav_header">
         <div className="nav_con">
+<<<<<<< HEAD
     </div >
+=======
+     </div>
+>>>>>>> db3de3586989775a18951663648aed48ab16f4b2
      
     <nav className="sidebar bg-white">
   <div className="profile-box">
