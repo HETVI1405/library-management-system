@@ -1487,15 +1487,12 @@
         "isbns": "2919"
       },
       "memberId": 19,
-<<<<<<< HEAD
       "issueDetails": {
         "issueDate": "2025-08-02",
         "dueDate": "2025-08-16",
         "returnDate": null,
         "status": "issued",
-        "fine": 70
-      }
-=======
+        "fine": 70,
       "name": "Karan Thakur",
       "email": "karanthakur77@gmail.com",
       "phone": "7412589635",
@@ -1503,7 +1500,6 @@
       "memberShipType": "student",
       "activeStatus": "Active",
       "profileImage": "https://randomuser.me/api/portraits/men/19.jpg"
->>>>>>> db3de3586989775a18951663648aed48ab16f4b2
     },
     {
       "issueId": 20,
@@ -1512,15 +1508,12 @@
         "isbns": "8120"
       },
       "memberId": 20,
-<<<<<<< HEAD
       "issueDetails": {
         "issueDate": "2025-08-17",
         "dueDate": "2025-08-31",
         "returnDate": "2025-08-22",
         "status": "returned",
-        "fine": 0
-      }
-=======
+        "fine": 0,
       "name": "Simran Kaur",
       "email": "simrankaur99@gmail.com",
       "phone": "9632587415",
@@ -1528,7 +1521,6 @@
       "memberShipType": "faculty",
       "activeStatus": "Inactive",
       "profileImage": "https://randomuser.me/api/portraits/women/20.jpg"
->>>>>>> db3de3586989775a18951663648aed48ab16f4b2
     },
     {
       "issueId": 21,
