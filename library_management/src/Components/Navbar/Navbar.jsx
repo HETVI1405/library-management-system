@@ -1,60 +1,122 @@
+// import { NavLink } from "react-router-dom";
+// import "./navbar.css";
+
+
+
+
+// export default function Sidebar() {
+//   const PageData = [
+//     { id: 1, title: "Dashboard", path: "/", icon: "fas fa-tachometer-alt" },
+//     { id: 2, title: "Add Book", path: "/addbook", icon: "fas fa-plus" },
+//     { id: 3, title: "Books", path: "/book", icon: "fas fa-book" },
+//     { id: 4, title: "Members", path: "/member", icon: "fas fa-users" },
+//     { id: 5, title: "Login", path: "/login", icon: "fas fa-user" },
+   
+
+//   ];
+//    const { logout } = useAuth();
+
+//   return (
+//     <div>
+//       <div className="nav_header">
+//         <div className="nav_con">
+
+//     </div >
+
+//      </div>
+
+     
+//     <nav className="sidebar bg-white">
+//   <div className="profile-box">
+//     <i className="ri-user-settings-fill"></i>
+//     <div className="profile-text">
+//       <span className="admin-text">Admin</span>
+//       <span className="status">● Online</span>
+//     </div>
+//   </div>
+
+//   <div className="sidebar-sticky">
+//     <div className="list-group list-group-flush">
+//       {PageData.map((el) => (
+//         <NavLink
+//           key={el.id}
+//           to={el.path}
+//           className={({ isActive }) =>
+//             "list-group-item list-group-item-action py-2 ripple" +
+//             (isActive ? " active" : "")
+//           }
+//         >
+//           <i className={`${el.icon} fa-fw me-3`}></i>
+//           <span>{el.title}</span>
+//         </NavLink>
+//       ))}
+//     </div>
+//   </div>
+// </nav>
+
+//     </div>
+ 
+    
+//   );
+// }
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+import { useAuth } from "../../screens/Auth/AuthContext";   
 
-
-
-
-export default function Sidebar() {
+export default function Navbar() {
   const PageData = [
     { id: 1, title: "Dashboard", path: "/", icon: "fas fa-tachometer-alt" },
     { id: 2, title: "Add Book", path: "/addbook", icon: "fas fa-plus" },
     { id: 3, title: "Books", path: "/book", icon: "fas fa-book" },
     { id: 4, title: "Members", path: "/member", icon: "fas fa-users" },
-    { id: 5, title: "Login", path: "/login", icon: "fas fa-user" },
-   
-
+    
   ];
+
+ const { logout } = useAuth();
 
   return (
     <div>
       <div className="nav_header">
-        <div className="nav_con">
-<<<<<<< HEAD
-    </div >
-=======
-     </div>
->>>>>>> db3de3586989775a18951663648aed48ab16f4b2
-     
-    <nav className="sidebar bg-white">
-  <div className="profile-box">
-    <i className="ri-user-settings-fill"></i>
-    <div className="profile-text">
-      <span className="admin-text">Admin</span>
-      <span className="status">● Online</span>
-    </div>
-  </div>
+        <div className="nav_con"></div>
+      </div>
 
-  <div className="sidebar-sticky">
-    <div className="list-group list-group-flush">
-      {PageData.map((el) => (
-        <NavLink
-          key={el.id}
-          to={el.path}
-          className={({ isActive }) =>
-            "list-group-item list-group-item-action py-2 ripple" +
-            (isActive ? " active" : "")
-          }
-        >
-          <i className={`${el.icon} fa-fw me-3`}></i>
-          <span>{el.title}</span>
-        </NavLink>
-      ))}
-    </div>
-  </div>
-</nav>
+      <nav className="sidebar bg-white">
+        <div className="profile-box">
+          <i className="ri-user-settings-fill"></i>
+          <div className="profile-text">
+            <span className="admin-text">Admin</span>
+            <span className="status">● Online</span>
+          </div>
+        </div>
 
+        <div className="sidebar-sticky">
+          <div className="list-group list-group-flush">
+            {PageData.map((el) => (
+              <NavLink
+                key={el.id}
+                to={el.path}
+                className={({ isActive }) =>
+                  "list-group-item list-group-item-action py-2 ripple" +
+                  (isActive ? " active" : "")
+                }
+              >
+                <i className={`${el.icon} fa-fw me-3`}></i>
+                <span>{el.title}</span>
+              </NavLink>
+            ))}
+
+            
+            <button
+              onClick={logout}
+              className="list-group-item list-group-item-action py-2 ripple logout-btn"
+              style={{ border: "none", background: "transparent", textAlign: "left" }}
+            >
+              <i className="fas fa-sign-out-alt fa-fw me-3"></i>
+              <span>Logout</span>
+            </button>
+          </div>
+        </div>
+      </nav>
     </div>
-    </div>
-    
   );
 }

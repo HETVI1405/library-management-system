@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./AdminLogin.css";
 
-
-export default function AdminLogin({ onLogin }) {
+export default function AdminLogin() {
   const [formData, setFormData] = useState({ username: "", password: "" });
+  const navigate = useNavigate();
 
   function handleChange(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -11,24 +12,28 @@ export default function AdminLogin({ onLogin }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (formData.username === "lms2025@gmail.com" && formData.password === "123456") {
-      onLogin(); 
+
+    if (formData.username === "admin" && formData.password === "1234") {
+      alert("Login successful!");
+      navigate("/dashboard"); 
     } else {
-      alert("Invalid credentials");
+      alert("Invalid credentials!");
     }
   }
 
   return (
     <section>
+      {/* Background grid */}
       <div className="grid">
-        {Array.from({ length: 60 }).map((i) => (
+        {Array.from({ length: 60 }).map((_, i) => (
           <span key={i}></span>
         ))}
       </div>
 
+      {/* Login box */}
       <div className="signin">
         <form onSubmit={handleSubmit}>
-          <h2>SIGN IN</h2>
+          <h2>ADMIN LOGIN</h2>
           <input
             type="text"
             name="username"
@@ -46,7 +51,8 @@ export default function AdminLogin({ onLogin }) {
             required
           />
           <div className="links">
-
+            <a href="#">Forgot Password?</a>
+            <a href="#">Help</a>
           </div>
           <button type="submit">Login</button>
         </form>
