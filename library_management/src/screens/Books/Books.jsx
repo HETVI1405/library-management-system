@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useDispatch, useSelector } from "react-redux";
-import { deleteBook, paginationBooks } from '../../features/bookSlice';
+import { deleteBook, fetchBooks, paginationBooks } from '../../features/bookSlice';
 import { useNavigate } from "react-router-dom";
 import "./books.css";
 import { FaEdit } from "react-icons/fa";
@@ -11,19 +11,23 @@ import { MdDeleteForever } from "react-icons/md";
 export default function Books() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
-  const {books} = useSelector((state) => state.books); 
-
   const [count, setCount] = useState(1); 
   const [searchTerm, setSearchTerm] = useState("");
   const [sortOrder, setSortOrder] = useState("asc");
   const [selectedGenre, setSelectedGenre] = useState("All");
   const [expandedTitles, setExpandedTitles] = useState({}); 
+  const { books, allBooks } = useSelector((state) => state.books);
+  const Books = books || [];  
 
   useEffect(() => {
-    // dispatch(fetchBooks())
-    dispatch(paginationBooks(count)); 
+    dispatch(fetchBooks());
+  }, [dispatch]);
+
+  useEffect(() => {
+    dispatch(paginationBooks(count));
   }, [dispatch, count]);
+
+  const totalPages = Math.ceil(allBooks.length / 8);
 
   const toggleTitle = (id) => {
     setExpandedTitles((prev) => ({
@@ -32,26 +36,23 @@ export default function Books() {
     }));
   };
 
-  const genres = ["All", ...new Set(books.map((book) => book.genre))];
+  const genres = ["All", ...new Set(allBooks.map((book) => book.genre))];
 
-  const filteredBooks = books
-    .filter((book) =>
-      (selectedGenre === "All" || book.genre === selectedGenre) &&
-      (
-        book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        book.author.toLowerCase().includes(searchTerm.toLowerCase())
-      )
+  const filteredBooks = Books.filter((book) =>
+    (selectedGenre === "All" || book.genre === selectedGenre) &&
+    (
+      book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      book.author.toLowerCase().includes(searchTerm.toLowerCase())
     )
-    .sort((a, b) => {
-      if (sortOrder === "asc") return a.rent - b.rent;
-      return b.rent - a.rent;
-    });
+  ).sort((a, b) => {
+    if (sortOrder === "asc") return a.rent - b.rent;
+    return b.rent - a.rent;
+  });
 
   return (
     <div className="books-container">
       <h2 className="books-title">Books</h2>
 
-      {/* search sort filter */}
       <div className="books-controls">
         <input
           type="text"
@@ -83,7 +84,6 @@ export default function Books() {
         </select>
       </div>
 
-      {/* Books display */}
       <div className="books-grid">
         {filteredBooks.map((book) => (
           <Card key={book.id} className="book-card">
@@ -97,7 +97,8 @@ export default function Books() {
               <Card.Title className="book-title">
                 {expandedTitles[book.id]
                   ? book.title
-                  : book.title.split(" ").slice(0, 5).join(" ") + (book.title.split(" ").length > 5 ? "..." : "")}
+                  : book.title.split(" ").slice(0, 5).join(" ") +
+                    (book.title.split(" ").length > 5 ? "..." : "")}
 
                 {book.title.split(" ").length > 5 && (
                   <span
@@ -116,26 +117,33 @@ export default function Books() {
               </Card.Text>
 
               <div style={{display:'flex',justifyContent:"space-between",alignItems:'center',marginTop:"10px"}}>
-                <Button className='edit-btn' onClick={() => navigate(`/editbook/${book.id}`)}><FaEdit /></Button>
-              <Button className="delete-btn" onClick={() => dispatch(deleteBook(book.id))}><MdDeleteForever style={{fontSize:"22px"}} /></Button>
+                <Button className='edit-btn' onClick={() => navigate(`/editbook/${book.id}`)}>
+                  <FaEdit />
+                </Button>
+                <Button className="delete-btn" onClick={() => dispatch(deleteBook(book.id))}>
+                  <MdDeleteForever style={{fontSize:"22px"}} />
+                </Button>
               </div>
             </Card.Body>
           </Card>
         ))}
       </div>
 
-      {/* Pagination */}
       <div className="pagination">
-        <button disabled={count === 1} onClick={() =>{ return ( setCount(count-1), paginationBooks(count - 1))}}>Prev</button>
-        <span>Page : {count}</span>
+        <button 
+          disabled={count === 1} 
+          onClick={() => setCount(count - 1)}
+        >
+          Prev
+        </button>
+        <span>Page : {count} of {totalPages}</span>
         <button
-          // disabled={count}
-          onClick={() => {return ( setCount(count+1), paginationBooks(count + 1))}}
+          disabled={count === totalPages}
+          onClick={() => setCount(count + 1)}
         >
           Next
         </button>
       </div>
-
-      </div>
+    </div>
   );
 }
