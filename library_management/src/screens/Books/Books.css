@@ -1,7 +1,10 @@
- .books-container {
+/* ===========================
+   BOOKS PAGE STYLES
+=========================== */
+.books-container {
   width: 100%;
   padding: 40px 20px;
-  background-color: #fff;
+  background-color: #f5f6fa;
   min-height: 100vh;
 }
 
@@ -14,32 +17,45 @@
   letter-spacing: 1px;
 }
 
+/* Controls */
 .books-controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
 .search-input,
 .sort-dropdown,
 .genre-dropdown {
-  padding: 8px;
-  font-size: 16px;
+  padding: 10px;
+  font-size: 15px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;
   flex: 1;
+  max-width: 280px;
   min-width: 200px;
+  outline: none;
+  transition: 0.2s ease;
 }
 
+.search-input:focus,
+.sort-dropdown:focus,
+.genre-dropdown:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+}
 
+/* Books Grid */
 .books-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 25px;
   justify-items: center;
 }
 
+/* Book Card */
 .book-card {
   width: 100%;
   border: none;
@@ -48,9 +64,10 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   display: flex;
   flex-direction: column;
-  background: #fafafa;
+  background: #fff;
   overflow: hidden;
   height: 100%;
+  padding-bottom: 10px;
 }
 
 .book-card:hover {
@@ -58,26 +75,34 @@
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Book Image */
 .book-image {
-  height: 260px;
+  height: 220px;
   object-fit: contain;
   padding: 10px;
   background: #fff;
+  transition: transform 0.3s ease;
 }
 
+.book-card:hover .book-image {
+  transform: scale(1.05);
+}
+
+/* Book Title & Info */
 .book-title {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  color: #34495e;
-  margin-bottom: 10px;
+  color: #2c3e50;
+  margin-bottom: 8px;
 }
 
 .book-info {
-  font-size: 0.95rem;
-  color: #555;
-  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 14px;
 }
 
+/* Card Body */
 .card-body {
   display: flex;
   flex-direction: column;
@@ -89,44 +114,36 @@
   justify-content: space-between;
 }
 
+/* Book Actions */
 .book-actions {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
   margin-top: auto;
 }
 
 .delete-btn {
-  font-size: 32px;
-  width: 100px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  background: #e74c3c !important;
-  border: none !important;
-  color: #fff !important;
+  background: #e74c3c;
+  border: none;
+  color: #fff;
   font-weight: 500;
-  padding: 8px 16px;
-  border-radius: 8px;
+  padding: 7px 14px;
+  border-radius: 6px;
   transition: background 0.25s ease, transform 0.2s ease;
 }
 
 .delete-btn:hover {
-  background: #c0392b !important;
+  background: #c0392b;
   transform: translateY(-2px);
 }
 
 .edit-btn {
-  width: 100px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  background: #3498db !important;
-  border: none !important;
-  color: #fff !important;
+  background: #3498db;
+  border: none;
+  color: #fff;
   font-weight: 500;
-  padding: 8px 16px;
-  border-radius: 8px;
+  padding: 7px 14px;
+  border-radius: 6px;
   transition: background 0.25s ease, transform 0.2s ease;
 }
 
@@ -135,34 +152,184 @@
   transform: translateY(-2px);
 }
 
-.pagination
-{
-  height: 40px;
-  margin-top: 20px;
+.btns {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  gap: 10px;
+}
+
+/* ===========================
+   BOOK DESCRIPTION PAGE
+=========================== */
+.description-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px 20px;
+  background-color: #f5f6fa;
+  min-height: 100vh;
 }
-.pagination button
-{
-  width: 150px;
-  font-size: 16px;
-  font-weight: 400;
-  margin: 0px 15px;
-  background: #3498db;
-  border: none;
+
+.description-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 800px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  animation: fadeIn 0.4s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.description-card:hover {
+  transform: scale(1.01);
+}
+
+/* Left Side - Book Image */
+.description-image {
+  width: 160px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.description-card:hover .description-image {
+  transform: scale(1.05);
+}
+
+/* Right Side - Book Content */
+.description-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Title */
+.description-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  text-transform: capitalize;
+}
+
+/* Book Information */
+.description-info {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  margin-top: 6px;
+}
+
+.description-info p {
+  margin: 6px 0;
+  font-weight: 500;
+}
+
+.description-info b {
+  color: #2c3e50;
+}
+
+/* Buttons */
+.description-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.description-actions button {
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Colors */
+.description-actions .btn-warning {
+  background-color: #ffb400;
   color: #fff;
+  border: none;
 }
 
-.pagination span
-{
-  font-size: 16px;
-  font-weight: 400;
+.description-actions .btn-warning:hover {
+  background-color: #e09a00;
 }
 
-.pagination button:hover
-{
-    color: #3498db;
-    font-weight: 700;
-    background: white,
+.description-actions .btn-secondary {
+  background-color: #5c636a;
+  color: #fff;
+  border: none;
+}
+
+.description-actions .btn-secondary:hover {
+  background-color: #464c52;
+}
+
+/* Not Found Message */
+.not-found {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+@media (max-width: 768px) {
+  .description-card {
+    flex-direction: column;
+    max-width: 95%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .description-image {
+    width: 100%;
+    height: 220px;
+  }
+
+  .description-content {
+    margin-top: 12px;
+  }
+
+  .description-title {
+    font-size: 20px;
+  }
+
+  .description-info {
+    font-size: 13px;
+  }
+
+  .description-actions {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .description-actions button {
+    width: 100%;
+  }
 }

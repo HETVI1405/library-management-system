@@ -8,7 +8,8 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 50px;
+  /* padding: 50px;  */
+  padding-top: 25px;
   background: #ffffff;
   flex-wrap: nowrap;
 }
