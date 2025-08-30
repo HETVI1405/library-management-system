@@ -19,25 +19,6 @@
       "image_url": "https://m.media-amazon.com/images/I/613Z8e4jlpL._SY466_.jpg"
     },
     {
-      "id": "2",
-      "title": "Naruto Vol. 1",
-      "author": "Masashi Kishimoto",
-      "genre": "Anime",
-      "rent": 12,
-      "quantity": 5,
-      "isbns": [
-        "801",
-        "802",
-        "803",
-        "804",
-        "805"
-      ],
-      "availability": "available",
-      "rating": 4.7,
-      "url": "https://www.amazon.in/dp/1569319006",
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYzxHuF30ndLW0zvgZnvBt1X09SFXq-UWjqg&s"
-    },
-    {
       "id": "3",
       "title": "Days at the Morisaki Bookshop: The perfect book to curl up with - for lovers of Japanese translated fiction everywhere",
       "author": "Satoshi Yagisawa",
@@ -128,6 +109,24 @@
       "image_url": "https://m.media-amazon.com/images/I/81g2oEdeGTL._SL1500_.jpg"
     },
     {
+      "id": "8",
+      "title": "The Stationery Shop Of Tehran",
+      "author": "Marjan Kamali",
+      "genre": "Historical Fiction",
+      "rating": 4.4,
+      "rent": 19,
+      "quantity": 5,
+      "isbns": [
+        "1030",
+        "1031",
+        "1032",
+        "1033",
+        "1034"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81t6xQeZA8L._SL1500_.jpg"
+    },
+    {
       "id": "9",
       "title": "Never Lie: A Totally Gripping Thriller with Mind-bending Twists | TikTok Viral & Bestseller Pick",
       "author": "Freida McFadden",
@@ -164,25 +163,6 @@
       "image_url": "https://m.media-amazon.com/images/I/71uUY42uNsL._SL1500_.jpg"
     },
     {
-      "id": "11",
-      "title": "One Piece Vol. 1",
-      "author": "Eiichiro Oda",
-      "genre": "Anime",
-      "rent": 15,
-      "quantity": 5,
-      "isbns": [
-        "1101",
-        "1102",
-        "1103",
-        "1104",
-        "1105"
-      ],
-      "availability": "available",
-      "rating": 4.9,
-      "url": "https://www.amazon.in/dp/1569319014",
-      "image_url": "https://m.media-amazon.com/images/I/81gTwYAhU7L.jpg"
-    },
-    {
       "id": "12",
       "title": "The Novels of Sherlock Holmes",
       "author": "Arthur Conan Doyle",
@@ -201,9 +181,11 @@
       "image_url": "https://m.media-amazon.com/images/I/8140Rv5DfWL._SL1500_.jpg"
     },
     {
+      "id": "13",
       "title": "White Nights – Fyodor Dostoyevsky | A Million-Copy Bestseller | A Timeless Story of Love, Longing & Solitude – Penguin Classics",
       "author": "Fyodor Dostoyevsky",
       "genre": "Classic",
+      "rating": 4.4,
       "rent": 16,
       "quantity": 4,
       "isbns": [
@@ -213,9 +195,7 @@
         "1053"
       ],
       "availability": "available",
-      "rating": 4,
-      "image_url": "https://m.media-amazon.com/images/I/51lMJWnnRDL._SL1500_.jpg",
-      "id": "13"
+      "image_url": "https://m.media-amazon.com/images/I/51lMJWnnRDL._SL1500_.jpg"
     },
     {
       "id": "14",
@@ -379,63 +359,6 @@
       "availability": "available",
       "image_url": "https://m.media-amazon.com/images/I/71++OHDG+5L._SL1500_.jpg"
     },
-{
-  "id": "23",
-  "title": "Demon Slayer Vol. 1",
-  "author": "Koyoharu Gotouge",
-  "genre": "Anime",
-  "rent": 14,
-  "quantity": 5,
-  "isbns": [
-    "2301",
-    "2302",
-    "2303",
-    "2304",
-    "2305"
-  ],
-  "availability": "available",
-  "rating": 4.8,
-  "url": "https://www.amazon.in/dp/1974700526",
-  "image_url": "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg"
-},
-   {
-  "id": "24",
-  "title": "My Hero Academia Vol. 1",
-  "author": "Kohei Horikoshi",
-  "genre": "Anime",
-  "rent": 14,
-  "quantity": 5,
-  "isbns": [
-    "2401",
-    "2402",
-    "2403",
-    "2404",
-    "2405"
-  ],
-  "availability": "available",
-  "rating": 4.8,
-  "url": "https://www.amazon.in/dp/1421582694",
-  "image_url": "https://imgv2-2-f.scribdassets.com/img/document/676299712/original/46a08434ac/1?v=1"
-},
-    {
-      "id": "25",
-      "title": "Tokyo Ghoul Vol. 1",
-      "author": "Sui Ishida",
-      "genre": "Anime",
-      "rent": 13,
-      "quantity": 5,
-      "isbns": [
-        "2501",
-        "2502",
-        "2503",
-        "2504",
-        "2505"
-      ],
-      "availability": "available",
-      "rating": 4.6,
-      "url": "https://www.amazon.in/dp/1421580365",
-      "image_url": "https://m.media-amazon.com/images/I/71aIUtWoqHL._UF1000,1000_QL80_.jpg"
-    },
     {
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgeral",
@@ -454,82 +377,44 @@
       "image_url": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UY218_.jpg",
       "id": "26"
     },
- {
-  "id": "27",
-  "title": "Spy x Family Vol. 1",
-  "author": "Tatsuya Endo",
-  "genre": "Anime",
-  "rent": 13,
-  "quantity": 5,
-  "isbns": [
-    "2701",
-    "2702",
-    "2703",
-    "2704",
-    "2705"
-  ],
-  "availability": "available",
-  "rating": 4.8,
-  "url": "https://www.amazon.in/dp/1974715469",
-  "image_url": "https://m.media-amazon.com/images/I/71oYp0Y7bxL._UF1000,1000_QL80_.jpg"
-},
-{
-  "id": "28",
-  "title": "Jujutsu Kaisen Vol. 1",
-  "author": "Gege Akutami",
-  "genre": "Anime",
-  "rent": 15,
-  "quantity": 5,
-  "isbns": [
-    "2801",
-    "2802",
-    "2803",
-    "2804",
-    "2805"
-  ],
-  "availability": "available",
-  "rating": 4.7,
-  "url": "https://m.media-amazon.com/images/I/81TmHlRleJL.jpg",
-  "image_url": "https://m.media-amazon.com/images/I/81TmHlRleJL.jpg"
-},
-   {
-  "id": "29",
-  "title": "Chainsaw Man Vol. 1",
-  "author": "Tatsuki Fujimoto",
-  "genre": "Anime",
-  "rent": 14,
-  "quantity": 5,
-  "isbns": [
-    "2901",
-    "2902",
-    "2903",
-    "2904",
-    "2905"
-  ],
-  "availability": "available",
-  "rating": 4.6,
-  "url": "https://www.amazon.in/dp/1974709930",
-  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbookbuystoreindia.com%2Fproduct%2Fchainsawman-vol-11%2F&psig=AOvVaw16giiAtioFxONSxITnMO93&ust=1756551540719000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCLj0l9Hur48DFQAAAAAdAAAAABAV"
-},
-{
-  "id": "30",
-  "title": "Blue Lock Vol. 1",
-  "author": "Muneyuki Kaneshiro",
-  "genre": "Anime",
-  "rent": 15,
-  "quantity": 5,
-  "isbns": [
-    "3001",
-    "3002",
-    "3003",
-    "3004",
-    "3005"
-  ],
-  "availability": "available",
-  "rating": 4.7,
-  "url": "https://www.amazon.in/dp/1646516545",
-  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flipkart.com%2Fblue-lock-1%2Fp%2Fitm92fd015ac9025&psig=AOvVaw1SLINqq5XKX01nTbpaweNw&ust=1756551632546000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOi5y_zur48DFQAAAAAdAAAAABAE"
-},
+    {
+      "id": "28",
+      "title": "Naruto Vol. 1",
+      "author": "Masashi Kishimoto",
+      "genre": "Anime",
+      "rent": 22,
+      "quantity": 5,
+      "isbns": [
+        "2801",
+        "2802",
+        "2803",
+        "2804",
+        "2805"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/1569319006",
+      "image_url": "https://m.media-amazon.com/images/I/91Q5dCjc2KL._AC_UY218_.jpg"
+    },
+    {
+      "id": "30",
+      "title": "Death Note Vol. 1",
+      "author": "Tsugumi Ohba",
+      "genre": "Anime",
+      "rent": 13,
+      "quantity": 5,
+      "isbns": [
+        "3001",
+        "3002",
+        "3003",
+        "3004",
+        "3005"
+      ],
+      "availability": "available",
+      "rating": 4.8,
+      "url": "https://www.amazon.in/dp/1421501686",
+      "image_url": "https://rukminim2.flixcart.com/image/1200/1200/xif0q/regionalbooks/c/s/r/death-note-vol-1-english-paperback-tsugumi-ohba-original-imagkgu25kky4gz6.jpeg"
+    },
     {
       "id": "31",
       "title": "The Power of Now",
@@ -580,7 +465,8 @@
         "3303"
       ],
       "availability": "available",
-      "rating": 4,
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/0099511029",
       "image_url": "https://m.media-amazon.com/images/I/41PYbhOmkzL._SY445_SX342_.jpg"
     },
     {
@@ -696,6 +582,7 @@
       "image_url": "https://m.media-amazon.com/images/I/71Jg6kSgYwL._SL1500_.jpg"
     },
     {
+      "id": "40",
       "title": "The Lean Startup",
       "author": "Eric Ries",
       "genre": "Business",
@@ -709,17 +596,85 @@
         "4005"
       ],
       "availability": "available",
-      "rating": 4,
-      "image_url": "https://m.media-amazon.com/images/I/51CTIr1bJxL._SY445_SX342_.jpg",
-      "id": "40"
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/0307887898",
+      "image_url": "https://m.media-amazon.com/images/I/51CTIr1bJxL._SY445_SX342_.jpg"
     },
     {
       "id": "41",
-      "title": "Half Girlfriend",
-      "author": "Chetan Bhagat",
-      "genre": "Romance",
+      "title": "The Courage to Be Disliked",
+      "author": "Ichiro Kishimi",
+      "genre": "Self-Help",
+      "rent": 22,
+      "quantity": 4,
+      "isbns": [
+        "4101",
+        "4102",
+        "4103",
+        "4104"
+      ],
+      "availability": "available",
+      "rating": 4.5,
+      "url": "https://www.amazon.in/dp/1760630732",
+      "image_url": "https://m.media-amazon.com/images/I/41h1AktRBmL._SY445_SX342_.jpg"
+    },
+    {
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "genre": "Business",
+      "rent": 12,
+      "quantity": 3,
+      "isbns": [
+        "4501",
+        "4502",
+        "4503"
+      ],
+      "availability": "available",
       "rating": 4,
-      "rent": 15,
+      "image_url": "https://m.media-amazon.com/images/I/41N4Hmg0GYL._SX342_SY445_.jpg",
+      "id": "42"
+    },
+    {
+      "id": "43",
+      "title": "Homo Deus: A Brief History of Tomorrow",
+      "author": "Yuval Noah Harari",
+      "genre": "History",
+      "rent": 24,
+      "quantity": 4,
+      "isbns": [
+        "4801",
+        "4802",
+        "4803",
+        "4804"
+      ],
+      "availability": "available",
+      "rating": 4.7,
+      "url": "https://www.amazon.in/dp/1784703931",
+      "image_url": "https://m.media-amazon.com/images/I/41x9l0H2UGL._SY445_SX342_.jpg"
+    },
+    {
+      "id": "44",
+      "title": "21 Lessons for the 21st Century",
+      "author": "Yuval Noah Harari",
+      "genre": "Philosophy",
+      "rent": 16,
+      "quantity": 3,
+      "isbns": [
+        "4901",
+        "4902",
+        "4903"
+      ],
+      "availability": "available",
+      "rating": 4.6,
+      "url": "https://www.amazon.in/dp/1784708283",
+      "image_url": "https://m.media-amazon.com/images/I/71VSswnjh9L._SY466_.jpg"
+    },
+    {
+      "id": "45",
+      "title": "Man’s Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "genre": "Psychology",
+      "rent": 20,
       "quantity": 5,
       "isbns": [
         "5001",
@@ -729,53 +684,56 @@
         "5005"
       ],
       "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/71g2ednj0JL._SY466_.jpg"
+      "rating": 4.9,
+      "url": "https://www.amazon.in/dp/080701429X",
+      "image_url": "https://m.media-amazon.com/images/I/61157LApbuL._SY466_.jpg"
     },
     {
-      "id": "42",
-      "title": "The Silent Patient",
-      "author": "Alex Michaelides",
-      "genre": "Thriller",
-      "rating": 4.5,
-      "rent": 20,
-      "quantity": 4,
+      "id": "46",
+      "title": "The Power of Your Subconscious Mind: Original Classic Edition",
+      "author": "Joseph Murphy",
+      "genre": "Self-Help",
+      "rent": 13,
+      "quantity": 5,
       "isbns": [
         "5006",
         "5007",
         "5008",
-        "5009"
+        "5009",
+        "5010"
       ],
       "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/81bGKUa1e0L._SY466_.jpg"
+      "rating": 4.4,
+      "url": "https://www.amazon.in/Power-Your-Subconscious-Mind-Success/dp/8172345666",
+      "image_url": "https://m.media-amazon.com/images/I/61WMgOHyDaL._SY342_.jpg"
     },
     {
-      "id": "43",
-      "title": "The Psychology of Money",
-      "author": "Morgan Housel",
-      "genre": "Finance",
-      "rating": 4.6,
-      "rent": 18,
+      "title": "The Invisible Life of Addie LaRue - Illustrated edition ",
+      "author": "V. E. Schwab",
+      "genre": "self",
+      "rent": 15,
       "quantity": 5,
       "isbns": [
-        "5010",
         "5011",
         "5012",
         "5013",
-        "5014"
+        "5014",
+        "5015"
       ],
-      "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/71aG+xDKSYL._SY466_.jpg"
+      "availability": true,
+      "rating": null,
+      "image_url": "https://m.media-amazon.com/images/I/714yQJgj6jS._SL1417_.jpg",
+      "id": "47"
     },
     {
-      "id": "44",
-      "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
-      "author": "Héctor García, Francesc Miralles",
-      "genre": "Self-help",
-      "rating": 4.7,
-      "rent": 17,
-      "quantity": 6,
+      "id": "48",
+      "title": "Ace Banking and Static Awareness Book (Latest English Printed Edition) By Adda247",
+      "author": "Adda247",
+      "genre": "Banking and Static Awareness",
+      "rating": 4.3,
+      "rent": 22,
+      "quantity": 5,
       "isbns": [
-        "5015",
         "5016",
         "5017",
         "5018",
@@ -783,15 +741,15 @@
         "5020"
       ],
       "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/71tbalAHYCL._SY466_.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/81Iaw5-WxgL._SL1500_.jpg"
     },
     {
-      "id": "45",
-      "title": "Don't Believe Everything You Think",
-      "author": "Joseph Nguyen",
-      "genre": "Self-help",
-      "rating": 4.4,
-      "rent": 16,
+      "id": "49",
+      "title": "Inventions & Discoveries - Space Discoveries: Knowledge Encyclopedia For Children",
+      "author": "Wonder House Books",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.5,
+      "rent": 18,
       "quantity": 4,
       "isbns": [
         "5021",
@@ -800,15 +758,15 @@
         "5024"
       ],
       "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/71sBtM3Yi5L._SY466_.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/61nYtXLdnTL._SL1000_.jpg"
     },
     {
-      "id": "46",
-      "title": "Atomic Habits",
-      "author": "James Clear",
-      "genre": "Self-help",
-      "rating": 4.9,
-      "rent": 22,
+      "id": "50",
+      "title": "General Knowledge Encyclopaedia for Competitive Exams | Master 130 Topics through pictorial & infographic approach | 4 colour creative Book to master & retain GK",
+      "author": "Disha Experts",
+      "genre": "General Knowledge for Competitive Exams",
+      "rating": 4.2,
+      "rent": 20,
       "quantity": 6,
       "isbns": [
         "5025",
@@ -819,15 +777,15 @@
         "5030"
       ],
       "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/81bGKUa1e0L._SY466_.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/71phi7J3a7L._SL1500_.jpg"
     },
     {
-      "id": "47",
-      "title": "Think Like a Monk",
-      "author": "Jay Shetty",
-      "genre": "Self-help",
-      "rating": 0,
-      "rent": 19,
+      "id": "51",
+      "title": "Lucent's General Knowledge + Arihant General Knowledge 2025 - Set of 2 Books",
+      "author": "Lucent Publications, Arihant Experts",
+      "genre": "General Knowledge",
+      "rating": 4.4,
+      "rent": 24,
       "quantity": 5,
       "isbns": [
         "5031",
@@ -837,15 +795,15 @@
         "5035"
       ],
       "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/71sBtM3Yi5L._SY466_.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/71yrYxClQaL._SL1500_.jpg"
     },
     {
-      "id": "48",
-      "title": "Don't Let Him In Hardcover",
-      "author": "Lisa Jewell",
-      "genre": "Self-help",
-      "rating": 4.1,
-      "rent": 18,
+      "id": "52",
+      "title": "Kids Encyclopedia (Illustrated) - Science - Questions and Answer with Pictures - Knowledge Books for Kids - Age 6+",
+      "author": "Wonder House Books",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.6,
+      "rent": 17,
       "quantity": 4,
       "isbns": [
         "5036",
@@ -854,36 +812,17 @@
         "5039"
       ],
       "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/81Iaw5-WxgL._SL1500_.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/81w-5f3USDL._SL1500_.jpg"
     },
     {
-      "id": "49",
-      "title": "Ace Banking and Static Awareness Book (Latest English Printed Edition)",
-      "author": "Adda247",
-      "genre": "Banking",
+      "id": "54",
+      "title": "Advanced Objective General Knowledge 2025 with 8000+ MCQs | One Linear Book | For All Competitive Exams UPSC Civil Services, State PSC, SSC CGL CHSL, Bank, Railways RRB, NDA, CDS, Police SI, Constable",
+      "author": "Arihant Experts",
+      "genre": "General Knowledge for Competitive Exams",
       "rating": 4.3,
-      "rent": 22,
+      "rent": 19,
       "quantity": 5,
       "isbns": [
-        "5040",
-        "5041",
-        "5042",
-        "5043",
-        "5044"
-      ],
-      "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/81Iaw5-WxgL._SL1500_.jpg"
-    },
-    {
-      "id": "50",
-      "title": "Rich Dad Poor Dad",
-      "author": "Robert Kiyosaki",
-      "genre": "Finance",
-      "rating": 4.8,
-      "rent": 20,
-      "quantity": 6,
-      "isbns": [
-        "5045",
         "5046",
         "5047",
         "5048",
@@ -891,7 +830,472 @@
         "5050"
       ],
       "availability": "available",
-      "image_url": "https://m.media-amazon.com/images/I/71EFZMtIxrL._SL1500_.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/81Cf9sYPM6L._SL1500_.jpg"
+    },
+    {
+      "id": "55",
+      "title": "Kids Encyclopedia (Illustrated) - India - General Knowledge - Knowledge Book for Kids - Age 6+ - GK Questions and Answers about India - GK for Kids",
+      "author": "Wonder House Books",
+      "genre": "Children's General Knowledge",
+      "rating": 4.5,
+      "rent": 21,
+      "quantity": 4,
+      "isbns": [
+        "5051",
+        "5052",
+        "5053",
+        "5054"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/812rZO-S-3L._SL1500_.jpg"
+    },
+    {
+      "id": "56",
+      "title": "Lucent's General Knowledge 2024 || The Original Book with Hologram || 14th Edition || English Version",
+      "author": "Lucent Publications",
+      "genre": "General Knowledge",
+      "rating": 4.2,
+      "rent": 16,
+      "quantity": 6,
+      "isbns": [
+        "5055",
+        "5056",
+        "5057",
+        "5058",
+        "5059",
+        "5060"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71Bh1Nn7wGL._SL1500_.jpg"
+    },
+    {
+      "id": "57",
+      "title": "Science Knowledge Encyclopedia for Children : Collection of 6 Books (Box Set)",
+      "author": "Wonder House Books",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.4,
+      "rent": 25,
+      "quantity": 5,
+      "isbns": [
+        "5061",
+        "5062",
+        "5063",
+        "5064",
+        "5065"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81BsJ9xMzaL._SL1500_.jpg"
+    },
+    {
+      "id": "58",
+      "title": "General Knowledge Picture Book For Kids About India | 100 GK Questions and Answers about India with Pictures for Kids | By Learning Dino",
+      "author": "Learning Dino",
+      "genre": "Children's General Knowledge",
+      "rating": 4.1,
+      "rent": 20,
+      "quantity": 4,
+      "isbns": [
+        "5066",
+        "5067",
+        "5068",
+        "5069"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/51i+o7EiaGL.jpg"
+    },
+    {
+      "id": "59",
+      "title": "Find Your Balance Undated Planner Journal | Gratitude Journal with Habit Tracker & Mood Tracker | Includes Journaling Stickers | Undated | 4 Months - 300 Pages | (Stone White)",
+      "author": "Adda247",
+      "genre": "Self-Help Journal",
+      "rating": 4.6,
+      "rent": 15,
+      "quantity": 6,
+      "isbns": [
+        "5070",
+        "5071",
+        "5072",
+        "5073",
+        "5074",
+        "5075"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61sZBjtggBL._SL1500_.jpg"
+    },
+    {
+      "id": "60",
+      "title": "Inventions & Discoveries - Electronics & Communication: Knowledge Encyclopedia For Children",
+      "author": "DK",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.3,
+      "rent": 22,
+      "quantity": 5,
+      "isbns": [
+        "5076",
+        "5077",
+        "5078",
+        "5079",
+        "5080"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/715DmbKd1dL._SL1000_.jpg"
+    },
+    {
+      "id": "61",
+      "title": "Space - My Knowledge Book",
+      "author": "Wonder House Books",
+      "genre": "Children's Science",
+      "rating": 4.5,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5081",
+        "5082",
+        "5083",
+        "5084"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/91JUx83rHoL._SL1500_.jpg"
+    },
+    {
+      "id": "63",
+      "title": "The Book of Zero Knowledge: In Search of All That There Is to Know by Anant Mudgal",
+      "author": "Anant Mudgal",
+      "genre": "Philosophy",
+      "rating": 4.4,
+      "rent": 19,
+      "quantity": 5,
+      "isbns": [
+        "5091",
+        "5092",
+        "5093",
+        "5094",
+        "5095"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/6114dx++yUL._SL1500_.jpg"
+    },
+    {
+      "id": "64",
+      "title": "My World (Set of 10 Books) - Science Knowledge Books for Kids - Birds, Dinosaurs, Forest Life, Ocean Life, Pets, Planet Earth, Seasons, Human Body, The Sun, Solar System",
+      "author": "Wonder House Books",
+      "genre": "Children's Science Encyclopedia",
+      "rating": 4.1,
+      "rent": 21,
+      "quantity": 4,
+      "isbns": [
+        "5096",
+        "5097",
+        "5098",
+        "5099"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81xF7KT-9GL._SL1500_.jpg"
+    },
+    {
+      "id": "69",
+      "title": "Spiritual Disciplines Handbook: Practices That Transform Us",
+      "author": "Adele Ahlberg Calhoun",
+      "genre": "Spirituality",
+      "rating": 4.4,
+      "rent": 25,
+      "quantity": 5,
+      "isbns": [
+        "5121",
+        "5122",
+        "5123",
+        "5124",
+        "5125"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/91jrj5ZawXL._SL1500_.jpg"
+    },
+    {
+      "id": "70",
+      "title": "A Semester in The Sandbox",
+      "author": "David A. Armstrong",
+      "genre": "Education",
+      "rating": 4.1,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5126",
+        "5127",
+        "5128",
+        "5129"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71qlZW3C5DL._SL1360_.jpg"
+    },
+    {
+      "id": "71",
+      "title": "SET BOUNDARIES, FIND PEACE: A GUIDE TO RECLAIMING YOURSELF",
+      "author": "Nedra Glover Tawwab",
+      "genre": "Self-Help",
+      "rating": 4.5,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5135",
+        "5136",
+        "5137",
+        "5138",
+        "5139"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/51iqFRqUmrL._SL1000_.jpg"
+    },
+    {
+      "id": "72",
+      "title": "The Power of A Positive Attitude: Your Road To Success",
+      "author": "Roger Fritz",
+      "genre": "Self-Help",
+      "rating": 4.3,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5140",
+        "5141",
+        "5142",
+        "5143"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/610kcuW0g1L._SL1400_.jpg"
+    },
+    {
+      "id": "73",
+      "title": "The Knowledge of the Holy (General Press)",
+      "author": "A. W. Tozer",
+      "genre": "Religion/Spirituality",
+      "rating": 4.6,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5144",
+        "5145",
+        "5146",
+        "5147",
+        "5148",
+        "5149"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61UNpaLcIuL._SL1000_.jpg"
+    },
+    {
+      "id": "74",
+      "title": "The Voice of Knowledge: A Practical Guide to Inner Peace",
+      "author": "Don Miguel Ruiz",
+      "genre": "Self-Help/Spirituality",
+      "rating": 4.4,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5150",
+        "5151",
+        "5152",
+        "5153",
+        "5154"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61sEgHWA+kL.jpg"
+    },
+    {
+      "id": "75",
+      "title": "Ever Latest General Knowledge 2018",
+      "author": "Khanna and Verma",
+      "genre": "General Knowledge/Reference",
+      "rating": 4.2,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5155",
+        "5156",
+        "5157",
+        "5158"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/71+FjGsetrL._SL1500_.jpg"
+    },
+    {
+      "id": "76",
+      "title": "The Book of Forbidden Knowledge",
+      "author": "Johnson Smith & Company",
+      "genre": "Occult/Esoteric",
+      "rating": 4.3,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5159",
+        "5160",
+        "5161",
+        "5162",
+        "5163",
+        "5164"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81IIcZsGY+L._SL1360_.jpg"
+    },
+    {
+      "id": "77",
+      "title": "Legends of Bharat: When Indian knowledge System Inspired Genius",
+      "author": "Dr. Kapil Bhargava, Y. Sri Tejaswi, Mahesh Chandra Dewedy",
+      "genre": "Historical/Indian Philosophy",
+      "rating": 4.5,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5165",
+        "5166",
+        "5167",
+        "5168",
+        "5169"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81IbZePdTaL._SL1500_.jpg"
+    },
+    {
+      "id": "78",
+      "title": "The Practicing Mind",
+      "author": "Thomas M. Sterner",
+      "genre": "Self-Help/Psychology",
+      "rating": 4.6,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5170",
+        "5171",
+        "5172",
+        "5173"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61PuflJaHeL._SL1400_.jpg"
+    },
+    {
+      "id": "79",
+      "title": "Life's Amazing Secret: How to Find Balance and Purpose in Your Life",
+      "author": "Gaur Gopal Das",
+      "genre": "Self-Help/Spirituality",
+      "rating": 4.4,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5174",
+        "5175",
+        "5176",
+        "5177",
+        "5178",
+        "5179"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/81yxRLBMmkL._SL1500_.jpg"
+    },
+    {
+      "id": "80",
+      "title": "Self Knowledge",
+      "author": "The School of Life",
+      "genre": "Self-Help/Psychology",
+      "rating": 4.2,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5180",
+        "5181",
+        "5182",
+        "5183",
+        "5184"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/91A4695b0gL._SL1500_.jpg"
+    },
+    {
+      "id": "81",
+      "title": "Knowledge of the Higher Worlds and Its Attainment",
+      "author": "Rudolf Steiner",
+      "genre": "Esoteric/Spirituality",
+      "rating": 4.3,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5185",
+        "5186",
+        "5187",
+        "5188"
+      ],
+      "availability": "available",
+      "image_url": ""
+    },
+    {
+      "id": "82",
+      "title": "Knowledge of the Higher Worlds and Its Attainment: A Revised and Enlarged Edition of The Way of Initiation and Initiation and Its Results",
+      "author": "Rudolf Steiner",
+      "genre": "Esoteric/Spirituality",
+      "rating": 4.5,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5189",
+        "5190",
+        "5191",
+        "5192",
+        "5193",
+        "5194"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61tY9jfn7qL._SL1360_.jpg"
+    },
+    {
+      "id": "83",
+      "title": "Akashic Enlightenment Akashic Records & Book of Truth for Divine Knowledge",
+      "author": "Sherry Mosley",
+      "genre": "Spirituality/New Age",
+      "rating": 4.4,
+      "rent": 17,
+      "quantity": 5,
+      "isbns": [
+        "5195",
+        "5196",
+        "5197",
+        "5198",
+        "5199"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61tY9jfn7qL._SL1360_.jpg"
+    },
+    {
+      "id": "84",
+      "title": "The Satvic Revolution: 7 Life-Changing Habits to Discover Peak Health and Joy",
+      "author": "Subah Saraf and Harshvardhan Saraf",
+      "genre": "Health/Self-Help",
+      "rating": 4.6,
+      "rent": 17,
+      "quantity": 4,
+      "isbns": [
+        "5200",
+        "5201",
+        "5202",
+        "5203"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61Abm3DCN2L._SL1000_.jpg"
+    },
+    {
+      "id": "85",
+      "title": "The Path to Self-Love: Heal Your Heart, Set Healthy Boundaries & Unlock Your Inner Strength",
+      "author": "Ruby Dhal",
+      "genre": "Self-Help/Personal Development",
+      "rating": 4.3,
+      "rent": 17,
+      "quantity": 6,
+      "isbns": [
+        "5204",
+        "5205",
+        "5206",
+        "5207",
+        "5208",
+        "5209"
+      ],
+      "availability": "available",
+      "image_url": "https://m.media-amazon.com/images/I/61NIL6z5NmL._SL1500_.jpg"
     }
   ],
   "members": [
