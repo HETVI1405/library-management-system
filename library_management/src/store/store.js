@@ -4,6 +4,7 @@ import memberReducer from "../features/membersSlice";
 import finesReducer from "../features/finesSlice";
 import issueReducer from "../features/issueSlice";
 import reservationSlice from "../features/reservations";
+import authReducer from "../features/authSlice";
 
 
 export const store = configureStore({
@@ -13,6 +14,6 @@ export const store = configureStore({
     fines: finesReducer,
     issue: issueReducer,
     reservation: reservationSlice,
-
+  auth: authReducer,
   },
 });
