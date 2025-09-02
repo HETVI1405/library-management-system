@@ -8,9 +8,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchBooks } from "../../features/bookSlice";
 import { fetchMembers } from "../../features/membersSlice";
 
-
-
-
 export default function Dashboard() {
    const [issued, setIssued] = useState([]);
   const [fines, setFines] = useState([]);
@@ -35,77 +32,36 @@ const [reservations, setReservations] = useState([]);
  }, []);
 
  return (
-  // <Navbar />
-  //   <div className="dashboard">
-  //     <div className="dashboard_con">
-  //     <div className="box">
-  //       <RiBookShelfFill size={70} color="#4682B4" />
-  //       <h2>{allBooks.length}</h2>
-  //        <h3>Total Books</h3>
-  //     </div>
-  //     <div className="box">
-  //       <RiGroup3Fill size={70} color="#4682B4" />
-  //       <h2>{members.length}</h2>
-  //       <h3>Total Members</h3>
-  //     </div>
-  //      <div className="box">
-  //       < RiBook2Fill size={70} color="#4682B4" />
-
-  //       <h2>{issued.length}</h2>
-  //      <h3>Issued Books</h3>
-  //      </div>
-  //     <div className="box">
-  //      <  RiMoneyDollarCircleFill size={70} color="#4682B4" />
-
-  //     <h2>{fines.length}</h2>
-  //      <h3>Fines</h3>
-  //      </div>
-  //        <div className="box">
-  //       <RiCalendarCheckFill size={70} color="#4682B4" />
-  //    <h2>{reservations.length}</h2>
-  //      <h3>Reservations</h3>
-  //      </div>
-  //      </div>
-
-  //     <RoundChart
-  //       books={allBooks}
-  //       members={members}
-  //       issued={issued}
-  //       fines={fines}
-  //       reservations={reservations}
-  //     />
-  //   </div>
- 
-  <>
-
     <div className="dashboard">
       <div className="dashboard_con">
-        <div className="box">
-          <RiBookShelfFill size={70} color="#4682B4" />
-          <h2>{allBooks.length}</h2>
-          <h3>Total Books</h3>
-        </div>
-        <div className="box">
-          <RiGroup3Fill size={70} color="#4682B4" />
-          <h2>{members.length}</h2>
-          <h3>Total Members</h3>
-        </div>
-        <div className="box">
-          <RiBook2Fill size={70} color="#4682B4" />
-          <h2>{issued.length}</h2>
-          <h3>Issued Books</h3>
-        </div>
-        <div className="box">
-          <RiMoneyDollarCircleFill size={70} color="#4682B4" />
-          <h2>{fines.length}</h2>
-          <h3>Fines</h3>
-        </div>
-        <div className="box">
-          <RiCalendarCheckFill size={70} color="#4682B4" />
-          <h2>{reservations.length}</h2>
-          <h3>Reservations</h3>
-        </div>
+      <div className="box">
+        <RiBookShelfFill size={70} color="#4682B4" />
+        <h2>{allBooks.length}</h2>
+         <h3>Total Books</h3>
       </div>
+      <div className="box">
+        <RiGroup3Fill size={70} color="#4682B4" />
+        <h2>{members.length}</h2>
+        <h3>Total Members</h3>
+      </div>
+       <div className="box">
+        < RiBook2Fill size={70} color="#4682B4" />
+
+        <h2>{issued.length}</h2>
+       <h3>Issued Books</h3>
+       </div>
+      <div className="box">
+       <  RiMoneyDollarCircleFill size={70} color="#4682B4" />
+
+      <h2>{fines.length}</h2>
+       <h3>Fines</h3>
+       </div>
+         <div className="box">
+        <RiCalendarCheckFill size={70} color="#4682B4" />
+     <h2>{reservations.length}</h2>
+       <h3>Reservations</h3>
+       </div>
+       </div>
 
       <RoundChart
         books={allBooks}
@@ -115,9 +71,5 @@ const [reservations, setReservations] = useState([]);
         reservations={reservations}
       />
     </div>
-  </>
-);
-
-     
- 
+   );
    }

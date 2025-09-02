@@ -15,7 +15,7 @@ export default function RoundChart({ books, members, issued, fines, reservations
 
   return (
     <div style={{ display: "flex", justifyContent: "center", marginTop: "30px" }}>
-      <PieChart width={250} height={400}>
+      <PieChart width={400} height={400}>
         <Pie
           data={data}
           cx="50%"

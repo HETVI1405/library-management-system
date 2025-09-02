@@ -1,62 +1,100 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useContext, useEffect, useState } from "react";
 import "./AdminLogin.css";
+import { FaBook } from "react-icons/fa";
+import {
+  getAuth,
+  signInWithEmailAndPassword,
+  GoogleAuthProvider,
+  signInWithPopup,
+  signOut,
+} from "firebase/auth";
+import { app } from "../../Components/FireBase/FireBase";
+import { AuthorizationContext } from "../../Components/Context/ContentApi";
 
-export default function AdminLogin() {
-  const [formData, setFormData] = useState({ username: "", password: "" });
-  const navigate = useNavigate();
+const auth = getAuth(app);
+const provider = new GoogleAuthProvider();
 
-  function handleChange(e) {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  }
+export default function SignIn() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  const { admin, setAdmin } = useContext(AuthorizationContext);
 
-    if (formData.username === "admin" && formData.password === "1234") {
-      alert("Login successful!");
-      navigate("/dashboard"); 
-    } else {
-      alert("Invalid credentials!");
+  // Sync context with localStorage on first render
+  useEffect(() => {
+    const storedAdmin = localStorage.getItem("admin");
+    if (storedAdmin) {
+      setAdmin(storedAdmin);
     }
-  }
+  }, [setAdmin]);
+
+  const handleSignIn = async () => {
+    try {
+      const result = await signInWithEmailAndPassword(auth, email, password);
+      alert("Login successful!");
+
+      localStorage.setItem("admin", result.user.email); // Save admin email
+      setAdmin(result.user.email);
+    } catch (error) {
+      alert("Login failed: " + error.message);
+    }
+  };
+
+  const handleGoogleSignIn = async () => {
+    try {
+      const result = await signInWithPopup(auth, provider);
+      alert("Google Sign-In successful!");
+      localStorage.setItem("admin", result.user.email);
+      setAdmin(result.user.email);
+    } catch (error) {
+      alert("Google Sign-In failed: " + error.message);
+    }
+  };
+
+  const handleSignOut = async () => {
+    try {
+      await signOut(auth);
+      alert("Signed out successfully!");
+    } catch (error) {
+      alert("Sign out failed: " + error.message);
+    } finally {
+      setAdmin(null);
+      localStorage.removeItem("admin");
+    }
+  };
 
   return (
-    <section>
-      {/* Background grid */}
-      <div className="grid">
-        {Array.from({ length: 60 }).map((_, i) => (
-          <span key={i}></span>
-        ))}
-      </div>
+    <div className="signin-container">
+      <h2><FaBook style={{color:"#72ACEA"}} /> Login</h2>
 
-      {/* Login box */}
-      <div className="signin">
-        <form onSubmit={handleSubmit}>
-          <h2>ADMIN LOGIN</h2>
+      {admin ? (
+        <div>
+          <p>Welcome, {admin}</p>
+          <button onClick={handleSignOut}>Sign Out</button>
+        </div>
+      ) : (
+        <>
           <input
-            type="text"
-            name="username"
-            placeholder="Username"
-            value={formData.username}
-            onChange={handleChange}
+            type="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
           />
           <input
             type="password"
-            name="password"
             placeholder="Password"
-            value={formData.password}
-            onChange={handleChange}
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
             required
           />
-          <div className="links">
-            <a href="#">Forgot Password?</a>
-            <a href="#">Help</a>
-          </div>
-          <button type="submit">Login</button>
-        </form>
-      </div>
-    </section>
+          <button onClick={handleSignIn}>Sign In</button>
+
+          <hr />
+
+          <button onClick={handleGoogleSignIn}>Sign in with Google</button>
+        </>
+      )}
+    </div>
   );
 }
