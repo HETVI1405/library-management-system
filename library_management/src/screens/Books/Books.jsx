@@ -7,21 +7,21 @@ import { useNavigate } from "react-router-dom";
 import "./books.css";
 import { FaEdit } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
-import { AuthorizationContext, AuthorizationProvider } from '../../Components/Context/ContentApi';
+import { AuthorizationContext } from '../../Components/Context/ContentApi';
 
 export default function Books() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [count, setCount] = useState(1); 
+  const [count, setCount] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
   const [sortOrder, setSortOrder] = useState("asc");
   const [selectedGenre, setSelectedGenre] = useState("All");
-  const [expandedTitles, setExpandedTitles] = useState({}); 
+  const [expandedTitles, setExpandedTitles] = useState({});
   const { books, allBooks } = useSelector((state) => state.books);
-  const Books = books || [];  
+  const Books = books || [];
 
-  const {admin} = useContext(AuthorizationContext);
-  const content = (admin == "admin123@gmail.com" ? true : false);
+  const { admin } = useContext(AuthorizationContext);
+  const isAdmin = admin === "admin123@gmail.com";
 
   useEffect(() => {
     dispatch(fetchBooks());
@@ -36,7 +36,7 @@ export default function Books() {
   const toggleTitle = (id) => {
     setExpandedTitles((prev) => ({
       ...prev,
-      [id]: !prev[id]
+      [id]: !prev[id],
     }));
   };
 
@@ -53,131 +53,170 @@ export default function Books() {
     return b.rent - a.rent;
   });
 
-return content ? (
-  <div className="books-container">
-    <h2 className="books-title">Books</h2>
+  return (
+    <div className="books-container">
+      <h2 className="books-title">Books</h2>
 
-    <div className="books-controls">
-      <input
-        type="text"
-        placeholder="Search by title or author..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        className="search-input"
-      />
+      <div className="books-controls">
+        <input
+          type="text"
+          placeholder="Search by title or author..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="search-input"
+        />
 
-      <select
-        value={sortOrder}
-        onChange={(e) => setSortOrder(e.target.value)}
-        className="sort-dropdown"
-      >
-        <option value="asc">Sort by Rent: Low to High</option>
-        <option value="desc">Sort by Rent: High to Low</option>
-      </select>
+        <select
+          value={sortOrder}
+          onChange={(e) => setSortOrder(e.target.value)}
+          className="sort-dropdown"
+        >
+          <option value="asc">Sort by Rent: Low to High</option>
+          <option value="desc">Sort by Rent: High to Low</option>
+        </select>
 
-      <select
-        value={selectedGenre}
-        onChange={(e) => setSelectedGenre(e.target.value)}
-        className="genre-dropdown"
-      >
-        {genres.map((genre, idx) => (
-          <option key={idx} value={genre}>
-            {genre}
-          </option>
-        ))}
-      </select>
-    </div>
+        <select
+          value={selectedGenre}
+          onChange={(e) => setSelectedGenre(e.target.value)}
+          className="genre-dropdown"
+        >
+          {genres.map((genre, idx) => (
+            <option key={idx} value={genre}>
+              {genre}
+            </option>
+          ))}
+        </select>
+      </div>
 
-    <div className="books-grid">
-      {filteredBooks.map((book) => (
-        <Card key={book.id} className="book-card">
-          <Card.Img
-            variant="top"
-            src={book.image_url}
-            alt={book.title}
-            className="book-image"
-          />
-          <Card.Body>
-            <Card.Title className="book-title">
-              {expandedTitles[book.id]
-                ? book.title
-                : book.title.split(" ").slice(0, 5).join(" ") +
-                  (book.title.split(" ").length > 5 ? "..." : "")}
+      {!isAdmin ? (
+        <div className="books-grid">
+          {filteredBooks.map((book) => (
+            <Card key={book.id} className="book-card">
+              <Card.Img
+                variant="top"
+                src={book.image_url}
+                alt={book.title}
+                className="book-image"
+              />
+              <Card.Body>
+                <Card.Title className="book-title">
+                  {expandedTitles[book.id]
+                    ? book.title
+                    : book.title.split(" ").slice(0, 5).join(" ") +
+                      (book.title.split(" ").length > 5 ? "..." : "")}
 
-              {book.title.split(" ").length > 5 && (
-                <span
-                  onClick={() => toggleTitle(book.id)}
-                  style={{
-                    color: "blue",
-                    cursor: "pointer",
-                    marginLeft: "5px",
-                    fontSize: "0.9em",
-                  }}
+                  {book.title.split(" ").length > 5 && (
+                    <span
+                      onClick={() => toggleTitle(book.id)}
+                      style={{
+                        color: "blue",
+                        cursor: "pointer",
+                        marginLeft: "5px",
+                        fontSize: "0.9em",
+                      }}
+                    >
+                      {expandedTitles[book.id] ? "See less" : "See more"}
+                    </span>
+                  )}
+                </Card.Title>
+
+                <Card.Text className="book-info">
+                  <span>
+                    <b>Author :</b> {book.author}
+                  </span>
+                  <br />
+                  <span>
+                    <b>Genre :</b> {book.genre}
+                  </span>
+                  <br />
+                  <span>
+                    <b>Rent :</b> {book.rent} Rs. / day
+                  </span>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          ))}
+        </div>
+      ) : (
+        <div className="books-listview">
+          {filteredBooks.map((book) => (
+            <div key={book.id} className="book-item-listview">
+              <img
+                src={book.image_url}
+                alt={book.title}
+                className="book-image-listview"
+              />
+
+              <div className="book-details-listview">
+                <h5 className="book-title-listview">
+                  {expandedTitles[book.id]
+                    ? book.title
+                    : book.title.split(" ").slice(0, 5).join(" ") +
+                      (book.title.split(" ").length > 5 ? "..." : "")}
+
+                  {book.title.split(" ").length > 5 && (
+                    <span
+                      onClick={() => toggleTitle(book.id)}
+                      style={{
+                        color: "blue",
+                        cursor: "pointer",
+                        marginLeft: "5px",
+                        fontSize: "0.9em",
+                      }}
+                    >
+                      {expandedTitles[book.id] ? "See less" : "See more"}
+                    </span>
+                  )}
+                </h5>
+
+                <div className="book-info-listview">
+                  <span>
+                    <b>Author:</b> {book.author}
+                  </span>
+                  <br />
+                  <span>
+                    <b>Genre:</b> {book.genre}
+                  </span>
+                  <br />
+                  <span>
+                    <b>Rent:</b> {book.rent} Rs. / day
+                  </span>
+                </div>
+              </div>
+
+              <div className="book-actions-listview">
+                <Button
+                  className="edit-btn-listview"
+                  onClick={() => navigate(`/editbook/${book.id}`)}
                 >
-                  {expandedTitles[book.id] ? "See less" : "See more"}
-                </span>
-              )}
-            </Card.Title>
-
-            <Card.Text className="book-info">
-              <span>
-                <b>Author :</b> {book.author}
-              </span>
-              <br />
-              <span>
-                <b>Genre :</b> {book.genre}
-              </span>
-              <br />
-              <span>
-                <b>Rent :</b> {book.rent} Rs. / day
-              </span>
-            </Card.Text>
-
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                marginTop: "10px",
-              }}
-            >
-              <Button
-                className="edit-btn"
-                onClick={() => navigate(`/editbook/${book.id}`)}
-              >
-                <FaEdit />
-              </Button>
-              <Button
-                className="delete-btn"
-                onClick={() => dispatch(deleteBook(book.id))}
-              >
-                <MdDeleteForever style={{ fontSize: "22px" }} />
-              </Button>
+                  <FaEdit />
+                </Button>
+                <Button
+                  className="delete-btn-listview"
+                  onClick={() => dispatch(deleteBook(book.id))}
+                >
+                  <MdDeleteForever style={{ fontSize: "22px" }} />
+                </Button>
+              </div>
             </div>
-          </Card.Body>
-        </Card>
-      ))}
-    </div>
+          ))}
+        </div>
+      )}
 
-    <div className="pagination">
-      <button disabled={count === 1} onClick={() => setCount(count - 1)}>
-        Prev
-      </button>
-      <span>
-        Page : {count} of {totalPages}
-      </span>
-      <button
-        disabled={count === totalPages}
-        onClick={() => setCount(count + 1)}
-      >
-        Next
-      </button>
+      <div className="pagination">
+        <button disabled={count === 1} onClick={() => setCount(count - 1)}>
+          Prev
+        </button>
+        <span>
+          Page : {count} of {totalPages}
+        </span>
+        <button
+          disabled={count === totalPages}
+          onClick={() => setCount(count + 1)}
+        >
+          Next
+        </button>
+      </div>
     </div>
-  </div>
-) : (
-  <h2 style={{ textAlign: "center", marginTop: "50px" }}>
-    You are not authorized to view this page
-  </h2>
-);
-
+  );
 }

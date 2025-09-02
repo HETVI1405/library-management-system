@@ -144,16 +144,6 @@
   justify-content: center;
   align-items: center;
 }
-.pagination button
-{
-  width: 150px;
-  font-size: 16px;
-  font-weight: 400;
-  margin: 0px 15px;
-  background: #3498db;
-  border: none;
-  color: #fff;
-}
 
 .pagination span
 {
@@ -161,9 +151,91 @@
   font-weight: 400;
 }
 
+.pagination button
+{
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 15px;
+  background-color: #3498db;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
 .pagination button:hover
 {
-    color: #3498db;
-    font-weight: 700;
-    background: white,
+    color: black;
+    font-weight: 700; 
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: red,
+}
+
+
+/* list view for admin CSS  */
+
+
+.book-item-listview {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-image-listview {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* border-radius: 4px; */
+  margin-right: 20px;
+}
+
+.book-details-listview {
+  flex: 1;
+}
+
+.book-title-listview {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.book-info-listview {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.book-actions-listview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.edit-btn-listview,
+.delete-btn-listview {
+  padding: 6px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.edit-btn-listview {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.delete-btn-listview {
+  background-color: #dc3545;
+  color: white;
+  border: none;
 }

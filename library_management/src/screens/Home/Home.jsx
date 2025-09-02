@@ -16,7 +16,7 @@ export default function Home() {
 
 
 
-            <div style={{ height: "100vh", width: "100%" }}>
+            <div style={{ height: "100vh", width: "100%", }}>
                 <div style={{ backgroundColor: "#72acea", width: "100%", height: "60px", display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0px 50px", position: "sticky", top: "0px" }}>
                     <h5 style={{ color: "white" }} >National Digital Library </h5>
                     <div className="left" style={{ color: "whitesmoke" }}>
