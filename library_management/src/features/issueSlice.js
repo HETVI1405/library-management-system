@@ -34,7 +34,7 @@ const issueSlice= createSlice({
             state.status = "error"
             state.error = action.payload.error
         })
-
+        
     }
 })
 
