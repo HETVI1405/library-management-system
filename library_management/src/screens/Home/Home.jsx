@@ -17,7 +17,7 @@ export default function Home() {
     dispatch(fetchMembers());
   }, [dispatch]);
 
-  const adminName = members.find((member) => member.email === admin)?.name || "Admin";
+  const adminName = members.find((member) => member.email === admin)?.name || admin;
 
   return (
     <div style={{ display: "flex", overflow: "hidden" }}>

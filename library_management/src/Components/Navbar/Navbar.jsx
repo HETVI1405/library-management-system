@@ -3,6 +3,7 @@ import "./navbar.css";
 import { AuthorizationContext } from "../Context/ContentApi";
 import { useContext } from "react";
 
+
 export default function Navbar() {
   const { admin } = useContext(AuthorizationContext);
   const isAdmin = admin === "admin123@gmail.com";
