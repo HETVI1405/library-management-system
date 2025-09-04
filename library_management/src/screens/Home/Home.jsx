@@ -6,6 +6,7 @@ import { AuthorizationContext } from "../../Components/Context/ContentApi.jsx";
 import AdminLogin from "../AdminLogin/AdminLogin.jsx";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMembers } from "../../features/membersSlice.js";
+import { RiBookShelfFill } from "react-icons/ri";
 
 export default function Home() {
   const { admin } = useContext(AuthorizationContext);
@@ -39,7 +40,7 @@ export default function Home() {
             top: "0px",
           }}
         >
-          <h5 style={{ color: "white" }}>National Digital Library</h5>
+          <h5 style={{ color: "white",display:"flex",alignItems:"center"}}><RiBookShelfFill style={{fontSize:"30px",marginRight:"10px"}} /> National Digital Library</h5>
           <div className="left" style={{ color: "whitesmoke" }}>
             <i className="ri-admin-fill" style={{ marginRight: "5px" }}></i>
             Welcome {adminName}
