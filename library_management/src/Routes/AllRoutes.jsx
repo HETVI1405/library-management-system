@@ -6,6 +6,7 @@ import AdminLogin from '../screens/AdminLogin/AdminLogin';
 import EditBook from '../screens/editBook/editBook';
 import Members from '../screens/Members/Members';
 import Home from '../screens/Home/Home';
+import Issues from '../screens/issue/issue';
 import { useContext } from 'react';
 import { AuthorizationContext } from '../Components/Context/ContentApi';
 
@@ -21,6 +22,7 @@ export default function RoutesConfig() {
       <Route path="/book" element={<Books />} />
       <Route path="/login" element={<AdminLogin />} />
       <Route path="/editbook/:id" element={<EditBook />} />
+      <Route path="/issue/:id" element={<Issues />} />
       <Route path="/member" element={<Members />} />
       <Route path="/home" element={<Home />} />
     </Routes>
