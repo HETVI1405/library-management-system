@@ -1312,7 +1312,7 @@
     {
       "memberId": 2,
       "name": "Priya Patel",
-      "email": "priya.patel99@gmail.com",
+      "email": "priyapatel99@gmail.com",
       "phone": "9876543210",
       "address": "45 Ring Road, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
@@ -1322,7 +1322,7 @@
     {
       "memberId": 3,
       "name": "Arjun Mehta",
-      "email": "arjun.mehta21@yahoo.com",
+      "email": "arjunmehta21@yahoo.com",
       "phone": "8523697412",
       "address": "67 Civil Lines, Vadodara, Gujarat",
       "memberShipType": "public",
@@ -1332,7 +1332,7 @@
     {
       "memberId": 4,
       "name": "Sneha Desai",
-      "email": "sneha.desai88@gmail.com",
+      "email": "snehadesai88@gmail.com",
       "phone": "9632587410",
       "address": "78 Station Road, Rajkot, Gujarat",
       "memberShipType": "student",
@@ -1342,7 +1342,7 @@
     {
       "memberId": 5,
       "name": "Rohan Verma",
-      "email": "rohan.verma56@gmail.com",
+      "email": "rohanverma56@gmail.com",
       "phone": "7410258963",
       "address": "12 Park Avenue, Surat, Gujarat",
       "memberShipType": "faculty",
@@ -1352,7 +1352,7 @@
     {
       "memberId": 6,
       "name": "Aditi Shah",
-      "email": "aditi.shah01@gmail.com",
+      "email": "aditishah01@gmail.com",
       "phone": "7896541230",
       "address": "99 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
