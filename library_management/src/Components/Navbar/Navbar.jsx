@@ -11,9 +11,9 @@ export default function Navbar() {
     { id: 1, title: "Dashboard", path: "/", icon: "fas fa-tachometer-alt" },
     isAdmin && { id: 2, title: "Add Book", path: "/addbook", icon: "fas fa-plus" },
     { id: 3, title: "Books", path: "/book", icon: "fas fa-book" },
-    { id: 4, title: "Members", path: "/member", icon: "fas fa-users" },
-    { id: 5, title: "Login", path: "/login", icon: "fas fa-user" },
-  ].filter(Boolean);
+     isAdmin && { id: 4, title: "Members", path: "/member", icon: "fas fa-users" },
+    admin ? { id: 6, title: "Logout", path: "/login", icon: "fas fa-sign-out-alt" } : { id: 5, title: "Login", path: "/login", icon: "fas fa-user" }
+    ].filter(Boolean);
 
   return (
     <div>
@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="profile-box">
           <i className="ri-user-settings-fill"></i>
           <div className="profile-text">
-            <span className="admin-text">Admin</span>
+            <span className="admin-text">{isAdmin ? "Admin" : "User"}</span>
             <span className="status">● Online</span>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function Navbar() {
                 }
               >
                 <i className={`${el.icon} fa-fw me-3`}></i>
-                <span>{el.title}</span>
+                <span>{el.title}</span> 
               </NavLink>
             ))}
           </div>

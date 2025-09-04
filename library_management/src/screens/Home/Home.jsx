@@ -3,6 +3,7 @@ import Navbar from "../../Components/Navbar/Navbar.jsx";
 import RoutesConfig from "./../../Routes/AllRoutes.jsx";
 import "./Home.css"
 import { AuthorizationContext } from "../../Components/Context/ContentApi.jsx";
+import AdminLogin from "../AdminLogin/AdminLogin.jsx";
 
 export default function Home() {
 
@@ -23,7 +24,8 @@ export default function Home() {
                         <i class="ri-admin-fill"></i>
                         Welcome {admin} </div>
                 </div>
-                <div style={{ width: "100%", height: "100vh", overflow: "auto" }}><RoutesConfig /></div>
+                {!admin ? <AdminLogin /> : <div style={{ width: "100%", height: "100vh", overflow: "auto" }}> <RoutesConfig /></div>}
+                
             </div>
         </div>
     )
