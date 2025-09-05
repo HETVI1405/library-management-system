@@ -9,6 +9,7 @@ import Home from '../screens/Home/Home';
 import Issues from '../screens/issue/issue';
 import { useContext } from 'react';
 import { AuthorizationContext } from '../Components/Context/ContentApi';
+import Profile from '../screens/Profile/Profile';
 
 export default function RoutesConfig() {
 
@@ -26,6 +27,7 @@ export default function RoutesConfig() {
       <Route path="/issue/:id" element={<Issues />} />
       <Route path="/member" element={<Members />} />
       <Route path="/home" element={<Home />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   );
 }

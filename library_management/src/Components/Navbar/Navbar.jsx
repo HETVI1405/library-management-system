@@ -3,6 +3,7 @@ import "./navbar.css";
 import { AuthorizationContext } from "../Context/ContentApi";
 import { useContext } from "react";
 
+
 export default function Navbar() {
   const { admin } = useContext(AuthorizationContext);
   const isAdmin = admin === "admin123@gmail.com";
@@ -13,8 +14,9 @@ export default function Navbar() {
     { id: 3, title: "Books", path: "/book", icon: "fas fa-book" },
      isAdmin && { id: 4, title: "Members", path: "/member", icon: "fas fa-users" },
     admin ? { id: 6, title: "Logout", path: "/login", icon: "fas fa-sign-out-alt" } : { id: 5, title: "Login", path: "/login", icon: "fas fa-user" },
-    { id: 7, title: "Issued Books", path: "/issues:id", icon: "fas fa-book-reader" }
-
+    { id: 7, title: "Issued Books", path: "/issues:id", icon: "fas fa-book-reader" },
+     isAdmin ? { id: 4, title: "Members", path: "/member", icon: "fas fa-users" } : { id: 4, title: "Profile", path: "/profile", icon: "fas fa-users" },
+    admin ? { id: 6, title: "Logout", path: "/login", icon: "fas fa-sign-out-alt" } : { id: 5, title: "Login", path: "/login", icon: "fas fa-user" } 
     ].filter(Boolean);
 
   return (

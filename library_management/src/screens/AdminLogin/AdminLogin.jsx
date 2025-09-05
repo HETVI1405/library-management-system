@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import "./AdminLogin.css";
 import { FaBook } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 import {
   getAuth,
   signInWithEmailAndPassword,
@@ -70,7 +71,7 @@ export default function SignIn() {
       {admin ? (
         <div>
           <p>Welcome, {admin}</p>
-          <button onClick={handleSignOut}>Sign Out</button>
+          <button onClick={handleSignOut} className="signOutBtn">Sign Out</button>
         </div>
       ) : (
         <>
@@ -88,11 +89,11 @@ export default function SignIn() {
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-          <button onClick={handleSignIn}>Sign In</button>
+          <button className="SignInBtn" onClick={handleSignIn}>Sign In</button>
 
           <hr />
 
-          <button onClick={handleGoogleSignIn}>Sign in with Google</button>
+          <button className="googleBtn" onClick={handleGoogleSignIn}><FcGoogle /></button>
         </>
       )}
     </div>
