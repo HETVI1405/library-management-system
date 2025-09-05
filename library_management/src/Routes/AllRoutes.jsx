@@ -22,6 +22,7 @@ export default function RoutesConfig() {
       <Route path="/book" element={<Books />} />
       <Route path="/login" element={<AdminLogin />} />
       <Route path="/editbook/:id" element={<EditBook />} />
+      <Route path="/issues" element={<Issues />} />   {/* list of all issued books */}
       <Route path="/issue/:id" element={<Issues />} />
       <Route path="/member" element={<Members />} />
       <Route path="/home" element={<Home />} />

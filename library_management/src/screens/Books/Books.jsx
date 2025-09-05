@@ -138,7 +138,30 @@ export default function Books() {
                 </Card.Text>
                 <Button
                   className="issue-btn"
-                  onClick={() => dispatch(issueBook(book))}
+                  onClick={() => {
+                    const today = new Date();
+                    const dueDate = new Date(today);
+                    dueDate.setDate(today.getDate() + 15); // 15 days later
+
+                    const issueData = {
+                      issueId: Date.now(), // unique ID
+                      book: {
+                        id: book.id,
+                        isbns: book.isbns || "N/A", // make sure your book has ISBN
+                      },
+                      memberId: 1, // TODO: replace with logged-in member
+                      issueDetails: {
+                        issueDate: today.toISOString().split("T")[0],
+                        dueDate: dueDate.toISOString().split("T")[0],
+                        returnDate: null,
+                        status: "issued",
+                        fine: 0,
+                      },
+                      id: crypto.randomUUID(), // random unique ID
+                    };
+
+                    dispatch(issueBook(issueData));
+                  }}
                 >
                   Issue Book
                 </Button>

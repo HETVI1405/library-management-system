@@ -1,47 +1,39 @@
-// issueSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
+const IssueURL = "http://localhost:3000/issues";
+
+// Post issue
+export const issueBook = createAsyncThunk("issue/issueBook", async (issueData) => {
+  const res = await axios.post(IssueURL, issueData);
+  return res.data;
+});
+
+// Fetch all issues
 export const fetchIssue = createAsyncThunk("issue/fetchIssue", async () => {
-  const res = await axios.get("http://localhost:3000/issue");
+  const res = await axios.get(IssueURL);
   return res.data;
 });
-
-// NEW: issue a book
-export const issueBook = createAsyncThunk("issue/issueBook", async (book) => {
-  const res = await axios.post("http://localhost:3000/issue", book);
-  return res.data;
-});
-
-const initialState = {
-  issue: [],
-  status: "neutral",
-  error: null,
-};
 
 const issueSlice = createSlice({
   name: "issue",
-  initialState,
+  initialState: {
+    issue: [],
+    status: "idle",
+  },
   reducers: {},
   extraReducers: (builder) => {
-    builder.addCase(fetchIssue.pending, (state) => {
-      state.status = "loading...";
-    });
-
-    builder.addCase(fetchIssue.fulfilled, (state, action) => {
-      state.status = "success";
-      state.issue = action.payload;
-    });
-
-    builder.addCase(fetchIssue.rejected, (state, action) => {
-      state.status = "error";
-      state.error = action.error.message;
-    });
-
-    // handle issueBook
-    builder.addCase(issueBook.fulfilled, (state, action) => {
-      state.issue.push(action.payload); // add new issued book
-    });
+    builder
+      .addCase(fetchIssue.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(fetchIssue.fulfilled, (state, action) => {
+        state.status = "succeeded";
+        state.issue = action.payload;
+      })
+      .addCase(issueBook.fulfilled, (state, action) => {
+        state.issue.push(action.payload);
+      });
   },
 });
 

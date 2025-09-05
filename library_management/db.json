@@ -2081,6 +2081,342 @@
         "fine": 0
       },
       "id": "86ae"
+    },
+    {
+      "issueId": 1756983303121,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "791aafde-65ad-4292-ae8f-ebc5debb2ccc"
+    },
+    {
+      "issueId": 1756983310342,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "6152c525-5bd5-49b2-b31b-744eacd74bfd"
+    },
+    {
+      "issueId": 1756983310512,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "589c7e92-fdaa-4165-beb7-40d049b729c3"
+    },
+    {
+      "issueId": 1756983310696,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "ab877543-8282-4da3-970f-bcad6301f013"
+    },
+    {
+      "issueId": 1756983310842,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "7e3e040d-c6c6-408d-a1aa-74d7ea487268"
+    },
+    {
+      "issueId": 1756983310983,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "30f2ae25-fefa-434e-a9e0-1336a4cfee3e"
+    },
+    {
+      "issueId": 1756983311103,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "7e6b4434-b7ca-4f2b-9419-b70a4384acde"
+    },
+    {
+      "issueId": 1756983311254,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "0b56b243-f854-4484-b1c8-a59cb9080bb4"
+    },
+    {
+      "issueId": 1756983311388,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "0540be15-9621-4e59-a478-823adf7c6fdb"
+    },
+    {
+      "issueId": 1756983311613,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "52282fe2-eaf7-444a-b012-febb9a7f5252"
+    },
+    {
+      "issueId": 1756983455541,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "d18648b8-8714-4645-9d9a-5db1bcb9438b"
+    },
+    {
+      "issueId": 1756983461253,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "2b6e66f0-a462-4a7f-9ed8-7fc61545b8eb"
+    },
+    {
+      "issueId": 1756983461408,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "a3ee792a-2169-4d2b-ab77-ded69d02ad0f"
+    },
+    {
+      "issueId": 1756983461626,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "d5f56b3c-682f-4359-bc71-e2b502510fa4"
+    },
+    {
+      "issueId": 1756983529641,
+      "book": {
+        "id": "9",
+        "isbns": [
+          "1035",
+          "1036",
+          "1037",
+          "1038"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "1f8b8e47-c50c-41e0-9913-c86babbf1a82"
+    },
+    {
+      "issueId": 1756985307225,
+      "book": {
+        "id": "6",
+        "isbns": [
+          "1020",
+          "1021",
+          "1022",
+          "1023"
+        ]
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-09-04",
+        "dueDate": "2025-09-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      },
+      "id": "c2ef95ca-85ef-48f5-9762-19d00d94e5c9"
     }
   ],
   "reservations": [],
