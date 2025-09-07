@@ -137,18 +137,18 @@ export default function Books() {
                     onClick={() => {
                       const today = new Date();
                       const dueDate = new Date(today);
-                      dueDate.setDate(today.getDate() + 15); // 15 day
+                      dueDate.setDate(today.getDate() + 15); // 15 days later
 
-                      // 👇 Example: Random memberId (1 to 100 )
-                      const newMemberId = Math.floor(Math.random() * 100) + 1;
+                      // 👇 Member ID auto generate (random / sequence)  
+                      const newMemberId = Math.floor(Math.random() * 1000) + 1;
 
                       const issueData = {
-                        issueId: Date.now(), // unique ID
+                        issueId: Date.now(), // unique issueId
                         book: {
                           id: book.id,
-                          isbns: book.isbns || "N/A", 
+                          isbns: book.isbns || "N/A",
                         },
-                        memberId: newMemberId, //memberId
+                        memberId: newMemberId, // auto new member ID
                         issueDetails: {
                           issueDate: today.toISOString().split("T")[0],
                           dueDate: dueDate.toISOString().split("T")[0],
@@ -156,10 +156,10 @@ export default function Books() {
                           status: "issued",
                           fine: 0,
                         },
-                        id: crypto.randomUUID(), // random unique ID
                       };
-
-                      dispatch(issueBook(issueData));
+                      
+                      // 👇 dispatch to redux / api
+                      dispatch(issueBook(issueData) );
                     }}
                   >
                     Issue Book

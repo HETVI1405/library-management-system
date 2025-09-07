@@ -1,9 +1,10 @@
+// features/issueSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 const IssueURL = "http://localhost:3000/issues";
 
-// API: Fetch issued books
+// Fetch all issues
 export const fetchIssue = createAsyncThunk("issue/fetchIssue", async (_, thunkAPI) => {
   try {
     const response = await axios.get(IssueURL);
@@ -13,7 +14,7 @@ export const fetchIssue = createAsyncThunk("issue/fetchIssue", async (_, thunkAP
   }
 });
 
-// API: Add new issue (POST)
+// ✅ Issue new book (POST)
 export const issueBook = createAsyncThunk("issue/issueBook", async (issueData, thunkAPI) => {
   try {
     const response = await axios.post(IssueURL, issueData);
@@ -27,13 +28,13 @@ const issueSlice = createSlice({
   name: "issue",
   initialState: {
     issue: [],
-    status: "idle", // 'idle' | 'loading' | 'succeeded' | 'failed'
+    status: "idle",
     error: null,
   },
   reducers: {},
   extraReducers: (builder) => {
     builder
-      // Fetch
+      // fetch issues
       .addCase(fetchIssue.pending, (state) => {
         state.status = "loading";
         state.error = null;
@@ -44,22 +45,20 @@ const issueSlice = createSlice({
       })
       .addCase(fetchIssue.rejected, (state, action) => {
         state.status = "failed";
-        state.error = action.payload || "Failed to fetch issued books";
+        state.error = action.payload;
       })
 
-      // Issue new book
-      .addCase(issueBook.pending, (state) => {
-        state.status = "loading";
-      })
+      // ✅ issue new book
       .addCase(issueBook.fulfilled, (state, action) => {
         state.status = "succeeded";
-        state.issue.push(action.payload);
+        state.issue.push(action.payload); // નવા issue ને local state માં ઉમેરો
       })
       .addCase(issueBook.rejected, (state, action) => {
         state.status = "failed";
-        state.error = action.payload || "Failed to issue book";
+        state.error = action.payload;
       });
   },
 });
 
 export default issueSlice.reducer;
+``
