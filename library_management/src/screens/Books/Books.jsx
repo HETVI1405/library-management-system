@@ -134,9 +134,7 @@ export default function Books() {
                   <span>
                     <b>Rent :</b> {book.rent} Rs. / day
                   </span>
-
-                </Card.Text>
-                <Button
+                   <Button
                   className="issue-btn"
                   onClick={() => {
                     const today = new Date();
@@ -165,6 +163,8 @@ export default function Books() {
                 >
                   Issue Book
                 </Button>
+
+                </Card.Text>
               </Card.Body>
             </Card>
           ))}
