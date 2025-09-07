@@ -132,7 +132,6 @@ export default function Books() {
                   <span>
                     <b>Rent :</b> {book.rent} Rs. / day
                   </span>
-<<<<<<< HEAD
                    <Button
                   className="issue-btn"
                   onClick={() => {
@@ -162,9 +161,6 @@ export default function Books() {
                 >
                   Issue Book
                 </Button>
-
-=======
->>>>>>> a2f4dfb31378cb2d2a8ff60a5b0a8265ca7948e0
                 </Card.Text>
               </Card.Body>
             </Card>
