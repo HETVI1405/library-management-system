@@ -8,29 +8,29 @@ import {
   RiMoneyDollarCircleFill,
   RiCalendarCheckFill,
 } from "@remixicon/react";
+import { FaUserShield } from "react-icons/fa";
 import RoundChart from "./RoundChart";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchBooks } from "../../features/bookSlice";
 import { fetchMembers } from "../../features/membersSlice";
 import { fetchIssue } from "../../features/issueSlice";
 import MembershipProgress from "../Dashboard/MembershipProgress";
-import membersData from "../../../db.json";
-import { AuthorizationContext } from "../../Components/Context/ContentApi"; // make sure this exists
+import { AuthorizationContext } from "../../Components/Context/ContentApi";
 
 export default function Dashboard() {
   const { admin } = useContext(AuthorizationContext);
-  const isAdmin = admin === "admin123@gmail.com";
-
-  const [reservations, setReservations] = useState([]);
+  const isAdmin = admin?.toLowerCase() === "admin123@gmail.com";
 
   const dispatch = useDispatch();
 
-  const { allBooks } = useSelector((state) => state.books);
-  const { members } = useSelector((state) => state.members);
-  const { issue } = useSelector((state) => state.issue);
+  const { allBooks = [] } = useSelector((state) => state.books);
+  const { members = [] } = useSelector((state) => state.members);
+  const { issue = [] } = useSelector((state) => state.issue);
+
+  const [users, setUsers] = useState([]);
 
   // 🔹 Fine Calculation Helper
-  function calculateFine(issueDateStr, dueDateStr, returnDateStr, ratePerDay = 10) {
+  const calculateFine = (issueDateStr, dueDateStr, returnDateStr, ratePerDay = 10) => {
     if (!issueDateStr || !dueDateStr) return 0;
 
     const dueDate = new Date(dueDateStr);
@@ -43,25 +43,23 @@ export default function Dashboard() {
     }
 
     return 0;
-  }
+  };
 
   // 🔹 Calculate Total Fine
   const totalFine = issue.reduce((acc, i) => {
-    const finalIssueDate = i.issueDetails?.issueDate ?? i.issueDate;
-    const finalDueDate = i.issueDetails?.dueDate ?? i.dueDate;
-    const finalReturnDate = i.issueDetails?.returnDate ?? i.returnDate;
-
-    return acc + calculateFine(finalIssueDate, finalDueDate, finalReturnDate);
+    const issueDetails = i.issueDetails || i; // fallback if nested object is missing
+    return acc + calculateFine(issueDetails.issueDate, issueDetails.dueDate, issueDetails.returnDate);
   }, 0);
 
+  // 🔹 Fetch Data on Mount
   useEffect(() => {
     dispatch(fetchBooks());
     dispatch(fetchMembers());
     dispatch(fetchIssue());
 
-    axios
-      .get("http://localhost:3000/reservations")
-      .then((res) => setReservations(res.data));
+    axios.get("http://localhost:3000/users")
+      .then((res) => setUsers(res.data))
+      .catch((err) => console.error("Failed to fetch users:", err));
   }, [dispatch]);
 
   return (
@@ -69,31 +67,11 @@ export default function Dashboard() {
       {isAdmin ? (
         <>
           <div className="dashboard_con">
-            <div className="box">
-              <RiBookShelfFill size={70} color="#f37633ff" />
-              <h2>{allBooks.length}</h2>
-              <h3>Total Books</h3>
-            </div>
-            <div className="box">
-              <RiGroup3Fill size={70} color="#4682B4" />
-              <h2>{members.length}</h2>
-              <h3>Total Members</h3>
-            </div>
-            <div className="box">
-              <RiBook2Fill size={70} color="#508163ff" />
-              <h2>{issue.length}</h2>
-              <h3>Issued Books</h3>
-            </div>
-            <div className="box">
-              <RiMoneyDollarCircleFill size={70} color="#b46aecff" />
-              <h2>{totalFine}</h2>
-              <h3>Total Fines</h3>
-            </div>
-            <div className="box">
-              <RiCalendarCheckFill size={70} color="#2ea2acff" />
-              <h2>{reservations.length}</h2>
-              <h3>Total Users</h3>
-            </div>
+            <DashboardBox icon={<RiBookShelfFill size={70} color="#f37633ff" />} label="Total Books" count={allBooks.length} />
+            <DashboardBox icon={<RiGroup3Fill size={70} color="#4682B4" />} label="Total Members" count={members.length} />
+            <DashboardBox icon={<RiBook2Fill size={70} color="#508163ff" />} label="Issued Books" count={issue.length} />
+            <DashboardBox icon={<RiMoneyDollarCircleFill size={70} color="#b46aecff" />} label="Total Fines" count={`${totalFine}`} />
+            <DashboardBox icon={<FaUserShield size={70} color="#2ea2acff" />} label="Total Users" count={users.length} />
           </div>
 
           <div className="charts-row">
@@ -103,57 +81,50 @@ export default function Dashboard() {
                 members={members}
                 issued={issue}
                 fines={totalFine}
-                reservations={reservations}
+                users={users}
               />
             </div>
-
             <div className="chart-box">
-              <MembershipProgress members={membersData.members} />
+              <MembershipProgress members={members} />
             </div>
           </div>
         </>
       ) : (
         <>
           <div className="dashboard_con">
-            <div className="box">
-              <RiBookShelfFill size={70} color="#f37633ff" />
-              <h2>{allBooks.length}</h2>
-              <h3>Total Books</h3>
-            </div>
-            <div className="box">
-              <RiGroup3Fill size={70} color="#4682B4" />
-              <h2>{members.length}</h2>
-              <h3>Total Visiters</h3>
-            </div>
-            <div className="box">
-              <RiBook2Fill size={70} color="#508163ff" />
-              <h2>{issue.length}</h2>
-              <h3>Issued Books</h3>
-            </div>
-            <div className="box">
-              <RiMoneyDollarCircleFill size={70} color="#b46aecff" />
-              <h2>{totalFine} Rs</h2>
-              <h3>Total Fines</h3>
-            </div>
+            <DashboardBox icon={<RiBookShelfFill size={70} color="#f37633ff" />} label="Total Books" count={allBooks.length} />
+            <DashboardBox icon={<FaUserShield  size={70} color="#4682B4" />} label="Total Visitors" count={(users.length+members.length)} />
+            <DashboardBox icon={<RiBook2Fill size={70} color="#508163ff" />} label="Issued Books" count={issue.length} />
+            <DashboardBox icon={<RiMoneyDollarCircleFill size={70} color="#b46aecff" />} label="Total Fines" count={`${totalFine}`} />
           </div>
 
           <div className="charts-row">
             <div className="chart-box1">
               <RoundChart
                 books={allBooks}
-                members={members}
                 issued={issue}
                 fines={totalFine}
-                reservations={reservations}
+                users={users}
+                visitorsTotal={users.length+members.length}
               />
             </div>
-
             <div className="chart-box">
-              <MembershipProgress members={membersData.members} />
+              <MembershipProgress members={members} />
             </div>
           </div>
         </>
       )}
+    </div>
+  );
+}
+
+// 🔹 Reusable Box Component
+function DashboardBox({ icon, label, count }) {
+  return (
+    <div className="box">
+      {icon}
+      <h2>{count}</h2>
+      <h3>{label}</h3>
     </div>
   );
 }

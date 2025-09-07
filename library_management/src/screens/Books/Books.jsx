@@ -1,8 +1,10 @@
 import { useContext, useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Modal from 'react-bootstrap/Modal'; 
 import { useDispatch, useSelector } from "react-redux";
 import { deleteBook, fetchBooks, paginationBooks } from '../../features/bookSlice';
+import { issueBook } from '../../features/issueSlice';  // <-- import issueBook thunk
 import { useNavigate } from "react-router-dom";
 import "./books.css";
 import { FaEdit } from "react-icons/fa";
@@ -17,12 +19,24 @@ export default function Books() {
   const [sortOrder, setSortOrder] = useState("asc");
   const [selectedGenre, setSelectedGenre] = useState("All");
   const [expandedTitles, setExpandedTitles] = useState({});
-  
+
   const { books, allBooks } = useSelector((state) => state.books);
   const Books = books || [];
 
   const { admin } = useContext(AuthorizationContext);
   const isAdmin = admin === "admin123@gmail.com";
+
+  // New states for modal and issue data
+  const [showModal, setShowModal] = useState(false);
+  const [issueData, setIssueData] = useState({
+    memberId: "",
+    issueDate: "",
+    days: "",
+    returnDate: "",
+    bookId: null,
+    bookTitle: "",
+    bookRent: 0
+  });
 
   useEffect(() => {
     dispatch(fetchBooks());
@@ -53,6 +67,46 @@ export default function Books() {
     if (sortOrder === "asc") return a.rent - b.rent;
     return b.rent - a.rent;
   });
+
+  // Handle issuing book
+  const handleIssue = () => {
+    if (!issueData.memberId || !issueData.days) {
+      alert("Please fill Member ID and number of days");
+      return;
+    }
+
+    const dataToSave = {
+      id: Date.now(), // or your id generator
+      bookId: issueData.bookId,
+      memberId: issueData.memberId,
+      issueDetails: {
+        issueDate: issueData.issueDate,
+        dueDate: issueData.returnDate,
+        returnDate: null,
+        status: "issued",
+        fine: 0,
+      }
+    };
+
+    dispatch(issueBook(dataToSave))
+      .unwrap()
+      .then(() => {
+        alert("Book issued successfully!");
+        setShowModal(false);
+        setIssueData({
+          memberId: "",
+          issueDate: "",
+          days: "",
+          returnDate: "",
+          bookId: null,
+          bookTitle: "",
+          bookRent: 0
+        });
+      })
+      .catch((err) => {
+        alert("Failed to issue book: " + err);
+      });
+  };
 
   return (
     <div className="books-container">
@@ -198,14 +252,25 @@ export default function Books() {
                 >
                   <MdDeleteForever style={{ fontSize: "22px" }} />
                 </Button>
-                <Button 
+                <Button
                   className="issue-btn-listview"
-                  onClick={() => navigate(`/issue?bookId=${book.id}`)}
+                  onClick={() => {
+                    const today = new Date().toISOString().split('T')[0];
+                    setIssueData({
+                      memberId: "",
+                      issueDate: today,
+                      days: "",
+                      returnDate: "",
+                      bookId: book.id,
+                      bookTitle: book.title,
+                      bookRent: book.rent
+                    });
+                    setShowModal(true);
+                  }}
                 >
                   Issue Book
                 </Button>
               </div>
-
             </div>
           ))}
         </div>
@@ -225,6 +290,87 @@ export default function Books() {
           Next
         </button>
       </div>
+
+      {/* Modal for issuing book */}
+      <Modal show={showModal} onHide={() => setShowModal(false)}>
+        <Modal.Header closeButton>
+          <Modal.Title>Issue Book</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div>
+            <b>Book Title:</b> {issueData.bookTitle}
+          </div>
+          <div>
+            <b>Rent per day:</b> {issueData.bookRent} Rs.
+          </div>
+
+          <div className="mb-3 mt-3">
+            <label className="form-label">Member ID</label>
+            <input
+              type="text"
+              className="form-control"
+              value={issueData.memberId}
+              onChange={(e) =>
+                setIssueData({ ...issueData, memberId: e.target.value })
+              }
+              placeholder="Enter member ID"
+            />
+          </div>
+
+          <div className="mb-3">
+            <label className="form-label">Issue Date</label>
+            <input
+              type="date"
+              className="form-control"
+              value={issueData.issueDate}
+              readOnly
+            />
+          </div>
+
+          <div className="mb-3">
+            <label className="form-label">For How Many Days?</label>
+            <input
+              type="number"
+              className="form-control"
+              value={issueData.days}
+              onChange={(e) => {
+                const days = e.target.value;
+                if (days === "" || isNaN(days) || days < 0) {
+                  setIssueData({ ...issueData, days: "", returnDate: "" });
+                  return;
+                }
+                const returnDate = new Date(issueData.issueDate);
+                returnDate.setDate(returnDate.getDate() + parseInt(days));
+                const formattedReturnDate = returnDate.toISOString().split('T')[0];
+
+                setIssueData({
+                  ...issueData,
+                  days,
+                  returnDate: formattedReturnDate
+                });
+              }}
+            />
+          </div>
+
+          <div className="mb-3">
+            <label className="form-label">Return Date</label>
+            <input
+              type="date"
+              className="form-control"
+              value={issueData.returnDate}
+              readOnly
+            />
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={() => setShowModal(false)}>
+            Cancel
+          </Button>
+          <Button variant="primary" onClick={handleIssue}>
+            Confirm Issue
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }

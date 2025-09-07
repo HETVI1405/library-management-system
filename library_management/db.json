@@ -1298,7 +1298,6 @@
       "image_url": "https://m.media-amazon.com/images/I/61NIL6z5NmL._SL1500_.jpg"
     }
   ],
- 
   "members": [
     {
       "memberId": 1,
@@ -1601,381 +1600,391 @@
       "profileImage": "https://randomuser.me/api/portraits/women/30.jpg"
     }
   ],
-
   "issues": [
-  {
-    "id": 1,
-    "bookId": 28,
-    "memberId": 1,
-    "issueDetails": {
-      "issueDate": "2025-08-26",
-      "dueDate": "2025-09-09",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 0
-    }
-  },
-  {
-    "id": 2,
-    "bookId": 49,
-    "memberId": 2,
-    "issueDetails": {
-      "issueDate": "2025-08-20",
-      "dueDate": "2025-09-03",
-      "returnDate": "2025-08-28",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 3,
-    "bookId": 7,
-    "memberId": 3,
-    "issueDetails": {
-      "issueDate": "2025-08-15",
-      "dueDate": "2025-08-29",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 20
-    }
-  },
-  {
-    "id": 4,
-    "bookId": 36,
-    "memberId": 4,
-    "issueDetails": {
-      "issueDate": "2025-08-10",
-      "dueDate": "2025-08-24",
-      "returnDate": "2025-08-23",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 5,
-    "bookId": 42,
-    "memberId": 5,
-    "issueDetails": {
-      "issueDate": "2025-08-05",
-      "dueDate": "2025-08-19",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 50
-    }
-  },
-  {
-    "id": 6,
-    "bookId": 1,
-    "memberId": 6,
-    "issueDetails": {
-      "issueDate": "2025-08-22",
-      "dueDate": "2025-09-05",
-      "returnDate": "2025-08-25",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 7,
-    "bookId": 33,
-    "memberId": 7,
-    "issueDetails": {
-      "issueDate": "2025-08-18",
-      "dueDate": "2025-09-01",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 0
-    }
-  },
-  {
-    "id": 8,
-    "bookId": 19,
-    "memberId": 8,
-    "issueDetails": {
-      "issueDate": "2025-08-12",
-      "dueDate": "2025-08-26",
-      "returnDate": "2025-08-29",
-      "status": "returned",
-      "fine": 15
-    }
-  },
-  {
-    "id": 9,
-    "bookId": 46,
-    "memberId": 9,
-    "issueDetails": {
-      "issueDate": "2025-08-08",
-      "dueDate": "2025-08-22",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 30
-    }
-  },
-  {
-    "id": 10,
-    "bookId": 18,
-    "memberId": 10,
-    "issueDetails": {
-      "issueDate": "2025-08-03",
-      "dueDate": "2025-08-17",
-      "returnDate": "2025-08-10",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 11,
-    "bookId": 14,
-    "memberId": 11,
-    "issueDetails": {
-      "issueDate": "2025-08-07",
-      "dueDate": "2025-08-21",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 10
-    }
-  },
-  {
-    "id": 12,
-    "bookId": 41,
-    "memberId": 12,
-    "issueDetails": {
-      "issueDate": "2025-08-14",
-      "dueDate": "2025-08-28",
-      "returnDate": "2025-08-20",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 13,
-    "bookId": 20,
-    "memberId": 13,
-    "issueDetails": {
-      "issueDate": "2025-08-01",
-      "dueDate": "2025-08-15",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 60
-    }
-  },
-  {
-    "id": 14,
-    "bookId": 50,
-    "memberId": 14,
-    "issueDetails": {
-      "issueDate": "2025-08-11",
-      "dueDate": "2025-08-25",
-      "returnDate": "2025-08-24",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 15,
-    "bookId": 6,
-    "memberId": 15,
-    "issueDetails": {
-      "issueDate": "2025-08-09",
-      "dueDate": "2025-08-23",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 25
-    }
-  },
-  {
-    "id": 16,
-    "bookId": 43,
-    "memberId": 16,
-    "issueDetails": {
-      "issueDate": "2025-08-06",
-      "dueDate": "2025-08-20",
-      "returnDate": "2025-08-19",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 17,
-    "bookId": 17,
-    "memberId": 17,
-    "issueDetails": {
-      "issueDate": "2025-08-04",
-      "dueDate": "2025-08-18",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 45
-    }
-  },
-  {
-    "id": 18,
-    "bookId": 22,
-    "memberId": 18,
-    "issueDetails": {
-      "issueDate": "2025-08-16",
-      "dueDate": "2025-08-30",
-      "returnDate": "2025-08-20",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 19,
-    "bookId": 5,
-    "memberId": 19,
-    "issueDetails": {
-      "issueDate": "2025-08-02",
-      "dueDate": "2025-08-16",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 70
-    }
-  },
-  {
-    "id": 20,
-    "bookId": 1,
-    "memberId": 20,
-    "issueDetails": {
-      "issueDate": "2025-08-17",
-      "dueDate": "2025-08-31",
-      "returnDate": "2025-08-22",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 21,
-    "bookId": 37,
-    "memberId": 21,
-    "issueDetails": {
-      "issueDate": "2025-08-19",
-      "dueDate": "2025-09-02",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 0
-    }
-  },
-  {
-    "id": 22,
-    "bookId": 35,
-    "memberId": 22,
-    "issueDetails": {
-      "issueDate": "2025-08-13",
-      "dueDate": "2025-08-27",
-      "returnDate": "2025-08-26",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 23,
-    "bookId": 31,
-    "memberId": 23,
-    "issueDetails": {
-      "issueDate": "2025-08-21",
-      "dueDate": "2025-09-04",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 0
-    }
-  },
-  {
-    "id": 24,
-    "bookId": 72,
-    "memberId": 24,
-    "issueDetails": {
-      "issueDate": "2025-08-25",
-      "dueDate": "2025-09-08",
-      "returnDate": "2025-08-27",
-      "status": "returned",
-      "fine": 0
-    }
-  },
-  {
-    "id": 25,
-    "bookId": 45,
-    "memberId": 25,
-    "issueDetails": {
-      "issueDate": "2025-08-23",
-      "dueDate": "2025-09-06",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 0
-    }
-  },
-  {
-    "id": 26,
-    "bookId": 26,
-    "memberId": 26,
-    "issueDetails": {
-      "issueDate": "2025-08-06",
-      "dueDate": "2025-08-20",
-      "returnDate": "2025-08-30",
-      "status": "returned",
-      "fine": 25
-    }
-  },
-  {
-    "id": 27,
-    "bookId": 8,
-    "memberId": 27,
-    "issueDetails": {
-      "issueDate": "2025-08-11",
-      "dueDate": "2025-08-25",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 0
-    }
-  },
-  {
-    "id": 28,
-    "bookId": 40,
-    "memberId": 28,
-    "issueDetails": {
-      "issueDate": "2025-08-14",
-      "dueDate": "2025-08-28",
-      "returnDate": "2025-09-01",
-      "status": "returned",
-      "fine": 10
-    }
-  },
-  {
-    "id": 29,
-    "bookId": 4,
-    "memberId": 29,
-    "issueDetails": {
-      "issueDate": "2025-08-09",
-      "dueDate": "2025-08-23",
-      "returnDate": null,
-      "status": "issued",
-      "fine": 35
-    }
-  },
-  {
-    "id": 30,
-    "bookId": 13,
-    "memberId": 30,
-    "issueDetails": {
-      "issueDate": "2025-08-18",
-      "dueDate": "2025-09-01",
-      "returnDate": "2025-08-20",
-      "status": "returned",
-      "fine": 0
-    }
-  }
-]
-,
-
-  "login": [
     {
-      "userId": 1,
-      "name": "Deep Ghag",
+      "id": 1,
+      "bookId": 28,
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-08-26",
+        "dueDate": "2025-09-09",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "id": 2,
+      "bookId": 49,
+      "memberId": 2,
+      "issueDetails": {
+        "issueDate": "2025-08-20",
+        "dueDate": "2025-09-03",
+        "returnDate": "2025-08-28",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 3,
+      "bookId": 7,
+      "memberId": 3,
+      "issueDetails": {
+        "issueDate": "2025-08-15",
+        "dueDate": "2025-08-29",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 20
+      }
+    },
+    {
+      "id": 4,
+      "bookId": 36,
+      "memberId": 4,
+      "issueDetails": {
+        "issueDate": "2025-08-10",
+        "dueDate": "2025-08-24",
+        "returnDate": "2025-08-23",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 5,
+      "bookId": 42,
+      "memberId": 5,
+      "issueDetails": {
+        "issueDate": "2025-08-05",
+        "dueDate": "2025-08-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 50
+      }
+    },
+    {
+      "id": 6,
+      "bookId": 1,
+      "memberId": 6,
+      "issueDetails": {
+        "issueDate": "2025-08-22",
+        "dueDate": "2025-09-05",
+        "returnDate": "2025-08-25",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 7,
+      "bookId": 33,
+      "memberId": 7,
+      "issueDetails": {
+        "issueDate": "2025-08-18",
+        "dueDate": "2025-09-01",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "id": 8,
+      "bookId": 19,
+      "memberId": 8,
+      "issueDetails": {
+        "issueDate": "2025-08-12",
+        "dueDate": "2025-08-26",
+        "returnDate": "2025-08-29",
+        "status": "returned",
+        "fine": 15
+      }
+    },
+    {
+      "id": 9,
+      "bookId": 46,
+      "memberId": 9,
+      "issueDetails": {
+        "issueDate": "2025-08-08",
+        "dueDate": "2025-08-22",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 30
+      }
+    },
+    {
+      "id": 10,
+      "bookId": 18,
+      "memberId": 10,
+      "issueDetails": {
+        "issueDate": "2025-08-03",
+        "dueDate": "2025-08-17",
+        "returnDate": "2025-08-10",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 11,
+      "bookId": 14,
+      "memberId": 11,
+      "issueDetails": {
+        "issueDate": "2025-08-07",
+        "dueDate": "2025-08-21",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 10
+      }
+    },
+    {
+      "id": 12,
+      "bookId": 41,
+      "memberId": 12,
+      "issueDetails": {
+        "issueDate": "2025-08-14",
+        "dueDate": "2025-08-28",
+        "returnDate": "2025-08-20",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 13,
+      "bookId": 20,
+      "memberId": 13,
+      "issueDetails": {
+        "issueDate": "2025-08-01",
+        "dueDate": "2025-08-15",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 60
+      }
+    },
+    {
+      "id": 14,
+      "bookId": 50,
+      "memberId": 14,
+      "issueDetails": {
+        "issueDate": "2025-08-11",
+        "dueDate": "2025-08-25",
+        "returnDate": "2025-08-24",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 15,
+      "bookId": 6,
+      "memberId": 15,
+      "issueDetails": {
+        "issueDate": "2025-08-09",
+        "dueDate": "2025-08-23",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 25
+      }
+    },
+    {
+      "id": 16,
+      "bookId": 43,
+      "memberId": 16,
+      "issueDetails": {
+        "issueDate": "2025-08-06",
+        "dueDate": "2025-08-20",
+        "returnDate": "2025-08-19",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 17,
+      "bookId": 17,
+      "memberId": 17,
+      "issueDetails": {
+        "issueDate": "2025-08-04",
+        "dueDate": "2025-08-18",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 45
+      }
+    },
+    {
+      "id": 18,
+      "bookId": 22,
+      "memberId": 18,
+      "issueDetails": {
+        "issueDate": "2025-08-16",
+        "dueDate": "2025-08-30",
+        "returnDate": "2025-08-20",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 19,
+      "bookId": 5,
+      "memberId": 19,
+      "issueDetails": {
+        "issueDate": "2025-08-02",
+        "dueDate": "2025-08-16",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 70
+      }
+    },
+    {
+      "id": 20,
+      "bookId": 1,
+      "memberId": 20,
+      "issueDetails": {
+        "issueDate": "2025-08-17",
+        "dueDate": "2025-08-31",
+        "returnDate": "2025-08-22",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 21,
+      "bookId": 37,
+      "memberId": 21,
+      "issueDetails": {
+        "issueDate": "2025-08-19",
+        "dueDate": "2025-09-02",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "id": 22,
+      "bookId": 35,
+      "memberId": 22,
+      "issueDetails": {
+        "issueDate": "2025-08-13",
+        "dueDate": "2025-08-27",
+        "returnDate": "2025-08-26",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 23,
+      "bookId": 31,
+      "memberId": 23,
+      "issueDetails": {
+        "issueDate": "2025-08-21",
+        "dueDate": "2025-09-04",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "id": 24,
+      "bookId": 72,
+      "memberId": 24,
+      "issueDetails": {
+        "issueDate": "2025-08-25",
+        "dueDate": "2025-09-08",
+        "returnDate": "2025-08-27",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 25,
+      "bookId": 45,
+      "memberId": 25,
+      "issueDetails": {
+        "issueDate": "2025-08-23",
+        "dueDate": "2025-09-06",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "id": 26,
+      "bookId": 26,
+      "memberId": 26,
+      "issueDetails": {
+        "issueDate": "2025-08-06",
+        "dueDate": "2025-08-20",
+        "returnDate": "2025-08-30",
+        "status": "returned",
+        "fine": 25
+      }
+    },
+    {
+      "id": 27,
+      "bookId": 8,
+      "memberId": 27,
+      "issueDetails": {
+        "issueDate": "2025-08-11",
+        "dueDate": "2025-08-25",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "id": 28,
+      "bookId": 40,
+      "memberId": 28,
+      "issueDetails": {
+        "issueDate": "2025-08-14",
+        "dueDate": "2025-08-28",
+        "returnDate": "2025-09-01",
+        "status": "returned",
+        "fine": 10
+      }
+    },
+    {
+      "id": 29,
+      "bookId": 4,
+      "memberId": 29,
+      "issueDetails": {
+        "issueDate": "2025-08-09",
+        "dueDate": "2025-08-23",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 35
+      }
+    },
+    {
+      "id": 30,
+      "bookId": 13,
+      "memberId": 30,
+      "issueDetails": {
+        "issueDate": "2025-08-18",
+        "dueDate": "2025-09-01",
+        "returnDate": "2025-08-20",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "id": 1757283987193,
+      "bookId": 9,
+      "memberId": 5,
+      "issueDetails": {
+        "issueDate": "2025-09-07",
+        "dueDate": "2025-09-17",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "b749",
+      "memberId": "",
+      "name": "Deep Ghag ",
       "email": "deepghag48@gmail.com",
       "phone": "1548796232",
-      "address": "203, Anjani Nandan Res., Surat, Gujarat",
-      "memberShipType": "student",
-      "activeStatus": null,
-      "profileImage": ""
+      "address": "anjani nandan ",
+      "memberShipType": "User",
+      "activeStatus": true,
+      "profilePic": ""
     }
   ]
 }

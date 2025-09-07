@@ -3,6 +3,7 @@ import bookReducer from "../features/bookSlice"
 import memberSlice from "../features/membersSlice"
 import finseSlice from "../features/finesSlice"
 import issueSlice from "../features/issueSlice"
+import userSlice from "../features/userSlice"
 
 
 export const store = configureStore({
@@ -11,6 +12,7 @@ export const store = configureStore({
      members:memberSlice,
      fines:finseSlice,
      issue:issueSlice,
+     users:userSlice,
     },
 })
 

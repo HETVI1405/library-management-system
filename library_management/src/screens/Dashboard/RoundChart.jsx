@@ -11,15 +11,15 @@ import {
 import { AuthorizationContext } from "../../Components/Context/ContentApi";
 import { useContext } from "react";
 
-const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#a855f7"];
+const COLORS = ["#f37633ff", "#4682B4", "#508163ff", "#FF8042", "#a855f7"];
 
-export default function RoundChart({ books, members, issued }) {
+export default function RoundChart({ books, members, issued ,users , visitorsTotal}) {
   const { admin } = useContext(AuthorizationContext);
   const isAdmin = admin === "admin123@gmail.com";
 
   const data = [
     { name: "Books", value: books.length },
-    isAdmin ? { name: "Members", value: members.length } : { name: "Visitors", value: members.length },
+    isAdmin ? { name: "Members", value: members.length } : { name: "Visitors", value: visitorsTotal },
     { name: "Issued", value: issued.length },
   ];
 
