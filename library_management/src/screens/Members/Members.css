@@ -2,7 +2,6 @@ h1 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 30px;
-    padding-bottom: 30px;
     text-align: center;
     color: #2c3e50;
     letter-spacing: 1px;
@@ -10,7 +9,8 @@ h1 {
 
 .members-container {
     width: 100%;
-    margin-bottom: 50px;
+    /* margin-left: 15%;
+    margin-bottom: 50px; */
     padding: 40px 20px;
     background-color: #fff;
     min-height: 100vh;
@@ -53,15 +53,173 @@ h1 {
   color: #7f8c8d;
 }
 
-.badge {
+.badge-1 {
   font-size: 0.85rem;
-  font-weight: 500;
-  padding: 8px 12px;
-  text-transform: capitalize;
-  background: linear-gradient(135deg, #4facfe, #00f2fe) !important;
+width: 20%;
+  padding: 3px 12px;
+
+  background: rgb(231, 117, 117) !important;
   color: white !important;
   border-radius: 50px !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+}
+.badge-2{
+    font-size: 0.85rem;
+width: 20%;
+  padding: 3px 12px;
+background-color: #4facfe;
+  color: white !important;
+  border-radius: 50px !important;
+}
+.members-container {
+  padding: 30px;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.members-container h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.ol-list {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.profile-btn {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  cursor: pointer;
+}
+
+.profile-btn:focus {
+  outline: none;
+}
+
+.list-group-item {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+  background: #f0f7ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.fw-bold {
+  font-size: 18px;
+  color: #333;
+}
+
+.small-badge {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.modal-header {
+  background: #72acea;
+  color: white;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #eee;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.modal-body h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.modal-body p {
+  margin: 4px 0;
+  font-size: 15px;
+}
+
+.badge.bg-success,
+.badge.bg-danger {
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+/* Modal Styling */
+.modal-content {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.modal-header {
+  background: #72acea;
+  color: white;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #eee;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.modal-body h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.modal-body p {
+  margin: 4px 0;
+  font-size: 15px;
+  color: #555;
+}
+
+.badge.bg-success,
+.badge.bg-danger {
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 8px;
 }

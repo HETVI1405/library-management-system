@@ -1,10 +1,20 @@
+
 import React from "react";
-import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  Cell,
+} from "recharts";
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#a855f7"];
 
 export default function RoundChart({ books, members, issued, fines, reservations }) {
-  // Data for the pie chart
+  // Data for the bar chart
   const data = [
     { name: "Books", value: books.length },
     { name: "Members", value: members.length },
@@ -14,23 +24,30 @@ export default function RoundChart({ books, members, issued, fines, reservations
   ];
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", marginTop: "30px" }}>
-      <PieChart width={400} height={400}>
-        <Pie
-          data={data}
-          cx="50%"
-          cy="50%"
-          outerRadius={120}
-          dataKey="value"
-          label
-        >
-          {data.map((entry, index) => (
-            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-          ))}
-        </Pie>
+    <div style={{ marginTop: "30px"}}>
+     
+      <BarChart
+        width={500}
+        height={400}
+        data={data}
+        margin={{ top: 0, right: 10, left: 10, bottom: 50 }}
+      >
+      
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" />
+        <YAxis allowDecimals={false} />
         <Tooltip />
         <Legend />
-      </PieChart>
+
+        <Bar dataKey="value">
+          {data.map((entry, index) => (
+            <Cell
+              key={`cell-${index}`}
+              fill={COLORS[index % COLORS.length]}
+            />
+          ))}
+        </Bar>
+      </BarChart>
     </div>
   );
 }

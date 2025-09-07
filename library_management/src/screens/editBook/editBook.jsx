@@ -65,7 +65,7 @@ export default function EditBook() {
   if (!singleBook) return <p>Book not found</p>;
 
   return (
-    <div className="form-container">
+    <div className="form-container" style={{marginLeft:"15%"}}>
       <h2>Edit Book</h2>
       <form onSubmit={handleSubmit} className="book-form">
         <div className="row">

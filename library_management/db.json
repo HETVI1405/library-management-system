@@ -127,6 +127,23 @@
       "image_url": "https://m.media-amazon.com/images/I/81t6xQeZA8L._SL1500_.jpg"
     },
     {
+      "title": "Never Lie: A Totally Gripping Thriller with Mind-bending Twists | TikTok Viral & Bestseller Pick",
+      "author": "Freida McFadden-1",
+      "genre": "Psychological Thriller",
+      "rent": 15,
+      "quantity": 4,
+      "isbns": [
+        "1035",
+        "1036",
+        "1037",
+        "1038"
+      ],
+      "availability": "available",
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/81+ceFx9BcL._SL1500_.jpg",
+      "id": "9"
+    },
+    {
       "id": "10",
       "title": "Before the Coffee Gets Cold",
       "author": "Toshikazu Kawaguchi",
@@ -1281,9 +1298,764 @@
       "image_url": "https://m.media-amazon.com/images/I/61NIL6z5NmL._SL1500_.jpg"
     }
   ],
-  "members": [],
+ 
+  "members": [
+    {
+      "memberId": 1,
+      "name": "Kunal Sharma",
+      "email": "kunalsharma@gmail.com",
+      "phone": "1548796232",
+      "address": "123 Main St, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "memberId": 2,
+      "name": "Priya Patel",
+      "email": "priya.patel99@gmail.com",
+      "phone": "9876543210",
+      "address": "45 Ring Road, Ahmedabad, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "memberId": 3,
+      "name": "Arjun Mehta",
+      "email": "arjun.mehta21@yahoo.com",
+      "phone": "8523697412",
+      "address": "67 Civil Lines, Vadodara, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "memberId": 4,
+      "name": "Sneha Desai",
+      "email": "sneha.desai88@gmail.com",
+      "phone": "9632587410",
+      "address": "78 Station Road, Rajkot, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "memberId": 5,
+      "name": "Rohan Verma",
+      "email": "rohan.verma56@gmail.com",
+      "phone": "7410258963",
+      "address": "12 Park Avenue, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "memberId": 6,
+      "name": "Aditi Shah",
+      "email": "aditi.shah01@gmail.com",
+      "phone": "7896541230",
+      "address": "99 Ashram Road, Ahmedabad, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "memberId": 7,
+      "name": "Manish Kumar",
+      "email": "manish.kumar77@gmail.com",
+      "phone": "6352148795",
+      "address": "45 River Side, Vadodara, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "memberId": 8,
+      "name": "Neha Singh",
+      "email": "neha.singh45@yahoo.com",
+      "phone": "8521479630",
+      "address": "32 Gandhi Road, Rajkot, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "memberId": 9,
+      "name": "Vivek Joshi",
+      "email": "vivek.joshi23@gmail.com",
+      "phone": "7412589630",
+      "address": "56 City Center, Surat, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "memberId": 10,
+      "name": "Pooja Reddy",
+      "email": "pooja.reddy98@gmail.com",
+      "phone": "9638527412",
+      "address": "85 Lajpat Nagar, Ahmedabad, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "memberId": 11,
+      "name": "Aman Gupta",
+      "email": "aman.gupta01@gmail.com",
+      "phone": "7891234560",
+      "address": "101 Patel Colony, Vadodara, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+      "memberId": 12,
+      "name": "Ritika Jain",
+      "email": "ritika.jain55@gmail.com",
+      "phone": "9637412580",
+      "address": "77 New City Road, Rajkot, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "memberId": 13,
+      "name": "Deepak Yadav",
+      "email": "deepak.yadav99@gmail.com",
+      "phone": "7413698520",
+      "address": "19 Green Park, Surat, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+      "memberId": 14,
+      "name": "Shivani Nair",
+      "email": "shivani.nair11@gmail.com",
+      "phone": "8529637410",
+      "address": "200 Lake View, Ahmedabad, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "memberId": 15,
+      "name": "Rajesh Pillai",
+      "email": "rajesh.pillai23@yahoo.com",
+      "phone": "7410852963",
+      "address": "56 Hill Colony, Vadodara, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    {
+      "memberId": 16,
+      "name": "Komal Trivedi",
+      "email": "komal.trivedi88@gmail.com",
+      "phone": "9632014785",
+      "address": "87 Civil Lines, Rajkot, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "memberId": 17,
+      "name": "Alok Mishra",
+      "email": "alok.mishra45@gmail.com",
+      "phone": "7410258960",
+      "address": "65 MG Road, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "memberId": 18,
+      "name": "Meera Iyer",
+      "email": "meera.iyer22@gmail.com",
+      "phone": "8521479635",
+      "address": "88 Ashram Road, Ahmedabad, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/18.jpg"
+    },
+    {
+      "memberId": 19,
+      "name": "Karan Thakur",
+      "email": "karan.thakur77@gmail.com",
+      "phone": "7412589635",
+      "address": "44 River Side, Vadodara, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+      "memberId": 20,
+      "name": "Simran Kaur",
+      "email": "simran.kaur99@gmail.com",
+      "phone": "9632587415",
+      "address": "23 Gandhi Road, Rajkot, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+      "memberId": 21,
+      "name": "Nikhil Saxena",
+      "email": "nikhil.saxena55@gmail.com",
+      "phone": "7896541236",
+      "address": "11 Park Avenue, Surat, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    {
+      "memberId": 22,
+      "name": "Tanvi Deshmukh",
+      "email": "tanvi.deshmukh12@gmail.com",
+      "phone": "9638527415",
+      "address": "34 Lajpat Nagar, Ahmedabad, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "memberId": 23,
+      "name": "Suresh Rathi",
+      "email": "suresh.rathi01@gmail.com",
+      "phone": "7412589636",
+      "address": "70 Patel Colony, Vadodara, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/23.jpg"
+    },
+    {
+      "memberId": 24,
+      "name": "Anjali Kapoor",
+      "email": "anjali.kapoor33@gmail.com",
+      "phone": "9637412589",
+      "address": "89 New City Road, Rajkot, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/24.jpg"
+    },
+    {
+      "memberId": 25,
+      "name": "Harsh Vardhan",
+      "email": "harsh.vardhan56@gmail.com",
+      "phone": "7413698525",
+      "address": "39 Green Park, Surat, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    {
+      "memberId": 26,
+      "name": "Radhika Menon",
+      "email": "radhika.menon77@gmail.com",
+      "phone": "8529637415",
+      "address": "300 Lake View, Ahmedabad, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/26.jpg"
+    },
+    {
+      "memberId": 27,
+      "name": "Sanjay Goyal",
+      "email": "sanjay.goyal89@gmail.com",
+      "phone": "7410852965",
+      "address": "120 Hill Colony, Vadodara, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+      "memberId": 28,
+      "name": "Divya Choudhary",
+      "email": "divya.choudhary45@gmail.com",
+      "phone": "9632014789",
+      "address": "45 Civil Lines, Rajkot, Gujarat",
+      "memberShipType": "student",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/28.jpg"
+    },
+    {
+      "memberId": 29,
+      "name": "Akash Bansal",
+      "email": "akash.bansal66@gmail.com",
+      "phone": "7410258969",
+      "address": "89 MG Road, Surat, Gujarat",
+      "memberShipType": "faculty",
+      "activeStatus": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/29.jpg"
+    },
+    {
+      "memberId": 30,
+      "name": "Shruti Malhotra",
+      "email": "shruti.malhotra22@gmail.com",
+      "phone": "8521479639",
+      "address": "110 Ashram Road, Ahmedabad, Gujarat",
+      "memberShipType": "public",
+      "activeStatus": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/30.jpg"
+    }
+  ],
+
+
   "fines": [],
-  "issues": [],
+  "issues": [
+    {
+      "issueId": 1,
+      "book": {
+        "id": 31,
+        "isbns": "3101"
+      },
+      "memberId": 1,
+      "issueDetails": {
+        "issueDate": "2025-08-26",
+        "dueDate": "2025-09-09",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 2,
+      "book": {
+        "id": 45,
+        "isbns": "4502"
+      },
+      "memberId": 2,
+      "issueDetails": {
+        "issueDate": "2025-08-20",
+        "dueDate": "2025-09-03",
+        "returnDate": "2025-08-28",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 3,
+      "book": {
+        "id": 62,
+        "isbns": "6203"
+      },
+      "memberId": 3,
+      "issueDetails": {
+        "issueDate": "2025-08-15",
+        "dueDate": "2025-08-29",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 20
+      }
+    },
+    {
+      "issueId": 4,
+      "book": {
+        "id": 77,
+        "isbns": "7704"
+      },
+      "memberId": 4,
+      "issueDetails": {
+        "issueDate": "2025-08-10",
+        "dueDate": "2025-08-24",
+        "returnDate": "2025-08-23",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 5,
+      "book": {
+        "id": 12,
+        "isbns": "1205"
+      },
+      "memberId": 5,
+      "issueDetails": {
+        "issueDate": "2025-08-05",
+        "dueDate": "2025-08-19",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 50
+      }
+    },
+    {
+      "issueId": 6,
+      "book": {
+        "id": 19,
+        "isbns": "1906"
+      },
+      "memberId": 6,
+      "issueDetails": {
+        "issueDate": "2025-08-22",
+        "dueDate": "2025-09-05",
+        "returnDate": "2025-08-25",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 7,
+      "book": {
+        "id": 54,
+        "isbns": "5407"
+      },
+      "memberId": 7,
+      "issueDetails": {
+        "issueDate": "2025-08-18",
+        "dueDate": "2025-09-01",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 8,
+      "book": {
+        "id": 89,
+        "isbns": "8908"
+      },
+      "memberId": 8,
+      "issueDetails": {
+        "issueDate": "2025-08-12",
+        "dueDate": "2025-08-26",
+        "returnDate": "2025-08-29",
+        "status": "returned",
+        "fine": 15
+      }
+    },
+    {
+      "issueId": 9,
+      "book": {
+        "id": 36,
+        "isbns": "3609"
+      },
+      "memberId": 9,
+      "issueDetails": {
+        "issueDate": "2025-08-08",
+        "dueDate": "2025-08-22",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 30
+      }
+    },
+    {
+      "issueId": 10,
+      "book": {
+        "id": 27,
+        "isbns": "2710"
+      },
+      "memberId": 10,
+      "issueDetails": {
+        "issueDate": "2025-08-03",
+        "dueDate": "2025-08-17",
+        "returnDate": "2025-08-10",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 11,
+      "book": {
+        "id": 64,
+        "isbns": "6411"
+      },
+      "memberId": 11,
+      "issueDetails": {
+        "issueDate": "2025-08-07",
+        "dueDate": "2025-08-21",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 10
+      }
+    },
+    {
+      "issueId": 12,
+      "book": {
+        "id": 90,
+        "isbns": "9012"
+      },
+      "memberId": 12,
+      "issueDetails": {
+        "issueDate": "2025-08-14",
+        "dueDate": "2025-08-28",
+        "returnDate": "2025-08-20",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 13,
+      "book": {
+        "id": 11,
+        "isbns": "1113"
+      },
+      "memberId": 13,
+      "issueDetails": {
+        "issueDate": "2025-08-01",
+        "dueDate": "2025-08-15",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 60
+      }
+    },
+    {
+      "issueId": 14,
+      "book": {
+        "id": 21,
+        "isbns": "2114"
+      },
+      "memberId": 14,
+      "issueDetails": {
+        "issueDate": "2025-08-11",
+        "dueDate": "2025-08-25",
+        "returnDate": "2025-08-24",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 15,
+      "book": {
+        "id": 38,
+        "isbns": "3815"
+      },
+      "memberId": 15,
+      "issueDetails": {
+        "issueDate": "2025-08-09",
+        "dueDate": "2025-08-23",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 25
+      }
+    },
+    {
+      "issueId": 16,
+      "book": {
+        "id": 47,
+        "isbns": "4716"
+      },
+      "memberId": 16,
+      "issueDetails": {
+        "issueDate": "2025-08-06",
+        "dueDate": "2025-08-20",
+        "returnDate": "2025-08-19",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 17,
+      "book": {
+        "id": 72,
+        "isbns": "7217"
+      },
+      "memberId": 17,
+      "issueDetails": {
+        "issueDate": "2025-08-04",
+        "dueDate": "2025-08-18",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 45
+      }
+    },
+    {
+      "issueId": 18,
+      "book": {
+        "id": 56,
+        "isbns": "5618"
+      },
+      "memberId": 18,
+      "issueDetails": {
+        "issueDate": "2025-08-16",
+        "dueDate": "2025-08-30",
+        "returnDate": "2025-08-20",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 19,
+      "book": {
+        "id": 29,
+        "isbns": "2919"
+      },
+      "memberId": 19,
+      "issueDetails": {
+        "issueDate": "2025-08-02",
+        "dueDate": "2025-08-16",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 70
+      }
+    },
+    {
+      "issueId": 20,
+      "book": {
+        "id": 81,
+        "isbns": "8120"
+      },
+      "memberId": 20,
+      "issueDetails": {
+        "issueDate": "2025-08-17",
+        "dueDate": "2025-08-31",
+        "returnDate": "2025-08-22",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 21,
+      "book": {
+        "id": 16,
+        "isbns": "1621"
+      },
+      "memberId": 21,
+      "issueDetails": {
+        "issueDate": "2025-08-19",
+        "dueDate": "2025-09-02",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 22,
+      "book": {
+        "id": 48,
+        "isbns": "4822"
+      },
+      "memberId": 22,
+      "issueDetails": {
+        "issueDate": "2025-08-13",
+        "dueDate": "2025-08-27",
+        "returnDate": "2025-08-26",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 23,
+      "book": {
+        "id": 33,
+        "isbns": "3323"
+      },
+      "memberId": 23,
+      "issueDetails": {
+        "issueDate": "2025-08-21",
+        "dueDate": "2025-09-04",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 24,
+      "book": {
+        "id": 59,
+        "isbns": "5924"
+      },
+      "memberId": 24,
+      "issueDetails": {
+        "issueDate": "2025-08-25",
+        "dueDate": "2025-09-08",
+        "returnDate": "2025-08-27",
+        "status": "returned",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 25,
+      "book": {
+        "id": 71,
+        "isbns": "7125"
+      },
+      "memberId": 25,
+      "issueDetails": {
+        "issueDate": "2025-08-23",
+        "dueDate": "2025-09-06",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 26,
+      "book": {
+        "id": 25,
+        "isbns": "2526"
+      },
+      "memberId": 26,
+      "issueDetails": {
+        "issueDate": "2025-08-06",
+        "dueDate": "2025-08-20",
+        "returnDate": "2025-08-30",
+        "status": "returned",
+        "fine": 25
+      }
+    },
+    {
+      "issueId": 27,
+      "book": {
+        "id": 14,
+        "isbns": "1427"
+      },
+      "memberId": 27,
+      "issueDetails": {
+        "issueDate": "2025-08-11",
+        "dueDate": "2025-08-25",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
+    },
+    {
+      "issueId": 28,
+      "book": {
+        "id": 88,
+        "isbns": "8828"
+      },
+      "memberId": 28,
+      "issueDetails": {
+        "issueDate": "2025-08-14",
+        "dueDate": "2025-08-28",
+        "returnDate": "2025-09-01",
+        "status": "returned",
+        "fine": 10
+      }
+    },
+    {
+      "issueId": 29,
+      "book": {
+        "id": 39,
+        "isbns": "3929"
+      },
+      "memberId": 29,
+      "issueDetails": {
+        "issueDate": "2025-08-09",
+        "dueDate": "2025-08-23",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 35
+      }
+    },
+    {
+      "issueId": 30,
+      "book": {
+        "id": 50,
+        "isbns": "5030"
+      },
+      "memberId": 30,
+      "issueDetails": {
+        "issueDate": "2025-08-18",
+        "dueDate": "2025-09-01",
+        "returnDate": "2025-08-20",
+        "status": "returned",
+        "fine": 0
+      }
+    }
+  ],
   "reservations": [],
   "login": {
     "admin": [

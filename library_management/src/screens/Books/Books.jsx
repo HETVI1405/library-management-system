@@ -3,13 +3,11 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useDispatch, useSelector } from "react-redux";
 import { deleteBook, fetchBooks, paginationBooks } from '../../features/bookSlice';
-import { issueBook } from "../../features/issueSlice";   // ✅ add this line
 import { useNavigate } from "react-router-dom";
 import "./books.css";
 import { FaEdit } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
 import { AuthorizationContext } from '../../Components/Context/ContentApi';
-
 
 export default function Books() {
   const dispatch = useDispatch();
@@ -105,7 +103,7 @@ export default function Books() {
                   {expandedTitles[book.id]
                     ? book.title
                     : book.title.split(" ").slice(0, 5).join(" ") +
-                    (book.title.split(" ").length > 5 ? "..." : "")}
+                      (book.title.split(" ").length > 5 ? "..." : "")}
 
                   {book.title.split(" ").length > 5 && (
                     <span
@@ -134,6 +132,7 @@ export default function Books() {
                   <span>
                     <b>Rent :</b> {book.rent} Rs. / day
                   </span>
+<<<<<<< HEAD
                    <Button
                   className="issue-btn"
                   onClick={() => {
@@ -164,6 +163,8 @@ export default function Books() {
                   Issue Book
                 </Button>
 
+=======
+>>>>>>> a2f4dfb31378cb2d2a8ff60a5b0a8265ca7948e0
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -184,7 +185,7 @@ export default function Books() {
                   {expandedTitles[book.id]
                     ? book.title
                     : book.title.split(" ").slice(0, 5).join(" ") +
-                    (book.title.split(" ").length > 5 ? "..." : "")}
+                      (book.title.split(" ").length > 5 ? "..." : "")}
 
                   {book.title.split(" ").length > 5 && (
                     <span
@@ -213,9 +214,7 @@ export default function Books() {
                   <span>
                     <b>Rent:</b> {book.rent} Rs. / day
                   </span>
-
                 </div>
-
               </div>
 
               <div className="book-actions-listview">
@@ -250,7 +249,6 @@ export default function Books() {
         >
           Next
         </button>
-
       </div>
     </div>
   );

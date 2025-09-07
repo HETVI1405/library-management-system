@@ -1,0 +1,27 @@
+.layout {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  transition: width 0.3s ease;
+  background: #0f172a;
+  height: 100vh;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+  margin-left: 200px; /* default with sidebar */
+}
+
+.sidebar.collapsed ~ .main-content {
+  margin-left: 60px; /* when sidebar collapsed */
+}

@@ -9,8 +9,10 @@
   justify-content: center;
   gap: 20px;
   padding: 50px;
-  background: #ffffff;
+
   flex-wrap: nowrap;
+  margin-left: 10%;
+ margin-top: -3%
 }
 
 .box {
@@ -76,4 +78,174 @@
   margin: 0;
   font-size: 20px;
   color: #222;
+}
+/* Whole Layout */
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Navbar */
+.top-navbar {
+  height: 60px;
+  background: #02162bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: orange;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Main Section */
+.main {
+  display: flex;
+  width: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  height: calc(100vh - 60px);
+  background: #0f172a;
+  transition: all 0.3s ease;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  overflow: hidden;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  color: #94a3b8;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.menu-item:hover {
+  background-color: #334155;
+  color: #fff;
+}
+
+.menu-item.active {
+  background: #334155;
+  color: #fff;
+}
+
+.sidebar.collapsed .title {
+  display: none;
+}
+
+/* Page Content */
+.content {
+  margin-left: 200px;
+  padding: 20px;
+  flex-grow: 1;
+  transition: margin-left 0.3s ease;
+}
+
+.content.collapsed {
+  margin-left: 60px;
+}
+
+/* ---------------- Dashboard Styling ---------------- */
+.dashboard {
+  background-color: #F8F8F8;
+  min-height: calc(100vh - 60px);
+}
+
+.dashboard h1 {
+  font-size: 20px;
+  padding: 25px 35px 28px 38px;
+  background-color: white;
+  margin: 0;
+}
+
+.dashboard .options {
+  width: 95%;
+  margin: auto;
+  padding: 40px 0px;
+}
+
+.dashboard .options .r-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dashboard .options .rc-1 {
+  border-radius: 5px;
+  text-align: center;
+  flex: 1 1 18%;
+  margin: 10px;
+  padding: 30px 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.dashboard .options .rc-1 .icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.dashboard .options .rc-1 p {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.dashboard .options .rc-1 span {
+  font-size: 16px;
+  color: #B0BEC5;
+}.dashboard {
+  background-color: #f8f8f8;
+  min-height: calc(100vh - 60px);
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+
+.charts-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  margin-left: 13%;
+}
+
+.chart-box ,.chart-box1
+{ 
+  flex: 1; /* dono equal space lenge */
+  background: #fff;
+
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+padding: 10px;
+ 
 }
