@@ -8,6 +8,7 @@ import "./books.css";
 import { FaEdit } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
 import { AuthorizationContext } from '../../Components/Context/ContentApi';
+import { issueBook } from "../../features/issueSlice";
 
 export default function Books() {
   const dispatch = useDispatch();
@@ -131,36 +132,39 @@ export default function Books() {
                   <br />
                   <span>
                     <b>Rent :</b> {book.rent} Rs. / day
-                  </span>
-                   <Button
-                  className="issue-btn"
-                  onClick={() => {
-                    const today = new Date();
-                    const dueDate = new Date(today);
-                    dueDate.setDate(today.getDate() + 15); // 15 days later
+                  </span><Button
+                    className="issue-btn"
+                    onClick={() => {
+                      const today = new Date();
+                      const dueDate = new Date(today);
+                      dueDate.setDate(today.getDate() + 15); // 15 day
 
-                    const issueData = {
-                      issueId: Date.now(), // unique ID
-                      book: {
-                        id: book.id,
-                        isbns: book.isbns || "N/A", // make sure your book has ISBN
-                      },
-                      memberId: 1, // TODO: replace with logged-in member
-                      issueDetails: {
-                        issueDate: today.toISOString().split("T")[0],
-                        dueDate: dueDate.toISOString().split("T")[0],
-                        returnDate: null,
-                        status: "issued",
-                        fine: 0,
-                      },
-                      id: crypto.randomUUID(), // random unique ID
-                    };
+                      // 👇 Example: Random memberId (1 to 100 )
+                      const newMemberId = Math.floor(Math.random() * 100) + 1;
 
-                    dispatch(issueBook(issueData));
-                  }}
-                >
-                  Issue Book
-                </Button>
+                      const issueData = {
+                        issueId: Date.now(), // unique ID
+                        book: {
+                          id: book.id,
+                          isbns: book.isbns || "N/A", 
+                        },
+                        memberId: newMemberId, //memberId
+                        issueDetails: {
+                          issueDate: today.toISOString().split("T")[0],
+                          dueDate: dueDate.toISOString().split("T")[0],
+                          returnDate: null,
+                          status: "issued",
+                          fine: 0,
+                        },
+                        id: crypto.randomUUID(), // random unique ID
+                      };
+
+                      dispatch(issueBook(issueData));
+                    }}
+                  >
+                    Issue Book
+                  </Button>
+
                 </Card.Text>
               </Card.Body>
             </Card>

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchIssue } from "../../features/issueSlice";
 import "./issue.css";
 
-// 🔹 Fine calculation function
+// Fine calculation (flexible, ratePerDay configurable)
 function calculateFine(issueDateStr, dueDateStr, returnDateStr, ratePerDay = 10) {
   if (!issueDateStr || !dueDateStr) return 0;
 
@@ -32,47 +32,70 @@ export default function Issues() {
 
   return (
     <div className="issues-container">
-      <h2>Issued Books</h2>
+      <h2 style={{textAlign:"center"}}>Issued Books</h2>
+
       {issue.length === 0 ? (
         <p className="no-data">No issued books found.</p>
       ) : (
-        <ul>
-          {issue.map((i) => {
-            const {
-              id,
-              issueId,
-              book,
-              bookId,
-              memberId,
-              issueDate,
-              dueDate,
-              returnDate,
-              status,
-              fine,
-              issueDetails = {},
-            } = i;
+        <div className="table-wrapper">
+          <table className="issue-table">
+            <thead>
+              <tr>
+                <th>Issue ID</th>
+                <th>Book ID</th>
+                <th>ISBN</th>
+                <th>Member ID</th>
+                <th>Issue Date</th>
+                <th>Due Date</th>
+                <th>Return Date</th>
+                <th>Status</th>
+                <th>Fine</th>
+              </tr>
+            </thead>
+            <tbody>
+              {issue.map((i) => {
+                const {
+                  id,
+                  issueId,
+                  book,
+                  bookId,
+                  memberId,
+                  issueDate,
+                  dueDate,
+                  returnDate,
+                  status: issueStatus,
+                  issueDetails = {},
+                } = i;
 
-            const finalIssueDate = issueDetails.issueDate ?? issueDate;
-            const finalDueDate = issueDetails.dueDate ?? dueDate;
-            const finalReturnDate = issueDetails.returnDate ?? returnDate;
+                // handle both root-level & nested
+                const finalIssueDate = issueDetails.issueDate ?? issueDate;
+                const finalDueDate = issueDetails.dueDate ?? dueDate;
+                const finalReturnDate = issueDetails.returnDate ?? returnDate;
+                const finalStatus = issueDetails.status ?? issueStatus;
 
-            const calculatedFine = calculateFine(finalIssueDate, finalDueDate, finalReturnDate);
+                const calculatedFine = calculateFine(
+                  finalIssueDate,
+                  finalDueDate,
+                  finalReturnDate
+                );
 
-            return (
-              <li key={id} className="issue-item">
-                <b>Issue ID:</b> {issueId ?? id} <br />
-                <b>Book ID:</b> {book?.id ?? bookId} <br />
-                <b>ISBN:</b> {book?.isbns ?? "N/A"} <br />
-                <b>Member ID:</b> {memberId} <br />
-                <b>Issue Date:</b> {finalIssueDate} <br />
-                <b>Due Date:</b> {finalDueDate} <br />
-                <b>Return Date:</b> {finalReturnDate ?? "Not Returned"} <br />
-                <b>Status:</b> {issueDetails.status ?? status} <br />
-                <b>Fine:</b> {calculatedFine} Rs
-              </li>
-            );
-          })}
-        </ul>
+                return (
+                  <tr key={id}>
+                    <td>{issueId ?? id}</td>
+                    <td>{book?.id ?? bookId}</td>
+                    <td>{book?.isbns ?? "N/A"}</td>
+                    <td>{memberId}</td>
+                    <td>{finalIssueDate}</td>
+                    <td>{finalDueDate}</td>
+                    <td>{finalReturnDate ?? "Not Returned"}</td>
+                    <td>{finalStatus}</td>
+                    <td>{calculatedFine} Rs</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       )}
     </div>
   );
