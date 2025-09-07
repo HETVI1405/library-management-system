@@ -127,6 +127,23 @@
       "image_url": "https://m.media-amazon.com/images/I/81t6xQeZA8L._SL1500_.jpg"
     },
     {
+      "title": "Never Lie: A Totally Gripping Thriller with Mind-bending Twists | TikTok Viral & Bestseller Pick",
+      "author": "Freida McFadden-1",
+      "genre": "Psychological Thriller",
+      "rent": 15,
+      "quantity": 4,
+      "isbns": [
+        "1035",
+        "1036",
+        "1037",
+        "1038"
+      ],
+      "availability": "available",
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/81+ceFx9BcL._SL1500_.jpg",
+      "id": "9"
+    },
+    {
       "id": "10",
       "title": "Before the Coffee Gets Cold",
       "author": "Toshikazu Kawaguchi",
@@ -1281,6 +1298,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61NIL6z5NmL._SL1500_.jpg"
     }
   ],
+ 
   "members": [
     {
       "memberId": 1,
@@ -1288,99 +1306,99 @@
       "email": "kunalsharma@gmail.com",
       "phone": "1548796232",
       "address": "123 Main St, Surat, Gujarat",
-      "memberShipType": "student",
+      "memberShipType": "faculty",
       "activeStatus": true,
-      "id": "a7cf"
+      "profileImage": "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
       "memberId": 2,
       "name": "Priya Patel",
-      "email": "priyapatel99@gmail.com",
+      "email": "priya.patel99@gmail.com",
       "phone": "9876543210",
       "address": "45 Ring Road, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": false,
-      "id": "c7e3"
+      "profileImage": "https://randomuser.me/api/portraits/women/2.jpg"
     },
     {
       "memberId": 3,
       "name": "Arjun Mehta",
-      "email": "arjunmehta21@yahoo.com",
+      "email": "arjun.mehta21@yahoo.com",
       "phone": "8523697412",
       "address": "67 Civil Lines, Vadodara, Gujarat",
       "memberShipType": "public",
       "activeStatus": true,
-      "id": "89a6"
+      "profileImage": "https://randomuser.me/api/portraits/men/3.jpg"
     },
     {
       "memberId": 4,
       "name": "Sneha Desai",
-      "email": "snehadesai88@gmail.com",
+      "email": "sneha.desai88@gmail.com",
       "phone": "9632587410",
       "address": "78 Station Road, Rajkot, Gujarat",
       "memberShipType": "student",
       "activeStatus": false,
-      "id": "ccc0"
+      "profileImage": "https://randomuser.me/api/portraits/women/4.jpg"
     },
     {
       "memberId": 5,
       "name": "Rohan Verma",
-      "email": "rohanverma56@gmail.com",
+      "email": "rohan.verma56@gmail.com",
       "phone": "7410258963",
       "address": "12 Park Avenue, Surat, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": true,
-      "id": "e237"
+      "profileImage": "https://randomuser.me/api/portraits/men/5.jpg"
     },
     {
       "memberId": 6,
       "name": "Aditi Shah",
-      "email": "aditishah01@gmail.com",
+      "email": "aditi.shah01@gmail.com",
       "phone": "7896541230",
       "address": "99 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
       "activeStatus": false,
-      "id": "be3e"
+      "profileImage": "https://randomuser.me/api/portraits/women/6.jpg"
     },
     {
       "memberId": 7,
       "name": "Manish Kumar",
-      "email": "manishkumar77@gmail.com",
+      "email": "manish.kumar77@gmail.com",
       "phone": "6352148795",
       "address": "45 River Side, Vadodara, Gujarat",
       "memberShipType": "student",
       "activeStatus": true,
-      "id": "e389"
+      "profileImage": "https://randomuser.me/api/portraits/men/7.jpg"
     },
     {
       "memberId": 8,
       "name": "Neha Singh",
-      "email": "nehasingh45@yahoo.com",
+      "email": "neha.singh45@yahoo.com",
       "phone": "8521479630",
       "address": "32 Gandhi Road, Rajkot, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": false,
-      "id": "05dd"
+      "profileImage": "https://randomuser.me/api/portraits/women/8.jpg"
     },
     {
       "memberId": 9,
       "name": "Vivek Joshi",
-      "email": "vivekjoshi23@gmail.com",
+      "email": "vivek.joshi23@gmail.com",
       "phone": "7412589630",
       "address": "56 City Center, Surat, Gujarat",
       "memberShipType": "public",
       "activeStatus": true,
-      "id": "4433"
+      "profileImage": "https://randomuser.me/api/portraits/men/9.jpg"
     },
     {
       "memberId": 10,
       "name": "Pooja Reddy",
-      "email": "poojareddy98@gmail.com",
+      "email": "pooja.reddy98@gmail.com",
       "phone": "9638527412",
       "address": "85 Lajpat Nagar, Ahmedabad, Gujarat",
       "memberShipType": "student",
       "activeStatus": false,
-      "id": "0c6c"
+      "profileImage": "https://randomuser.me/api/portraits/women/10.jpg"
     },
     {
       "memberId": 11,
@@ -1390,7 +1408,7 @@
       "address": "101 Patel Colony, Vadodara, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": true,
-      "id": "e5f6"
+      "profileImage": "https://randomuser.me/api/portraits/men/11.jpg"
     },
     {
       "memberId": 12,
@@ -1400,7 +1418,7 @@
       "address": "77 New City Road, Rajkot, Gujarat",
       "memberShipType": "public",
       "activeStatus": false,
-      "id": "bd52"
+      "profileImage": "https://randomuser.me/api/portraits/women/12.jpg"
     },
     {
       "memberId": 13,
@@ -1410,7 +1428,7 @@
       "address": "19 Green Park, Surat, Gujarat",
       "memberShipType": "student",
       "activeStatus": true,
-      "id": "9280"
+      "profileImage": "https://randomuser.me/api/portraits/men/13.jpg"
     },
     {
       "memberId": 14,
@@ -1420,7 +1438,7 @@
       "address": "200 Lake View, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": false,
-      "id": "5be3"
+      "profileImage": "https://randomuser.me/api/portraits/women/14.jpg"
     },
     {
       "memberId": 15,
@@ -1430,7 +1448,7 @@
       "address": "56 Hill Colony, Vadodara, Gujarat",
       "memberShipType": "public",
       "activeStatus": true,
-      "id": "8cb0"
+      "profileImage": "https://randomuser.me/api/portraits/men/15.jpg"
     },
     {
       "memberId": 16,
@@ -1440,7 +1458,7 @@
       "address": "87 Civil Lines, Rajkot, Gujarat",
       "memberShipType": "student",
       "activeStatus": false,
-      "id": "66a5"
+      "profileImage": "https://randomuser.me/api/portraits/women/16.jpg"
     },
     {
       "memberId": 17,
@@ -1450,7 +1468,7 @@
       "address": "65 MG Road, Surat, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": true,
-      "id": "8a43"
+      "profileImage": "https://randomuser.me/api/portraits/men/17.jpg"
     },
     {
       "memberId": 18,
@@ -1460,7 +1478,7 @@
       "address": "88 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
       "activeStatus": false,
-      "id": "8f9e"
+      "profileImage": "https://randomuser.me/api/portraits/women/18.jpg"
     },
     {
       "memberId": 19,
@@ -1470,7 +1488,7 @@
       "address": "44 River Side, Vadodara, Gujarat",
       "memberShipType": "student",
       "activeStatus": true,
-      "id": "ce83"
+      "profileImage": "https://randomuser.me/api/portraits/men/19.jpg"
     },
     {
       "memberId": 20,
@@ -1480,7 +1498,7 @@
       "address": "23 Gandhi Road, Rajkot, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": false,
-      "id": "5754"
+      "profileImage": "https://randomuser.me/api/portraits/women/20.jpg"
     },
     {
       "memberId": 21,
@@ -1490,7 +1508,7 @@
       "address": "11 Park Avenue, Surat, Gujarat",
       "memberShipType": "public",
       "activeStatus": true,
-      "id": "c606"
+      "profileImage": "https://randomuser.me/api/portraits/men/21.jpg"
     },
     {
       "memberId": 22,
@@ -1500,7 +1518,7 @@
       "address": "34 Lajpat Nagar, Ahmedabad, Gujarat",
       "memberShipType": "student",
       "activeStatus": false,
-      "id": "ccd8"
+      "profileImage": "https://randomuser.me/api/portraits/women/22.jpg"
     },
     {
       "memberId": 23,
@@ -1510,7 +1528,7 @@
       "address": "70 Patel Colony, Vadodara, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": true,
-      "id": "28c8"
+      "profileImage": "https://randomuser.me/api/portraits/men/23.jpg"
     },
     {
       "memberId": 24,
@@ -1520,7 +1538,7 @@
       "address": "89 New City Road, Rajkot, Gujarat",
       "memberShipType": "public",
       "activeStatus": false,
-      "id": "badf"
+      "profileImage": "https://randomuser.me/api/portraits/women/24.jpg"
     },
     {
       "memberId": 25,
@@ -1530,7 +1548,7 @@
       "address": "39 Green Park, Surat, Gujarat",
       "memberShipType": "student",
       "activeStatus": true,
-      "id": "edd8"
+      "profileImage": "https://randomuser.me/api/portraits/men/25.jpg"
     },
     {
       "memberId": 26,
@@ -1540,7 +1558,7 @@
       "address": "300 Lake View, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": false,
-      "id": "3e1f"
+      "profileImage": "https://randomuser.me/api/portraits/women/26.jpg"
     },
     {
       "memberId": 27,
@@ -1550,7 +1568,7 @@
       "address": "120 Hill Colony, Vadodara, Gujarat",
       "memberShipType": "public",
       "activeStatus": true,
-      "id": "70cc"
+      "profileImage": "https://randomuser.me/api/portraits/men/27.jpg"
     },
     {
       "memberId": 28,
@@ -1560,7 +1578,7 @@
       "address": "45 Civil Lines, Rajkot, Gujarat",
       "memberShipType": "student",
       "activeStatus": false,
-      "id": "a16a"
+      "profileImage": "https://randomuser.me/api/portraits/women/28.jpg"
     },
     {
       "memberId": 29,
@@ -1570,7 +1588,7 @@
       "address": "89 MG Road, Surat, Gujarat",
       "memberShipType": "faculty",
       "activeStatus": true,
-      "id": "de18"
+      "profileImage": "https://randomuser.me/api/portraits/men/29.jpg"
     },
     {
       "memberId": 30,
@@ -1580,11 +1598,13 @@
       "address": "110 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
       "activeStatus": false,
-      "id": "021f"
+      "profileImage": "https://randomuser.me/api/portraits/women/30.jpg"
     }
   ],
+
+
   "fines": [],
-  "issues":  [
+  "issues": [
     {
       "issueId": 1,
       "book": {
@@ -1598,8 +1618,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 0
-      },
-      "id": "48ac"
+      }
     },
     {
       "issueId": 2,
@@ -1614,8 +1633,7 @@
         "returnDate": "2025-08-28",
         "status": "returned",
         "fine": 0
-      },
-      "id": "c1a4"
+      }
     },
     {
       "issueId": 3,
@@ -1630,8 +1648,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 20
-      },
-      "id": "f764"
+      }
     },
     {
       "issueId": 4,
@@ -1646,8 +1663,7 @@
         "returnDate": "2025-08-23",
         "status": "returned",
         "fine": 0
-      },
-      "id": "d440"
+      }
     },
     {
       "issueId": 5,
@@ -1662,8 +1678,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 50
-      },
-      "id": "b189"
+      }
     },
     {
       "issueId": 6,
@@ -1678,8 +1693,7 @@
         "returnDate": "2025-08-25",
         "status": "returned",
         "fine": 0
-      },
-      "id": "5a20"
+      }
     },
     {
       "issueId": 7,
@@ -1694,8 +1708,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 0
-      },
-      "id": "1fb4"
+      }
     },
     {
       "issueId": 8,
@@ -1710,8 +1723,7 @@
         "returnDate": "2025-08-29",
         "status": "returned",
         "fine": 15
-      },
-      "id": "f2c5"
+      }
     },
     {
       "issueId": 9,
@@ -1726,8 +1738,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 30
-      },
-      "id": "9957"
+      }
     },
     {
       "issueId": 10,
@@ -1742,8 +1753,7 @@
         "returnDate": "2025-08-10",
         "status": "returned",
         "fine": 0
-      },
-      "id": "a116"
+      }
     },
     {
       "issueId": 11,
@@ -1758,8 +1768,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 10
-      },
-      "id": "f536"
+      }
     },
     {
       "issueId": 12,
@@ -1774,8 +1783,7 @@
         "returnDate": "2025-08-20",
         "status": "returned",
         "fine": 0
-      },
-      "id": "fe95"
+      }
     },
     {
       "issueId": 13,
@@ -1790,8 +1798,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 60
-      },
-      "id": "b8b4"
+      }
     },
     {
       "issueId": 14,
@@ -1806,8 +1813,7 @@
         "returnDate": "2025-08-24",
         "status": "returned",
         "fine": 0
-      },
-      "id": "928a"
+      }
     },
     {
       "issueId": 15,
@@ -1822,8 +1828,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 25
-      },
-      "id": "b7cd"
+      }
     },
     {
       "issueId": 16,
@@ -1838,8 +1843,7 @@
         "returnDate": "2025-08-19",
         "status": "returned",
         "fine": 0
-      },
-      "id": "6be8"
+      }
     },
     {
       "issueId": 17,
@@ -1854,8 +1858,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 45
-      },
-      "id": "fe08"
+      }
     },
     {
       "issueId": 18,
@@ -1870,8 +1873,7 @@
         "returnDate": "2025-08-20",
         "status": "returned",
         "fine": 0
-      },
-      "id": "b19b"
+      }
     },
     {
       "issueId": 19,
@@ -1886,8 +1888,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 70
-      },
-      "id": "ebde"
+      }
     },
     {
       "issueId": 20,
@@ -1902,8 +1903,7 @@
         "returnDate": "2025-08-22",
         "status": "returned",
         "fine": 0
-      },
-      "id": "38fe"
+      }
     },
     {
       "issueId": 21,
@@ -1918,8 +1918,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 0
-      },
-      "id": "e503"
+      }
     },
     {
       "issueId": 22,
@@ -1934,8 +1933,7 @@
         "returnDate": "2025-08-26",
         "status": "returned",
         "fine": 0
-      },
-      "id": "4952"
+      }
     },
     {
       "issueId": 23,
@@ -1950,8 +1948,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 0
-      },
-      "id": "02e3"
+      }
     },
     {
       "issueId": 24,
@@ -1966,8 +1963,7 @@
         "returnDate": "2025-08-27",
         "status": "returned",
         "fine": 0
-      },
-      "id": "37c7"
+      }
     },
     {
       "issueId": 25,
@@ -1982,8 +1978,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 0
-      },
-      "id": "7e74"
+      }
     },
     {
       "issueId": 26,
@@ -1998,8 +1993,7 @@
         "returnDate": "2025-08-30",
         "status": "returned",
         "fine": 25
-      },
-      "id": "5048"
+      }
     },
     {
       "issueId": 27,
@@ -2014,8 +2008,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 0
-      },
-      "id": "fdff"
+      }
     },
     {
       "issueId": 28,
@@ -2030,8 +2023,7 @@
         "returnDate": "2025-09-01",
         "status": "returned",
         "fine": 10
-      },
-      "id": "9d07"
+      }
     },
     {
       "issueId": 29,
@@ -2046,8 +2038,7 @@
         "returnDate": null,
         "status": "issued",
         "fine": 35
-      },
-      "id": "7b34"
+      }
     },
     {
       "issueId": 30,
@@ -2062,8 +2053,7 @@
         "returnDate": "2025-08-20",
         "status": "returned",
         "fine": 0
-      },
-      "id": "86ae"
+      }
     }
   ],
   "reservations": [],

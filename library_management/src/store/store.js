@@ -2,7 +2,7 @@ import {configureStore} from "@reduxjs/toolkit"
 import bookReducer from "../features/bookSlice"
 import memberSlice from "../features/membersSlice"
 import finseSlice from "../features/finesSlice"
-import issueReducer from "../features/issueSlice"
+import issueSlice from "../features/issueSlice"
 import reservationSlice from "../features/reservations"
 
 
@@ -11,7 +11,7 @@ export const store = configureStore({
      books:bookReducer,
      members:memberSlice,
      fines:finseSlice,
-     issue:issueReducer,
+     issue:issueSlice,
      reservation:reservationSlice
     },
 })

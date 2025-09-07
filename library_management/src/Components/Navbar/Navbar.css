@@ -1,4 +1,4 @@
-
+/* 
  .sidebar {
   margin-top: 1.5%;
   width: 200px;
@@ -11,7 +11,7 @@
   transition: all 0.3s;
 }
 
-/* Sidebar items */
+
 .sidebar .list-group-item {
   border: none;
   color: #333;
@@ -29,7 +29,6 @@
   background-color: #60a5f4;
 }
 
-/* Navbar header */
 .nav_header {
   background-color: #72acea;
   width: 100%;
@@ -49,7 +48,7 @@
   color: whitesmoke;
 }
 
-/* Profile section */
+
 .profile-box {
   display: flex;
   align-items: center;
@@ -70,7 +69,7 @@
 .profile-text {
   margin-left: 10px;
   display: flex;
-  flex-direction: column; /* Text and status stacked neatly */
+  flex-direction: column; /
   justify-content: center;
 }
 
@@ -93,4 +92,118 @@ h5{
 .left
 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+/* Layout wrapper */
+  .layout {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Navbar */
+.top-navbar {
+  height: 60px;
+  background:#02162bff ;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: orange;
+  font-size: 20px;
+  cursor: pointer;
+ 
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-icons i {
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.admin-text {
+  font-weight: bold;
+}
+
+.status {
+  color: limegreen;
+  font-size: 11px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #0f172a;
+  padding-top: 15px;
+  transition: all 0.3s ease;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  overflow: hidden;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  color: #94a3b8;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.menu-item:hover {
+
+  background-color: #334155;
+  color: #fff;
+}
+
+.menu-item.active {
+  background: #334155;
+  
+  color: #fff;
+}
+
+.sidebar.collapsed .title {
+  display: none;
+  
 }

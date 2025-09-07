@@ -3,13 +3,11 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useDispatch, useSelector } from "react-redux";
 import { deleteBook, fetchBooks, paginationBooks } from '../../features/bookSlice';
-import { issueBook } from "../../features/issueSlice";   // ✅ add this line
 import { useNavigate } from "react-router-dom";
 import "./books.css";
 import { FaEdit } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
 import { AuthorizationContext } from '../../Components/Context/ContentApi';
-
 
 export default function Books() {
   const dispatch = useDispatch();
@@ -105,7 +103,7 @@ export default function Books() {
                   {expandedTitles[book.id]
                     ? book.title
                     : book.title.split(" ").slice(0, 5).join(" ") +
-                    (book.title.split(" ").length > 5 ? "..." : "")}
+                      (book.title.split(" ").length > 5 ? "..." : "")}
 
                   {book.title.split(" ").length > 5 && (
                     <span
@@ -134,37 +132,7 @@ export default function Books() {
                   <span>
                     <b>Rent :</b> {book.rent} Rs. / day
                   </span>
-
                 </Card.Text>
-                <Button
-                  className="issue-btn"
-                  onClick={() => {
-                    const today = new Date();
-                    const dueDate = new Date(today);
-                    dueDate.setDate(today.getDate() + 15); // 15 days later
-
-                    const issueData = {
-                      issueId: Date.now(), // unique ID
-                      book: {
-                        id: book.id,
-                        isbns: book.isbns || "N/A", // make sure your book has ISBN
-                      },
-                      memberId: 1, // TODO: replace with logged-in member
-                      issueDetails: {
-                        issueDate: today.toISOString().split("T")[0],
-                        dueDate: dueDate.toISOString().split("T")[0],
-                        returnDate: null,
-                        status: "issued",
-                        fine: 0,
-                      },
-                      id: crypto.randomUUID(), // random unique ID
-                    };
-
-                    dispatch(issueBook(issueData));
-                  }}
-                >
-                  Issue Book
-                </Button>
               </Card.Body>
             </Card>
           ))}
@@ -184,7 +152,7 @@ export default function Books() {
                   {expandedTitles[book.id]
                     ? book.title
                     : book.title.split(" ").slice(0, 5).join(" ") +
-                    (book.title.split(" ").length > 5 ? "..." : "")}
+                      (book.title.split(" ").length > 5 ? "..." : "")}
 
                   {book.title.split(" ").length > 5 && (
                     <span
@@ -213,9 +181,7 @@ export default function Books() {
                   <span>
                     <b>Rent:</b> {book.rent} Rs. / day
                   </span>
-
                 </div>
-
               </div>
 
               <div className="book-actions-listview">
@@ -250,7 +216,6 @@ export default function Books() {
         >
           Next
         </button>
-
       </div>
     </div>
   );

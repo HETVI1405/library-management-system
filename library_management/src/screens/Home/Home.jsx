@@ -1,60 +1,43 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import Navbar from "../../Components/Navbar/Navbar.jsx";
 import RoutesConfig from "./../../Routes/AllRoutes.jsx";
-import "./Home.css";
+import "./Home.css"
 import { AuthorizationContext } from "../../Components/Context/ContentApi.jsx";
-import AdminLogin from "../AdminLogin/AdminLogin.jsx";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchMembers } from "../../features/membersSlice.js";
-import { RiBookShelfFill } from "react-icons/ri";
 
 export default function Home() {
-  const { admin } = useContext(AuthorizationContext);
 
-  const dispatch = useDispatch();
-  const { members } = useSelector((state) => state.members);
+    const { admin } = useContext(AuthorizationContext)
 
-  useEffect(() => {
-    dispatch(fetchMembers());
-  }, [dispatch]);
+    return (
+        <div style={{ display: "flex", overflow: "hidden" }}>
 
-  const adminName = members.find((member) => member.email === admin)?.name || admin;
 
-  return (
-    <div style={{ display: "flex", overflow: "hidden" }}>
-      <div style={{ height: "100vh" }}>
-        <Navbar />
-      </div>
+        
 
-      <div style={{ height: "100vh", width: "100%" }}>
-        <div
-          style={{
-            backgroundColor: "#72acea",
-            width: "100%",
-            height: "60px",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            padding: "0px 50px",
-            position: "sticky",
-            top: "0px",
-          }}
-        >
-          <h5 style={{ color: "white",display:"flex",alignItems:"center"}}><RiBookShelfFill style={{fontSize:"30px",marginRight:"10px"}} /> National Digital Library</h5>
-          <div className="left" style={{ color: "whitesmoke" }}>
-            <i className="ri-admin-fill" style={{ marginRight: "5px" }}></i>
-            Welcome {adminName}
-          </div>
+
+            <div style={{ height: "100vh" }}>
+                <div><Navbar /></div>
+            </div>
+
+
+
+            <div style={{ height: "100vh", width: "100%", }}>
+                <div style={{ backgroundColor: "#02162bff", width: "100%", height: "60px", display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0px 0px", position: "sticky", top: "0px" }}>
+                    <h5 style={{ color: "white" }} >National Digital Library </h5>
+                    <div className="left" style={{ color: "whitesmoke", marginRight: "3%" }}>
+                        <div className="profile">
+                            <i className="ri-user-settings-fill" style={{ fontSize: "22px" }}></i>
+                            <div className="profile-info">
+                                <span className="admin-text" style={{ fontSize: "15px" }}>{admin}</span>
+                                <span className="status">● Online</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div style={{ width: "100%", height: "100vh", overflow: "auto" }}><RoutesConfig /></div>
+            </div>
         </div>
-
-        {!admin ? (
-          <AdminLogin />
-        ) : (
-          <div style={{ width: "100%", height: "100vh", overflow: "auto" }}>
-            <RoutesConfig />
-          </div>
-        )}
-      </div>
-    </div>
-  );
+    )
 }
