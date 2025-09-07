@@ -17,6 +17,7 @@ export default function Books() {
   const [sortOrder, setSortOrder] = useState("asc");
   const [selectedGenre, setSelectedGenre] = useState("All");
   const [expandedTitles, setExpandedTitles] = useState({});
+  
   const { books, allBooks } = useSelector((state) => state.books);
   const Books = books || [];
 
@@ -197,7 +198,7 @@ export default function Books() {
                 >
                   <MdDeleteForever style={{ fontSize: "22px" }} />
                 </Button>
-                <Button
+                <Button 
                   className="issue-btn-listview"
                   onClick={() => navigate(`/issue?bookId=${book.id}`)}
                 >
