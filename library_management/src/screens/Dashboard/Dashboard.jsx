@@ -32,7 +32,7 @@ export default function Dashboard() {
     dispatch(fetchBooks());
     // dispatch fetchMembers
     dispatch(fetchMembers());
-
+    // dispatch fetchIssue
     dispatch(fetchIssue());
 
     axios.get("http://localhost:3000/fines").then((res) => setFines(res.data));
