@@ -9,6 +9,7 @@ import Home from '../screens/Home/Home';
 import { Profiler, useContext } from 'react';
 import { AuthorizationContext } from '../Components/Context/ContentApi';
 import Profile from '../screens/Profile/Profile';
+import Issues from '../screens/issue/issue';
 
 export default function RoutesConfig() {
 
@@ -25,6 +26,8 @@ export default function RoutesConfig() {
       <Route path="/member" element={<Members />} />
       <Route path="/home" element={<Home />} />
       <Route path="/profile" element={<Profile />} />
+      <Route path="/issue" element={<Issues />} />
+      {isAdmin ? <Route path="/issue" element={<Issues />} /> : null}
     </Routes>
   );
 }

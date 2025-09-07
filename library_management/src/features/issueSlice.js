@@ -1,41 +1,39 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit"
-import axios from "axios"
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import axios from "axios";
 
-//API calling
+// API: Fetch issued books
+export const fetchIssue = createAsyncThunk("issue/fetchIssue", async (_, thunkAPI) => {
+  try {
+    const response = await axios.get("http://localhost:3000/issues");
+    return response.data;
+  } catch (error) {
+    return thunkAPI.rejectWithValue(error.message);
+  }
+});
 
-export const fetchIssue= createAsyncThunk("fetchIssue", async() => {
-    const res = await axios.get("http://localhost:3000/issue")
-
-    return res.data
-})
-
-const initialState = {
+const issueSlice = createSlice({
+  name: "issue",
+  initialState: {
     issue: [],
-    status: "neutral",
-    error: null
-}
+    status: "idle", // 'idle' | 'loading' | 'succeeded' | 'failed'
+    error: null,
+  },
+  reducers: {},
+  extraReducers: (builder) => {
+    builder
+      .addCase(fetchIssue.pending, (state) => {
+        state.status = "loading";
+        state.error = null;
+      })
+      .addCase(fetchIssue.fulfilled, (state, action) => {
+        state.status = "succeeded";
+        state.issue = action.payload;
+      })
+      .addCase(fetchIssue.rejected, (state, action) => {
+        state.status = "failed";
+        state.error = action.payload || "Failed to fetch issued books";
+      });
+  },
+});
 
-const issueSlice= createSlice({
-    name: "issue",
-    initialState: initialState,
-    reducers: {},
-// API
-    extraReducers: (builder) => {
-        builder.addCase(fetchIssue.pending, (state) => {
-            state.status = "loding.."
-        });
-
-        builder.addCase(fetchIssue.fulfilled, (state, action) => {
-            state.status = "success";
-            state.books = action.payload
-        })
-
-        builder.addCase(fetchIssue.rejected, (state, action) => {
-            state.status = "error"
-            state.error = action.payload.error
-        })
-
-    }
-})
-
-export default issueSlice.reducer
+export default issueSlice.reducer;

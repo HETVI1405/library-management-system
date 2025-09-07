@@ -103,7 +103,7 @@ export default function Books() {
                   {expandedTitles[book.id]
                     ? book.title
                     : book.title.split(" ").slice(0, 5).join(" ") +
-                      (book.title.split(" ").length > 5 ? "..." : "")}
+                    (book.title.split(" ").length > 5 ? "..." : "")}
 
                   {book.title.split(" ").length > 5 && (
                     <span
@@ -181,7 +181,7 @@ export default function Books() {
                   {expandedTitles[book.id]
                     ? book.title
                     : book.title.split(" ").slice(0, 5).join(" ") +
-                      (book.title.split(" ").length > 5 ? "..." : "")}
+                    (book.title.split(" ").length > 5 ? "..." : "")}
 
                   {book.title.split(" ").length > 5 && (
                     <span
@@ -226,7 +226,14 @@ export default function Books() {
                 >
                   <MdDeleteForever style={{ fontSize: "22px" }} />
                 </Button>
+                <Button
+                  className="issue-btn-listview"
+                  onClick={() => navigate(`/issue?bookId=${book.id}`)}
+                >
+                  Issue Book
+                </Button>
               </div>
+
             </div>
           ))}
         </div>
