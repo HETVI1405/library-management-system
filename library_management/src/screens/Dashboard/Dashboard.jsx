@@ -14,6 +14,7 @@ import { fetchBooks } from "../../features/bookSlice";
 import { fetchMembers } from "../../features/membersSlice";
 import MembershipProgress from "../Dashboard/MembershipProgress";
 import membersData from "../../../db.json"; 
+import { fetchIssue } from "../../features/issueSlice";
 
 
 export default function Dashboard() {
@@ -23,6 +24,7 @@ export default function Dashboard() {
 
   const { allBooks } = useSelector((state) => state.books);
   const { members } = useSelector((state) => state.members);
+  const { issue, status, error } = useSelector((state) => state.issue);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -31,7 +33,8 @@ export default function Dashboard() {
     // dispatch fetchMembers
     dispatch(fetchMembers());
 
-    axios.get("http://localhost:3000/issues").then((res) => setIssued(res.data));
+    dispatch(fetchIssue());
+
     axios.get("http://localhost:3000/fines").then((res) => setFines(res.data));
     axios
       .get("http://localhost:3000/reservations")
@@ -54,7 +57,7 @@ export default function Dashboard() {
           </div>
           <div className="box">
             <RiBook2Fill size={70} color="#508163ff" />
-            <h2>{issued.length}</h2>
+            <h2>{issue.length}</h2>
             <h3>Issued Books</h3>
           </div>
           <div className="box">
