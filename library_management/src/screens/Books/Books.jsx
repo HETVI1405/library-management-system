@@ -244,13 +244,13 @@ export default function Books() {
                   className="edit-btn-listview"
                   onClick={() => navigate(`/editbook/${book.id}`)}
                 >
-                  <FaEdit />
+                  <FaEdit /> Edit
                 </Button>
                 <Button
                   className="delete-btn-listview"
                   onClick={() => dispatch(deleteBook(book.id))}
                 >
-                  <MdDeleteForever style={{ fontSize: "22px" }} />
+                  <MdDeleteForever style={{ fontSize: "22px" }} /> Delete
                 </Button>
                 <Button
                   className="issue-btn-listview"

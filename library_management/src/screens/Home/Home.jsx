@@ -61,7 +61,7 @@ export default function Home() {
         </div>
 
         {/* Routes */}
-        <div style={{ width: "100%", height: "calc(100vh - 60px)", overflow: "auto" }}>
+        <div style={{ width: "100%", height: "100vh", overflow: "auto" }}>
           <RoutesConfig />
         </div>
       </div>
