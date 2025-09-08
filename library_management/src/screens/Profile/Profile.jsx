@@ -11,7 +11,7 @@ export default function Profile() {
 
   // Correctly extract state
   const { members } = useSelector((state) => state.members);
-  const users = useSelector((state) => state.users.users); // users array inside users slice
+  const users = useSelector((state) => state.users.users);
 
   const [formData, setFormData] = useState({
     memberId: "",

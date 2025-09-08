@@ -3,9 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchIssue } from "../../features/issueSlice";
 import { fetchBooks } from "../../features/bookSlice";
 import { fetchMembers } from "../../features/membersSlice";
-import axios from "axios";
 import { AuthorizationContext } from "../../Components/Context/ContentApi";
-import "./issue.css";
 
 // Fine calculation function
 function calculateFine(issueDateStr, dueDateStr, returnDateStr, ratePerDay = 10) {
@@ -36,8 +34,9 @@ export default function Issues() {
 
   // Redux state
   const { issue, status, error } = useSelector((state) => state.issue);
-  const allBooks = useSelector((state) => state.books.allBooks);
-  const members = useSelector((state) => state.members).members;
+  const allBooks = useSelector((state) => state.books.allBooks) || [];
+  const members = useSelector((state) => state.members).members || [];
+  
 
   // Determine if logged-in user is admin or member or unknown
   const isAdmin = loggedInEmail?.toLowerCase() === "admin123@gmail.com";
@@ -88,30 +87,6 @@ export default function Issues() {
     dispatch(fetchBooks());
     dispatch(fetchIssue());
   }, [dispatch]);
-
-  // Handle returning book
-  const handleReturn = async (id, issueDetails) => {
-    const todayStr = new Date().toISOString().split("T")[0];
-    const fine = calculateFine(issueDetails.issueDate, issueDetails.dueDate, todayStr);
-
-    const updatedIssueDetails = {
-      ...issueDetails,
-      returnDate: todayStr,
-      status: "returned",
-      fine,
-    };
-
-    try {
-      await axios.patch(`http://localhost:3000/issues/${id}`, {
-        issueDetails: updatedIssueDetails,
-      });
-      alert("Book returned successfully!");
-      dispatch(fetchIssue());
-    } catch (error) {
-      console.error("Error returning book:", error);
-      alert("Failed to return book.");
-    }
-  };
 
   if (status === "loading") return <p className="loading">Loading...</p>;
   if (status === "failed") return <p className="error">Error: {error}</p>;
@@ -166,15 +141,14 @@ export default function Issues() {
                 issueDetails = {},
               } = i;
 
-              const isReturned = issueDetails.status === "returned";
-
               const finalIssueDate = issueDetails.issueDate ?? issueDate;
               const finalDueDate = issueDetails.dueDate ?? dueDate;
               const finalReturnDate = issueDetails.returnDate ?? returnDate;
               const calculatedFine = calculateFine(finalIssueDate, finalDueDate, finalReturnDate);
 
-              const matchedBook = allBooks?.find((b) => b.id === bookId);
-              const matchedMember = members?.find((m) => m.memberId === memberId);
+              const matchedBook = allBooks.filter((b) => b.id == bookId);
+            
+              const matchedMember = members.find((m) => m.memberId === memberId);
 
               return (
                 <li
@@ -182,14 +156,15 @@ export default function Issues() {
                   className="issue-item"
                   style={{ display: "flex", gap: "20px", alignItems: "center", marginBottom: "20px" }}
                 >
-                  <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
+                 {matchedBook.map((el,index)=> {
+                    return  <div key={index} style={{ display: "flex", alignItems: "center", gap: "15px" }}>
                     <img
-                      src={matchedBook?.image_url || "/fallback.jpg"}
-                      alt={matchedBook?.title || "Book Cover"}
+                      src={el.image_url || "/fallback.jpg"}
+                      alt={el.title || "Book Cover"}
                       style={{ height: "250px", width: "200px", padding: "10px", objectFit: "cover" }}
                     />
                     <div>
-                      <p><span>Book Title:</span> {firstNWords(matchedBook?.title, 3)}</p>
+                      <p><span>Book Title:</span> {firstNWords(el.title, 3)}</p>
                       <p><span>Member:</span> {matchedMember?.name || "Unknown Member"}</p>
                       <p><span>Issue Date:</span> {finalIssueDate}</p>
                       <p><span>Due Date:</span> {finalDueDate}</p>
@@ -198,27 +173,26 @@ export default function Issues() {
                       <p><span>Fine:</span> {calculatedFine} Rs</p>
                     </div>
                   </div>
-
-                  <button
-                    className="returnBook"
-                    disabled={isReturned}
-                    onClick={() => handleReturn(id, issueDetails)}
-                  >
-                    {isReturned ? "Returned" : "Return"}
-                  </button>
+                 })}
                 </li>
               );
             })}
           </ul>
 
           <div className="pagination">
-            <button onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))} disabled={currentPage === 1}>
+            <button
+              onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))}
+              disabled={currentPage === 1}
+            >
               Previous
             </button>
             <span>
               Page {currentPage} of {totalPages}
             </span>
-            <button onClick={() => setCurrentPage((p) => Math.min(p + 1, totalPages))} disabled={currentPage === totalPages}>
+            <button
+              onClick={() => setCurrentPage((p) => Math.min(p + 1, totalPages))}
+              disabled={currentPage === totalPages}
+            >
               Next
             </button>
           </div>

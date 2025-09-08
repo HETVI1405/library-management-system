@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { FaRegCheckCircle } from "react-icons/fa";
 
 import { FaTachometerAlt, FaPlus, FaBook, FaUsers, FaSignOutAlt, FaUser } from "react-icons/fa";
+import { FaHistory } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import { AuthorizationContext } from "../Context/ContentApi";
@@ -25,9 +26,11 @@ export default function Navbar() {
       ? { id: 4, title: "Members", path: "/member", icon: <FaUsers /> }
       : { id: 4, title: "Profile", path: "/profile", icon: <FaUsers /> },
     isAdmin && { id: 7, title: "Issues", path: "/issue", icon: <FaRegCheckCircle /> },
+    { id: 8, title: "History", path: "/history", icon: <FaHistory />},
     admin
       ? { id: 6, title: "Logout", path: "/login", icon: <FaSignOutAlt /> }
       : { id: 5, title: "Login", path: "/login", icon: <FaUser /> },
+
   ].filter(Boolean);
 
 

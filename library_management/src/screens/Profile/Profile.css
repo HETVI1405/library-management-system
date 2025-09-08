@@ -3,11 +3,7 @@
   margin: 40px auto;
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
+} 
 
 .profile-card {
   background: white;
@@ -17,6 +13,7 @@
 }
 
 .profile-title {
+  text-align: center;
   margin-bottom: 20px;
   font-size: 1.8rem;
   color: #2c3e50;
