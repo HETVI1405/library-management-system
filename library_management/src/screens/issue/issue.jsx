@@ -123,6 +123,7 @@ export default function Issues() {
         {isAdmin && `(${filteredIssues.length})`}
         {!isAdmin && currentMember && `(${filteredIssues.length})`}
         {!isAdmin && !currentMember && "(0)"}
+
       </h2>
 
       <div className="view-selector">
@@ -173,7 +174,8 @@ export default function Issues() {
               const finalReturnDate = issueDetails.returnDate ?? returnDate;
               const calculatedFine = calculateFine(finalIssueDate, finalDueDate, finalReturnDate);
 
-              const matchedBook = allBooks?.find((b) => b.id === bookId);
+              const matchedBook = allBooks.filter((el)=> el.id == bookId);
+              console.log(matchedBook)
               const matchedMember = members?.find((m) => m.memberId === memberId);
 
               return (
@@ -183,20 +185,24 @@ export default function Issues() {
                   style={{ display: "flex", gap: "20px", alignItems: "center", marginBottom: "20px" }}
                 >
                   <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-                    <img
-                      src={matchedBook?.image_url || "/fallback.jpg"}
-                      alt={matchedBook?.title || "Book Cover"}
+                    {matchedBook.map((el,index)=>{
+                      return (
+                        <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}><img
+                      src={el.image_url || "/fallback.jpg"}
+                      alt={el.title || "Book Cover"}
                       style={{ height: "250px", width: "200px", padding: "10px", objectFit: "cover" }}
                     />
-                    <div>
-                      <p><span>Book Title:</span> {firstNWords(matchedBook?.title, 3)}</p>
+                    <div style={{marginLeft:"10px"}}>
+                      <p><span>Book Title:</span> {firstNWords(el.title, 3)}</p>
                       <p><span>Member:</span> {matchedMember?.name || "Unknown Member"}</p>
                       <p><span>Issue Date:</span> {finalIssueDate}</p>
                       <p><span>Due Date:</span> {finalDueDate}</p>
                       <p><span>Return Date:</span> {finalReturnDate ?? "Not Returned"}</p>
                       <p><span>Status:</span> {issueDetails.status ?? "issued"}</p>
                       <p><span>Fine:</span> {calculatedFine} Rs</p>
-                    </div>
+                    </div></div>
+                      )
+                    })}
                   </div>
 
                   <button
