@@ -1298,7 +1298,6 @@
       "image_url": "https://m.media-amazon.com/images/I/61NIL6z5NmL._SL1500_.jpg"
     }
   ],
- 
   "members": [
     {
       "memberId": 1,
@@ -1313,7 +1312,7 @@
     {
       "memberId": 2,
       "name": "Priya Patel",
-      "email": "priya.patel99@gmail.com",
+      "email": "priyapatel99@gmail.com",
       "phone": "9876543210",
       "address": "45 Ring Road, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
@@ -1323,7 +1322,7 @@
     {
       "memberId": 3,
       "name": "Arjun Mehta",
-      "email": "arjun.mehta21@yahoo.com",
+      "email": "arjunmehta21@yahoo.com",
       "phone": "8523697412",
       "address": "67 Civil Lines, Vadodara, Gujarat",
       "memberShipType": "public",
@@ -1333,7 +1332,7 @@
     {
       "memberId": 4,
       "name": "Sneha Desai",
-      "email": "sneha.desai88@gmail.com",
+      "email": "snehadesai88@gmail.com",
       "phone": "9632587410",
       "address": "78 Station Road, Rajkot, Gujarat",
       "memberShipType": "student",
@@ -1343,7 +1342,7 @@
     {
       "memberId": 5,
       "name": "Rohan Verma",
-      "email": "rohan.verma56@gmail.com",
+      "email": "rohanverma56@gmail.com",
       "phone": "7410258963",
       "address": "12 Park Avenue, Surat, Gujarat",
       "memberShipType": "faculty",
@@ -1353,7 +1352,7 @@
     {
       "memberId": 6,
       "name": "Aditi Shah",
-      "email": "aditi.shah01@gmail.com",
+      "email": "aditishah01@gmail.com",
       "phone": "7896541230",
       "address": "99 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
@@ -1363,7 +1362,7 @@
     {
       "memberId": 7,
       "name": "Manish Kumar",
-      "email": "manish.kumar77@gmail.com",
+      "email": "manishkumar77@gmail.com",
       "phone": "6352148795",
       "address": "45 River Side, Vadodara, Gujarat",
       "memberShipType": "student",
@@ -1373,7 +1372,7 @@
     {
       "memberId": 8,
       "name": "Neha Singh",
-      "email": "neha.singh45@yahoo.com",
+      "email": "nehasingh45@yahoo.com",
       "phone": "8521479630",
       "address": "32 Gandhi Road, Rajkot, Gujarat",
       "memberShipType": "faculty",
@@ -1383,7 +1382,7 @@
     {
       "memberId": 9,
       "name": "Vivek Joshi",
-      "email": "vivek.joshi23@gmail.com",
+      "email": "vivekjoshi23@gmail.com",
       "phone": "7412589630",
       "address": "56 City Center, Surat, Gujarat",
       "memberShipType": "public",
@@ -1393,7 +1392,7 @@
     {
       "memberId": 10,
       "name": "Pooja Reddy",
-      "email": "pooja.reddy98@gmail.com",
+      "email": "poojareddy98@gmail.com",
       "phone": "9638527412",
       "address": "85 Lajpat Nagar, Ahmedabad, Gujarat",
       "memberShipType": "student",
@@ -1403,7 +1402,7 @@
     {
       "memberId": 11,
       "name": "Aman Gupta",
-      "email": "aman.gupta01@gmail.com",
+      "email": "amangupta01@gmail.com",
       "phone": "7891234560",
       "address": "101 Patel Colony, Vadodara, Gujarat",
       "memberShipType": "faculty",
@@ -1413,7 +1412,7 @@
     {
       "memberId": 12,
       "name": "Ritika Jain",
-      "email": "ritika.jain55@gmail.com",
+      "email": "ritikajain55@gmail.com",
       "phone": "9637412580",
       "address": "77 New City Road, Rajkot, Gujarat",
       "memberShipType": "public",
@@ -1423,7 +1422,7 @@
     {
       "memberId": 13,
       "name": "Deepak Yadav",
-      "email": "deepak.yadav99@gmail.com",
+      "email": "deepakyadav99@gmail.com",
       "phone": "7413698520",
       "address": "19 Green Park, Surat, Gujarat",
       "memberShipType": "student",
@@ -1433,7 +1432,7 @@
     {
       "memberId": 14,
       "name": "Shivani Nair",
-      "email": "shivani.nair11@gmail.com",
+      "email": "shivaninair11@gmail.com",
       "phone": "8529637410",
       "address": "200 Lake View, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
@@ -1443,7 +1442,7 @@
     {
       "memberId": 15,
       "name": "Rajesh Pillai",
-      "email": "rajesh.pillai23@yahoo.com",
+      "email": "rajeshpillai23@yahoo.com",
       "phone": "7410852963",
       "address": "56 Hill Colony, Vadodara, Gujarat",
       "memberShipType": "public",
@@ -1453,7 +1452,7 @@
     {
       "memberId": 16,
       "name": "Komal Trivedi",
-      "email": "komal.trivedi88@gmail.com",
+      "email": "komaltrivedi88@gmail.com",
       "phone": "9632014785",
       "address": "87 Civil Lines, Rajkot, Gujarat",
       "memberShipType": "student",
@@ -1463,7 +1462,7 @@
     {
       "memberId": 17,
       "name": "Alok Mishra",
-      "email": "alok.mishra45@gmail.com",
+      "email": "alokmishra45@gmail.com",
       "phone": "7410258960",
       "address": "65 MG Road, Surat, Gujarat",
       "memberShipType": "faculty",
@@ -1473,7 +1472,7 @@
     {
       "memberId": 18,
       "name": "Meera Iyer",
-      "email": "meera.iyer22@gmail.com",
+      "email": "meeraiyer22@gmail.com",
       "phone": "8521479635",
       "address": "88 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
@@ -1483,7 +1482,7 @@
     {
       "memberId": 19,
       "name": "Karan Thakur",
-      "email": "karan.thakur77@gmail.com",
+      "email": "karanthakur77@gmail.com",
       "phone": "7412589635",
       "address": "44 River Side, Vadodara, Gujarat",
       "memberShipType": "student",
@@ -1493,7 +1492,7 @@
     {
       "memberId": 20,
       "name": "Simran Kaur",
-      "email": "simran.kaur99@gmail.com",
+      "email": "simrankaur99@gmail.com",
       "phone": "9632587415",
       "address": "23 Gandhi Road, Rajkot, Gujarat",
       "memberShipType": "faculty",
@@ -1503,7 +1502,7 @@
     {
       "memberId": 21,
       "name": "Nikhil Saxena",
-      "email": "nikhil.saxena55@gmail.com",
+      "email": "nikhilsaxena55@gmail.com",
       "phone": "7896541236",
       "address": "11 Park Avenue, Surat, Gujarat",
       "memberShipType": "public",
@@ -1513,7 +1512,7 @@
     {
       "memberId": 22,
       "name": "Tanvi Deshmukh",
-      "email": "tanvi.deshmukh12@gmail.com",
+      "email": "tanvideshmukh12@gmail.com",
       "phone": "9638527415",
       "address": "34 Lajpat Nagar, Ahmedabad, Gujarat",
       "memberShipType": "student",
@@ -1523,7 +1522,7 @@
     {
       "memberId": 23,
       "name": "Suresh Rathi",
-      "email": "suresh.rathi01@gmail.com",
+      "email": "sureshrathi01@gmail.com",
       "phone": "7412589636",
       "address": "70 Patel Colony, Vadodara, Gujarat",
       "memberShipType": "faculty",
@@ -1533,7 +1532,7 @@
     {
       "memberId": 24,
       "name": "Anjali Kapoor",
-      "email": "anjali.kapoor33@gmail.com",
+      "email": "anjalikapoor33@gmail.com",
       "phone": "9637412589",
       "address": "89 New City Road, Rajkot, Gujarat",
       "memberShipType": "public",
@@ -1543,7 +1542,7 @@
     {
       "memberId": 25,
       "name": "Harsh Vardhan",
-      "email": "harsh.vardhan56@gmail.com",
+      "email": "harshvardhan56@gmail.com",
       "phone": "7413698525",
       "address": "39 Green Park, Surat, Gujarat",
       "memberShipType": "student",
@@ -1553,7 +1552,7 @@
     {
       "memberId": 26,
       "name": "Radhika Menon",
-      "email": "radhika.menon77@gmail.com",
+      "email": "radhikamenon77@gmail.com",
       "phone": "8529637415",
       "address": "300 Lake View, Ahmedabad, Gujarat",
       "memberShipType": "faculty",
@@ -1563,7 +1562,7 @@
     {
       "memberId": 27,
       "name": "Sanjay Goyal",
-      "email": "sanjay.goyal89@gmail.com",
+      "email": "sanjaygoyal89@gmail.com",
       "phone": "7410852965",
       "address": "120 Hill Colony, Vadodara, Gujarat",
       "memberShipType": "public",
@@ -1573,7 +1572,7 @@
     {
       "memberId": 28,
       "name": "Divya Choudhary",
-      "email": "divya.choudhary45@gmail.com",
+      "email": "divyachoudhary45@gmail.com",
       "phone": "9632014789",
       "address": "45 Civil Lines, Rajkot, Gujarat",
       "memberShipType": "student",
@@ -1583,7 +1582,7 @@
     {
       "memberId": 29,
       "name": "Akash Bansal",
-      "email": "akash.bansal66@gmail.com",
+      "email": "akashbansal66@gmail.com",
       "phone": "7410258969",
       "address": "89 MG Road, Surat, Gujarat",
       "memberShipType": "faculty",
@@ -1593,7 +1592,7 @@
     {
       "memberId": 30,
       "name": "Shruti Malhotra",
-      "email": "shruti.malhotra22@gmail.com",
+      "email": "shrutimalhotra22@gmail.com",
       "phone": "8521479639",
       "address": "110 Ashram Road, Ahmedabad, Gujarat",
       "memberShipType": "public",
@@ -1601,16 +1600,10 @@
       "profileImage": "https://randomuser.me/api/portraits/women/30.jpg"
     }
   ],
-
-
-  "fines": [],
   "issues": [
     {
-      "issueId": 1,
-      "book": {
-        "id": 31,
-        "isbns": "3101"
-      },
+      "id": 1,
+      "bookId": 28,
       "memberId": 1,
       "issueDetails": {
         "issueDate": "2025-08-26",
@@ -1621,11 +1614,8 @@
       }
     },
     {
-      "issueId": 2,
-      "book": {
-        "id": 45,
-        "isbns": "4502"
-      },
+      "id": 2,
+      "bookId": 49,
       "memberId": 2,
       "issueDetails": {
         "issueDate": "2025-08-20",
@@ -1636,11 +1626,8 @@
       }
     },
     {
-      "issueId": 3,
-      "book": {
-        "id": 62,
-        "isbns": "6203"
-      },
+      "id": 3,
+      "bookId": 7,
       "memberId": 3,
       "issueDetails": {
         "issueDate": "2025-08-15",
@@ -1651,11 +1638,8 @@
       }
     },
     {
-      "issueId": 4,
-      "book": {
-        "id": 77,
-        "isbns": "7704"
-      },
+      "id": 4,
+      "bookId": 36,
       "memberId": 4,
       "issueDetails": {
         "issueDate": "2025-08-10",
@@ -1666,11 +1650,8 @@
       }
     },
     {
-      "issueId": 5,
-      "book": {
-        "id": 12,
-        "isbns": "1205"
-      },
+      "id": 5,
+      "bookId": 42,
       "memberId": 5,
       "issueDetails": {
         "issueDate": "2025-08-05",
@@ -1681,11 +1662,8 @@
       }
     },
     {
-      "issueId": 6,
-      "book": {
-        "id": 19,
-        "isbns": "1906"
-      },
+      "id": 6,
+      "bookId": 1,
       "memberId": 6,
       "issueDetails": {
         "issueDate": "2025-08-22",
@@ -1696,11 +1674,8 @@
       }
     },
     {
-      "issueId": 7,
-      "book": {
-        "id": 54,
-        "isbns": "5407"
-      },
+      "id": 7,
+      "bookId": 33,
       "memberId": 7,
       "issueDetails": {
         "issueDate": "2025-08-18",
@@ -1711,11 +1686,8 @@
       }
     },
     {
-      "issueId": 8,
-      "book": {
-        "id": 89,
-        "isbns": "8908"
-      },
+      "id": 8,
+      "bookId": 19,
       "memberId": 8,
       "issueDetails": {
         "issueDate": "2025-08-12",
@@ -1726,11 +1698,8 @@
       }
     },
     {
-      "issueId": 9,
-      "book": {
-        "id": 36,
-        "isbns": "3609"
-      },
+      "id": 9,
+      "bookId": 46,
       "memberId": 9,
       "issueDetails": {
         "issueDate": "2025-08-08",
@@ -1741,11 +1710,8 @@
       }
     },
     {
-      "issueId": 10,
-      "book": {
-        "id": 27,
-        "isbns": "2710"
-      },
+      "id": 10,
+      "bookId": 18,
       "memberId": 10,
       "issueDetails": {
         "issueDate": "2025-08-03",
@@ -1756,11 +1722,8 @@
       }
     },
     {
-      "issueId": 11,
-      "book": {
-        "id": 64,
-        "isbns": "6411"
-      },
+      "id": 11,
+      "bookId": 14,
       "memberId": 11,
       "issueDetails": {
         "issueDate": "2025-08-07",
@@ -1771,11 +1734,8 @@
       }
     },
     {
-      "issueId": 12,
-      "book": {
-        "id": 90,
-        "isbns": "9012"
-      },
+      "id": 12,
+      "bookId": 41,
       "memberId": 12,
       "issueDetails": {
         "issueDate": "2025-08-14",
@@ -1786,11 +1746,8 @@
       }
     },
     {
-      "issueId": 13,
-      "book": {
-        "id": 11,
-        "isbns": "1113"
-      },
+      "id": 13,
+      "bookId": 20,
       "memberId": 13,
       "issueDetails": {
         "issueDate": "2025-08-01",
@@ -1801,11 +1758,8 @@
       }
     },
     {
-      "issueId": 14,
-      "book": {
-        "id": 21,
-        "isbns": "2114"
-      },
+      "id": 14,
+      "bookId": 50,
       "memberId": 14,
       "issueDetails": {
         "issueDate": "2025-08-11",
@@ -1816,11 +1770,8 @@
       }
     },
     {
-      "issueId": 15,
-      "book": {
-        "id": 38,
-        "isbns": "3815"
-      },
+      "id": 15,
+      "bookId": 6,
       "memberId": 15,
       "issueDetails": {
         "issueDate": "2025-08-09",
@@ -1831,11 +1782,8 @@
       }
     },
     {
-      "issueId": 16,
-      "book": {
-        "id": 47,
-        "isbns": "4716"
-      },
+      "id": 16,
+      "bookId": 43,
       "memberId": 16,
       "issueDetails": {
         "issueDate": "2025-08-06",
@@ -1846,11 +1794,8 @@
       }
     },
     {
-      "issueId": 17,
-      "book": {
-        "id": 72,
-        "isbns": "7217"
-      },
+      "id": 17,
+      "bookId": 17,
       "memberId": 17,
       "issueDetails": {
         "issueDate": "2025-08-04",
@@ -1861,11 +1806,8 @@
       }
     },
     {
-      "issueId": 18,
-      "book": {
-        "id": 56,
-        "isbns": "5618"
-      },
+      "id": 18,
+      "bookId": 22,
       "memberId": 18,
       "issueDetails": {
         "issueDate": "2025-08-16",
@@ -1876,11 +1818,8 @@
       }
     },
     {
-      "issueId": 19,
-      "book": {
-        "id": 29,
-        "isbns": "2919"
-      },
+      "id": 19,
+      "bookId": 5,
       "memberId": 19,
       "issueDetails": {
         "issueDate": "2025-08-02",
@@ -1891,11 +1830,8 @@
       }
     },
     {
-      "issueId": 20,
-      "book": {
-        "id": 81,
-        "isbns": "8120"
-      },
+      "id": 20,
+      "bookId": 1,
       "memberId": 20,
       "issueDetails": {
         "issueDate": "2025-08-17",
@@ -1906,11 +1842,8 @@
       }
     },
     {
-      "issueId": 21,
-      "book": {
-        "id": 16,
-        "isbns": "1621"
-      },
+      "id": 21,
+      "bookId": 37,
       "memberId": 21,
       "issueDetails": {
         "issueDate": "2025-08-19",
@@ -1921,11 +1854,8 @@
       }
     },
     {
-      "issueId": 22,
-      "book": {
-        "id": 48,
-        "isbns": "4822"
-      },
+      "id": 22,
+      "bookId": 35,
       "memberId": 22,
       "issueDetails": {
         "issueDate": "2025-08-13",
@@ -1936,11 +1866,8 @@
       }
     },
     {
-      "issueId": 23,
-      "book": {
-        "id": 33,
-        "isbns": "3323"
-      },
+      "id": 23,
+      "bookId": 31,
       "memberId": 23,
       "issueDetails": {
         "issueDate": "2025-08-21",
@@ -1951,11 +1878,8 @@
       }
     },
     {
-      "issueId": 24,
-      "book": {
-        "id": 59,
-        "isbns": "5924"
-      },
+      "id": 24,
+      "bookId": 72,
       "memberId": 24,
       "issueDetails": {
         "issueDate": "2025-08-25",
@@ -1966,11 +1890,8 @@
       }
     },
     {
-      "issueId": 25,
-      "book": {
-        "id": 71,
-        "isbns": "7125"
-      },
+      "id": 25,
+      "bookId": 45,
       "memberId": 25,
       "issueDetails": {
         "issueDate": "2025-08-23",
@@ -1981,11 +1902,8 @@
       }
     },
     {
-      "issueId": 26,
-      "book": {
-        "id": 25,
-        "isbns": "2526"
-      },
+      "id": 26,
+      "bookId": 26,
       "memberId": 26,
       "issueDetails": {
         "issueDate": "2025-08-06",
@@ -1996,11 +1914,8 @@
       }
     },
     {
-      "issueId": 27,
-      "book": {
-        "id": 14,
-        "isbns": "1427"
-      },
+      "id": 27,
+      "bookId": 8,
       "memberId": 27,
       "issueDetails": {
         "issueDate": "2025-08-11",
@@ -2011,11 +1926,8 @@
       }
     },
     {
-      "issueId": 28,
-      "book": {
-        "id": 88,
-        "isbns": "8828"
-      },
+      "id": 28,
+      "bookId": 40,
       "memberId": 28,
       "issueDetails": {
         "issueDate": "2025-08-14",
@@ -2026,11 +1938,8 @@
       }
     },
     {
-      "issueId": 29,
-      "book": {
-        "id": 39,
-        "isbns": "3929"
-      },
+      "id": 29,
+      "bookId": 4,
       "memberId": 29,
       "issueDetails": {
         "issueDate": "2025-08-09",
@@ -2041,11 +1950,8 @@
       }
     },
     {
-      "issueId": 30,
-      "book": {
-        "id": 50,
-        "isbns": "5030"
-      },
+      "id": 30,
+      "bookId": 13,
       "memberId": 30,
       "issueDetails": {
         "issueDate": "2025-08-18",
@@ -2054,168 +1960,31 @@
         "status": "returned",
         "fine": 0
       }
+    },
+    {
+      "id": 1757283987193,
+      "bookId": 9,
+      "memberId": 5,
+      "issueDetails": {
+        "issueDate": "2025-09-07",
+        "dueDate": "2025-09-17",
+        "returnDate": null,
+        "status": "issued",
+        "fine": 0
+      }
     }
   ],
-  "reservations": [],
-  "login": {
-    "admin": [
-      {
-        "name": "Deep",
-        "email": "admin123@gmail.com",
-        "password": 123456
-      }
-    ],
-    "user": [
-      {
-        "loginId": 1,
-        "name": "Kunal Sharma",
-        "email": "kunalsharma@gmail.com"
-      },
-      {
-        "loginId": 2,
-        "name": "Priya Patel",
-        "email": "priyapatel99@gmail.com"
-      },
-      {
-        "loginId": 3,
-        "name": "Arjun Mehta",
-        "email": "arjunmehta21@yahoo.com"
-      },
-      {
-        "loginId": 4,
-        "name": "Sneha Desai",
-        "email": "snehadesai88@gmail.com"
-      },
-      {
-        "loginId": 5,
-        "name": "Rohan Verma",
-        "email": "rohanverma56@gmail.com"
-      },
-      {
-        "loginId": 6,
-        "name": "Aditi Shah",
-        "email": "aditishah01@gmail.com"
-      },
-      {
-        "loginId": 7,
-        "name": "Manish Kumar",
-        "email": "manishkumar77@gmail.com"
-      },
-      {
-        "loginId": 8,
-        "name": "Neha Singh",
-        "email": "nehasingh45@yahoo.com"
-      },
-      {
-        "loginId": 9,
-        "name": "Vivek Joshi",
-        "email": "vivekjoshi23@gmail.com"
-      },
-      {
-        "loginId": 10,
-        "name": "Pooja Reddy",
-        "email": "poojareddy98@gmail.com"
-      },
-      {
-        "loginId": 11,
-        "name": "Aman Gupta",
-        "email": "amangupta01@gmail.com"
-      },
-      {
-        "loginId": 12,
-        "name": "Ritika Jain",
-        "email": "ritikajain55@gmail.com"
-      },
-      {
-        "loginId": 13,
-        "name": "Deepak Yadav",
-        "email": "deepakyadav99@gmail.com"
-      },
-      {
-        "loginId": 14,
-        "name": "Shivani Nair",
-        "email": "shivaninair11@gmail.com"
-      },
-      {
-        "loginId": 15,
-        "name": "Rajesh Pillai",
-        "email": "rajeshpillai23@yahoo.com"
-      },
-      {
-        "loginId": 16,
-        "name": "Komal Trivedi",
-        "email": "komaltrivedi88@gmail.com"
-      },
-      {
-        "loginId": 17,
-        "name": "Alok Mishra",
-        "email": "alokmishra45@gmail.com"
-      },
-      {
-        "loginId": 18,
-        "name": "Meera Iyer",
-        "email": "meeraiyer22@gmail.com"
-      },
-      {
-        "loginId": 19,
-        "name": "Karan Thakur",
-        "email": "karanthakur77@gmail.com"
-      },
-      {
-        "loginId": 20,
-        "name": "Simran Kaur",
-        "email": "simrankaur99@gmail.com"
-      },
-      {
-        "loginId": 21,
-        "name": "Nikhil Saxena",
-        "email": "nikhilsaxena55@gmail.com"
-      },
-      {
-        "loginId": 22,
-        "name": "Tanvi Deshmukh",
-        "email": "tanvideshmukh12@gmail.com"
-      },
-      {
-        "loginId": 23,
-        "name": "Suresh Rathi",
-        "email": "sureshrathi01@gmail.com"
-      },
-      {
-        "loginId": 24,
-        "name": "Anjali Kapoor",
-        "email": "anjalikapoor33@gmail.com"
-      },
-      {
-        "loginId": 25,
-        "name": "Harsh Vardhan",
-        "email": "harshvardhan56@gmail.com"
-      },
-      {
-        "loginId": 26,
-        "name": "Radhika Menon",
-        "email": "radhikamenon77@gmail.com"
-      },
-      {
-        "loginId": 27,
-        "name": "Sanjay Goyal",
-        "email": "sanjaygoyal89@gmail.com"
-      },
-      {
-        "loginId": 28,
-        "name": "Divya Choudhary",
-        "email": "divyachoudhary45@gmail.com"
-      },
-      {
-        "loginId": 29,
-        "name": "Akash Bansal",
-        "email": "akashbansal66@gmail.com"
-      },
-      {
-        "loginId": 30,
-        "name": "Shruti Malhotra",
-        "email": "shrutimalhotra22@gmail.com"
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": "b749",
+      "memberId": "",
+      "name": "Deep Ghag ",
+      "email": "deepghag48@gmail.com",
+      "phone": "1548796232",
+      "address": "anjani nandan ",
+      "memberShipType": "User",
+      "activeStatus": true,
+      "profilePic": ""
+    }
+  ]
 }

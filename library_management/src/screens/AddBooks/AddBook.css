@@ -60,7 +60,7 @@
 
 .addbookbtn {
   display: block;
-  background-color: #72acea;
+  background-color: #02162B;
   height: 45px;
   width: 100%;
   margin: 30px auto 0;
@@ -71,14 +71,12 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.5s;
 }
 
 .addbookbtn:hover {
-  background-color: #ffffff;
-  color: #72acea;
-  border: 2px solid #72acea;
-  transform: translateY(-2px);
+  background-color: #FFA500;
+  color: #02162B;
 }
 
 /* Responsive */

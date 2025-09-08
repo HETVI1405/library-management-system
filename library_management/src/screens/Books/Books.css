@@ -214,6 +214,7 @@
 }
 
 .book-actions-listview {
+  width: 100px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -221,22 +222,30 @@
   justify-content: center;
 }
 
-.edit-btn-listview,
-.delete-btn-listview {
+.book-actions-listview .edit-btn-listview,
+.book-actions-listview .delete-btn-listview,
+.book-actions-listview .issue-btn-listview {
   padding: 6px 10px;
+  width: 100%;
   font-size: 16px;
   border-radius: 4px;
   white-space: nowrap;
 }
 
-.edit-btn-listview {
+.book-actions-listview .edit-btn-listview {
   background-color: #007bff;
   color: white;
   border: none;
 }
 
-.delete-btn-listview {
+.book-actions-listview .delete-btn-listview {
   background-color: #dc3545;
   color: white;
   border: none;
+}
+
+.issue-btn-listview
+{
+  display: inline;
+  padding: 0%;
 }

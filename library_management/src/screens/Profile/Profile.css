@@ -1,39 +1,137 @@
 .profile-container {
-  display: flex;
-  justify-content: center;
-  padding: 40px 20px;
-}
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
 
 .profile-card {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
-  width: 100%;
-  padding: 30px;
-  transition: box-shadow 0.3s ease;
-}
-
-.profile-card:hover {
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  background: white;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .profile-title {
   text-align: center;
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
+}
+
+.profile-card p {
+  margin: 12px 0;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
   font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  color: #34495e;
 }
 
-.profile-field {
-  margin-bottom: 15px;
-  font-size: 16px;
-  color: #444;
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  padding: 10px 12px;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  resize: vertical;
 }
 
-.profile-field strong {
-  color: #2a80b9;
-  display: inline-block;
-  width: 150px;
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.form-group textarea {
+  min-height: 80px;
+}
+
+.checkbox-group {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.checkbox-group label {
+  font-weight: 500;
+  cursor: pointer;
+  color: #34495e;
+}
+
+.btn {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  align-self: flex-start;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.btn:disabled,
+.btn[disabled] {
+  background-color: #7f8c8d;
+  cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+  .profile-container {
+    padding: 15px;
+    margin: 20px 10px;
+  }
+
+  .profile-card {
+    padding: 20px;
+  }
+
+  .profile-title {
+    font-size: 1.5rem;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
 }

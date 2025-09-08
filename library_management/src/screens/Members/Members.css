@@ -9,9 +9,7 @@ h1 {
 
 .members-container {
     width: 100%;
-    /* margin-left: 15%;
-    margin-bottom: 50px; */
-    padding: 40px 20px;
+    margin-bottom: 20px; 
     background-color: #fff;
     min-height: 100vh;
 }
@@ -182,7 +180,7 @@ background-color: #4facfe;
 }
 
 .modal-header {
-  background: #72acea;
+  background: #FFA500;
   color: white;
   border-bottom: none;
 }
@@ -222,4 +220,69 @@ background-color: #4facfe;
   font-size: 12px;
   padding: 6px 12px;
   border-radius: 8px;
+}
+
+
+/* Pagination container */
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pagination {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  background-color: #02162B;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.pagination span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.addMemberbtn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;  
+    font-weight: 600;  
+    border-radius: 8px;
+    background-color: #02162B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.addMemberbtn:hover{
+    background-color:#FFA500;
+    color: white;
 }
