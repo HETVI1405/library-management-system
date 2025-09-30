@@ -9,8 +9,7 @@ import { useNavigate } from "react-router-dom";
 import "./books.css";
 import { FaEdit } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
-import { AuthorizationContext } from '../../Components/Context/ContentApi';
-import { issueBook } from "../../features/issueSlice";
+import { AuthorizationContext } from '../../Components/Context/ContentApi';       
 
 export default function Books() {
   const dispatch = useDispatch();

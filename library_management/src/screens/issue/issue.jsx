@@ -5,16 +5,11 @@ import { fetchBooks } from "../../features/bookSlice";
 import { fetchMembers } from "../../features/membersSlice";
 import axios from "axios";
 import { AuthorizationContext } from "../../Components/Context/ContentApi";
-import "./issue.css";
+import "./isc";
 
-<<<<<<< HEAD
-// Fine calculation (flexible, ratePerDay configurable)
-=======
 // Fine calculation function
->>>>>>> cac6c0f189acf375d09f1b26b13e6729251a9f7b
 function calculateFine(issueDateStr, dueDateStr, returnDateStr, ratePerDay = 10) {
   if (!issueDateStr || !dueDateStr) return 0;
-
   const dueDate = new Date(dueDateStr);
   const returnDate = returnDateStr ? new Date(returnDateStr) : new Date();
 
@@ -23,7 +18,6 @@ function calculateFine(issueDateStr, dueDateStr, returnDateStr, ratePerDay = 10)
     const diffInDays = Math.ceil(diffInMs / (1000 * 60 * 60 * 24));
     return diffInDays * ratePerDay;
   }
-
   return 0;
 }
 
@@ -35,35 +29,24 @@ function firstNWords(text, n) {
 export default function Issues() {
   const dispatch = useDispatch();
 
-  // Logged-in user's email
   const { admin: loggedInEmail } = useContext(AuthorizationContext);
 
-  // Redux state
   const { issue, status, error } = useSelector((state) => state.issue);
   const allBooks = useSelector((state) => state.books.allBooks);
   const members = useSelector((state) => state.members).members;
 
-  // Determine if logged-in user is admin or member or unknown
   const isAdmin = loggedInEmail?.toLowerCase() === "admin123@gmail.com";
-
-  // Find logged-in member by email (case insensitive)
   const currentMember = members.find(
     (m) => m.email?.toLowerCase() === loggedInEmail?.toLowerCase()
   );
 
-  // Filter issues based on user role:
-  // Admin sees all issues
-  // Member sees only their issues
-  // Unknown sees no issues
   const filteredIssues = React.useMemo(() => {
     if (isAdmin) return issue || [];
     if (currentMember) return (issue || []).filter((i) => i.memberId === currentMember.memberId);
     return [];
   }, [issue, isAdmin, currentMember]);
 
-  // Filter issues by view status (returned/not-returned)
   const [view, setView] = useState("not-returned");
-
   const filteredByViewIssues = filteredIssues.filter((i) => {
     const isReturned = i.issueDetails?.status === "returned";
     if (view === "returned") return isReturned;
@@ -71,29 +54,24 @@ export default function Issues() {
     return true;
   });
 
-  // Pagination
   const itemsPerPage = 10;
   const [currentPage, setCurrentPage] = useState(1);
-
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentIssues = filteredByViewIssues.slice(indexOfFirstItem, indexOfLastItem);
   const totalPages = Math.ceil(filteredByViewIssues.length / itemsPerPage);
 
-  // Total fine calculation (for filtered issues - admin or member)
   const totalFine = filteredIssues.reduce((acc, i) => {
     const issueDetails = i.issueDetails || i;
     return acc + calculateFine(issueDetails.issueDate, issueDetails.dueDate, issueDetails.returnDate);
   }, 0);
 
-  // Fetch data on mount
   useEffect(() => {
     dispatch(fetchMembers());
     dispatch(fetchBooks());
     dispatch(fetchIssue());
   }, [dispatch]);
 
-  // Handle returning book
   const handleReturn = async (id, issueDetails) => {
     const todayStr = new Date().toISOString().split("T")[0];
     const fine = calculateFine(issueDetails.issueDate, issueDetails.dueDate, todayStr);
@@ -122,184 +100,182 @@ export default function Issues() {
 
   return (
     <div className="issues-container">
-<<<<<<< HEAD
-      <h2 style={{textAlign:"center"}}>Issued Books</h2>
-
-      {issue.length === 0 ? (
-        <p className="no-data">No issued books found.</p>
-      ) : (
-        <div className="table-wrapper">
-          <table className="issue-table">
-            <thead>
-              <tr>
-                <th>Issue ID</th>
-                <th>Book ID</th>
-                <th>ISBN</th>
-                <th>Member ID</th>
-                <th>Issue Date</th>
-                <th>Due Date</th>
-                <th>Return Date</th>
-                <th>Status</th>
-                <th>Fine</th>
-              </tr>
-            </thead>
-            <tbody>
-              {issue.map((i) => {
-                const {
-                  id,
-                  issueId,
-                  book,
-                  bookId,
-                  memberId,
-                  issueDate,
-                  dueDate,
-                  returnDate,
-                  status: issueStatus,
-                  issueDetails = {},
-                } = i;
-
-                // handle both root-level & nested
-                const finalIssueDate = issueDetails.issueDate ?? issueDate;
-                const finalDueDate = issueDetails.dueDate ?? dueDate;
-                const finalReturnDate = issueDetails.returnDate ?? returnDate;
-                const finalStatus = issueDetails.status ?? issueStatus;
-
-                const calculatedFine = calculateFine(
-                  finalIssueDate,
-                  finalDueDate,
-                  finalReturnDate
-                );
-
-                return (
-                  <tr key={id}>
-                    <td>{issueId ?? id}</td>
-                    <td>{book?.id ?? bookId}</td>
-                    <td>{book?.isbns ?? "N/A"}</td>
-                    <td>{memberId}</td>
-                    <td>{finalIssueDate}</td>
-                    <td>{finalDueDate}</td>
-                    <td>{finalReturnDate ?? "Not Returned"}</td>
-                    <td>{finalStatus}</td>
-                    <td>{calculatedFine} Rs</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-=======
-      <h2>
+      <h2 style={{ textAlign: "center" }}>
         Issued Books{" "}
         {isAdmin && `(${filteredIssues.length})`}
         {!isAdmin && currentMember && `(${filteredIssues.length})`}
         {!isAdmin && !currentMember && "(0)"}
-
       </h2>
 
-      <div className="view-selector">
-        <button
-          onClick={() => {
-            setView("not-returned");
-            setCurrentPage(1);
-          }}
-          className={view === "not-returned" ? "active" : ""}
-        >
-          Not Returned
-        </button>
-        <button
-          onClick={() => {
-            setView("returned");
-            setCurrentPage(1);
-          }}
-          className={view === "returned" ? "active" : ""}
-        >
-          Returned
-        </button>
-      </div>
-
-      <p>
-        <strong>Total Fine: </strong> {totalFine} Rs
-      </p>
-
-      {currentIssues.length === 0 ? (
-        <p className="no-data">No books found in this category.</p>
+      {issue.length === 0 ? (
+        <p className="no-data">No issued books found.</p>
       ) : (
         <>
-          <ul>
-            {currentIssues.map((i) => {
-              const {
-                id,
-                bookId,
-                memberId,
-                issueDate,
-                dueDate,
-                returnDate,
-                issueDetails = {},
-              } = i;
+          {/* Top Table */}
+          <div className="table-wrapper">
+            <table className="issue-table">
+              <thead>
+                <tr>
+                  <th>Issue ID</th>
+                  <th>Book ID</th>
+                  <th>ISBN</th>
+                  <th>Member ID</th>
+                  <th>Issue Date</th>
+                  <th>Due Date</th>
+                  <th>Return Date</th>
+                  <th>Status</th>
+                  <th>Fine</th>
+                </tr>
+              </thead>
+              <tbody>
+                {issue.map((i) => {
+                  const {
+                    id,
+                    issueId,
+                    book,
+                    bookId,
+                    memberId,
+                    issueDate,
+                    dueDate,
+                    returnDate,
+                    status: issueStatus,
+                    issueDetails = {},
+                  } = i;
 
-              const isReturned = issueDetails.status === "returned";
+                  const finalIssueDate = issueDetails.issueDate ?? issueDate;
+                  const finalDueDate = issueDetails.dueDate ?? dueDate;
+                  const finalReturnDate = issueDetails.returnDate ?? returnDate;
+                  const finalStatus = issueDetails.status ?? issueStatus;
 
-              const finalIssueDate = issueDetails.issueDate ?? issueDate;
-              const finalDueDate = issueDetails.dueDate ?? dueDate;
-              const finalReturnDate = issueDetails.returnDate ?? returnDate;
-              const calculatedFine = calculateFine(finalIssueDate, finalDueDate, finalReturnDate);
+                  const calculatedFine = calculateFine(finalIssueDate, finalDueDate, finalReturnDate);
 
-              const matchedBook = allBooks.filter((el)=> el.id == bookId);
-              console.log(matchedBook)
-              const matchedMember = members?.find((m) => m.memberId === memberId);
+                  return (
+                    <tr key={id}>
+                      <td>{issueId ?? id}</td>
+                      <td>{book?.id ?? bookId}</td>
+                      <td>{book?.isbns ?? "N/A"}</td>
+                      <td>{memberId}</td>
+                      <td>{finalIssueDate}</td>
+                      <td>{finalDueDate}</td>
+                      <td>{finalReturnDate ?? "Not Returned"}</td>
+                      <td>{finalStatus}</td>
+                      <td>{calculatedFine} Rs</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
 
-              return (
-                <li
-                  key={id}
-                  className="issue-item"
-                  style={{ display: "flex", gap: "20px", alignItems: "center", marginBottom: "20px" }}
-                >
-                  <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-                    {matchedBook.map((el,index)=>{
-                      return (
-                        <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}><img
-                      src={el.image_url || "/fallback.jpg"}
-                      alt={el.title || "Book Cover"}
-                      style={{ height: "250px", width: "200px", padding: "10px", objectFit: "cover" }}
-                    />
-                    <div style={{marginLeft:"10px"}}>
-                      <p><span>Book Title:</span> {firstNWords(el.title, 3)}</p>
-                      <p><span>Member:</span> {matchedMember?.name || "Unknown Member"}</p>
-                      <p><span>Issue Date:</span> {finalIssueDate}</p>
-                      <p><span>Due Date:</span> {finalDueDate}</p>
-                      <p><span>Return Date:</span> {finalReturnDate ?? "Not Returned"}</p>
-                      <p><span>Status:</span> {issueDetails.status ?? "issued"}</p>
-                      <p><span>Fine:</span> {calculatedFine} Rs</p>
-                    </div></div>
-                      )
-                    })}
-                  </div>
-
-                  <button
-                    className="returnBook"
-                    disabled={isReturned}
-                    onClick={() => handleReturn(id, issueDetails)}
-                  >
-                    {isReturned ? "Returned" : "Return"}
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
-
-          <div className="pagination">
-            <button onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))} disabled={currentPage === 1}>
-              Previous
+          {/* Filters */}
+          <div className="view-selector">
+            <button
+              onClick={() => {
+                setView("not-returned");
+                setCurrentPage(1);
+              }}
+              className={view === "not-returned" ? "active" : ""}
+            >
+              Not Returned
             </button>
-            <span>
-              Page {currentPage} of {totalPages}
-            </span>
-            <button onClick={() => setCurrentPage((p) => Math.min(p + 1, totalPages))} disabled={currentPage === totalPages}>
-              Next
+            <button
+              onClick={() => {
+                setView("returned");
+                setCurrentPage(1);
+              }}
+              className={view === "returned" ? "active" : ""}
+            >
+              Returned
             </button>
           </div>
+
+          <p>
+            <strong>Total Fine: </strong> {totalFine} Rs
+          </p>
+
+          {/* Detailed List View */}
+          {currentIssues.length === 0 ? (
+            <p className="no-data">No books found in this category.</p>
+          ) : (
+            <>
+              <ul>
+                {currentIssues.map((i) => {
+                  const {
+                    id,
+                    bookId,
+                    memberId,
+                    issueDate,
+                    dueDate,
+                    returnDate,
+                    issueDetails = {},
+                  } = i;
+
+                  const isReturned = issueDetails.status === "returned";
+                  const finalIssueDate = issueDetails.issueDate ?? issueDate;
+                  const finalDueDate = issueDetails.dueDate ?? dueDate;
+                  const finalReturnDate = issueDetails.returnDate ?? returnDate;
+                  const calculatedFine = calculateFine(finalIssueDate, finalDueDate, finalReturnDate);
+
+                  const matchedBook = allBooks.filter((el) => el.id == bookId);
+                  const matchedMember = members?.find((m) => m.memberId === memberId);
+
+                  return (
+                    <li
+                      key={id}
+                      className="issue-item"
+                      style={{ display: "flex", gap: "20px", alignItems: "center", marginBottom: "20px" }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
+                        {matchedBook.map((el, index) => (
+                          <div key={index} style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                            <img
+                              src={el.image_url || "/fallback.jpg"}
+                              alt={el.title || "Book Cover"}
+                              style={{ height: "250px", width: "200px", padding: "10px", objectFit: "cover" }}
+                            />
+                            <div style={{ marginLeft: "10px" }}>
+                              <p><span>Book Title:</span> {firstNWords(el.title, 3)}</p>
+                              <p><span>Member:</span> {matchedMember?.name || "Unknown Member"}</p>
+                              <p><span>Issue Date:</span> {finalIssueDate}</p>
+                              <p><span>Due Date:</span> {finalDueDate}</p>
+                              <p><span>Return Date:</span> {finalReturnDate ?? "Not Returned"}</p>
+                              <p><span>Status:</span> {issueDetails.status ?? "issued"}</p>
+                              <p><span>Fine:</span> {calculatedFine} Rs</p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+
+                      <button
+                        className="returnBook"
+                        disabled={isReturned}
+                        onClick={() => handleReturn(id, issueDetails)}
+                      >
+                        {isReturned ? "Returned" : "Return"}
+                      </button>
+                    </li>
+                  );
+                })}
+              </ul>
+
+              {/* Pagination */}
+              <div className="pagination">
+                <button onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))} disabled={currentPage === 1}>
+                  Previous
+                </button>
+                <span>
+                  Page {currentPage} of {totalPages}
+                </span>
+                <button
+                  onClick={() => setCurrentPage((p) => Math.min(p + 1, totalPages))}
+                  disabled={currentPage === totalPages}
+                >
+                  Next
+                </button>
+              </div>
+            </>
+          )}
         </>
->>>>>>> cac6c0f189acf375d09f1b26b13e6729251a9f7b
       )}
     </div>
   );
