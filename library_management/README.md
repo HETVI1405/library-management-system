@@ -21,6 +21,6 @@ A **Library Management System** designed to efficiently manage library operation
 
 ## Watch demo
 
-(https://drive.google.com/file/d/12EwhfuByLf8g8Wp8mGrDpI9-gpALluj1/view?usp=sharing)
+video:- <a href="https://drive.google.com/file/d/12EwhfuByLf8g8Wp8mGrDpI9-gpALluj1/view?usp=sharing"> watch video</a>
 
 
